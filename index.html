@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Tarik Tambang Edukasi</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body { background: #0f172a; color: white; min-height: 100vh; display: flex; align-items: center; }
+        .card-game { 
+            background: #1e293b; border: none; border-radius: 20px; transition: 0.3s; cursor: pointer;
+            overflow: hidden; text-decoration: none; color: white;
+        }
+        .card-game:hover { transform: translateY(-10px); box-shadow: 0 10px 30px rgba(0,0,0,0.5); background: #334155; }
+        .icon-box { height: 150px; display: flex; align-items: center; justify-content: center; font-size: 4rem; }
+        .bg-ipa { background: linear-gradient(45deg, #10b981, #3b82f6); }
+        .bg-ips { background: linear-gradient(45deg, #f59e0b, #ef4444); }
+        .bg-mtk { background: linear-gradient(45deg, #8b5cf6, #ec4899); }
+        .bg-others { background: linear-gradient(45deg, #64748b, #1e293b); }
+    </style>
+</head>
+<body>
+    <div class="container py-5">
+        <div class="text-center mb-5">
+            <h1 class="display-4 fw-bold text-warning">ARENA TARIK TAMBANG</h1>
+            <p class="lead">Pilih kategori soal dan tantang temanmu sekarang!</p>
+        </div>
+
+        <div class="row g-4 justify-content-center">
+            <!-- IPA CARD -->
+            <div class="col-md-3">
+                <a href="tartamipa.html" class="card card-game h-100">
+                    <div class="icon-box bg-ipa"><i class="fas fa-flask"></i></div>
+                    <div class="card-body text-center">
+                        <h3 class="fw-bold">IPA</h3>
+                        <p class="text-secondary">Sains & Alam</p>
+                    </div>
+                </a>
+            </div>
+
+            <!-- IPS CARD (Placeholder) -->
+            <div class="col-md-3">
+                <div class="card card-game h-100">
+                    <div class="icon-box bg-ips"><i class="fas fa-globe-asia"></i></div>
+                    <div class="card-body text-center">
+                        <h3 class="fw-bold">IPS</h3>
+                        <p class="text-secondary">Sosial & Sejarah</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Matematika CARD (Placeholder) -->
+            <div class="col-md-3">
+                <div class="card card-game h-100">
+                    <div class="icon-box bg-mtk"><i class="fas fa-calculator"></i></div>
+                    <div class="card-body text-center">
+                        <h3 class="fw-bold">Matematika</h3>
+                        <p class="text-secondary">Logika & Angka</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Lainnya CARD -->
+            <div class="col-md-3">
+                <div class="card card-game h-100 opacity-50">
+                    <div class="icon-box bg-others"><i class="fas fa-plus"></i></div>
+                    <div class="card-body text-center">
+                        <h3 class="fw-bold">Lainnya</h3>
+                        <p class="text-secondary">Segera Hadir</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

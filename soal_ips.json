@@ -1,0 +1,1327 @@
+{
+  "nama_paket": "Paket: B",
+  "mata_pelajaran": "Ilmu Pengetahuan Sosial (IPS)",
+  "tingkat": "SD",
+  "soal": [
+    {
+      "nomor": 1,
+      "pertanyaan": "Tahap awal paling krusial sebelum memulai observasi fenomena sosial secara ilmiah adalah...",
+      "pilihan": {
+        "A": "Merumuskan masalah",
+        "B": "Menyusun hipotesis",
+        "C": "Mengumpulkan data",
+        "D": "Menarik kesimpulan"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "nomor": 2,
+      "pertanyaan": "Dugaan teoritis sementara yang wajib diuji kebenarannya secara empiris di lapangan disebut...",
+      "pilihan": {
+        "A": "Teori dasar",
+        "B": "Hipotesis penelitian",
+        "C": "Fakta sosial",
+        "D": "Analisis data"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "nomor": 3,
+      "pertanyaan": "Instrumen utama yang paling efektif untuk menggali data langsung dari narasumber adalah...",
+      "pilihan": {
+        "A": "Studi pustaka",
+        "B": "Observasi pasif",
+        "C": "Wawancara mendalam",
+        "D": "Kuesioner tertutup"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "nomor": 4,
+      "pertanyaan": "Pengamatan partisipatoris mengharuskan seorang peneliti untuk...",
+      "pilihan": {
+        "A": "Menjaga jarak",
+        "B": "Terlibat langsung",
+        "C": "Membaca literatur",
+        "D": "Menyebar angket"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "nomor": 5,
+      "pertanyaan": "Pendekatan rasional dalam memecahkan masalah kependudukan selalu menggunakan prinsip...",
+      "pilihan": {
+        "A": "Metode ilmiah",
+        "B": "Tradisi lokal",
+        "C": "Kebiasaan masyarakat",
+        "D": "Keputusan politis"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "nomor": 6,
+      "pertanyaan": "Fakta di lapangan yang didapatkan melalui indra dan instrumen ukur dinamakan...",
+      "pilihan": {
+        "A": "Data empiris",
+        "B": "Opini publik",
+        "C": "Dugaan logis",
+        "D": "Asumsi dasar"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "nomor": 7,
+      "pertanyaan": "Untuk menyajikan persebaran kepadatan penduduk secara visual, peneliti paling tepat menggunakan...",
+      "pilihan": {
+        "A": "Peta tematik",
+        "B": "Grafik garis",
+        "C": "Tabel frekuensi",
+        "D": "Diagram lingkaran"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "nomor": 8,
+      "pertanyaan": "Tingkat validitas dan kebenaran sebuah penelitian sosial sangat bergantung pada...",
+      "pilihan": {
+        "A": "Subjektivitas peneliti",
+        "B": "Objektivitas data",
+        "C": "Pendanaan riset",
+        "D": "Publikasi media"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "nomor": 9,
+      "pertanyaan": "Metode membandingkan interaksi budaya dua wilayah yang berbeda secara bersamaan disebut studi...",
+      "pilihan": {
+        "A": "Kasus tunggal",
+        "B": "Eksperimen laboratorium",
+        "C": "Komparatif spasial",
+        "D": "Historis panjang"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "nomor": 10,
+      "pertanyaan": "Kesimpulan dari suatu metode ilmiah selalu bersifat tentatif, yang maknanya...",
+      "pilihan": {
+        "A": "Pasti benar",
+        "B": "Bisa direvisi",
+        "C": "Harga mati",
+        "D": "Sulit dipahami"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "nomor": 11,
+      "pertanyaan": "Variabel yang posisinya memengaruhi variabel lain dalam struktur hipotesis disebut variabel...",
+      "pilihan": {
+        "A": "Independen (bebas)",
+        "B": "Dependen (terikat)",
+        "C": "Kontrol (tetap)",
+        "D": "Intervening (antara)"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "nomor": 12,
+      "pertanyaan": "Berdasarkan metode keilmuan, penyebab utama perubahan sosial selalu bersifat...",
+      "pilihan": {
+        "A": "Monokausal (tunggal)",
+        "B": "Multikausal (majemuk)",
+        "C": "Kebetulan acak",
+        "D": "Statis permanen"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "nomor": 13,
+      "pertanyaan": "Garis kontur yang digambar sangat rapat pada peta topografi mengindikasikan wilayah...",
+      "pilihan": {
+        "A": "Dataran rendah",
+        "B": "Lembah landai",
+        "C": "Lereng terjal",
+        "D": "Rawa gambut"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "nomor": 14,
+      "pertanyaan": "Kenampakan relief bumi yang terbentuk akibat patahan turun lempeng tektonik disebut...",
+      "pilihan": {
+        "A": "Horst graben",
+        "B": "Meander sungai",
+        "C": "Delta pesisir",
+        "D": "Gumuk pasir"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "nomor": 15,
+      "pertanyaan": "Hutan yang fungsi utamanya melindungi tanah dari ancaman erosi hidrologis adalah...",
+      "pilihan": {
+        "A": "Hutan produksi",
+        "B": "Hutan lindung",
+        "C": "Hutan sabana",
+        "D": "Hutan musim"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "nomor": 16,
+      "pertanyaan": "Pergeseran batas wilayah administratif di Indonesia belakangan ini sering disebabkan oleh...",
+      "pilihan": {
+        "A": "Gempa tektonik",
+        "B": "Bencana alam",
+        "C": "Pemekaran daerah",
+        "D": "Perubahan iklim"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "nomor": 17,
+      "pertanyaan": "Sumber daya laut lepas yang tidak terbarukan namun bernilai sangat tinggi adalah...",
+      "pilihan": {
+        "A": "Ikan pelagis",
+        "B": "Terumbu karang",
+        "C": "Nodul mangan",
+        "D": "Hutan bakau"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "nomor": 18,
+      "pertanyaan": "Flora eksotis garis peralihan yang menjadi maskot wilayah Sulawesi adalah...",
+      "pilihan": {
+        "A": "Bunga bangkai",
+        "B": "Pohon eboni",
+        "C": "Anggrek hitam",
+        "D": "Pohon jati"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "nomor": 19,
+      "pertanyaan": "Adaptasi masyarakat pesisir pantai terhadap fenomena pasang surut laut melahirkan rumah...",
+      "pilihan": {
+        "A": "Atap rumbia",
+        "B": "Tahan gempa",
+        "C": "Panggung tinggi",
+        "D": "Bawah tanah"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "nomor": 20,
+      "pertanyaan": "Angin fohn yang bersifat kering, panas, dan merusak tanaman tembakau di Probolinggo disebut...",
+      "pilihan": {
+        "A": "Angin Gending",
+        "B": "Angin Bahorok",
+        "C": "Angin Kumbang",
+        "D": "Angin Brubu"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "nomor": 21,
+      "pertanyaan": "Keberadaan jalur sirkum Pasifik membuat Indonesia sangat rawan terhadap bencana...",
+      "pilihan": {
+        "A": "Kekeringan ekstrem",
+        "B": "Erupsi vulkanik",
+        "C": "Badai tropis",
+        "D": "Intrusi air"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "nomor": 22,
+      "pertanyaan": "Profesi ekonomi dominan di dataran tinggi vulkanik bersuhu sejuk adalah....",
+      "pilihan": {
+        "A": "Petani garam",
+        "B": "Nelayan tangkap",
+        "C": "Petani hortikultura",
+        "D": "Pekerja pabrik"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "nomor": 23,
+      "pertanyaan": "Garis khayal pembatas yang memisahkan sebaran fauna tipe Asiatis dan Peralihan adalah...",
+      "pilihan": {
+        "A": "Garis Weber",
+        "B": "Garis Wallace",
+        "C": "Garis Lydekker",
+        "D": "Garis Khatulistiwa"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "nomor": 24,
+      "pertanyaan": "Fenomena oseanografi naiknya massa air dingin kaya nutrisi ke permukaan laut disebut...",
+      "pilihan": {
+        "A": "Arus turbiditas",
+        "B": "Upwelling laut",
+        "C": "El Nino",
+        "D": "La Nina"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "nomor": 25,
+      "pertanyaan": "Lembaga sosial yang diyakini memiliki peran laten mempertahankan pelapisan strata sosial adalah...",
+      "pilihan": {
+        "A": "Lembaga agama",
+        "B": "Lembaga politik",
+        "C": "Lembaga pendidikan",
+        "D": "Lembaga ekonomi"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "nomor": 26,
+      "pertanyaan": "Penyatuan dua kebudayaan yang perlahan melahirkan satu budaya baru sepenuhnya disebut...",
+      "pilihan": {
+        "A": "Asimilasi budaya",
+        "B": "Akulturasi damai",
+        "C": "Segregasi sosial",
+        "D": "Akomodasi konflik"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "nomor": 27,
+      "pertanyaan": "Pandangan sosiologis yang menerima dan menghargai keragaman etnis dalam masyarakat disebut...",
+      "pilihan": {
+        "A": "Etnosentrisme sempit",
+        "B": "Pluralisme sosial",
+        "C": "Chauvinisme radikal",
+        "D": "Primordialisme kuat"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "nomor": 28,
+      "pertanyaan": "Proses penyelesaian sengketa lahan di pengadilan merupakan bentuk penyelesaian secara...",
+      "pilihan": {
+        "A": "Mediasi netral",
+        "B": "Arbitrase paksa",
+        "C": "Ajudikasi hukum",
+        "D": "Konsiliasi damai"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "nomor": 29,
+      "pertanyaan": "Perubahan tata sosial masif akibat mekanisasi dan revolusi industri termasuk kategori perubahan...",
+      "pilihan": {
+        "A": "Evolusi lambat",
+        "B": "Revolusi cepat",
+        "C": "Terencana sistematis",
+        "D": "Tidak dikehendaki"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "nomor": 30,
+      "pertanyaan": "Globalisasi memicu memudarnya batas teritorial dan kultural antarnegara yang sering disebut...",
+      "pilihan": {
+        "A": "Borderless society",
+        "B": "Cultural lag",
+        "C": "Local wisdom",
+        "D": "Social shock"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "nomor": 31,
+      "pertanyaan": "Syarat utama mutlak terjadinya interaksi sosial menurut sosiologi adalah kontak dan...",
+      "pilihan": {
+        "A": "Pertukaran barang",
+        "B": "Komunikasi simbolik",
+        "C": "Kedekatan fisik",
+        "D": "Persamaan Nasib"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "nomor": 32,
+      "pertanyaan": "Ketimpangan antara laju budaya materiil (teknologi) yang mendahului budaya non-materiil (moral) disebut...",
+      "pilihan": {
+        "A": "Culture shock",
+        "B": "Cultural lag",
+        "C": "Anomie sosial",
+        "D": "Disorganisasi nilai"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "nomor": 33,
+      "pertanyaan": "Sikap meniru gaya hidup Barat secara membabi buta tanpa seleksi kultural disebut...",
+      "pilihan": {
+        "A": "Modernisasi total",
+        "B": "Westernisasi buta",
+        "C": "Sekularisasi moral",
+        "D": "Hedonisme materi"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "nomor": 34,
+      "pertanyaan": "Aturan tak tertulis dalam masyarakat yang jika dilanggar akan mendapat sanksi pengucilan disebut...",
+      "pilihan": {
+        "A": "Norma hukum",
+        "B": "Norma kesopanan",
+        "C": "Norma agama",
+        "D": "Norma kebiasaan"
+      },
+      "kunci_jawaban": "D"
+    },
+    {
+      "nomor": 35,
+      "pertanyaan": "Urbanisasi yang tak terkendali seringkali mengubah kawasan pinggiran kota besar menjadi...",
+      "pilihan": {
+        "A": "Industri berat",
+        "B": "Pemukiman kumuh",
+        "C": "Hutan kota",
+        "D": "Sentra bisnis"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "nomor": 36,
+      "pertanyaan": "Contoh interaksi sosial disosiatif yang sangat rawan mengarah pada benturan fisik adalah...",
+      "pilihan": {
+        "A": "Persaingan bisnis",
+        "B": "Kontravensi rahasia",
+        "C": "Konflik terbuka",
+        "D": "Kooptasi politik"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "nomor": 37,
+      "pertanyaan": "Pilar utama yang selalu mendasari masalah ekonomi klasik mencakup produksi, distribusi, dan...",
+      "pilihan": {
+        "A": "Investasi asing",
+        "B": "Konsumsi barang",
+        "C": "Regulasi pajak",
+        "D": "Tabungan bank"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "nomor": 38,
+      "pertanyaan": "Manfaat dan harga jual jas hujan yang meningkat tajam saat musim penghujan merupakan...",
+      "pilihan": {
+        "A": "Nilai guna bentuk",
+        "B": "Nilai guna tempat",
+        "C": "Nilai guna waktu",
+        "D": "Nilai guna milik"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "nomor": 39,
+      "pertanyaan": "Salah satu fungsi turunan dari peredaran uang fiat dalam sistem ekonomi modern adalah sebagai...",
+      "pilihan": {
+        "A": "Alat tukar",
+        "B": "Satuan hitung",
+        "C": "Penimbun kekayaan",
+        "D": "Standar nilai"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "nomor": 40,
+      "pertanyaan": "Integrasi kuat ekonomi regional di kawasan Asia Tenggara saat ini diwujudkan melalui...",
+      "pilihan": {
+        "A": "Pasar APEC",
+        "B": "MEA (AEC)",
+        "C": "Zona NAFTA",
+        "D": "Uni Eropa"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "nomor": 41,
+      "pertanyaan": "Rumah Tangga Konsumsi (RTK) menerima balas jasa dari faktor produksi berupa...",
+      "pilihan": {
+        "A": "Pajak penghasilan",
+        "B": "Subsidi silang",
+        "C": "Sewa upah bunga",
+        "D": "Laba ditahan"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "nomor": 42,
+      "pertanyaan": "Posisi tawar ekspor Indonesia dalam rantai pasokan global hingga saat ini sangat dominan pada...",
+      "pilihan": {
+        "A": "Semikonduktor mikro",
+        "B": "Tambang mentah",
+        "C": "Otomotif listrik",
+        "D": "Perangkat lunak"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "nomor": 43,
+      "pertanyaan": "Kegiatan mendatangkan atau membeli alat berat industri dari Jepang ke Indonesia disebut...",
+      "pilihan": {
+        "A": "Ekspor migas",
+        "B": "Impor barang",
+        "C": "Transito pelabuhan",
+        "D": "Barter bilateral"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "nomor": 44,
+      "pertanyaan": "Pembangunan ekonomi agraris yang berwawasan lingkungan berkelanjutan sangat menghindari penggunaan...",
+      "pilihan": {
+        "A": "Pupuk organik",
+        "B": "Bibit unggul",
+        "C": "Pestisida kimia",
+        "D": "Terasering lahan"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "nomor": 45,
+      "pertanyaan": "Praktik curang menjual barang lebih murah di pasar luar negeri dibanding dalam negerinya sendiri disebut...",
+      "pilihan": {
+        "A": "Kuota impor",
+        "B": "Tarif proteksi",
+        "C": "Dumping pasar",
+        "D": "Subsidi ekspor"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "nomor": 46,
+      "pertanyaan": "Peningkatan dan standarisasi kualitas SDM di kawasan ASEAN utamanya difasilitasi melalui program...",
+      "pilihan": {
+        "A": "Pertukaran pelajar",
+        "B": "Latihan militer",
+        "C": "Traktat damai",
+        "D": "Zona netral"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "nomor": 47,
+      "pertanyaan": "Tolok ukur utama untuk menilai keberhasilan laju pertumbuhan ekonomi makro suatu negara adalah kenaikan...",
+      "pilihan": {
+        "A": "Angka inflasi",
+        "B": "Cadangan devisa",
+        "C": "PDB atau GDP",
+        "D": "Pajak bumi"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "nomor": 48,
+      "pertanyaan": "Prinsip ekonomi maritim yang sesungguhnya mengedepankan optimalisasi industri dan sumber daya alam di...",
+      "pilihan": {
+        "A": "Pegunungan tinggi",
+        "B": "Dataran aluvial",
+        "C": "Perairan laut",
+        "D": "Lahan gambut"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "nomor": 49,
+      "pertanyaan": "Sisa fosil manusia purba jenis Homo Wajakensis pertama kali diekskavasi di wilayah...",
+      "pilihan": {
+        "A": "Lembah Bengawan",
+        "B": "Tulungagung Jawa",
+        "C": "Sangiran Solo",
+        "D": "Trinil Ngawi"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "nomor": 50,
+      "pertanyaan": "Akulturasi megah arsitektur kebudayaan Hindu dan lokal asli Nusantara tampak jelas pada...",
+      "pilihan": {
+        "A": "Candi Borobudur",
+        "B": "Masjid Demak",
+        "C": "Keraton Jogja",
+        "D": "Pura Besakih"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "nomor": 51,
+      "pertanyaan": "Kerajaan Islam pertama yang meletakkan dasar peradaban di ujung utara pulau Sumatra adalah...",
+      "pilihan": {
+        "A": "Samudra Pasai",
+        "B": "Kesultanan Aceh",
+        "C": "Kerajaan Perlak",
+        "D": "Kesultanan Demak"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "nomor": 52,
+      "pertanyaan": "Pelaut dari bangsa Portugis perintis rute ke India yang memicu imperialisme Eropa adalah...",
+      "pilihan": {
+        "A": "Vasco da Gama",
+        "B": "Bartholomeus Dias",
+        "C": "Alfonso Albuquerque",
+        "D": "Cornelis Houtman"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "nomor": 53,
+      "pertanyaan": "Semboyan imperialisme \"Glory\" yang dikampanyekan dalam setiap penjelajahan samudra bangsa Eropa bermakna mencari...",
+      "pilihan": {
+        "A": "Kekayaan melimpah",
+        "B": "Kejayaan negara",
+        "C": "Daerah jajahan",
+        "D": "Penyebaran agama"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "nomor": 54,
+      "pertanyaan": "Pemimpin perlawanan heroik rakyat Maluku yang sukses merebut Benteng Duurstede dari Belanda adalah...",
+      "pilihan": {
+        "A": "Pangeran Diponegoro",
+        "B": "Kapitan Pattimura",
+        "C": "Sultan Hasanuddin",
+        "D": "Tuanku Imam"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "nomor": 55,
+      "pertanyaan": "Politik etis (balas budi) Belanda di bidang edukasi tanpa disadari justru melahirkan golongan...",
+      "pilihan": {
+        "A": "Petani radikal",
+        "B": "Bangsawan korup",
+        "C": "Terpelajar nasionalis",
+        "D": "Buruh pabrik"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "nomor": 56,
+      "pertanyaan": "Organisasi modern perintis pergerakan yang memicu hari kebangkitan nasional 20 Mei 1908 adalah...",
+      "pilihan": {
+        "A": "Sarekat Islam",
+        "B": "Budi Utomo",
+        "C": "Indische Partij",
+        "D": "Perhimpunan Indonesia"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "nomor": 57,
+      "pertanyaan": "Bahasa Indonesia dikukuhkan kedudukannya sebagai ikrar bahasa persatuan secara resmi pada peristiwa...",
+      "pilihan": {
+        "A": "Proklamasi Kemerdekaan",
+        "B": "Sumpah Pemuda",
+        "C": "Sidang BPUPKI",
+        "D": "Kongres Perempuan"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "nomor": 58,
+      "pertanyaan": "Tokoh pemuda yang mengamankan Soekarno-Hatta ke Rengasdengklok berasal dari golongan...",
+      "pilihan": {
+        "A": "Tua kooperatif",
+        "B": "Pemuda radikal",
+        "C": "Militer PETA",
+        "D": "Utusan Jepang"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "nomor": 59,
+      "pertanyaan": "Landasan filosofis negara (Pancasila) secara runut pertama kali dipidatokan Soekarno pada agenda...",
+      "pilihan": {
+        "A": "Sidang PPKI",
+        "B": "Sidang BPUPKI",
+        "C": "Komite Nasional",
+        "D": "Konstituante terpilih"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "nomor": 60,
+      "pertanyaan": "Puncak perjuangan diplomasi RI-Belanda yang menghasilkan penyerahan kedaulatan de facto adalah...",
+      "pilihan": {
+        "A": "Perjanjian Roem-Royen",
+        "B": "Konferensi Meja Bundar",
+        "C": "Perjanjian Linggarjati",
+        "D": "Perjanjian Renville"
+      },
+      "kunci_jawaban": "B"
+    },
+  {
+    "nomor": 61,
+    "pertanyaan": "Tujuan utama diterapkannya metode ilmiah dalam penelitian sosial adalah untuk mendapatkan...",
+    "pilihan": {
+      "A": "Kebenaran objektif",
+      "B": "Opini subjektif",
+      "C": "Keuntungan finansial",
+      "D": "Popularitas peneliti"
+    },
+    "kunci_jawaban": "A"
+  },
+  {
+    "nomor": 62,
+    "pertanyaan": "Hipotesis yang baik dalam sebuah penelitian harus memiliki karakteristik utama, yaitu...",
+    "pilihan": {
+      "A": "Dapat diuji",
+      "B": "Bersifat mutlak",
+      "C": "Sangat panjang",
+      "D": "Tidak masuk akal"
+    },
+    "kunci_jawaban": "A"
+  },
+  {
+    "nomor": 63,
+    "pertanyaan": "Data penelitian yang disajikan dalam bentuk kata-kata, narasi, atau kalimat disebut...",
+    "pilihan": {
+      "A": "Data kualitatif",
+      "B": "Data kuantitatif",
+      "C": "Data statistik",
+      "D": "Data numerik"
+    },
+    "kunci_jawaban": "A"
+  },
+  {
+    "nomor": 64,
+    "pertanyaan": "Metode pengumpulan data dengan cara mengamati secara langsung perilaku subjek disebut...",
+    "pilihan": {
+      "A": "Observasi lapangan",
+      "B": "Studi pustaka",
+      "C": "Penyebaran angket",
+      "D": "Wawancara lisan"
+    },
+    "kunci_jawaban": "A"
+  },
+  {
+    "nomor": 65,
+    "pertanyaan": "Pengumpulan data yang melibatkan seluruh anggota populasi di suatu negara disebut...",
+    "pilihan": {
+      "A": "Sensus penduduk",
+      "B": "Survei sampel",
+      "C": "Jajak pendapat",
+      "D": "Kajian literatur"
+    },
+    "kunci_jawaban": "A"
+  },
+  {
+    "nomor": 66,
+    "pertanyaan": "Objek atau individu yang mewakili populasi dalam sebuah penelitian ilmiah disebut...",
+    "pilihan": {
+      "A": "Sampel penelitian",
+      "B": "Variabel bebas",
+      "C": "Subjek eksperimen",
+      "D": "Data sekunder"
+    },
+    "kunci_jawaban": "A"
+  },
+  {
+    "nomor": 67,
+    "pertanyaan": "Wawancara yang dilakukan secara bebas seperti obrolan tanpa daftar pertanyaan baku disebut...",
+    "pilihan": {
+      "A": "Wawancara tak terstruktur",
+      "B": "Wawancara formal",
+      "C": "Wawancara tertutup",
+      "D": "Wawancara kuesioner"
+    },
+    "kunci_jawaban": "A"
+  },
+  {
+    "nomor": 68,
+    "pertanyaan": "Alat bantu yang diperlukan peneliti untuk mengetahui kondisi kelembapan nisbi udara adalah...",
+    "pilihan": {
+      "A": "Higrometer udara",
+      "B": "Termometer raksa",
+      "C": "Anemometer digital",
+      "D": "Seismograf bumi"
+    },
+    "kunci_jawaban": "A"
+  },
+  {
+    "nomor": 69,
+    "pertanyaan": "Variabel yang muncul sebagai akibat atau dipengaruhi oleh variabel lain dinamakan...",
+    "pilihan": {
+      "A": "Variabel terikat",
+      "B": "Variabel bebas",
+      "C": "Variabel kontrol",
+      "D": "Variabel pengganggu"
+    },
+    "kunci_jawaban": "A"
+  },
+  {
+    "nomor": 70,
+    "pertanyaan": "Menarik kesimpulan khusus berdasarkan fakta-fakta atau teori yang bersifat umum adalah penalaran...",
+    "pilihan": {
+      "A": "Metode deduktif",
+      "B": "Metode induktif",
+      "C": "Metode campuran",
+      "D": "Metode historis"
+    },
+    "kunci_jawaban": "A"
+  },
+  {
+    "nomor": 71,
+    "pertanyaan": "Kumpulan informasi angka tentang jumlah penduduk dari instansi pemerintah termasuk dalam...",
+    "pilihan": {
+      "A": "Data kuantitatif",
+      "B": "Data kualitatif",
+      "C": "Data fiktif",
+      "D": "Data primer"
+    },
+    "kunci_jawaban": "A"
+  },
+  {
+    "nomor": 72,
+    "pertanyaan": "Langkah pertama yang harus diambil saat warga menemukan benda asing purbakala adalah...",
+    "pilihan": {
+      "A": "Melaporkan ke ahli",
+      "B": "Menjualnya segera",
+      "C": "Menghancurkan benda",
+      "D": "Menyembunyikan benda"
+    },
+    "kunci_jawaban": "A"
+  },
+  {
+    "nomor": 73,
+    "pertanyaan": "Wilayah dengan garis lintang nol derajat di bumi akan mengalami iklim...",
+    "pilihan": {
+      "A": "Iklim tropis",
+      "B": "Iklim subtropis",
+      "C": "Iklim sedang",
+      "D": "Iklim dingin"
+    },
+    "kunci_jawaban": "A"
+  },
+  {
+    "nomor": 74,
+    "pertanyaan": "Warna biru muda yang terdapat pada gambar peta perairan laut melambangkan...",
+    "pilihan": {
+      "A": "Laut dangkal",
+      "B": "Laut dalam",
+      "C": "Palung laut",
+      "D": "Terumbu karang"
+    },
+    "kunci_jawaban": "A"
+  },
+  {
+    "nomor": 75,
+    "pertanyaan": "Topografi dataran rendah sangat ideal dan umum dimanfaatkan oleh penduduk untuk sektor...",
+    "pilihan": {
+      "A": "Pertanian sawah",
+      "B": "Perkebunan teh",
+      "C": "Penambangan emas",
+      "D": "Kehutanan pinus"
+    },
+    "kunci_jawaban": "A"
+  },
+  {
+    "nomor": 76,
+    "pertanyaan": "Padang rumput luas di daerah curah hujan rendah sering dimanfaatkan sebagai kawasan...",
+    "pilihan": {
+      "A": "Peternakan hewan",
+      "B": "Pertanian basah",
+      "C": "Perikanan tawar",
+      "D": "Industri manufaktur"
+    },
+    "kunci_jawaban": "A"
+  },
+  {
+    "nomor": 77,
+    "pertanyaan": "Batu bara terbentuk melalui proses pelapukan sisa-sisa organik yang berasal dari...",
+    "pilihan": {
+      "A": "Tumbuhan purba",
+      "B": "Tulang dinosaurus",
+      "C": "Terumbu karang",
+      "D": "Endapan pasir"
+    },
+    "kunci_jawaban": "A"
+  },
+  {
+    "nomor": 78,
+    "pertanyaan": "Gempa bumi hebat yang ditimbulkan akibat letusan atau aktivitas magma gunung berapi dinamakan...",
+    "pilihan": {
+      "A": "Gempa vulkanik",
+      "B": "Gempa tektonik",
+      "C": "Gempa runtuhan",
+      "D": "Gempa buatan"
+    },
+    "kunci_jawaban": "A"
+  },
+  {
+    "nomor": 79,
+    "pertanyaan": "Secara geologis, tingginya intensitas gempa di Indonesia disebabkan posisinya di pertemuan...",
+    "pilihan": {
+      "A": "Tiga lempeng tektonik",
+      "B": "Dua benua besar",
+      "C": "Dua samudra luas",
+      "D": "Garis cincin api"
+    },
+    "kunci_jawaban": "A"
+  },
+  {
+    "nomor": 80,
+    "pertanyaan": "Fenomena alam pergantian musim di belahan bumi merupakan dampak langsung dari...",
+    "pilihan": {
+      "A": "Revolusi bumi",
+      "B": "Rotasi bumi",
+      "C": "Rotasi bulan",
+      "D": "Revolusi bulan"
+    },
+    "kunci_jawaban": "A"
+  },
+  {
+    "nomor": 81,
+    "pertanyaan": "Pegunungan kapur atau karst di Pulau Jawa bagian selatan terbentuk akibat proses...",
+    "pilihan": {
+      "A": "Pengangkatan dasar laut",
+      "B": "Erupsi gunung berapi",
+      "C": "Tumbukan meteor raksasa",
+      "D": "Patahan lempeng bumi"
+    },
+    "kunci_jawaban": "A"
+  },
+  {
+    "nomor": 82,
+    "pertanyaan": "Pulau Sulawesi masuk ke dalam zona persebaran fauna dengan tipe...",
+    "pilihan": {
+      "A": "Tipe peralihan",
+      "B": "Tipe asiatis",
+      "C": "Tipe australis",
+      "D": "Tipe afrika"
+    },
+    "kunci_jawaban": "A"
+  },
+  {
+    "nomor": 83,
+    "pertanyaan": "Badai angin kencang yang berputar dengan kecepatan tinggi akibat pemanasan suhu permukaan laut disebut...",
+    "pilihan": {
+      "A": "Siklon tropis",
+      "B": "Angin muson",
+      "C": "Angin darat",
+      "D": "Angin laut"
+    },
+    "kunci_jawaban": "A"
+  },
+  {
+    "nomor": 84,
+    "pertanyaan": "Meningkatnya suhu rata-rata permukaan bumi berdampak besar pada penenggelaman pesisir yang disebut fenomena...",
+    "pilihan": {
+      "A": "Pemanasan global",
+      "B": "Efek rumah kaca",
+      "C": "El nino",
+      "D": "La nina"
+    },
+    "kunci_jawaban": "A"
+  },
+  {
+    "nomor": 85,
+    "pertanyaan": "Syarat utama terciptanya interaksi sosial antara dua orang adalah kontak sosial dan...",
+    "pilihan": {
+      "A": "Komunikasi aktif",
+      "B": "Persaingan ketat",
+      "C": "Perbedaan pendapat",
+      "D": "Konflik terbuka"
+    },
+    "kunci_jawaban": "A"
+  },
+  {
+    "nomor": 86,
+    "pertanyaan": "Kecenderungan psikologis seseorang meniru gaya berbicara atau perilaku idolanya disebut...",
+    "pilihan": {
+      "A": "Imitasi sosial",
+      "B": "Simpati mendalam",
+      "C": "Empati sosial",
+      "D": "Sikap apatis"
+    },
+    "kunci_jawaban": "A"
+  },
+  {
+    "nomor": 87,
+    "pertanyaan": "Proses sosial pemisahan kelompok masyarakat berdasarkan ras atau etnis tertentu secara paksa dinamakan...",
+    "pilihan": {
+      "A": "Segregasi sosial",
+      "B": "Asimilasi paksa",
+      "C": "Akulturasi damai",
+      "D": "Mediasi netral"
+    },
+    "kunci_jawaban": "A"
+  },
+  {
+    "nomor": 88,
+    "pertanyaan": "Aturan yang bersumber dari hati nurani mengenai perbuatan baik dan buruk disebut...",
+    "pilihan": {
+      "A": "Norma kesusilaan",
+      "B": "Norma hukum",
+      "C": "Norma kesopanan",
+      "D": "Norma agama"
+    },
+    "kunci_jawaban": "A"
+  },
+  {
+    "nomor": 89,
+    "pertanyaan": "Lembaga penegak hukum yang berwenang memelihara ketertiban masyarakat di Indonesia adalah...",
+    "pilihan": {
+      "A": "Kepolisian Republik Indonesia",
+      "B": "Majelis Permusyawaratan Rakyat",
+      "C": "Dewan Perwakilan Rakyat",
+      "D": "Kementerian Luar Negeri"
+    },
+    "kunci_jawaban": "A"
+  },
+  {
+    "nomor": 90,
+    "pertanyaan": "Cepatnya perubahan tata nilai dan teknologi secara mendasar disebut...",
+    "pilihan": {
+      "A": "Revolusi sosial",
+      "B": "Evolusi lambat",
+      "C": "Stagnasi budaya",
+      "D": "Regresi sosial"
+    },
+    "kunci_jawaban": "A"
+  },
+  {
+    "nomor": 91,
+    "pertanyaan": "Dampak negatif globalisasi yang ditandai dengan kecenderungan membeli barang secara berlebihan adalah...",
+    "pilihan": {
+      "A": "Konsumerisme tinggi",
+      "B": "Nasionalisme kuat",
+      "C": "Toleransi beragama",
+      "D": "Kemandirian ekonomi"
+    },
+    "kunci_jawaban": "A"
+  },
+  {
+    "nomor": 92,
+    "pertanyaan": "Keluarga berperan dalam membentuk kepribadian dasar anak yang termasuk dalam fungsi...",
+    "pilihan": {
+      "A": "Sosialisasi primer",
+      "B": "Kontrol ekonomi",
+      "C": "Reproduksi genetik",
+      "D": "Proteksi fisik"
+    },
+    "kunci_jawaban": "A"
+  },
+  {
+    "nomor": 93,
+    "pertanyaan": "Gerakan untuk bangga dan mengutamakan penggunaan produk buatan dalam negeri menunjukkan sikap...",
+    "pilihan": {
+      "A": "Nasionalisme ekonomi",
+      "B": "Etnosentrisme sempit",
+      "C": "Liberalisme pasar",
+      "D": "Komunisme sosialis"
+    },
+    "kunci_jawaban": "A"
+  },
+  {
+    "nomor": 94,
+    "pertanyaan": "Perbedaan ragam agama, suku, dan budaya di Indonesia sering diistilahkan dengan wujud...",
+    "pilihan": {
+      "A": "Pluralitas masyarakat",
+      "B": "Homogenitas sosial",
+      "C": "Monokultur bangsa",
+      "D": "Kesetaraan gender"
+    },
+    "kunci_jawaban": "A"
+  },
+  {
+    "nomor": 95,
+    "pertanyaan": "Proses peleburan unsur budaya berbeda yang menghasilkan ciri budaya baru secara utuh disebut...",
+    "pilihan": {
+      "A": "Asimilasi",
+      "B": "Akulturasi",
+      "C": "Akomodasi",
+      "D": "Arbitrase"
+    },
+    "kunci_jawaban": "A"
+  },
+  {
+    "nomor": 96,
+    "pertanyaan": "Kumpulan norma atau aturan kebiasaan yang mengikat kelompok masyarakat tertentu disebut...",
+    "pilihan": {
+      "A": "Hukum adat",
+      "B": "Hukum pidana",
+      "C": "Undang-undang",
+      "D": "Peraturan daerah"
+    },
+    "kunci_jawaban": "A"
+  },
+  {
+    "nomor": 97,
+    "pertanyaan": "Masalah utama ilmu ekonomi timbul karena ketidakseimbangan antara ketersediaan sumber daya dan...",
+    "pilihan": {
+      "A": "Kebutuhan tak terbatas",
+      "B": "Daya beli masyarakat",
+      "C": "Jumlah uang beredar",
+      "D": "Inflasi barang"
+    },
+    "kunci_jawaban": "A"
+  },
+  {
+    "nomor": 98,
+    "pertanyaan": "Kayu yang diubah menjadi perabotan kursi memiliki peningkatan nilai yang dinamakan...",
+    "pilihan": {
+      "A": "Nilai guna bentuk",
+      "B": "Nilai guna waktu",
+      "C": "Nilai guna tempat",
+      "D": "Nilai guna kepemilikan"
+    },
+    "kunci_jawaban": "A"
+  },
+  {
+    "nomor": 99,
+    "pertanyaan": "Masyarakat atau lembaga yang menghasilkan barang atau jasa dalam ekonomi disebut...",
+    "pilihan": {
+      "A": "Produsen barang",
+      "B": "Konsumen akhir",
+      "C": "Distributor perantara",
+      "D": "Kreditor bank"
+    },
+    "kunci_jawaban": "A"
+  },
+  {
+    "nomor": 100,
+    "pertanyaan": "Aktivitas menyalurkan produk dari tempat pembuatnya hingga ke tangan pembeli disebut kegiatan...",
+    "pilihan": {
+      "A": "Distribusi niaga",
+      "B": "Produksi massal",
+      "C": "Konsumsi harian",
+      "D": "Investasi modal"
+    },
+    "kunci_jawaban": "A"
+  },
+  {
+    "nomor": 101,
+    "pertanyaan": "Mata uang fisik berupa kertas dan koin logam yang beredar luas di masyarakat dinamakan...",
+    "pilihan": {
+      "A": "Uang kartal",
+      "B": "Uang giral",
+      "C": "Uang kuasi",
+      "D": "Uang digital"
+    },
+    "kunci_jawaban": "A"
+  },
+  {
+    "nomor": 102,
+    "pertanyaan": "Alat pembayaran non tunai yang berupa cek atau bilyet giro dikategorikan sebagai...",
+    "pilihan": {
+      "A": "Uang giral",
+      "B": "Uang kartal",
+      "C": "Uang komoditas",
+      "D": "Uang intrinsik"
+    },
+    "kunci_jawaban": "A"
+  },
+  {
+    "nomor": 103,
+    "pertanyaan": "Perjanjian kawasan perdagangan bebas di antara negara-negara Asia Tenggara dinamakan...",
+    "pilihan": {
+      "A": "AFTA",
+      "B": "NAFTA",
+      "C": "APEC",
+      "D": "OPEC"
+    },
+    "kunci_jawaban": "A"
+  },
+  {
+    "nomor": 104,
+    "pertanyaan": "Komoditas ekspor andalan non-migas Indonesia dari sektor perkebunan adalah...",
+    "pilihan": {
+      "A": "Minyak kelapa sawit",
+      "B": "Minyak bumi mentah",
+      "C": "Batu bara curah",
+      "D": "Perhiasan emas"
+    },
+    "kunci_jawaban": "A"
+  },
+  {
+    "nomor": 105,
+    "pertanyaan": "Aktivitas pemanfaatan sumber daya perikanan di laut masuk dalam kategori sektor...",
+    "pilihan": {
+      "A": "Ekonomi maritim",
+      "B": "Ekonomi agraris",
+      "C": "Ekonomi ekstraktif",
+      "D": "Ekonomi jasa"
+    },
+    "kunci_jawaban": "A"
+  },
+  {
+    "nomor": 106,
+    "pertanyaan": "Rumah tangga yang menyerap atau menggunakan barang hasil produksi pabrik adalah...",
+    "pilihan": {
+      "A": "RTK konsumen",
+      "B": "RTP produsen",
+      "C": "Rumah tangga negara",
+      "D": "Masyarakat luar negeri"
+    },
+    "kunci_jawaban": "A"
+  },
+  {
+    "nomor": 107,
+    "pertanyaan": "Pembangunan ekonomi yang selalu menjaga kelestarian lingkungan untuk generasi mendatang disebut pembangunan...",
+    "pilihan": {
+      "A": "Ekonomi berkelanjutan",
+      "B": "Ekonomi kapitalis",
+      "C": "Ekonomi terpusat",
+      "D": "Ekonomi liberal"
+    },
+    "kunci_jawaban": "A"
+  },
+  {
+    "nomor": 108,
+    "pertanyaan": "Permasalahan inflasi dan angka pengangguran merupakan fokus bahasan dalam ilmu ekonomi...",
+    "pilihan": {
+      "A": "Ekonomi makro",
+      "B": "Ekonomi mikro",
+      "C": "Ekonomi syariah",
+      "D": "Ekonomi tradisional"
+    },
+    "kunci_jawaban": "A"
+  },
+  {
+    "nomor": 109,
+    "pertanyaan": "Kerajaan tertua bercorak Hindu di Indonesia yang meninggalkan jejak sejarah prasasti Yupa adalah...",
+    "pilihan": {
+      "A": "Kutai Martadipura",
+      "B": "Kerajaan Tarumanegara",
+      "C": "Kerajaan Majapahit",
+      "D": "Kerajaan Singasari"
+    },
+    "kunci_jawaban": "A"
+  },
+  {
+    "nomor": 110,
+    "pertanyaan": "Kerajaan maritim raksasa di Sumatra yang menjadi pusat penyebaran agama Buddha adalah...",
+    "pilihan": {
+      "A": "Kerajaan Sriwijaya",
+      "B": "Kerajaan Melayu",
+      "C": "Kesultanan Samudra Pasai",
+      "D": "Kerajaan Kediri"
+    },
+    "kunci_jawaban": "A"
+  },
+  {
+    "nomor": 111,
+    "pertanyaan": "Candi Prambanan yang megah dibangun pada masa Kerajaan Mataram Kuno dengan corak budaya...",
+    "pilihan": {
+      "A": "Hindu-Siwa",
+      "B": "Buddha-Mahayana",
+      "C": "Animisme lokal",
+      "D": "Islam-Jawa"
+    },
+    "kunci_jawaban": "A"
+  },
+  {
+    "nomor": 112,
+    "pertanyaan": "Situs bersejarah Kesultanan Samudra Pasai berdiri di pulau Sumatra bagian...",
+    "pilihan": {
+      "A": "Ujung utara Aceh",
+      "B": "Barat Padang",
+      "C": "Selatan Lampung",
+      "D": "Timur Palembang"
+    },
+    "kunci_jawaban": "A"
+  },
+  {
+    "nomor": 113,
+    "pertanyaan": "Sultan Hasanuddin yang berjuluk 'Ayam Jantan dari Timur' adalah raja dari kerajaan...",
+    "pilihan": {
+      "A": "Gowa-Tallo Makassar",
+      "B": "Kesultanan Ternate",
+      "C": "Kerajaan Bone",
+      "D": "Kesultanan Banjar"
+    },
+    "kunci_jawaban": "A"
+  },
+  {
+    "nomor": 114,
+    "pertanyaan": "Pemimpin perjuangan Kaum Padri melawan penjajah Belanda di wilayah Sumatra Barat adalah...",
+    "pilihan": {
+      "A": "Tuanku Imam Bonjol",
+      "B": "Teuku Umar",
+      "C": "Sisingamangaraja XII",
+      "D": "Tuanku Tambusai"
+    },
+    "kunci_jawaban": "A"
+  },
+  {
+    "nomor": 115,
+    "pertanyaan": "Pengerahan tenaga rakyat Indonesia untuk kerja paksa pada masa penjajahan Jepang dinamakan...",
+    "pilihan": {
+      "A": "Kerja romusha",
+      "B": "Kerja rodi",
+      "C": "Kerja paksa",
+      "D": "Kerja wajib"
+    },
+    "kunci_jawaban": "A"
+  },
+  {
+    "nomor": 116,
+    "pertanyaan": "Sistem kerja paksa membangun jalan Anyer-Panarukan pada masa Hindia Belanda disebut...",
+    "pilihan": {
+      "A": "Kerja rodi",
+      "B": "Tanam paksa",
+      "C": "Sistem feodal",
+      "D": "Ekstirpasi rempah"
+    },
+    "kunci_jawaban": "A"
+  },
+  {
+    "nomor": 117,
+    "pertanyaan": "Organisasi kebangsaan pertama, Budi Utomo, secara resmi didirikan pada tahun...",
+    "pilihan": {
+      "A": "Tahun 1908",
+      "B": "Tahun 1928",
+      "C": "Tahun 1945",
+      "D": "Tahun 1912"
+    },
+    "kunci_jawaban": "A"
+  },
+  {
+    "nomor": 118,
+    "pertanyaan": "Sidang BPUPKI yang merumuskan dasar filsafat negara Pancasila diketuai oleh...",
+    "pilihan": {
+      "A": "Radjiman Wedyodiningrat",
+      "B": "Soekarno",
+      "C": "Mohammad Hatta",
+      "D": "Ahmad Subardjo"
+    },
+    "kunci_jawaban": "A"
+  },
+  {
+    "nomor": 119,
+    "pertanyaan": "Tokoh pemuda yang berjasa mengetik naskah asli teks Proklamasi Kemerdekaan RI adalah...",
+    "pilihan": {
+      "A": "Sayuti Melik",
+      "B": "Sukarni",
+      "C": "B.M. Diah",
+      "D": "Latief Hendraningrat"
+    },
+    "kunci_jawaban": "A"
+  },
+  {
+    "nomor": 120,
+    "pertanyaan": "Tokoh pendiri Taman Siswa yang diangkat sebagai Bapak Pendidikan Nasional Indonesia adalah...",
+    "pilihan": {
+      "A": "Ki Hajar Dewantara",
+      "B": "Dr. Soetomo",
+      "C": "K.H. Ahmad Dahlan",
+      "D": "H.O.S. Tjokroaminoto"
+    },
+    "kunci_jawaban": "A"
+  }
+  ]
+}

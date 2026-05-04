@@ -1,0 +1,887 @@
+{
+  "nama_paket": "Paket: B",
+  "mata_pelajaran": "Ilmu Pengetahuan Alam (IPA)",
+  "tingkat": "SD",
+  "soal": [
+    {
+      "nomor": 1,
+      "pertanyaan": "Langkah penting untuk menguji kebenaran sebuah hipotesis dalam metode ilmiah adalah...",
+      "pilihan": {
+        "A": "Menarik kesimpulan",
+        "B": "Melakukan eksperimen",
+        "C": "Merumuskan masalah",
+        "D": "Mengumpulkan data"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "nomor": 2,
+      "pertanyaan": "Ilmuwan yang memelopori klasifikasi makhluk hidup menggunakan sistem lima kingdom adalah...",
+      "pilihan": {
+        "A": "Carolus Linnaeus",
+        "B": "Robert Whittaker",
+        "C": "Charles Darwin",
+        "D": "Gregor Mendel"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "nomor": 3,
+      "pertanyaan": "Upaya pelestarian keanekaragaman hayati yang dilakukan di luar habitat aslinya disebut pelestarian...",
+      "pilihan": {
+        "A": "In situ",
+        "B": "Ex situ",
+        "C": "Cagar alam",
+        "D": "Hutan lindung"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "nomor": 4,
+      "pertanyaan": "Alat pernapasan tambahan pada batang tumbuhan berkayu disebut...",
+      "pilihan": {
+        "A": "Stomata daun",
+        "B": "Lentisel batang",
+        "C": "Rambut akar",
+        "D": "Tudung akar"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "nomor": 5,
+      "pertanyaan": "Kelompok mamalia unik yang berkembang biak dengan cara bertelur adalah...",
+      "pilihan": {
+        "A": "Paus biru",
+        "B": "Kelelawar buah",
+        "C": "Platipus ekidna",
+        "D": "Singa laut"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "nomor": 6,
+      "pertanyaan": "Enzim pada lambung yang berfungsi memecah protein menjadi pepton adalah...",
+      "pilihan": {
+        "A": "Enzim amilase",
+        "B": "Enzim pepsin",
+        "C": "Enzim lipase",
+        "D": "Enzim tripsin"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "nomor": 7,
+      "pertanyaan": "Pembuluh darah yang membawa darah kaya akan oksigen dari paru-paru menuju jantung adalah...",
+      "pilihan": {
+        "A": "Vena kava",
+        "B": "Arteri pulmonalis",
+        "C": "Vena pulmonalis",
+        "D": "Aorta besar"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "nomor": 8,
+      "pertanyaan": "Organel sel pada tumbuhan yang menjadi tempat utama berlangsungnya fotosintesis adalah...",
+      "pilihan": {
+        "A": "Mitokondria sel",
+        "B": "Nukleus inti",
+        "C": "Kloroplas hijau",
+        "D": "Vakuola air"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "nomor": 9,
+      "pertanyaan": "Cara perkembangbiakan vegetatif buatan dengan mengelupas kulit batang agar tumbuh akar disebut...",
+      "pilihan": {
+        "A": "Stek batang",
+        "B": "Cangkok dahan",
+        "C": "Merunduk akar",
+        "D": "Okulasi tunas"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "nomor": 10,
+      "pertanyaan": "Adaptasi morfologi pada burung pemakan daging ditunjukkan dengan bentuk...",
+      "pilihan": {
+        "A": "Paruh bengkok tajam",
+        "B": "Kaki berselaput",
+        "C": "Paruh pipih",
+        "D": "Kaki pemanjat"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "nomor": 11,
+      "pertanyaan": "Pertukaran gas oksigen dan karbon dioksida di dalam sistem pernapasan manusia terjadi pada...",
+      "pilihan": {
+        "A": "Bronkus paru",
+        "B": "Alveolus kecil",
+        "C": "Trakea tenggorokan",
+        "D": "Hidung luar"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "nomor": 12,
+      "pertanyaan": "Jaringan yang berfungsi mengedarkan hasil fotosintesis dari daun ke seluruh tubuh tumbuhan adalah...",
+      "pilihan": {
+        "A": "Xilem kayu",
+        "B": "Floem tapis",
+        "C": "Kambium batang",
+        "D": "Epidermis luar"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "nomor": 13,
+      "pertanyaan": "Kelainan akibat kurangnya sel darah merah dalam tubuh manusia dinamakan...",
+      "pilihan": {
+        "A": "Leukimia akut",
+        "B": "Hemofilia darah",
+        "C": "Anemia kronis",
+        "D": "Hipertensi berat"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "nomor": 14,
+      "pertanyaan": "Gerak ujung batang tumbuhan yang selalu tumbuh ke arah datangnya cahaya matahari dinamakan...",
+      "pilihan": {
+        "A": "Fototropisme positif",
+        "B": "Geotropisme negatif",
+        "C": "Nasti kompleks",
+        "D": "Taksis cahaya"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "nomor": 15,
+      "pertanyaan": "Proses fermentasi oleh ragi (Saccharomyces cerevisiae) akan menghasilkan zat utama berupa...",
+      "pilihan": {
+        "A": "Asam laktat",
+        "B": "Alkohol karbon-dioksida",
+        "C": "Asam asetat",
+        "D": "Oksigen murni"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "nomor": 16,
+      "pertanyaan": "Peran utama jamur dan bakteri dalam rantai makanan sebuah ekosistem adalah sebagai...",
+      "pilihan": {
+        "A": "Produsen utama",
+        "B": "Konsumen puncak",
+        "C": "Dekomposer pengurai",
+        "D": "Predator alami"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "nomor": 17,
+      "pertanyaan": "Hubungan antara tanaman anggrek dan pohon inangnya merupakan contoh simbiosis...",
+      "pilihan": {
+        "A": "Mutualisme",
+        "B": "Komensalisme",
+        "C": "Parasitisme",
+        "D": "Amensalisme"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "nomor": 18,
+      "pertanyaan": "Bakteri yang dimanfaatkan dalam bioteknologi pembuatan nata de coco dari air kelapa adalah...",
+      "pilihan": {
+        "A": "Rhizopus oligosporus",
+        "B": "Lactobacillus bulgaricus",
+        "C": "Acetobacter xylinum",
+        "D": "Escherichia coli"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "nomor": 19,
+      "pertanyaan": "Pencemaran udara yang berlebihan oleh gas belerang dioksida dapat menyebabkan bencana...",
+      "pilihan": {
+        "A": "Pemanasan global",
+        "B": "Hujan asam",
+        "C": "Efek rumah-kaca",
+        "D": "Penipisan ozon"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "nomor": 20,
+      "pertanyaan": "Menjaga populasi badak bercula satu di Taman Nasional Ujung Kulon termasuk jenis pelestarian...",
+      "pilihan": {
+        "A": "In situ",
+        "B": "Ex situ",
+        "C": "Buatan manusia",
+        "D": "Kebun plasma"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "nomor": 21,
+      "pertanyaan": "Besaran yang menunjukkan tingkat kecenderungan benda untuk mempertahankan keadaan diamnya disebut...",
+      "pilihan": {
+        "A": "Massa inersia",
+        "B": "Gaya berat",
+        "C": "Momentum sudut",
+        "D": "Percepatan linier"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "nomor": 22,
+      "pertanyaan": "Proses perubahan wujud zat dari bentuk gas langsung menjadi padatan disebut peristiwa...",
+      "pilihan": {
+        "A": "Menyublim",
+        "B": "Mengkristal deposisi",
+        "C": "Mengembun",
+        "D": "Membeku"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "nomor": 23,
+      "pertanyaan": "Jika tekanan udara lingkungan di sekitar kita semakin rendah, maka titik didih air akan...",
+      "pilihan": {
+        "A": "Semakin tinggi",
+        "B": "Semakin rendah",
+        "C": "Tetap stabil",
+        "D": "Berubah drastic"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "nomor": 24,
+      "pertanyaan": "Energi mekanik yang tersimpan pada ketapel atau pegas yang ditarik disebut energi...",
+      "pilihan": {
+        "A": "Kinetik gerak",
+        "B": "Potensial pegas",
+        "C": "Listrik statis",
+        "D": "Panas termal"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "nomor": 25,
+      "pertanyaan": "Gaya sentuh yang selalu bekerja melawan arah gerak benda pada permukaan adalah gaya...",
+      "pilihan": {
+        "A": "Normal tegak",
+        "B": "Gesek kinetis",
+        "C": "Berat bumi",
+        "D": "Sentripetal putar"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "nomor": 26,
+      "pertanyaan": "Sebuah mobil bergerak dengan kecepatan konstan 72 km/jam. Jarak tempuh mobil dalam waktu 10 detik adalah...",
+      "pilihan": {
+        "A": "100 meter",
+        "B": "200 meter",
+        "C": "360 meter",
+        "D": "720 meter"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "nomor": 27,
+      "pertanyaan": "Air bermassa 2 kg dipanaskan sehingga suhunya naik 10°C. Jika kalor jenis air 4200 J/kg°C, kalor yang diserap adalah...",
+      "pilihan": {
+        "A": "8.400 Joule",
+        "B": "42.000 Joule",
+        "C": "84.000 Joule",
+        "D": "840.000 Joule"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "nomor": 28,
+      "pertanyaan": "Sebuah rangkaian listrik sederhana memiliki tegangan 12 Volt dan hambatan 4 Ohm. Kuat arusnya sebesar...",
+      "pilihan": {
+        "A": "3 Ampere",
+        "B": "8 Ampere",
+        "C": "16 Ampere",
+        "D": "48 Ampere"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "nomor": 29,
+      "pertanyaan": "Sebuah kotak menekan lantai dengan gaya 100 Newton pada luas penampang 2 meter persegi. Tekanannya adalah...",
+      "pilihan": {
+        "A": "50 Pascal",
+        "B": "100 Pascal",
+        "C": "200 Pascal",
+        "D": "500 Pascal"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "nomor": 30,
+      "pertanyaan": "Sebuah gelombang tali memiliki frekuensi 5 Hz dan panjang gelombang 2 meter. Kecepatan rambatnya adalah...",
+      "pilihan": {
+        "A": "2,5 m/s",
+        "B": "7 m/s",
+        "C": "10 m/s",
+        "D": "20 m/s"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "nomor": 31,
+      "pertanyaan": "Rambatan panas dari pancaran sinar matahari hingga sampai ke bumi terjadi secara...",
+      "pilihan": {
+        "A": "Konduksi padat",
+        "B": "Konveksi gas",
+        "C": "Radiasi pancaran",
+        "D": "Induksi termal"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "nomor": 32,
+      "pertanyaan": "Jika dua kutub magnet yang senama didekatkan, maka reaksi yang akan terjadi adalah...",
+      "pilihan": {
+        "A": "Saling tarik",
+        "B": "Saling tolak",
+        "C": "Hilang kemagnetan",
+        "D": "Timbul percikan"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "nomor": 33,
+      "pertanyaan": "Agar seluruh alat elektronik di rumah mendapat tegangan yang sama, instalasi dipasang secara...",
+      "pilihan": {
+        "A": "Seri sejajar",
+        "B": "Paralel bercabang",
+        "C": "Campuran rumit",
+        "D": "Terbuka putus"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "nomor": 34,
+      "pertanyaan": "Peristiwa pembelokan arah cahaya saat melewati dua medium bening yang berbeda kerapatannya disebut...",
+      "pilihan": {
+        "A": "Pemantulan",
+        "B": "Pembiasan refraksi",
+        "C": "Difraksi celah",
+        "D": "Dispersi urai"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "nomor": 35,
+      "pertanyaan": "Pada instrumen mikroskop, lensa yang posisinya paling dekat dengan mata pengamat disebut lensa...",
+      "pilihan": {
+        "A": "Objektif fokus",
+        "B": "Okuler mata",
+        "C": "Cembung konveks",
+        "D": "Cekung konkaf"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "nomor": 36,
+      "pertanyaan": "Benda langit berbatu di tata surya yang banyak mengorbit antara Mars dan Jupiter disebut...",
+      "pilihan": {
+        "A": "Komet berekor",
+        "B": "Asteroid batu",
+        "C": "Satelit alami",
+        "D": "Meteorid luar"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "nomor": 37,
+      "pertanyaan": "Lapisan atmosfer bumi bagian tengah yang menipis akibat polusi CFC dan berfungsi menyerap UV adalah...",
+      "pilihan": {
+        "A": "Troposfer bawah",
+        "B": "Stratosfer ozon",
+        "C": "Mesosfer dingin",
+        "D": "lonosfer atas"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "nomor": 38,
+      "pertanyaan": "Partikel penyusun inti atom yang sama sekali tidak memiliki muatan listrik dinamakan...",
+      "pilihan": {
+        "A": "Proton positif",
+        "B": "Elektron negatif",
+        "C": "Neutron netral",
+        "D": "Foton cahaya"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "nomor": 39,
+      "pertanyaan": "Peristiwa terjadinya perbedaan waktu, serta pergantian siang dan malam disebabkan oleh...",
+      "pilihan": {
+        "A": "Revolusi bumi",
+        "B": "Rotasi bumi",
+        "C": "Gerhana matahari",
+        "D": "Kemiringan sumbu"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "nomor": 40,
+      "pertanyaan": "Batu granit yang padat dan sangat keras berasal dari proses pendinginan magma tergolong batuan...",
+      "pilihan": {
+        "A": "Metamorf malihan",
+        "B": "Sedimen endap",
+        "C": "Beku vulkanik",
+        "D": "Fosil organik"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+        "nomor": 41,
+        "pertanyaan": "Tulang penyusun rangka manusia yang memiliki fungsi vital untuk melindungi jantung dan paru-paru adalah...",
+        "pilihan": {
+        "A": "Tulang rusuk dada",
+        "B": "Tulang panggul",
+        "C": "Tulang tengkorak",
+        "D": "Tulang belikat"
+        },
+        "kunci_jawaban": "A"
+    },
+    {
+        "nomor": 42,
+        "pertanyaan": "Gerakan otot meremas dan mendorong makanan di kerongkongan agar masuk menuju lambung dinamakan...",
+        "pilihan": {
+        "A": "Gerak peristaltik",
+        "B": "Gerak otonom",
+        "C": "Gerak refleks",
+        "D": "Gerak mekanik"
+        },
+        "kunci_jawaban": "A"
+    },
+    {
+        "nomor": 43,
+        "pertanyaan": "Sel darah putih (leukosit) memiliki peran utama di dalam sistem peredaran darah untuk...",
+        "pilihan": {
+        "A": "Membekukan luka",
+        "B": "Mengikat oksigen",
+        "C": "Membunuh kuman patogen",
+        "D": "Mengedarkan sari makanan"
+        },
+        "kunci_jawaban": "C"
+    },
+    {
+        "nomor": 44,
+        "pertanyaan": "Tumbuhan paku dan lumut secara alami berkembang biak dan memperbanyak diri menggunakan...",
+        "pilihan": {
+        "A": "Biji generatif",
+        "B": "Spora vegetatif",
+        "C": "Tunas adventif",
+        "D": "Umbi lapis"
+        },
+        "kunci_jawaban": "B"
+    },
+    {
+        "nomor": 45,
+        "pertanyaan": "Kemampuan adaptasi cicak yang secara sengaja memutuskan ekornya untuk mengelabui mangsa dinamakan...",
+        "pilihan": {
+        "A": "Mimikri warna",
+        "B": "Ekolokasi suara",
+        "C": "Autotomi ekor",
+        "D": "Hibernasi panjang"
+        },
+        "kunci_jawaban": "C"
+    },
+    {
+        "nomor": 46,
+        "pertanyaan": "Salah satu ciri perkembangan fisik masa pubertas sekunder yang dialami remaja laki-laki adalah...",
+        "pilihan": {
+        "A": "Tumbuh jakun",
+        "B": "Pinggul membesar",
+        "C": "Suara melengking",
+        "D": "Kulit halus"
+        },
+        "kunci_jawaban": "A"
+    },
+    {
+        "nomor": 47,
+        "pertanyaan": "Dalam suatu rantai makanan ekosistem padang rumput, hewan herbivora bertindak menempati posisi sebagai...",
+        "pilihan": {
+        "A": "Konsumen tingkat primer",
+        "B": "Konsumen tingkat sekunder",
+        "C": "Produsen utama",
+        "D": "Dekomposer pengurai"
+        },
+        "kunci_jawaban": "A"
+    },
+    {
+        "nomor": 48,
+        "pertanyaan": "Proses alamiah penguapan air yang terjadi melalui stomata pada daun tumbuhan disebut...",
+        "pilihan": {
+        "A": "Evaporasi laut",
+        "B": "Transpirasi daun",
+        "C": "Kondensasi awan",
+        "D": "Presipitasi hujan"
+        },
+        "kunci_jawaban": "B"
+    },
+    {
+        "nomor": 49,
+        "pertanyaan": "Bioteknologi konvensional pembuatan tempe dari biji kedelai sangat bergantung pada bantuan mikroorganisme jenis...",
+        "pilihan": {
+        "A": "Bakteri patogen",
+        "B": "Jamur Rhizopus",
+        "C": "Virus mozaik",
+        "D": "Alga hijau"
+        },
+        "kunci_jawaban": "B"
+    },
+    {
+        "nomor": 50,
+        "pertanyaan": "Tahap krusial dalam metode ilmiah yang dilakukan setelah seluruh data eksperimen berhasil dianalisis adalah...",
+        "pilihan": {
+        "A": "Mengajukan hipotesis",
+        "B": "Merumuskan masalah",
+        "C": "Menarik kesimpulan",
+        "D": "Publikasi jurnal"
+        },
+        "kunci_jawaban": "C"
+    },
+    {
+        "nomor": 51,
+        "pertanyaan": "Kelompok hewan bertulang belakang (Vertebrata) yang hidup di air, bernapas dengan insang, dan bersisik adalah...",
+        "pilihan": {
+        "A": "Pisces ikan",
+        "B": "Amfibi katak",
+        "C": "Reptil ular",
+        "D": "Aves burung"
+        },
+        "kunci_jawaban": "A"
+    },
+    {
+        "nomor": 52,
+        "pertanyaan": "Adaptasi fisiologis pohon jati yang selalu menggugurkan daunnya saat musim kemarau bertujuan untuk...",
+        "pilihan": {
+        "A": "Menyerap nutrisi tanah",
+        "B": "Mengurangi penguapan air",
+        "C": "Mempercepat laju fotosintesis",
+        "D": "Menarik perhatian serangga"
+        },
+        "kunci_jawaban": "B"
+    },
+    {
+        "nomor": 53,
+        "pertanyaan": "Zat campuran homogen di mana zat pelarut dan terlarutnya sudah tidak dapat dibedakan lagi disebut...",
+        "pilihan": {
+        "A": "Larutan sejati",
+        "B": "Suspensi kasar",
+        "C": "Koloid campuran",
+        "D": "Senyawa murni"
+        },
+        "kunci_jawaban": "A"
+    },
+    {
+        "nomor": 54,
+        "pertanyaan": "Perpindahan kalor yang kita rasakan hingga badan menjadi hangat saat berada di dekat api unggun terjadi secara...",
+        "pilihan": {
+        "A": "Konduksi rambat",
+        "B": "Konveksi aliran",
+        "C": "Radiasi pancaran",
+        "D": "Induksi listrik"
+        },
+        "kunci_jawaban": "C"
+    },
+    {
+        "nomor": 55,
+        "pertanyaan": "Ruang atau daerah di sekitar magnet yang masih dipengaruhi dan merasakan gaya tarik magnet disebut...",
+        "pilihan": {
+        "A": "Kutub utara",
+        "B": "Kutub selatan",
+        "C": "Medan magnet",
+        "D": "Garis gaya"
+        },
+        "kunci_jawaban": "C"
+    },
+    {
+        "nomor": 56,
+        "pertanyaan": "Budi berlari lurus menempuh lintasan berjarak 100 meter dalam waktu 20 detik. Kecepatan lari Budi adalah...",
+        "pilihan": {
+        "A": "2 meter/detik",
+        "B": "5 meter/detik",
+        "C": "10 meter/detik",
+        "D": "20 meter/detik"
+        },
+        "kunci_jawaban": "B"
+    },
+    {
+        "nomor": 57,
+        "pertanyaan": "Sebuah buah kelapa bermassa 2 kg menggantung di pohon setinggi 5 meter. Jika gravitasi bumi 10 m/s², energi potensialnya adalah...",
+        "pilihan": {
+        "A": "10 Joule",
+        "B": "50 Joule",
+        "C": "100 Joule",
+        "D": "200 Joule"
+        },
+        "kunci_jawaban": "C"
+    },
+    {
+        "nomor": 58,
+        "pertanyaan": "Suhu air mendidih menunjukkan angka 100°C. Jika suhu tersebut diukur menggunakan skala termometer Reamur, angkanya menjadi...",
+        "pilihan": {
+        "A": "80 derajat",
+        "B": "122 derajat",
+        "C": "212 derajat",
+        "D": "273 derajat"
+        },
+        "kunci_jawaban": "A"
+    },
+    {
+        "nomor": 59,
+        "pertanyaan": "Sebuah rangkaian listrik memiliki hambatan total 10 Ohm dan dihubungkan pada baterai 20 Volt. Kuat arus yang mengalir sebesar...",
+        "pilihan": {
+        "A": "2 Ampere",
+        "B": "10 Ampere",
+        "C": "30 Ampere",
+        "D": "200 Ampere"
+        },
+        "kunci_jawaban": "A"
+    },
+    {
+        "nomor": 60,
+        "pertanyaan": "Bunyi pantul terdengar 2 detik setelah Budi berteriak ke arah tebing. Jika kecepatan rambat bunyi 340 m/s, jarak tebing tersebut adalah...",
+        "pilihan": {
+        "A": "170 meter",
+        "B": "340 meter",
+        "C": "680 meter",
+        "D": "1360 meter"
+        },
+        "kunci_jawaban": "B"
+    },
+    {
+        "nomor": 61,
+        "pertanyaan": "Planet raksasa gas terbesar di tata surya yang memiliki satelit alami berukuran masif bernama Ganymede adalah...",
+        "pilihan": {
+        "A": "Planet Mars",
+        "B": "Planet Jupiter",
+        "C": "Planet Saturnus",
+        "D": "Planet Venus"
+        },
+        "kunci_jawaban": "B"
+    },
+    {
+        "nomor": 62,
+        "pertanyaan": "Gerhana matahari cincin terjadi saat bulan menutupi matahari, tetapi posisi bulan pada orbitnya berada di...",
+        "pilihan": {
+        "A": "Titik terdekat bumi",
+        "B": "Titik terjauh bumi",
+        "C": "Belakang bayangan matahari",
+        "D": "Kawasan umbra inti"
+        },
+        "kunci_jawaban": "B"
+    },
+    {
+        "nomor": 63,
+        "pertanyaan": "Lapisan terbawah atmosfer bumi yang menjadi tempat utama berlangsungnya siklus fenomena cuaca seperti awan dan hujan adalah...",
+        "pilihan": {
+        "A": "Troposfer bawah",
+        "B": "Stratosfer ozon",
+        "C": "Mesosfer dingin",
+        "D": "Termosfer ion"
+        },
+        "kunci_jawaban": "A"
+    },
+    {
+        "nomor": 64,
+        "pertanyaan": "Pergerakan berputarnya bumi mengelilingi sumbu atau porosnya sendiri dari barat ke timur mengakibatkan terjadinya fenomena...",
+        "pilihan": {
+        "A": "Pergantian musim tahunan",
+        "B": "Gerhana bulan sebagian",
+        "C": "Pergantian siang malam",
+        "D": "Siklus tahun kabisat"
+        },
+        "kunci_jawaban": "C"
+    },
+    {
+        "nomor": 65,
+        "pertanyaan": "Secara optik, sifat bayangan yang dibentuk saat kita berdiri bercermin di depan cermin datar adalah...",
+        "pilihan": {
+        "A": "Maya tegak diperbesar",
+        "B": "Maya tegak sama-besar",
+        "C": "Nyata terbalik sama-besar",
+        "D": "Nyata tegak diperkecil"
+        },
+        "kunci_jawaban": "B"
+    },
+    {
+        "nomor": 66,
+        "pertanyaan": "Gelombang bunyi yang berada dalam rentang frekuensi wajar dan dapat didengar oleh telinga manusia normal disebut...",
+        "pilihan": {
+        "A": "Infrasonik pelan",
+        "B": "Audiosonik rentang",
+        "C": "Ultrasonik tinggi",
+        "D": "Supersonik cepat"
+        },
+        "kunci_jawaban": "B"
+    },
+    {
+        "nomor": 67,
+        "pertanyaan": "Persendian yang bentuknya menyerupai mangkuk dan memungkinkan pergerakan bebas ke segala arah terletak pada...",
+        "pilihan": {
+        "A": "Siku lengan",
+        "B": "Lutut kaki",
+        "C": "Gelang panggul",
+        "D": "Ruas leher"
+        },
+        "kunci_jawaban": "C"
+    },
+    {
+        "nomor": 68,
+        "pertanyaan": "Selaput rangkap dua tipis licin yang berfungsi vital melindungi organ paru-paru dari gesekan saat bernapas dinamakan...",
+        "pilihan": {
+        "A": "Selaput pleura",
+        "B": "Kapsul bowman",
+        "C": "Selaput meninges",
+        "D": "Perikardium jantung"
+        },
+        "kunci_jawaban": "A"
+    },
+    {
+        "nomor": 69,
+        "pertanyaan": "Kelenjar ludah menghasilkan enzim amilase (ptialin) yang berfungsi memecah karbohidrat menjadi zat gula mulai beroperasi di...",
+        "pilihan": {
+        "A": "Usus halus penyerapan",
+        "B": "Rongga mulut depan",
+        "C": "Lambung asam besar",
+        "D": "Pankreas organ kelenjar"
+        },
+        "kunci_jawaban": "B"
+    },
+    {
+        "nomor": 70,
+        "pertanyaan": "Kincir angin modern atau turbin pada pembangkit listrik tenaga bayu (PLTB) pada dasarnya mengubah energi mekanik gerak menjadi...",
+        "pilihan": {
+        "A": "Energi panas bumi",
+        "B": "Energi cahaya terang",
+        "C": "Energi listrik dinamis",
+        "D": "Energi kimia reaksi"
+        },
+        "kunci_jawaban": "C"
+    },
+    {
+        "nomor": 71,
+        "pertanyaan": "Keuntungan mekanis dari katrol tetap tunggal yang biasa digunakan masyarakat untuk menimba air di sumur adalah kemampuannya...",
+        "pilihan": {
+        "A": "Memperkecil tarikan gaya",
+        "B": "Mengubah arah gaya",
+        "C": "Memperbesar usaha total",
+        "D": "Menghilangkan massa beban"
+        },
+        "kunci_jawaban": "B"
+    },
+    {
+        "nomor": 72,
+        "pertanyaan": "Organ sistem ekskresi utama manusia yang bertugas menyaring limbah sisa metabolisme dari dalam darah dan memproduksi urine adalah...",
+        "pilihan": {
+        "A": "Hati empedu",
+        "B": "Paru-paru respirasi",
+        "C": "Kulit ari luar",
+        "D": "Ginjal penyaring"
+        },
+        "kunci_jawaban": "D"
+    },
+    {
+        "nomor": 73,
+        "pertanyaan": "Interaksi antara tumbuhan benalu yang tumbuh menempel dan menyerap sari pati makanan dari pohon inangnya merupakan contoh simbiosis...",
+        "pilihan": {
+        "A": "Mutualisme saling untung",
+        "B": "Komensalisme netral inang",
+        "C": "Parasitisme merugikan inang",
+        "D": "Antibiosis menghambat hidup"
+        },
+        "kunci_jawaban": "C"
+    },
+    {
+        "nomor": 74,
+        "pertanyaan": "Warna-warni spektrum pelangi indah yang terbentuk di langit setelah hujan terjadi karena cahaya matahari mengalami peristiwa...",
+        "pilihan": {
+        "A": "Pemantulan baur permukaan",
+        "B": "Pembiasan dispersi cahaya",
+        "C": "Interferensi gelombang fasa",
+        "D": "Difraksi celah sempit"
+        },
+        "kunci_jawaban": "B"
+    },
+    {
+        "nomor": 75,
+        "pertanyaan": "Permukaan ban mobil dan motor selalu didesain beralur kasar oleh pabrikan untuk tujuan memperbesar...",
+        "pilihan": {
+        "A": "Gaya dorong mesin",
+        "B": "Gaya gesek jalan",
+        "C": "Gaya pegas suspensi",
+        "D": "Gaya magnet statis"
+        },
+        "kunci_jawaban": "B"
+    },
+    {
+        "nomor": 76,
+        "pertanyaan": "Batu marmer atau pualam yang bernilai seni tinggi terbentuk dari batuan kapur murni yang mengalami...",
+        "pilihan": {
+        "A": "Tekanan suhu panas",
+        "B": "Pendinginan magma bumi",
+        "C": "Pengendapan sungai mengalir",
+        "D": "Erosi abrasi laut"
+        },
+        "kunci_jawaban": "A"
+    },
+    {
+        "nomor": 77,
+        "pertanyaan": "Berdasarkan model atom modern, partikel subatomik yang menyusun bagian pusat atau inti dari sebuah atom adalah...",
+        "pilihan": {
+        "A": "Elektron dan proton",
+        "B": "Proton dan neutron",
+        "C": "Hanya susunan elektron",
+        "D": "Neutron dan partikel foton"
+        },
+        "kunci_jawaban": "B"
+    },
+    {
+        "nomor": 78,
+        "pertanyaan": "Senyawa gas chlorofluorocarbon (CFC) yang banyak digunakan pada mesin pendingin AC sangat berbahaya bagi bumi karena memicu...",
+        "pilihan": {
+        "A": "Penurunan oksigen udara",
+        "B": "Penipisan lapisan ozon",
+        "C": "Kerusakan ekosistem laut",
+        "D": "Hilangnya kesuburan tanah"
+        },
+        "kunci_jawaban": "B"
+    },
+    {
+        "nomor": 79,
+        "pertanyaan": "Konstruksi pemasangan baja rel kereta api selalu dibuat agak renggang atau diberi celah sambungan agar tidak melengkung akibat...",
+        "pilihan": {
+        "A": "Penyusutan dingin malam",
+        "B": "Pemuaian panas siang",
+        "C": "Getaran gesekan kereta",
+        "D": "Karat oksidasi korosi"
+        },
+        "kunci_jawaban": "B"
+    },
+    {
+        "nomor": 80,
+        "pertanyaan": "Satelit buatan manusia yang memutari bumi dengan kecepatan sudut sama dengan rotasi bumi sehingga tampak diam di atas ekuator disebut...",
+        "pilihan": {
+        "A": "Satelit alami bulan",
+        "B": "Satelit geostasioner orbit",
+        "C": "Wahana probe antariksa",
+        "D": "Meteoroid buatan besi"
+        },
+        "kunci_jawaban": "B"
+    }
+  ]
+}

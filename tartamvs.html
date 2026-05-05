@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Tarik Tambang - IPA VS IPS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
+    <style>
+        body { 
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background: #0f172a; 
+            color: white; 
+            overflow: hidden; 
+            touch-action: manipulation; 
+            user-select: none;
+        }
+        
+        /* WARNING PORTRAIT */
+        #portrait-warning { 
+            display: none;
+            position: fixed; 
+            top: 0; left: 0; 
+            width: 100%; height: 100%; 
+            background: #0f172a; 
+            z-index: 9999; 
+            flex-direction: column; 
+            justify-content: center; 
+            align-items: center;
+            text-align: center; 
+            padding: 20px; 
+        }
+        @media screen and (orientation: portrait) {
+            #portrait-warning { display: flex; }
+            #main-app { display: none !important; }
+        }
+
+        /* SCREENS */
+        #screen-start, #screen-countdown, #screen-game { 
+            position: absolute;
+            top: 0; left: 0; 
+            width: 100%; height: 100vh; 
+            display: flex; 
+            flex-direction: column; 
+            justify-content: center; 
+            align-items: center;
+        }
+        #screen-countdown, #screen-game { display: none; }
+
+        /* START SCREEN */
+        .btn-start { 
+            font-size: 2rem;
+            padding: 20px 50px; 
+            border-radius: 50px; 
+            font-weight: 900; 
+            letter-spacing: 2px; 
+            text-transform: uppercase; 
+            background: #f59e0b; 
+            color: #fff; 
+            border: none;
+            box-shadow: 0 10px 0 #d97706; 
+            transition: 0.2s; 
+        }
+        .btn-start:active { 
+            transform: translateY(10px);
+            box-shadow: 0 0 0 #d97706; 
+        }
+
+        /* COUNTDOWN SCREEN */
+        #countdown-number { 
+            font-size: 15rem;
+            font-weight: 900; 
+            color: #facc15; 
+            text-shadow: 0 0 50px rgba(250, 204, 21, 0.5); 
+            animation: zoomInOut 1s infinite;
+        }
+        @keyframes zoomInOut { 
+            0% { transform: scale(0.5); opacity: 0; } 
+            50% { transform: scale(1.2); opacity: 1; } 
+            100% { transform: scale(1); opacity: 0; } 
+        }
+
+        /* GAME SCREEN - TALI (ATAS) */
+        .arena-top { 
+            width: 100%;
+            height: 25vh; 
+            background: #1e293b; 
+            position: relative; 
+            border-bottom: 5px solid #334155; 
+            display: flex; 
+            align-items: center; 
+            justify-content: center; 
+            padding: 0 50px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5); 
+            z-index: 10; 
+        }
+        .rope { 
+            position: absolute;
+            width: 80%; height: 20px; 
+            background: repeating-linear-gradient(45deg, #8b4513, #8b4513 15px, #a0522d 15px, #a0522d 30px); 
+            border-radius: 10px; z-index: 1;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.5); 
+            left: 10%; 
+        }
+        .center-mark { 
+            position: absolute;
+            left: 50%; height: 80px; width: 6px; 
+            background: rgba(255,255,255,0.3); z-index: 0; 
+            transform: translateX(-50%);
+            border-radius: 3px;
+        }
+        #flag { 
+            position: absolute; left: 50%; 
+            font-size: 5rem; 
+            transform: translate(-50%, -20px);
+            z-index: 10; 
+            transition: left 0.4s cubic-bezier(0.34, 1.56, 0.64, 1); 
+            text-shadow: 2px 2px 15px rgba(0,0,0,0.8);
+        }
+        
+        /* Avatar Pemain */
+        .player-avatar { 
+            position: absolute;
+            z-index: 5; top: 50%; transform: translateY(-50%); 
+            width: 120px; height: 120px; object-fit: contain; 
+            filter: drop-shadow(0 0 10px rgba(255,255,255,0.2));
+        }
+        .avatar-p2 { left: 5%; } /* Kiri (IPA) */
+        .avatar-p1 { right: 5%; transform: translateY(-50%) scaleX(-1); } /* Kanan (IPS) */
+
+        /* GAME SCREEN - AREA SOAL (BAWAH) */
+        .arena-bottom { width: 100%; height: 75vh; display: flex; }
+        .side-panel { width: 50%; height: 100%; padding: 20px; display: flex; flex-direction: column; }
+        .side-p2 { border-right: 5px solid #334155; background: radial-gradient(circle at top left, #2f1515, #0f172a); } /* Kiri - Merah */
+        .side-p1 { border-left: 5px solid #334155; background: radial-gradient(circle at top right, #152238, #0f172a); } /* Kanan - Biru */
+
+        .soal-box { 
+            flex-grow: 1;
+            background: rgba(255,255,255,0.05); border-radius: 15px; 
+            padding: 20px; text-align: center; display: flex; 
+            align-items: center; justify-content: center; 
+            font-size: 1.5rem; font-weight: 700; margin-bottom: 15px;
+            border: 2px solid rgba(255,255,255,0.1); 
+        }
+        .opsi-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; height: 40%; }
+        
+        .btn-opsi { 
+            font-size: 1.3rem;
+            font-weight: 800; border-radius: 15px; border: none; 
+            color: white; transition: 0.1s; display: flex; 
+            align-items: center; justify-content: center; padding: 10px;
+        }
+        .btn-opsi:active { transform: scale(0.95); }
+        
+        /* Tombol P2 (Kiri - IPA - Merah) */
+        .btn-opsi.p2-btn { background: #991b1b; box-shadow: 0 8px 0 #7f1d1d; }
+        .btn-opsi.p2-btn:active { transform: translateY(8px); box-shadow: 0 0 0 #7f1d1d; background: #ef4444; }
+        
+        /* Tombol P1 (Kanan - IPS - Biru) */
+        .btn-opsi.p1-btn { background: #1e3a8a; box-shadow: 0 8px 0 #1e40af; }
+        .btn-opsi.p1-btn:active { transform: translateY(8px); box-shadow: 0 0 0 #1e40af; background: #3b82f6; }
+        
+        .feedback-overlay { 
+            position: absolute;
+            top: 0; left: 0; width: 100%; height: 100%; 
+            z-index: 100; display: none; align-items: center; 
+            justify-content: center; font-size: 4rem; font-weight: 900;
+            background: rgba(0,0,0,0.7); border-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="portrait-warning">
+        <i class="fas fa-mobile-alt fa-5x mb-4" style="transform: rotate(90deg); color: #facc15;"></i>
+        <h1 class="fw-bold">PUTAR LAYAR ANDA!</h1>
+        <p class="fs-4">Game ini hanya dapat dimainkan dalam mode Landscape (Mendatar) atau pada layar Interactive Flat Panel (IFP).</p>
+    </div>
+
+    <div id="main-app">
+        
+        <div id="screen-start">
+            <h1 class="display-1 fw-bold text-warning mb-0" style="text-shadow: 0 10px 20px rgba(0,0,0,0.5);">TARIK TAMBANG DUEL</h1>
+            <h1 class="display-3 fw-bold text-white mb-5" id="judul-mapel">MEMUAT DATA...</h1>
+            <button class="btn-start" onclick="mulaiHitungMundur()" id="btn-mulai" disabled>MULAI PERTANDINGAN</button>
+            <a href="index.html" class="btn btn-outline-light rounded-pill mt-5 px-4"><i class="fas fa-arrow-left me-2"></i> Kembali ke Menu</a>
+        </div>
+
+        <div id="screen-countdown">
+            <div id="countdown-number">3</div>
+        </div>
+
+        <div id="screen-game">
+            <div class="arena-top">
+                <img src="/images/player_ipa.png" class="player-avatar avatar-p2" alt="Tim IPA" onerror="this.src='https://ui-avatars.com/api/?name=IPA&background=ef4444&color=fff&rounded=true'">
+                
+                <div class="center-mark"></div>
+                <div class="rope"></div>
+                <div id="flag">🚩</div>
+                
+                <img src="/images/player_ips.png" class="player-avatar avatar-p1" alt="Tim IPS" onerror="this.src='https://ui-avatars.com/api/?name=IPS&background=3b82f6&color=fff&rounded=true'">
+            </div>
+
+            <div class="arena-bottom">
+                
+                <div class="side-panel side-p2">
+                    <h3 class="text-center text-danger fw-bold mb-3">TIM IPA (MERAH)</h3>
+                    <div class="soal-box position-relative" id="soal-p2">
+                        <div id="teks-p2">Memuat soal IPA...</div>
+                        <div class="feedback-overlay text-success" id="feed-p2">BENAR!</div>
+                    </div>
+                    <div class="opsi-grid" id="opsi-p2"></div>
+                </div>
+
+                <div class="side-panel side-p1">
+                    <h3 class="text-center text-primary fw-bold mb-3">TIM IPS (BIRU)</h3>
+                    <div class="soal-box position-relative" id="soal-p1">
+                        <div id="teks-p1">Memuat soal IPS...</div>
+                        <div class="feedback-overlay text-success" id="feed-p1">BENAR!</div>
+                    </div>
+                    <div class="opsi-grid" id="opsi-p1"></div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        // Data & State
+        let bankSoalIPA = [];
+        let bankSoalIPS = [];
+        let antrianP2 = []; // Antrian untuk IPA (Kiri)
+        let antrianP1 = []; // Antrian untuk IPS (Kanan)
+        
+        let posisiBendera = 50; // 50 = Tengah. 100 = Kanan (IPS), 0 = Kiri (IPA)
+        const step = 10; // Daya tarik setiap jawaban benar
+
+        // Fetch 2 Data JSON Sekaligus (IPA dan IPS)
+        // Pastikan path-nya sesuai dengan struktur folder kamu di Github (misal pakai folder 'json')
+        Promise.all([
+            fetch('./json/soal_ipa.json').then(res => res.json()),
+            fetch('./json/soal_ips.json').then(res => res.json())
+        ])
+        .then(([dataIPA, dataIPS]) => {
+            // Jika berhasil memuat kedua file
+            document.getElementById('judul-mapel').innerText = "IPA vs IPS";
+            document.getElementById('btn-mulai').disabled = false;
+            
+            bankSoalIPA = dataIPA.soal;
+            bankSoalIPS = dataIPS.soal;
+        })
+        .catch(err => {
+            console.error("Error loading JSON:", err);
+            document.getElementById('judul-mapel').innerText = "GAGAL MEMUAT SOAL";
+            Swal.fire('Oops!', 'Pastikan file soal_ipa.json dan soal_ips.json ada di dalam folder yang benar.', 'error');
+        });
+
+        // Alur Layar
+        function mulaiHitungMundur() {
+            document.getElementById('screen-start').style.display = 'none';
+            document.getElementById('screen-countdown').style.display = 'flex';
+            
+            // Acak antrian soal untuk masing-masing tim
+            antrianP2 = [...bankSoalIPA].sort(() => Math.random() - 0.5); // IPA (Kiri)
+            antrianP1 = [...bankSoalIPS].sort(() => Math.random() - 0.5); // IPS (Kanan)
+            
+            let hitung = 3;
+            const angkaEl = document.getElementById('countdown-number');
+            
+            const timer = setInterval(() => {
+                hitung--;
+                if(hitung > 0) {
+                    angkaEl.innerText = hitung;
+                } else if(hitung === 0) {
+                    angkaEl.innerText = "GO!";
+                    angkaEl.style.color = "#22c55e";
+                } else {
+                    clearInterval(timer);
+                    mulaiGame();
+                }
+            }, 1000);
+        }
+
+        function mulaiGame() {
+            document.getElementById('screen-countdown').style.display = 'none';
+            document.getElementById('screen-game').style.display = 'flex';
+            
+            renderSoalP1(); // Render Soal IPS
+            renderSoalP2(); // Render Soal IPA
+        }
+
+        // Render Soal P1 (KANAN - IPS)
+        function renderSoalP1() {
+            // Isi ulang soal jika habis
+            if (antrianP1.length === 0) antrianP1 = [...bankSoalIPS].sort(() => Math.random() - 0.5);
+            const soal = antrianP1[0];
+            
+            document.getElementById('teks-p1').innerText = soal.pertanyaan;
+            
+            const opsiDiv = document.getElementById('opsi-p1');
+            opsiDiv.innerHTML = '';
+            
+            let opsiArr = Object.entries(soal.pilihan).sort(() => Math.random() - 0.5);
+            opsiArr.forEach(([kunci, teks]) => {
+                opsiDiv.innerHTML += `<button class="btn-opsi p1-btn" onclick="jawabP1('${kunci}', '${soal.kunci_jawaban}')">${kunci}. ${teks}</button>`;
+            });
+        }
+
+        // Render Soal P2 (KIRI - IPA)
+        function renderSoalP2() {
+            // Isi ulang soal jika habis
+            if (antrianP2.length === 0) antrianP2 = [...bankSoalIPA].sort(() => Math.random() - 0.5);
+            const soal = antrianP2[0];
+            
+            document.getElementById('teks-p2').innerText = soal.pertanyaan;
+            
+            const opsiDiv = document.getElementById('opsi-p2');
+            opsiDiv.innerHTML = '';
+            
+            let opsiArr = Object.entries(soal.pilihan).sort(() => Math.random() - 0.5);
+            opsiArr.forEach(([kunci, teks]) => {
+                opsiDiv.innerHTML += `<button class="btn-opsi p2-btn" onclick="jawabP2('${kunci}', '${soal.kunci_jawaban}')">${kunci}. ${teks}</button>`;
+            });
+        }
+
+        // Logika Menjawab P1 (KANAN - IPS)
+        function jawabP1(jawabanUser, kunciAsli) {
+            const isCorrect = (jawabanUser === kunciAsli);
+            tampilkanFeedback('p1', isCorrect);
+
+            if(isCorrect) {
+                posisiBendera += step; // Tarik ke Kanan (IPS)
+                updateBendera();
+            }
+            
+            antrianP1.shift(); // Hapus soal yang baru dijawab
+            setTimeout(renderSoalP1, 1000); // Tampilkan soal berikutnya
+        }
+
+        // Logika Menjawab P2 (KIRI - IPA)
+        function jawabP2(jawabanUser, kunciAsli) {
+            const isCorrect = (jawabanUser === kunciAsli);
+            tampilkanFeedback('p2', isCorrect);
+
+            if(isCorrect) {
+                posisiBendera -= step; // Tarik ke Kiri (IPA)
+                updateBendera();
+            }
+            
+            antrianP2.shift(); // Hapus soal yang baru dijawab
+            setTimeout(renderSoalP2, 1000); // Tampilkan soal berikutnya
+        }
+
+        function tampilkanFeedback(player, isCorrect) {
+            const feedEl = document.getElementById(`feed-${player}`);
+            feedEl.style.display = 'flex';
+            if(isCorrect) {
+                feedEl.innerText = "BENAR!";
+                feedEl.className = "feedback-overlay text-success";
+            } else {
+                feedEl.innerText = "SALAH!";
+                feedEl.className = "feedback-overlay text-danger";
+            }
+            setTimeout(() => { feedEl.style.display = 'none'; }, 1000);
+        }
+
+        // Update Visual Tali & Cek Pemenang
+        function updateBendera() {
+            document.getElementById('flag').style.left = `${posisiBendera}%`;
+            
+            if (posisiBendera >= 90) { // P1 (Kanan - IPS) Menang
+                akhiriGame("TIM IPS MENANG!", "#3b82f6");
+            } else if (posisiBendera <= 10) { // P2 (Kiri - IPA) Menang
+                akhiriGame("TIM IPA MENANG!", "#ef4444");
+            }
+        }
+
+        function akhiriGame(pesan, warna) {
+            Swal.fire({
+                title: pesan,
+                text: "Kerja sama otak dan tangan yang luar biasa!",
+                icon: 'success',
+                confirmButtonColor: warna,
+                confirmButtonText: 'Main Lagi',
+                allowOutsideClick: false
+            }).then(() => {
+                location.reload();
+            });
+        }
+    </script>
+</body>
+</html>

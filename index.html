@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     
     <style>
-        /* --- BACKGROUND STYLING (Dari Template Login CBT) --- */
+        /* --- BACKGROUND STYLING --- */
         :root {
             --navy-blue: #384596;
             --light-blue: #87CEEB;
@@ -43,7 +43,7 @@
 
         .text-shadow { text-shadow: 2px 2px 8px rgba(0,0,0,0.3); }
 
-        /* --- CARD STYLING (Dari Template Tarik Tambang) --- */
+        /* --- CARD STYLING --- */
         .card-game { 
             background: #1e293b; border: none; border-radius: 20px; transition: 0.3s; cursor: pointer;
             overflow: hidden; text-decoration: none; color: white;
@@ -69,20 +69,41 @@
             margin-bottom: 30px;
             font-weight: 800;
         }
+
+        /* Styling tambahan untuk Header */
+        .header-container {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+        }
+        .guru-img {
+            max-height: 250px;
+            filter: drop-shadow(5px 5px 15px rgba(0,0,0,0.4)); /* Memberikan bayangan agar gambar PNG lebih hidup */
+        }
     </style>
 </head>
 <body>
-    <div class="container py-5">
+    
+    <div class="container py-4">
         
-        <!-- HEADER & GAMBAR -->
-        <div class="text-center mb-5">
-            <div class="d-flex justify-content-center gap-4 mb-4">
-                <img src="logo_sekolah.png" alt="Logo Sekolah" width="100" class="bg-white p-2 rounded-circle shadow-lg">
-                <img src="guru.png" alt="Guru" width="100" class="bg-white p-2 rounded-circle shadow-lg" onerror="this.style.display='none'">
+        <!-- HEADER BAGIAN ATAS (Dibagi 2 Kolom) -->
+        <header class="header-container p-4 mb-5 shadow">
+            <div class="row align-items-center">
+                <!-- Kolom Kiri: Gambar Guru -->
+                <div class="col-md-4 text-center text-md-end mb-4 mb-md-0">
+                    <img src="guru.png" alt="Maskot Guru" class="img-fluid guru-img" onerror="this.style.display='none'">
+                </div>
+                
+                <!-- Kolom Kanan: Logo dan Judul -->
+                <div class="col-md-8 text-center text-md-start">
+                    <img src="logo_sekolah.png" alt="Logo Sekolah" width="80" class="mb-3" style="filter: drop-shadow(2px 4px 6px rgba(0,0,0,0.3));">
+                    <h1 class="display-4 fw-bold text-warning text-shadow mb-2">PORTAL GAME EDUKASI</h1>
+                    <h2 class="h4 text-light text-shadow mb-3">Bimbingan Interaktif & Simulasi OSN</h2>
+                    <p class="lead text-light opacity-75 mb-0">Siapkan dirimu! Pilih mode permainan dan uji kemampuanmu sekarang.</p>
+                </div>
             </div>
-            <h1 class="display-4 fw-bold text-warning text-shadow">PORTAL GAME EDUKASI</h1>
-            <p class="lead text-shadow">Pilih mode permainan dan kategori soal untuk memulai simulasi interaktif!</p>
-        </div>
+        </header>
 
         <!-- KATEGORI 1: TARIK TAMBANG -->
         <h3 class="section-title text-shadow"><i class="fas fa-hand-rock me-2 text-warning"></i> MODE TARIK TAMBANG</h3>

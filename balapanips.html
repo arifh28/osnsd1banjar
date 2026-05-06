@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Balapan OSN - IPS</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
+    <style>
+        body, html {
+            margin: 0; padding: 0; height: 100%; width: 100%;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            overflow: hidden; 
+            user-select: none; 
+            background-color: #0f172a;
+        }
+
+        /* WARNING PORTRAIT */
+        #portrait-warning { 
+            display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; 
+            background: #0f172a; z-index: 9999; flex-direction: column; justify-content: center; 
+            align-items: center; text-align: center; padding: 20px; color: white;
+        }
+        @media screen and (orientation: portrait) {
+            #portrait-warning { display: flex; }
+            #main-app { display: none !important; }
+        }
+
+        /* SCREENS */
+        #screen-start, #screen-countdown { 
+            position: absolute; top: 0; left: 0; width: 100%; height: 100vh; 
+            display: flex; flex-direction: column; justify-content: center; align-items: center;
+            background: #0f172a; z-index: 2000; color: white;
+        }
+        #screen-countdown { display: none; background: rgba(15, 23, 42, 0.95); }
+        #screen-game { display: none; flex-direction: column; height: 100vh; width: 100%; }
+
+        /* START SCREEN ELEMENTS */
+        .btn-start { 
+            font-size: 2rem; padding: 20px 50px; border-radius: 50px; font-weight: 900; 
+            letter-spacing: 2px; text-transform: uppercase; background: #f59e0b; color: #fff; 
+            border: none; box-shadow: 0 10px 0 #d97706; transition: 0.2s; 
+        }
+        .btn-start:active { transform: translateY(10px); box-shadow: 0 0 0 #d97706; }
+
+        /* COUNTDOWN ANIMATION */
+        #countdown-number { 
+            font-size: 15rem; font-weight: 900; color: #facc15; 
+            text-shadow: 0 0 50px rgba(250, 204, 21, 0.5); animation: zoomInOut 1s infinite;
+        }
+        @keyframes zoomInOut { 
+            0% { transform: scale(0.5); opacity: 0; } 
+            50% { transform: scale(1.2); opacity: 1; } 
+            100% { transform: scale(1); opacity: 0; } 
+        }
+
+        /* --- AREA BALAPAN (ATAS) --- */
+        .track-area {
+            height: 30vh; background-color: #1e293b; display: flex; flex-direction: column;
+            position: relative; border-bottom: 6px solid #fbbf24; box-shadow: 0 10px 20px rgba(0,0,0,0.3); z-index: 10;
+        }
+        .lane { flex: 1; position: relative; border-bottom: 3px dashed #475569; display: flex; align-items: center; }
+        .lane:last-child { border-bottom: none; }
+        
+        .player-avatar {
+            height: 70%; position: absolute; left: 2%; transition: left 0.4s cubic-bezier(0.34, 1.56, 0.64, 1); 
+            z-index: 5; filter: drop-shadow(4px 4px 5px rgba(0,0,0,0.5)); object-fit: contain;
+        }
+        .finish-line {
+            position: absolute; right: 5%; top: 0; bottom: 0; width: 20px;
+            background: repeating-linear-gradient(to bottom, #ffffff 0, #ffffff 15px, #000000 15px, #000000 30px);
+            z-index: 2; border-left: 2px solid #ef4444;
+        }
+
+        /* --- AREA SOAL (BAWAH) --- */
+        .quiz-area { height: 70vh; display: flex; background: #f8fafc; }
+        .player-col { flex: 1; height: 100%; display: flex; flex-direction: column; padding: 20px; border-right: 4px solid #cbd5e1; }
+        .player-col:last-child { border-right: none; }
+        
+        /* Warna Pemain: P1 Biru, P2 Merah */
+        .p1-zone { background-color: #eff6ff; } /* Biru Muda */
+        .p2-zone { background-color: #fef2f2; } /* Merah Muda */
+        .bg-p1 { background-color: #3b82f6; } /* Biru */
+        .bg-p2 { background-color: #ef4444; } /* Merah */
+
+        .score-badge {
+            font-size: 1.5rem; font-weight: 900; padding: 10px 20px; border-radius: 50px;
+            text-align: center; margin-bottom: 15px; color: white; text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+        }
+        .question-box {
+            flex: 1; background: white; border-radius: 15px; padding: 20px; font-size: 1.4rem;
+            font-weight: 700; color: #1e293b; box-shadow: 0 4px 6px rgba(0,0,0,0.05); margin-bottom: 20px;
+            display: flex; align-items: center; text-align: center; justify-content: center; border: 2px solid #e2e8f0;
+        }
+        .options-container { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; height: 40%; }
+        .opt-btn {
+            border: 2px solid #cbd5e1; background: white; border-radius: 12px; font-size: 1.2rem;
+            font-weight: 700; color: #334155; padding: 15px; transition: 0.1s; box-shadow: 0 4px 0 #cbd5e1;
+            display: flex; align-items: center; justify-content: flex-start; text-align: left;
+        }
+        .opt-btn:active { transform: translateY(4px); box-shadow: 0 0 0 #cbd5e1; }
+        
+        .opt-btn.correct { background-color: #22c55e !important; color: white !important; border-color: #16a34a !important; box-shadow: 0 4px 0 #16a34a !important; }
+        .opt-btn.wrong { background-color: #ef4444 !important; color: white !important; border-color: #dc2626 !important; box-shadow: 0 4px 0 #dc2626 !important; }
+    </style>
+</head>
+<body>
+
+    <div id="portrait-warning">
+        <i class="fas fa-mobile-alt fa-5x mb-4" style="transform: rotate(90deg); color: #facc15;"></i>
+        <h1 class="fw-bold">PUTAR LAYAR ANDA!</h1>
+        <p class="fs-4">Game ini hanya dapat dimainkan dalam mode Landscape.</p>
+    </div>
+
+    <div id="main-app">
+        
+        <!-- 1. START SCREEN -->
+        <div id="screen-start">
+            <h1 class="display-1 fw-bold text-warning mb-0" style="text-shadow: 0 10px 20px rgba(0,0,0,0.5);">BALAPAN OSN IPS</h1>
+            <h1 class="display-5 fw-bold text-light mb-5" id="status-text">Memuat bank soal...</h1>
+            <button class="btn-start" onclick="mulaiHitungMundur()" id="btn-mulai" disabled><i class="fas fa-flag-checkered me-2"></i> MULAI PERTANDINGAN</button>
+            <a href="index.html" class="btn btn-outline-light rounded-pill mt-5 px-4"><i class="fas fa-arrow-left me-2"></i> Kembali ke Menu</a>
+        </div>
+
+        <!-- 2. COUNTDOWN SCREEN -->
+        <div id="screen-countdown">
+            <div id="countdown-number">3</div>
+        </div>
+
+        <!-- 3. GAME SCREEN -->
+        <div id="screen-game">
+            
+            <div class="track-area">
+                <div class="finish-line"></div>
+                <!-- LANE 1 (P1 - BIRU) -->
+                <div class="lane" id="lane-1">
+                    <span class="badge bg-primary ms-3 fs-5 z-3 position-absolute">P1</span>
+                    <img src="/images/player1.png" class="player-avatar" id="avatar-1" onerror="this.src='https://ui-avatars.com/api/?name=P+1&background=3b82f6&color=fff&rounded=true'">
+                </div>
+                <!-- LANE 2 (P2 - MERAH) -->
+                <div class="lane" id="lane-2">
+                    <span class="badge bg-danger ms-3 fs-5 z-3 position-absolute">P2</span>
+                    <img src="/images/player2.png" class="player-avatar" id="avatar-2" onerror="this.src='https://ui-avatars.com/api/?name=P+2&background=ef4444&color=fff&rounded=true'">
+                </div>
+            </div>
+
+            <div class="quiz-area">
+                <!-- PLAYER 1 ZONE (KIRI - BIRU) -->
+                <div class="player-col p1-zone" id="zone-1">
+                    <div class="score-badge bg-p1" id="score-1">PLAYER 1: 0 / 20</div>
+                    <div class="question-box" id="q-text-1">Menyiapkan soal...</div>
+                    <div class="options-container" id="opts-1"></div>
+                </div>
+
+                <!-- PLAYER 2 ZONE (KANAN - MERAH) -->
+                <div class="player-col p2-zone" id="zone-2">
+                    <div class="score-badge bg-p2" id="score-2">PLAYER 2: 0 / 20</div>
+                    <div class="question-box" id="q-text-2">Menyiapkan soal...</div>
+                    <div class="options-container" id="opts-2"></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script>
+        const WIN_SCORE = 20; 
+        let isGameOver = false;
+        let bankSoal = [];
+
+        let players = [
+            { id: 1, name: "PLAYER 1", score: 0, pool: [], currentIndex: 0, isLocked: false },
+            { id: 2, name: "PLAYER 2", score: 0, pool: [], currentIndex: 0, isLocked: false }
+        ];
+
+        // Fetch Data IPA
+        document.addEventListener("DOMContentLoaded", async () => {
+            try {
+                const res = await fetch('./json/soal_ips.json');
+                const data = await res.json();
+                bankSoal = data.soal;
+                
+                document.getElementById('status-text').innerText = `${bankSoal.length} Soal Siap Dipertandingkan!`;
+                document.getElementById('btn-mulai').disabled = false;
+            } catch (err) {
+                console.error(err);
+                document.getElementById('status-text').innerHTML = "<span class='text-danger'>Gagal memuat bank soal IPA.</span>";
+            }
+        });
+
+        // Alur Layar Start -> Countdown -> Game
+        function mulaiHitungMundur() {
+            document.getElementById('screen-start').style.display = 'none';
+            document.getElementById('screen-countdown').style.display = 'flex';
+            
+            // Acak soal untuk masing-masing pemain
+            players[0].pool = [...bankSoal].sort(() => 0.5 - Math.random());
+            players[1].pool = [...bankSoal].sort(() => 0.5 - Math.random());
+
+            document.getElementById('score-1').innerText = `PLAYER 1: 0 / ${WIN_SCORE}`;
+            document.getElementById('score-2').innerText = `PLAYER 2: 0 / ${WIN_SCORE}`;
+            
+            let hitung = 3;
+            const angkaEl = document.getElementById('countdown-number');
+            angkaEl.innerText = hitung;
+            angkaEl.style.color = "#facc15";
+            
+            const timer = setInterval(() => {
+                hitung--;
+                if(hitung > 0) {
+                    angkaEl.innerText = hitung;
+                } else if(hitung === 0) {
+                    angkaEl.innerText = "GO!";
+                    angkaEl.style.color = "#22c55e";
+                } else {
+                    clearInterval(timer);
+                    document.getElementById('screen-countdown').style.display = 'none';
+                    document.getElementById('screen-game').style.display = 'flex';
+                    renderQuestion(1);
+                    renderQuestion(2);
+                }
+            }, 1000);
+        }
+
+        function renderQuestion(pid) {
+            const player = players[pid - 1];
+            
+            if (player.currentIndex >= player.pool.length) {
+                player.currentIndex = 0; // Ulangi dari awal jika soal habis
+            }
+
+            const currentQ = player.pool[player.currentIndex];
+            document.getElementById(`q-text-${pid}`).innerHTML = currentQ.pertanyaan;
+            
+            let optsHtml = '';
+            const keys = Object.keys(currentQ.pilihan);
+            const shuffledKeys = keys.sort(() => 0.5 - Math.random());
+
+            shuffledKeys.forEach(k => {
+                optsHtml += `
+                    <button class="opt-btn" onclick="handleAnswer(${pid}, '${k}', '${currentQ.kunci_jawaban}', this)">
+                        <span class="me-2 text-secondary">${k}.</span> ${currentQ.pilihan[k]}
+                    </button>
+                `;
+            });
+
+            document.getElementById(`opts-${pid}`).innerHTML = optsHtml;
+            player.isLocked = false; 
+        }
+
+        function handleAnswer(pid, selectedKey, correctKey, btnElement) {
+            if (isGameOver) return;
+            
+            const player = players[pid - 1];
+            if (player.isLocked) return; 
+            
+            player.isLocked = true;
+            const isCorrect = (selectedKey.toUpperCase() === correctKey.toUpperCase());
+
+            const allBtns = document.getElementById(`opts-${pid}`).querySelectorAll('.opt-btn');
+            allBtns.forEach(b => b.style.pointerEvents = 'none');
+
+            if (isCorrect) {
+                btnElement.classList.add('correct');
+                player.score++;
+                
+                document.getElementById(`score-${pid}`).innerText = `${player.name}: ${player.score} / ${WIN_SCORE}`;
+                
+                // Gerakkan Avatar ke kanan
+                const movePercent = (player.score / WIN_SCORE) * 90;
+                document.getElementById(`avatar-${pid}`).style.left = `${movePercent}%`;
+
+                if (player.score >= WIN_SCORE) {
+                    triggerWin(pid);
+                    return;
+                }
+            } else {
+                btnElement.classList.add('wrong');
+                allBtns.forEach(b => {
+                    if(b.getAttribute('onclick').includes(`'${correctKey}'`)) {
+                        b.classList.add('correct');
+                    }
+                });
+            }
+
+            setTimeout(() => {
+                player.currentIndex++;
+                renderQuestion(pid);
+            }, 1000);
+        }
+
+        function triggerWin(pid) {
+            isGameOver = true;
+            let color = pid === 1 ? "#3b82f6" : "#ef4444"; // Biru P1, Merah P2
+            
+            Swal.fire({
+                title: `${players[pid - 1].name} MENANG!`,
+                text: "Kecepatan dan ketepatan yang luar biasa!",
+                icon: 'success',
+                confirmButtonColor: color,
+                confirmButtonText: 'Main Lagi',
+                allowOutsideClick: false
+            }).then(() => {
+                location.reload();
+            });
+        }
+    </script>
+</body>
+</html>

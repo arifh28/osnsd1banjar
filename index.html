@@ -3,85 +3,177 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Game Tarik Tambang Edukasi</title>
+    <title>Portal Game Edukasi - SDN 1 Banjar</title>
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
     <style>
-        body { background: #0f172a; color: white; min-height: 100vh; display: flex; align-items: center; }
+        /* --- BACKGROUND STYLING (Dari Template Login CBT) --- */
+        :root {
+            --navy-blue: #384596;
+            --light-blue: #87CEEB;
+        }
+
+        body { 
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background: linear-gradient(135deg, var(--navy-blue) 0%, var(--light-blue) 100%);
+            background-attachment: fixed;
+            position: relative;
+            overflow-x: hidden;
+            color: white;
+            min-height: 100vh;
+        }
+
+        /* Watermark Logo */
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background-image: url('logo_sekolah.png');
+            background-repeat: no-repeat;
+            background-position: left 5% center;
+            background-size: 45%;
+            opacity: 0.05;
+            filter: grayscale(100%) brightness(150%) contrast(120%);
+            z-index: -1;
+            pointer-events: none;
+        }
+
+        .text-shadow { text-shadow: 2px 2px 8px rgba(0,0,0,0.3); }
+
+        /* --- CARD STYLING (Dari Template Tarik Tambang) --- */
         .card-game { 
             background: #1e293b; border: none; border-radius: 20px; transition: 0.3s; cursor: pointer;
             overflow: hidden; text-decoration: none; color: white;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
         }
-        .card-game:hover { transform: translateY(-10px); box-shadow: 0 10px 30px rgba(0,0,0,0.5); background: #334155; }
-        .icon-box { height: 150px; display: flex; align-items: center; justify-content: center; font-size: 4rem; }
+        .card-game:hover { 
+            transform: translateY(-10px); 
+            box-shadow: 0 15px 35px rgba(0,0,0,0.4); 
+            background: #334155; 
+        }
+        .icon-box { height: 120px; display: flex; align-items: center; justify-content: center; font-size: 3.5rem; }
+        
+        /* Gradiasi Warna Card */
         .bg-ipa { background: linear-gradient(45deg, #10b981, #3b82f6); }
         .bg-ips { background: linear-gradient(45deg, #f59e0b, #ef4444); }
         .bg-mtk { background: linear-gradient(45deg, #8b5cf6, #ec4899); }
+        .bg-vs { background: linear-gradient(45deg, #ef4444, #3b82f6); }
         .bg-others { background: linear-gradient(45deg, #64748b, #1e293b); }
+
+        .section-title {
+            border-bottom: 2px dashed rgba(255,255,255,0.3);
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+            font-weight: 800;
+        }
     </style>
 </head>
 <body>
     <div class="container py-5">
+        
+        <!-- HEADER & GAMBAR -->
         <div class="text-center mb-5">
-            <h1 class="display-4 fw-bold text-warning">ARENA TARIK TAMBANG</h1>
-            <p class="lead">Pilih kategori soal dan tantang temanmu sekarang!</p>
+            <div class="d-flex justify-content-center gap-4 mb-4">
+                <img src="logo_sekolah.png" alt="Logo Sekolah" width="100" class="bg-white p-2 rounded-circle shadow-lg">
+                <img src="guru.png" alt="Guru" width="100" class="bg-white p-2 rounded-circle shadow-lg" onerror="this.style.display='none'">
+            </div>
+            <h1 class="display-4 fw-bold text-warning text-shadow">PORTAL GAME EDUKASI</h1>
+            <p class="lead text-shadow">Pilih mode permainan dan kategori soal untuk memulai simulasi interaktif!</p>
         </div>
 
-        <div class="row g-4 justify-content-center">
-            <!-- IPA CARD -->
-            <div class="col-md-3">
+        <!-- KATEGORI 1: TARIK TAMBANG -->
+        <h3 class="section-title text-shadow"><i class="fas fa-hand-rock me-2 text-warning"></i> MODE TARIK TAMBANG</h3>
+        <div class="row g-4 justify-content-center mb-5">
+            <!-- IPA -->
+            <div class="col-md-3 col-sm-6">
                 <a href="tartamipa.html" class="card card-game h-100">
                     <div class="icon-box bg-ipa"><i class="fas fa-flask"></i></div>
                     <div class="card-body text-center">
-                        <h3 class="fw-bold">IPA</h3>
-                        <p class="text-secondary">Sains & Alam</p>
+                        <h4 class="fw-bold mb-1">IPA</h4>
+                        <small class="text-light opacity-75">Sains & Alam</small>
                     </div>
                 </a>
             </div>
-
-            <!-- IPS CARD (Placeholder) -->
-            <div class="col-md-3">
+            <!-- IPS -->
+            <div class="col-md-3 col-sm-6">
                 <a href="tartamips.html" class="card card-game h-100">
                     <div class="icon-box bg-ips"><i class="fas fa-globe-asia"></i></div>
                     <div class="card-body text-center">
-                        <h3 class="fw-bold">IPS</h3>
-                        <p class="text-secondary">Sosial & Sejarah</p>
+                        <h4 class="fw-bold mb-1">IPS</h4>
+                        <small class="text-light opacity-75">Sosial & Sejarah</small>
                     </div>
                 </a>
             </div>
-
-            <!-- Matematika CARD (Placeholder) -->
-            <div class="col-md-3">
-                <a href="https://script.google.com/macros/s/AKfycbzquKCL4g5CpL6J_Hy4m2cGibHebo2aL27gmh1fn74FsfSMVxpyYUK1TLOcP-Suu2hjLw/exec" class="card card-game h-100">
+            <!-- MATEMATIKA -->
+            <div class="col-md-3 col-sm-6">
+                <a href="https://script.google.com/macros/s/AKfycbzquKCL4g5CpL6J_Hy4m2cGibHebo2aL27gmh1fn74FsfSMVxpyYUK1TLOcP-Suu2hjLw/exec" target="_blank" class="card card-game h-100">
                     <div class="icon-box bg-mtk"><i class="fas fa-calculator"></i></div>
                     <div class="card-body text-center">
-                        <h3 class="fw-bold">Matematika</h3>
-                        <p class="text-secondary">Logika & Angka</p>
+                        <h4 class="fw-bold mb-1">MATEMATIKA</h4>
+                        <small class="text-light opacity-75">Logika & Angka</small>
                     </div>
                 </a>
             </div>
-
-            <div class="col-md-3">
+            <!-- VERSUS -->
+            <div class="col-md-3 col-sm-6">
                 <a href="tartamvs.html" class="card card-game h-100">
-                    <div class="icon-box bg-mtk"><i class="fas fa-calculator"></i></div>
+                    <div class="icon-box bg-vs"><i class="fas fa-bolt"></i></div>
                     <div class="card-body text-center">
-                        <h3 class="fw-bold">IPA VS IPS</h3>
-                        <p class="text-secondary">VERSUS</p>
+                        <h4 class="fw-bold mb-1">IPA vs IPS</h4>
+                        <small class="text-light opacity-75">Duel Jurusan</small>
                     </div>
                 </a>
             </div>
+        </div>
 
-            <!-- Lainnya CARD -->
-            <div class="col-md-3">
-                <div class="card card-game h-100 opacity-50">
-                    <div class="icon-box bg-others"><i class="fas fa-plus"></i></div>
+        <!-- KATEGORI 2: BALAPAN -->
+        <h3 class="section-title text-shadow mt-5"><i class="fas fa-flag-checkered me-2 text-warning"></i> MODE BALAPAN LCC</h3>
+        <div class="row g-4 justify-content-center mb-5">
+            <!-- BALAPAN IPA -->
+            <div class="col-md-3 col-sm-6">
+                <a href="balapanipa.html" class="card card-game h-100">
+                    <div class="icon-box bg-ipa"><i class="fas fa-car-side"></i></div>
                     <div class="card-body text-center">
-                        <h3 class="fw-bold">Lainnya</h3>
-                        <p class="text-secondary">Segera Hadir</p>
+                        <h4 class="fw-bold mb-1">BALAPAN IPA</h4>
+                        <small class="text-light opacity-75">Sprint Sains</small>
+                    </div>
+                </a>
+            </div>
+            <!-- BALAPAN IPS -->
+            <div class="col-md-3 col-sm-6">
+                <a href="balapanips.html" class="card card-game h-100">
+                    <div class="icon-box bg-ips"><i class="fas fa-motorcycle"></i></div>
+                    <div class="card-body text-center">
+                        <h4 class="fw-bold mb-1">BALAPAN IPS</h4>
+                        <small class="text-light opacity-75">Sprint Sosial</small>
+                    </div>
+                </a>
+            </div>
+            <!-- BALAPAN VERSUS -->
+            <div class="col-md-3 col-sm-6">
+                <a href="balapan.html" class="card card-game h-100">
+                    <div class="icon-box bg-vs"><i class="fas fa-users"></i></div>
+                    <div class="card-body text-center">
+                        <h4 class="fw-bold mb-1">BALAPAN DUEL</h4>
+                        <small class="text-light opacity-75">IPA vs IPS</small>
+                    </div>
+                </a>
+            </div>
+            <!-- LAINNYA -->
+            <div class="col-md-3 col-sm-6">
+                <div class="card card-game h-100 opacity-50">
+                    <div class="icon-box bg-others"><i class="fas fa-lock"></i></div>
+                    <div class="card-body text-center">
+                        <h4 class="fw-bold mb-1">SEGERA HADIR</h4>
+                        <small class="text-light opacity-75">Mode Tambahan</small>
                     </div>
                 </div>
             </div>
         </div>
+
     </div>
 </body>
 </html>

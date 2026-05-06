@@ -6,7 +6,7 @@
     <title>Portal Game Edukasi - SDN 1 Banjar</title>
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     
     <style>
@@ -24,6 +24,7 @@
             overflow-x: hidden;
             color: white;
             min-height: 100vh;
+            padding-bottom: 50px;
         }
 
         /* Watermark Logo */
@@ -43,18 +44,42 @@
 
         .text-shadow { text-shadow: 2px 2px 8px rgba(0,0,0,0.3); }
 
+        /* --- HERO SECTION (HEADER 90%) --- */
+        .hero-section {
+            width: 90%;
+            max-width: 1400px;
+            margin: 40px auto 60px auto;
+            
+            padding: 3rem;
+            position: relative;
+
+        }
+
+        .hero-img {
+            max-height: 380px;
+            width: 100%;
+            object-fit: contain;
+            filter: drop-shadow(15px 15px 25px rgba(0,0,0,0.6)); /* Efek 3D pada maskot */
+        }
+
+        .hero-title {
+            font-weight: 900;
+            font-size: clamp(2.5rem, 5vw, 4.5rem); /* Ukuran teks responsif */
+            line-height: 1.1;
+        }
+
         /* --- CARD STYLING --- */
         .card-game { 
             background: #1e293b; border: none; border-radius: 20px; transition: 0.3s; cursor: pointer;
             overflow: hidden; text-decoration: none; color: white;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.3);
         }
         .card-game:hover { 
-            transform: translateY(-10px); 
-            box-shadow: 0 15px 35px rgba(0,0,0,0.4); 
+            transform: translateY(-12px); 
+            box-shadow: 0 20px 40px rgba(0,0,0,0.5); 
             background: #334155; 
         }
-        .icon-box { height: 120px; display: flex; align-items: center; justify-content: center; font-size: 3.5rem; }
+        .icon-box { height: 140px; display: flex; align-items: center; justify-content: center; font-size: 4rem; }
         
         /* Gradiasi Warna Card */
         .bg-ipa { background: linear-gradient(45deg, #10b981, #3b82f6); }
@@ -64,132 +89,128 @@
         .bg-others { background: linear-gradient(45deg, #64748b, #1e293b); }
 
         .section-title {
-            border-bottom: 2px dashed rgba(255,255,255,0.3);
-            padding-bottom: 10px;
-            margin-bottom: 30px;
-            font-weight: 800;
-        }
-
-        /* Styling tambahan untuk Header */
-        .header-container {
-            background: rgba(255, 255, 255, 0.05);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(10px);
-            border-radius: 20px;
-        }
-        .guru-img {
-            max-height: 250px;
-            filter: drop-shadow(5px 5px 15px rgba(0,0,0,0.4)); /* Memberikan bayangan agar gambar PNG lebih hidup */
+            border-bottom: 3px dashed rgba(255,255,255,0.2);
+            padding-bottom: 15px;
+            margin-bottom: 35px;
+            font-weight: 900;
+            letter-spacing: 1px;
         }
     </style>
 </head>
 <body>
     
-    <div class="container py-4">
-        
-        <!-- HEADER BAGIAN ATAS (Dibagi 2 Kolom) -->
-        <header class="header-container p-4 mb-5 shadow">
-            <div class="row align-items-center">
-                <!-- Kolom Kiri: Gambar Guru -->
-                <div class="col-md-4 text-center text-md-end mb-4 mb-md-0">
-                    <img src="guru.png" alt="Maskot Guru" class="img-fluid guru-img" onerror="this.style.display='none'">
-                </div>
-                
-                <!-- Kolom Kanan: Logo dan Judul -->
-                <div class="col-md-8 text-center text-md-start">
-                    <img src="logo_sekolah.png" alt="Logo Sekolah" width="80" class="mb-3" style="filter: drop-shadow(2px 4px 6px rgba(0,0,0,0.3));">
-                    <h1 class="display-4 fw-bold text-warning text-shadow mb-2">PORTAL GAME EDUKASI</h1>
-                    <h2 class="h4 text-light text-shadow mb-3">Bimbingan Interaktif & Simulasi OSN</h2>
-                    <p class="lead text-light opacity-75 mb-0">Siapkan dirimu! Pilih mode permainan dan uji kemampuanmu sekarang.</p>
-                </div>
+    <!-- HEADER HERO SECTION (90% Lebar Layar) -->
+    <header class="hero-section">
+        <div class="row align-items-center">
+            
+            <!-- Kolom Kiri: Hero Image (Guru) -->
+            <div class="col-lg-5 text-center mb-4 mb-lg-0">
+                <img src="guru.png" alt="Maskot Guru" class="hero-img" onerror="this.src='https://cdn-icons-png.flaticon.com/512/3204/3204121.png'">
             </div>
-        </header>
+            
+            <!-- Kolom Kanan: Logo Pelengkap & Teks -->
+            <div class="col-lg-7 text-center text-lg-start ps-lg-4">
+                <img src="logo_sekolah.png" alt="Logo Sekolah" width="80" class="mb-4" style="filter: drop-shadow(2px 4px 6px rgba(0,0,0,0.4));">
+                
+                <h1 class="hero-title text-warning text-shadow mb-3">PORTAL GAME <br> EDUKASI OSN</h1>
+                <h2 class="h3 fw-bold text-light mb-4">SDN 1 BANJAR</h2>
+                
+                <p class="fs-5 text-light opacity-75 mb-0" style="max-width: 600px;">
+                    Siapkan dirimu! Pilih mode permainan di bawah ini dan uji kecepatan serta ketepatanmu dalam simulasi interaktif.
+                </p>
+            </div>
+            
+        </div>
+    </header>
 
+    <!-- KONTEN UTAMA (Area Card) -->
+    <div class="container">
+        
         <!-- KATEGORI 1: TARIK TAMBANG -->
-        <h3 class="section-title text-shadow"><i class="fas fa-hand-rock me-2 text-warning"></i> MODE TARIK TAMBANG</h3>
-        <div class="row g-4 justify-content-center mb-5">
+        <h2 class="section-title text-shadow"><i class="fas fa-hand-rock me-3 text-warning"></i>MODE TARIK TAMBANG</h2>
+        <div class="row g-4 justify-content-center mb-5 pb-3">
             <!-- IPA -->
-            <div class="col-md-3 col-sm-6">
+            <div class="col-lg-3 col-md-4 col-sm-6">
                 <a href="tartamipa.html" class="card card-game h-100">
                     <div class="icon-box bg-ipa"><i class="fas fa-flask"></i></div>
-                    <div class="card-body text-center">
+                    <div class="card-body text-center py-4">
                         <h4 class="fw-bold mb-1">IPA</h4>
-                        <small class="text-light opacity-75">Sains & Alam</small>
+                        <span class="text-light opacity-75">Sains & Alam</span>
                     </div>
                 </a>
             </div>
             <!-- IPS -->
-            <div class="col-md-3 col-sm-6">
+            <div class="col-lg-3 col-md-4 col-sm-6">
                 <a href="tartamips.html" class="card card-game h-100">
                     <div class="icon-box bg-ips"><i class="fas fa-globe-asia"></i></div>
-                    <div class="card-body text-center">
+                    <div class="card-body text-center py-4">
                         <h4 class="fw-bold mb-1">IPS</h4>
-                        <small class="text-light opacity-75">Sosial & Sejarah</small>
+                        <span class="text-light opacity-75">Sosial & Sejarah</span>
                     </div>
                 </a>
             </div>
             <!-- MATEMATIKA -->
-            <div class="col-md-3 col-sm-6">
+            <div class="col-lg-3 col-md-4 col-sm-6">
                 <a href="https://script.google.com/macros/s/AKfycbzquKCL4g5CpL6J_Hy4m2cGibHebo2aL27gmh1fn74FsfSMVxpyYUK1TLOcP-Suu2hjLw/exec" target="_blank" class="card card-game h-100">
                     <div class="icon-box bg-mtk"><i class="fas fa-calculator"></i></div>
-                    <div class="card-body text-center">
+                    <div class="card-body text-center py-4">
                         <h4 class="fw-bold mb-1">MATEMATIKA</h4>
-                        <small class="text-light opacity-75">Logika & Angka</small>
+                        <span class="text-light opacity-75">Logika & Angka</span>
                     </div>
                 </a>
             </div>
             <!-- VERSUS -->
-            <div class="col-md-3 col-sm-6">
+            <div class="col-lg-3 col-md-4 col-sm-6">
                 <a href="tartamvs.html" class="card card-game h-100">
                     <div class="icon-box bg-vs"><i class="fas fa-bolt"></i></div>
-                    <div class="card-body text-center">
+                    <div class="card-body text-center py-4">
                         <h4 class="fw-bold mb-1">IPA vs IPS</h4>
-                        <small class="text-light opacity-75">Duel Jurusan</small>
+                        <span class="text-light opacity-75">Duel Jurusan</span>
                     </div>
                 </a>
             </div>
         </div>
 
         <!-- KATEGORI 2: BALAPAN -->
-        <h3 class="section-title text-shadow mt-5"><i class="fas fa-flag-checkered me-2 text-warning"></i> MODE BALAPAN LCC</h3>
-        <div class="row g-4 justify-content-center mb-5">
+        <h2 class="section-title text-shadow"><i class="fas fa-flag-checkered me-3 text-warning"></i>MODE BALAPAN LCC</h2>
+        <div class="row g-4 justify-content-center">
             <!-- BALAPAN IPA -->
-            <div class="col-md-3 col-sm-6">
+            <div class="col-lg-3 col-md-4 col-sm-6">
                 <a href="balapanipa.html" class="card card-game h-100">
                     <div class="icon-box bg-ipa"><i class="fas fa-car-side"></i></div>
-                    <div class="card-body text-center">
+                    <div class="card-body text-center py-4">
                         <h4 class="fw-bold mb-1">BALAPAN IPA</h4>
-                        <small class="text-light opacity-75">Sprint Sains</small>
+                        <span class="text-light opacity-75">Sprint Sains</span>
                     </div>
                 </a>
             </div>
             <!-- BALAPAN IPS -->
-            <div class="col-md-3 col-sm-6">
+            <div class="col-lg-3 col-md-4 col-sm-6">
                 <a href="balapanips.html" class="card card-game h-100">
                     <div class="icon-box bg-ips"><i class="fas fa-motorcycle"></i></div>
-                    <div class="card-body text-center">
+                    <div class="card-body text-center py-4">
                         <h4 class="fw-bold mb-1">BALAPAN IPS</h4>
-                        <small class="text-light opacity-75">Sprint Sosial</small>
+                        <span class="text-light opacity-75">Sprint Sosial</span>
                     </div>
                 </a>
             </div>
             <!-- BALAPAN VERSUS -->
-            <div class="col-md-3 col-sm-6">
+            <div class="col-lg-3 col-md-4 col-sm-6">
                 <a href="balapan.html" class="card card-game h-100">
                     <div class="icon-box bg-vs"><i class="fas fa-users"></i></div>
-                    <div class="card-body text-center">
+                    <div class="card-body text-center py-4">
                         <h4 class="fw-bold mb-1">BALAPAN DUEL</h4>
-                        <small class="text-light opacity-75">IPA vs IPS</small>
+                        <span class="text-light opacity-75">IPA vs IPS</span>
                     </div>
                 </a>
             </div>
             <!-- LAINNYA -->
-            <div class="col-md-3 col-sm-6">
+            <div class="col-lg-3 col-md-4 col-sm-6">
                 <div class="card card-game h-100 opacity-50">
                     <div class="icon-box bg-others"><i class="fas fa-lock"></i></div>
-                    <div class="card-body text-center">
+                    <div class="card-body text-center py-4">
                         <h4 class="fw-bold mb-1">SEGERA HADIR</h4>
-                        <small class="text-light opacity-75">Mode Tambahan</small>
+                        <span class="text-light opacity-75">Mode Tambahan</span>
                     </div>
                 </div>
             </div>

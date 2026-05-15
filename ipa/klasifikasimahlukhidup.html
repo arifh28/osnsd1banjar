@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Klasifikasi Mahluk Hidup - Soal IPA</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700;900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background: #0f172a; 
+            color: white; 
+            min-height: 100vh;
+            display: flex; 
+            align-items: center; 
+            justify-content: center; 
+            background-image: radial-gradient(circle at top left, #1e293b, #0f172a);
+        }
+        
+        .quiz-container {
+            width: 95%; 
+            max-width: 900px; 
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(15px);
+            padding: 40px; 
+            border-radius: 30px; 
+            box-shadow: 0 25px 50px rgba(0,0,0,0.5);
+            border: 2px solid rgba(255,255,255,0.1); 
+            text-align: center;
+        }
+
+        .header-area {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px dashed rgba(255,255,255,0.2);
+            padding-bottom: 15px;
+            margin-bottom: 20px;
+        }
+
+        .progress-text { 
+            font-weight: 900; 
+            color: #facc15; 
+            font-size: 1.2rem; 
+            letter-spacing: 1px;
+            margin: 0;
+        }
+
+        .warning-badge {
+            background: #ef4444;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9rem;
+        }
+
+        .question-text { 
+            font-size: 1.8rem; 
+            font-weight: 700; 
+            margin-bottom: 40px; 
+            line-height: 1.4;
+            min-height: 120px; 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .options-grid { 
+            display: grid; 
+            grid-template-columns: 1fr 1fr; 
+            gap: 20px; 
+        }
+
+        .btn-opt {
+            padding: 20px; 
+            font-size: 1.2rem; 
+            font-weight: 700; 
+            border-radius: 20px;
+            border: 2px solid rgba(255,255,255,0.2); 
+            background: #1e293b; 
+            color: white;
+            transition: all 0.3s ease; 
+            cursor: pointer; 
+            text-align: left;
+            display: flex;
+            align-items: center;
+        }
+
+        .btn-opt:hover {
+            background: #334155;
+            transform: translateY(-5px);
+            border-color: #facc15;
+        }
+
+        .btn-opt:active { transform: scale(0.95); }
+
+        .correct { 
+            background: #16a34a !important; 
+            border-color: #4ade80 !important; 
+            box-shadow: 0 0 30px rgba(34, 197, 94, 0.8) !important; 
+            color: white !important; 
+            transform: scale(1.05);
+            z-index: 10;
+        }
+        
+        .wrong { 
+            background: #dc2626 !important; 
+            border-color: #ef4444 !important; 
+            opacity: 0.8;
+        }
+
+        .locked { pointer-events: none; }
+
+        .btn-next {
+            background: #f59e0b;
+            color: #78350f;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            border-radius: 50px;
+            box-shadow: 0 5px 0 #d97706;
+            margin-top: 30px;
+            transition: 0.2s;
+        }
+        .btn-next:active { transform: translateY(5px); box-shadow: 0 0 0 #d97706; }
+
+        @media (max-width: 768px) {
+            .options-grid { grid-template-columns: 1fr; } 
+            .question-text { font-size: 1.4rem; min-height: 80px;}
+            .header-area { flex-direction: column; gap: 10px; }
+        }
+    </style>
+</head>
+<body>
+
+    <audio id="sound-benar" src="benar.mp3"></audio>
+    <audio id="sound-salah" src="salah.mp3"></audio>
+
+    <div class="quiz-container" id="quiz-box">
+        <div class="header-area">
+            <h5 class="progress-text" id="progress">MEMUAT...</h5>
+            <span class="warning-badge d-none" id="warning-count"><i class="fas fa-exclamation-triangle"></i> Peringatan: 0/3</span>
+        </div>
+        <div class="question-text" id="question">Menyiapkan soal untuk Anda...</div>
+        <div class="options-grid" id="options"></div>
+        <button id="btn-selanjutnya" class="btn-next w-100 fw-bold d-none" onclick="nextQuestion()">LANJUT KE SOAL BERIKUTNYA <i class="fas fa-arrow-right ms-2"></i></button>
+    </div>
+
+    <script>
+        // Supabase Config
+        const SUPABASE_URL = 'https://aqaukssuqevvvnvomarn.supabase.co';
+        const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFxYXVrc3N1cWV2dnZudm9tYXJuIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzg4NTEyMjAsImV4cCI6MjA5NDQyNzIyMH0.LVWVC-iO_gCz54ARtTicKKfHiNBc6vej_Dnasj98H1E';
+        const supabaseClient = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+
+        // State & Variabel
+        const namaPeserta = localStorage.getItem('namaPeserta');
+        const materiName = 'Klasifikasi Mahluk Hidup';
+        const storageKey = `sesiUjian_${namaPeserta}_${materiName.replace(/\\s+/g, '')}`;
+        
+        let bankSoal = [];
+        let currentIdx = 0;
+        let score = 0;
+        let cheatCount = 0;
+        let isUjianSelesai = false;
+
+        // SISTEM ANTI-CHEAT (FOCUS TRACKING)
+        document.addEventListener("visibilitychange", () => {
+            if (document.hidden && !isUjianSelesai) {
+                cheatCount++;
+                saveState(); // Simpan penambahan pelanggaran
+                updateWarningUI();
+
+                if (cheatCount >= 3) {
+                    Swal.fire({
+                        title: 'Pelanggaran Fatal!',
+                        text: 'Anda telah meninggalkan layar ujian 3 kali. Ujian dihentikan dan nilai disubmit otomatis.',
+                        icon: 'error',
+                        allowOutsideClick: false,
+                        confirmButtonColor: '#dc2626'
+                    }).then(() => {
+                        finishQuiz();
+                    });
+                } else {
+                    Swal.fire({
+                        title: 'Peringatan Sistem!',
+                        text: `Tolong jangan berpindah aplikasi/tab! Peringatan ke-${cheatCount} dari maksimal 3 kali. Jika mencapai 3, ujian otomatis ditutup.`,
+                        icon: 'warning',
+                        confirmButtonColor: '#f59e0b'
+                    });
+                }
+            }
+        });
+
+        function updateWarningUI() {
+            const badge = document.getElementById('warning-count');
+            if (cheatCount > 0) {
+                badge.classList.remove('d-none');
+                badge.innerHTML = `<i class="fas fa-exclamation-triangle"></i> Peringatan: ${cheatCount}/3`;
+            }
+        }
+
+        // SIMPAN STATE KE LOCALSTORAGE
+        function saveState() {
+            const state = { bankSoal, currentIdx, score, cheatCount };
+            localStorage.setItem(storageKey, JSON.stringify(state));
+        }
+
+        // ALUR INISIALISASI
+        async function initApp() {
+            if(!namaPeserta) {
+                window.location.href = '../soalipa.html';
+                return;
+            }
+
+            // 1. Cek Supabase (Apakah sudah mengerjakan?)
+            // BAGIAN PENTING: Siswa dilarang masuk HANYA JIKA ada data skor yang is_reset-nya FALSE
+            const { data, error } = await supabaseClient
+                .from('peserta_ujian')
+                .select('skor')
+                .eq('nama_peserta', namaPeserta)
+                .eq('bagian_materi', materiName)
+                .eq('is_reset', false); // Tambahkan filter ini!
+
+            if (data && data.length > 0) {
+                isUjianSelesai = true;
+                Swal.fire({
+                    title: 'Akses Ditolak',
+                    text: 'Anda sudah menyelesaikan materi ini. Mintalah Bapak/Ibu pembimbing untuk me-reset jika ingin mencoba lagi.',
+                    icon: 'error',
+                    allowOutsideClick: false
+                }).then(() => {
+                    window.location.href = '../soalipa.html';
+                });
+                return;
+            }
+
+            // 2. Cek LocalStorage (Resume Ujian jika refresh/error)
+            const savedState = localStorage.getItem(storageKey);
+            if (savedState) {
+                const parsed = JSON.parse(savedState);
+                bankSoal = parsed.bankSoal;
+                currentIdx = parsed.currentIdx;
+                score = parsed.score;
+                cheatCount = parsed.cheatCount || 0;
+                
+                updateWarningUI();
+
+                // Jika ter-refresh tapi index sudah melampaui batas, paksa finish
+                if(currentIdx >= bankSoal.length) {
+                    finishQuiz();
+                } else {
+                    renderQuestion();
+                }
+            } else {
+                // 3. Muat Data Baru dari JSON
+                await loadFreshQuiz();
+            }
+        }
+
+        async function loadFreshQuiz() {
+            try {
+                const res = await fetch('klasifikasimahlukhidup.json');
+                if (!res.ok) throw new Error("Gagal mengambil file JSON");
+                
+                const data = await res.json();
+                bankSoal = data.soal.sort(() => 0.5 - Math.random()); // ACAK SOAL
+                
+                // Acak OPSI di awal dan simpan formatnya (agar tidak berubah jika refresh di soal yang sama)
+                bankSoal.forEach(q => {
+                    const keys = Object.keys(q.pilihan).sort(() => 0.5 - Math.random());
+                    q.opsiAcak = keys; 
+                });
+
+                saveState(); // Simpan formasi acak pertama kali
+                renderQuestion();
+                
+            } catch (e) {
+                document.getElementById('question').innerHTML = `Gagal memuat soal. Pastikan menggunakan Local Server. Error: ${e.message}`;
+            }
+        }
+
+        function renderQuestion() {
+            document.getElementById('btn-selanjutnya').classList.add('d-none');
+            const q = bankSoal[currentIdx];
+            document.getElementById('progress').innerText = `SOAL ${currentIdx + 1} / ${bankSoal.length}`;
+            document.getElementById('question').innerText = q.pertanyaan;
+            
+            const optArea = document.getElementById('options');
+            optArea.innerHTML = '';
+
+            // Gunakan urutan opsi yang sudah diacak di awal
+            q.opsiAcak.forEach(key => {
+                const btn = document.createElement('button');
+                btn.className = 'btn-opt';
+                btn.dataset.key = key; 
+                btn.innerHTML = `<span>${q.pilihan[key]}</span>`;
+                
+                btn.onclick = () => checkAnswer(key, q.kunci_jawaban, btn);
+                optArea.appendChild(btn);
+            });
+        }
+
+        function checkAnswer(choice, correctAnswer, btnElement) {
+            // Kunci semua opsi
+            const allBtns = document.querySelectorAll('.btn-opt');
+            allBtns.forEach(b => b.classList.add('locked'));
+
+            // Cek Benar/Salah
+            if(choice === correctAnswer) {
+                btnElement.classList.add('correct');
+                document.getElementById('sound-benar').play().catch(()=>{});
+                score += 5; 
+            } else {
+                btnElement.classList.add('wrong');
+                document.getElementById('sound-salah').play().catch(()=>{});
+                
+                // Highlight yang benar
+                allBtns.forEach(b => {
+                    if(b.dataset.key === correctAnswer) {
+                        b.classList.add('correct');
+                    }
+                });
+            }
+
+            // Simpan skor terbaru sementara
+            saveState();
+
+            // Munculkan tombol selanjutnya
+            document.getElementById('btn-selanjutnya').classList.remove('d-none');
+        }
+
+        function nextQuestion() {
+            currentIdx++;
+            saveState(); // Simpan perpindahan indeks
+            
+            if(currentIdx < bankSoal.length) {
+                renderQuestion();
+            } else {
+                finishQuiz();
+            }
+        }
+
+        async function finishQuiz() {
+            isUjianSelesai = true; // Matikan anti-cheat
+            document.getElementById('quiz-box').innerHTML = `
+                <i class="fas fa-spinner fa-spin fa-4x text-warning mb-3"></i>
+                <h2 class="fw-bold">Menyimpan Skor ke Database...</h2>
+            `;
+            
+            // Hapus rekaman localStorage karena sudah selesai
+            localStorage.removeItem(storageKey);
+
+            // Simpan ke Supabase
+            const { error } = await supabaseClient.from('peserta_ujian').insert([{
+                nama_peserta: namaPeserta,
+                mata_pelajaran: 'IPA',
+                bagian_materi: materiName,
+                skor: score
+            }]);
+
+            let pesan = error ? "Koneksi terputus! Lapor ke admin." : "Nilai Anda telah tercatat di sistem.";
+
+            Swal.fire({
+                title: 'Ujian Selesai!',
+                html: `<h1 class="display-1 fw-bold text-success my-3">${score}</h1><p>${pesan}</p>`,
+                icon: error ? 'warning' : 'success',
+                confirmButtonText: 'Kembali ke Menu',
+                confirmButtonColor: '#f59e0b',
+                allowOutsideClick: false
+            }).then(() => {
+                window.location.href = '../soalipa.html';
+            });
+        }
+
+        // Mulai aplikasi
+        initApp();
+    </script>
+</body>
+</html>

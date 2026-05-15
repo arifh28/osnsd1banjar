@@ -65,12 +65,8 @@
             width: 90%;
             max-width: 1400px;
             margin: 40px auto 30px auto;
-            background-color: #1e293b; 
-            border-radius: 30px;
-            box-shadow: 0 25px 50px rgba(0,0,0,0.5);
             padding: 3rem;
             position: relative;
-            border-bottom: 8px solid #f59e0b; 
         }
 
         .hero-img {
@@ -106,6 +102,17 @@
         }
         .card-role i { font-size: 4rem; margin-bottom: 15px; color: #facc15; }
 
+        /* Style Image Profil Pembimbing */
+        .pembimbing-img {
+            width: 110px;
+            height: 110px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin-bottom: 15px;
+            background: white;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+
         /* --- CARD GAME STYLING --- */
         .card-game { 
             background: #1e293b; border: none; border-radius: 20px; transition: 0.3s; cursor: pointer;
@@ -132,6 +139,19 @@
             font-weight: 900;
             letter-spacing: 1px;
         }
+
+        /* Style Khusus Block Screen */
+        .block-screen {
+            background: rgba(15, 23, 42, 0.85);
+            backdrop-filter: blur(10px);
+            border: 2px solid #f59e0b;
+            border-radius: 30px;
+            padding: 50px;
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: center;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+        }
     </style>
 </head>
 <body>
@@ -140,7 +160,7 @@
         <i class="fas fa-cog"></i>
     </a>
 
-    <header class="hero-section">
+    <header class="hero-section" id="main-header">
         <div class="row align-items-center">
             <div class="col-lg-5 text-center mb-4 mb-lg-0">
                 <img src="guru.png" alt="Maskot Guru" class="hero-img" onerror="this.src='https://cdn-icons-png.flaticon.com/512/3204/3204121.png'">
@@ -183,16 +203,41 @@
     <script>
         const roleArea = document.getElementById('dynamic-role-area');
         const gameSection = document.getElementById('game-modes-section');
+        const mainHeader = document.getElementById('main-header');
 
         function renderUI() {
             const role = localStorage.getItem('userRole');
             const pembimbingName = localStorage.getItem('pembimbingName');
+            const namaPeserta = localStorage.getItem('namaPeserta'); // Ambil status login peserta
             
-            gameSection.style.display = 'none'; // Sembunyikan game secara default
+            gameSection.style.display = 'none'; 
             let htmlContent = '';
 
+            // CEGAT AKSES JIKA PESERTA SUDAH LOGIN
+            if (namaPeserta) {
+                mainHeader.style.display = 'none'; // Sembunyikan header besar
+                htmlContent = `
+                    <div class="block-screen mt-5">
+                        <i class="fas fa-user-lock fa-5x text-warning mb-4"></i>
+                        <h2 class="fw-bold text-white mb-3">Sesi Ujian Sedang Berjalan!</h2>
+                        <p class="fs-5 text-light opacity-75 mb-2">Anda terdeteksi sedang aktif sebagai:</p>
+                        <h3 class="fw-bold text-warning mb-4">${namaPeserta}</h3>
+                        <p class="text-light mb-5">Anda tidak dapat mengakses halaman utama. Silakan kembali ke halaman soal Anda atau reset sesi terlebih dahulu.</p>
+                        
+                        <div class="d-flex flex-column flex-sm-row justify-content-center gap-3">
+                            <button class="btn btn-outline-light rounded-pill px-4 py-2 fw-bold" onclick="window.history.back()"><i class="fas fa-arrow-left me-2"></i> Kembali ke Soal</button>
+                            <a href="settingspeserta.html" class="btn btn-danger rounded-pill px-4 py-2 fw-bold"><i class="fas fa-sign-out-alt me-2"></i> Keluar / Reset Sesi</a>
+                        </div>
+                    </div>
+                `;
+                roleArea.innerHTML = htmlContent;
+                return; // Hentikan eksekusi script ke bawah
+            }
+
+            // PASTIKAN HEADER MUNCUL JIKA TIDAK DIBLOKIR
+            mainHeader.style.display = 'block';
+
             if (!role) {
-                // STATE 1: BELUM PILIH PERAN
                 htmlContent = `
                     <div class="text-center mb-4"><h3 class="fw-bold text-shadow">Siapakah Anda?</h3></div>
                     <div class="row g-4 justify-content-center">
@@ -214,30 +259,41 @@
                 `;
             } else if (role === 'pembimbing') {
                 if (!pembimbingName) {
-                    // STATE 2: PILIH PROFIL PEMBIMBING
                     htmlContent = `
                         <div class="text-center mb-4">
                             <h3 class="fw-bold text-shadow">Pilih Profil Pembimbing</h3>
                             <button class="btn btn-sm btn-outline-light mt-2" onclick="resetRole()"><i class="fas fa-arrow-left"></i> Kembali</button>
                         </div>
                         <div class="row g-4 justify-content-center">
-                            <div class="col-md-4"><div class="card-role" onclick="setPembimbing('Wida')"><i class="fas fa-user-tie"></i><h3 class="fw-bold">Bu Wida</h3></div></div>
-                            <div class="col-md-4"><div class="card-role" onclick="setPembimbing('Rini')"><i class="fas fa-user-tie"></i><h3 class="fw-bold">Bu Rini</h3></div></div>
-                            <div class="col-md-4"><div class="card-role" onclick="setPembimbing('Lina')"><i class="fas fa-user-tie"></i><h3 class="fw-bold">Bu Lina</h3></div></div>
+                            <div class="col-md-4">
+                                <div class="card-role" onclick="setPembimbing('Wida')">
+                                    <img src="immawati.png" class="pembimbing-img" alt="Bu Wida" onerror="this.src='https://ui-avatars.com/api/?name=Wida&background=facc15&color=fff'">
+                                    <h3 class="fw-bold">Bu Wida</h3>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card-role" onclick="setPembimbing('Rini')">
+                                    <img src="rini.png" class="pembimbing-img" alt="Bu Rini" onerror="this.src='https://ui-avatars.com/api/?name=Rini&background=facc15&color=fff'">
+                                    <h3 class="fw-bold">Bu Rini</h3>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card-role" onclick="setPembimbing('Lina')">
+                                    <img src="lina.png" class="pembimbing-img" alt="Bu Lina" onerror="this.src='https://ui-avatars.com/api/?name=Lina&background=facc15&color=fff'">
+                                    <h3 class="fw-bold">Bu Lina</h3>
+                                </div>
+                            </div>
                         </div>
                     `;
                 } else {
-                    // STATE 3: PEMBIMBING TERPILIH (TAMPILKAN GAME)
                     htmlContent = `
-                        <div class="alert bg-success text-white border-0 shadow-lg d-flex justify-content-between align-items-center rounded-pill px-4 py-3 mb-5">
+                        <div class="alert bg-success text-white border-0 shadow-lg d-flex justify-content-center align-items-center rounded-pill px-4 py-3 mb-5">
                             <h4 class="mb-0 fw-bold"><i class="fas fa-check-circle me-2"></i> Selamat datang, Bu ${pembimbingName}!</h4>
-                            <button class="btn btn-light btn-sm fw-bold rounded-pill" onclick="resetPembimbing()">Ganti Profil</button>
                         </div>
                     `;
                     gameSection.style.display = 'block';
                 }
             } else if (role === 'peserta') {
-                // STATE 4: PESERTA (PILIH MAPEL)
                 htmlContent = `
                     <div class="text-center mb-4">
                         <h3 class="fw-bold text-shadow">Pilih Mata Pelajaran Anda</h3>
@@ -266,13 +322,10 @@
             roleArea.innerHTML = htmlContent;
         }
 
-        // Fungsi Mutasi LocalStorage
         function setRole(role) { localStorage.setItem('userRole', role); renderUI(); }
         function setPembimbing(name) { localStorage.setItem('pembimbingName', name); renderUI(); }
         function resetRole() { localStorage.removeItem('userRole'); localStorage.removeItem('pembimbingName'); renderUI(); }
-        function resetPembimbing() { localStorage.removeItem('pembimbingName'); renderUI(); }
 
-        // Jalankan saat halaman pertama kali dimuat
         renderUI();
     </script>
 </body>

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel Admin - SDN 1 Banjar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; background: #f8fafc; color: #1e293b; }
+        .sidebar { background: #384596; min-height: 100vh; color: white; padding: 20px; }
+        .card-stat { border: none; border-radius: 15px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+        .table-container { background: white; border-radius: 15px; padding: 20px; box-shadow: 0 10px 25px rgba(0,0,0,0.05); }
+    </style>
+</head>
+<body>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-2 sidebar d-none d-md-block">
+            <div class="text-center mb-4">
+                <img src="logo_sekolah.png" width="60" class="mb-2">
+                <h6 class="fw-bold">ADMIN PORTAL</h6>
+            </div>
+            <hr>
+            <nav class="nav flex-column gap-2">
+                <a class="nav-link text-white active" href="#"><i class="fas fa-chart-line me-2"></i> Dashboard</a>
+                <a class="nav-link text-white-50" href="index.html"><i class="fas fa-home me-2"></i> Portal Utama</a>
+            </nav>
+        </div>
+
+        <div class="col-md-10 p-4">
+            <header class="d-flex justify-content-between align-items-center mb-4">
+                <h2 class="fw-bold text-navy">Monitoring Ujian OSN</h2>
+                <button class="btn btn-outline-primary" onclick="fetchData()"><i class="fas fa-sync-alt me-2"></i> Refresh Data</button>
+            </header>
+
+            <div class="row g-4 mb-5">
+                <div class="col-md-4">
+                    <div class="card card-stat p-3 bg-white border-start border-primary border-5">
+                        <small class="text-secondary fw-bold">TOTAL NILAI MASUK</small>
+                        <h2 class="fw-bold mb-0" id="stat-total">0</h2>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card card-stat p-3 bg-white border-start border-success border-5">
+                        <small class="text-secondary fw-bold">PESERTA AKTIF (LOGIN)</small>
+                        <h2 class="fw-bold mb-0" id="stat-login">0</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="table-container mb-5">
+                <h5 class="fw-bold mb-4"><i class="fas fa-poll me-2"></i> Hasil Ujian Siswa</h5>
+                <div class="table-responsive">
+                    <table class="table table-hover align-middle">
+                        <thead class="table-light">
+                            <tr>
+                                <th>Nama Peserta</th>
+                                <th>Mata Pelajaran</th>
+                                <th>Materi</th>
+                                <th>Skor</th>
+                                <th>Waktu Selesai</th>
+                                <th>Status</th>
+                                <th>Aksi</th>
+                            </tr>
+                        </thead>
+                        <tbody id="table-hasil">
+                            </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="table-container">
+                <h5 class="fw-bold mb-4"><i class="fas fa-users me-2"></i> Monitoring Login Peserta</h5>
+                <div class="table-responsive">
+                    <table class="table table-sm align-middle">
+                        <thead class="table-light">
+                            <tr>
+                                <th>Nama</th>
+                                <th>Kunjungan Terakhir</th>
+                            </tr>
+                        </thead>
+                        <tbody id="table-login">
+                            </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    const SUPABASE_URL = 'https://aqaukssuqevvvnvomarn.supabase.co';
+    const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFxYXVrc3N1cWV2dnZudm9tYXJuIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzg4NTEyMjAsImV4cCI6MjA5NDQyNzIyMH0.LVWVC-iO_gCz54ARtTicKKfHiNBc6vej_Dnasj98H1E';
+    const supabaseClient = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+
+    async function fetchData() {
+        // 1. Ambil data Hasil Ujian
+        const { data: hasil, error: err1 } = await supabaseClient
+            .from('peserta_ujian')
+            .select('*')
+            .order('waktu_pengerjaan', { ascending: false });
+
+        // 2. Ambil data Login
+        const { data: login, error: err2 } = await supabaseClient
+            .from('peserta_login')
+            .select('*')
+            .order('last_visit', { ascending: false });
+
+        if (hasil) renderHasil(hasil);
+        if (login) renderLogin(login);
+    }
+
+    function renderHasil(data) {
+        const tbody = document.getElementById('table-hasil');
+        tbody.innerHTML = '';
+        document.getElementById('stat-total').innerText = data.length;
+
+        data.forEach(item => {
+            const date = new Date(item.waktu_pengerjaan).toLocaleString('id-ID');
+            const isReset = item.is_reset;
+            
+            tbody.innerHTML += `
+                <tr>
+                    <td class="fw-bold">${item.nama_peserta}</td>
+                    <td><span class="badge bg-info text-dark">${item.mata_pelajaran}</span></td>
+                    <td>${item.bagian_materi}</td>
+                    <td><h5 class="mb-0 fw-bold text-success">${item.skor}</h5></td>
+                    <td class="small">${date}</td>
+                    <td>
+                        ${isReset ? '<span class="badge bg-secondary">Telah di-reset</span>' : '<span class="badge bg-success">Valid</span>'}
+                    </td>
+                    <td>
+                        <button class="btn btn-sm btn-warning" onclick="resetUjian(${item.id}, '${item.nama_peserta}')" ${isReset ? 'disabled' : ''}>
+                            <i class="fas fa-redo"></i> Reset
+                        </button>
+                    </td>
+                </tr>
+            `;
+        });
+    }
+
+    function renderLogin(data) {
+        const tbody = document.getElementById('table-login');
+        tbody.innerHTML = '';
+        document.getElementById('stat-login').innerText = data.length;
+
+        data.forEach(item => {
+            const date = new Date(item.last_visit).toLocaleString('id-ID');
+            tbody.innerHTML += `
+                <tr>
+                    <td>${item.nama}</td>
+                    <td class="text-secondary">${date}</td>
+                </tr>
+            `;
+        });
+    }
+
+    async function resetUjian(id, nama) {
+        const { isConfirmed } = await Swal.fire({
+            title: 'Izinkan Ujian Ulang?',
+            text: `Siswa "${nama}" akan diperbolehkan mengerjakan materi ini kembali.`,
+            icon: 'question',
+            showCancelButton: true,
+            confirmButtonText: 'Ya, Reset',
+            cancelButtonText: 'Batal'
+        });
+
+        if (isConfirmed) {
+            const { error } = await supabaseClient
+                .from('peserta_ujian')
+                .update({ is_reset: true })
+                .eq('id', id);
+
+            if (!error) {
+                Swal.fire('Berhasil!', 'Siswa sekarang bisa login dan mengerjakan ulang.', 'success');
+                fetchData();
+            }
+        }
+    }
+
+    // Initial Load
+    fetchData();
+    // Auto Refresh setiap 30 detik
+    setInterval(fetchData, 30000);
+</script>
+</body>
+</html>

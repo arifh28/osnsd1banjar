@@ -1,0 +1,207 @@
+{
+  "nama_paket": "Klasifikasi Makhluk Hidup",
+  "mata_pelajaran": "IPA",
+  "bagian_materi": "Klasifikasi Makhluk Hidup",
+  "soal": [
+    {
+      "pertanyaan": "Di sebuah hutan di Sulawesi, seorang peneliti menemukan hewan yang memiliki ciri-ciri seperti burung (bertelur) tetapi juga menyusui anaknya. Mengapa hewan ini sulit dimasukkan ke dalam klasifikasi hewan pada umumnya?",
+      "pilihan": {
+        "A": "Karena hewan tersebut hanya hidup di satu tempat saja",
+        "B": "Karena memiliki gabungan ciri dari dua kelompok besar yang berbeda",
+        "C": "Karena peneliti tersebut salah mengamati ciri fisik hewan",
+        "D": "Karena hewan tersebut termasuk kelompok tumbuhan yang bisa bergerak"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Indonesia memiliki garis Wallace yang membagi persebaran fauna. Mengapa hewan di Papua (bagian Timur) lebih mirip dengan hewan di Australia daripada hewan di Jawa?",
+      "pilihan": {
+        "A": "Karena suhu udara di Jawa jauh lebih panas daripada Australia",
+        "B": "Karena pada zaman dahulu Papua dan Australia pernah menjadi satu daratan",
+        "C": "Karena hewan di Papua sering terbang menyeberang ke Australia",
+        "D": "Karena manusia memindahkan hewan tersebut menggunakan kapal"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Jamur dahulu dikelompokkan sebagai tumbuhan, namun sekarang dipisah menjadi Kingdom Fungi. Alasan utama pemisahan ini berdasarkan cara mencari makan adalah...",
+      "pilihan": {
+        "A": "Jamur tidak memiliki akar yang menancap kuat di tanah",
+        "B": "Jamur tidak memiliki klorofil sehingga tidak bisa berfotosintesis",
+        "C": "Jamur berukuran sangat kecil sehingga tidak terlihat seperti pohon",
+        "D": "Jamur hanya bisa tumbuh di tempat yang sangat lembap"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Perhatikan ciri berikut: (1) Bersel satu, (2) Memiliki inti sel, (3) Bergerak bebas. Makhluk hidup yang memiliki ciri tersebut paling tepat dimasukkan ke dalam Kingdom...",
+      "pilihan": {
+        "A": "Monera",
+        "B": "Protista",
+        "C": "Plantae",
+        "D": "Fungi"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Kaktus memiliki daun yang berbentuk duri. Hubungan yang paling tepat antara bentuk daun tersebut dengan kelangsungan hidupnya di padang pasir adalah...",
+      "pilihan": {
+        "A": "Agar kaktus terlihat lebih cantik dan menakutkan bagi musuh",
+        "B": "Mengurangi penguapan air agar kaktus tidak cepat kering",
+        "C": "Untuk menangkap cahaya matahari lebih banyak saat siang hari",
+        "D": "Sebagai alat untuk menyerap uap air langsung dari udara"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Seorang siswa menemukan makhluk hidup di air kolam yang hanya terlihat melalui mikroskop. Makhluk tersebut membelah diri dengan cepat. Makhluk ini kemungkinan besar berasal dari Kingdom...",
+      "pilihan": {
+        "A": "Animalia",
+        "B": "Monera",
+        "C": "Fungi",
+        "D": "Plantae"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Ikan paus dan ikan hiu sama-sama hidup di air dan bisa berenang. Namun, paus tidak dimasukkan ke dalam kelompok Pisces (Ikan). Hal ini dikarenakan paus...",
+      "pilihan": {
+        "A": "Bernapas dengan paru-paru dan melahirkan anaknya",
+        "B": "Memiliki ukuran tubuh yang jauh lebih besar dari hiu",
+        "C": "Dapat berenang lebih cepat daripada semua jenis ikan",
+        "D": "Tidak memiliki sirip yang tajam seperti ikan hiu"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "pertanyaan": "Batang pohon jati menggugurkan daunnya saat musim kemarau. Analisis yang paling tepat mengenai fungsi perilaku ini adalah...",
+      "pilihan": {
+        "A": "Memberi nutrisi kepada tanah di sekitar akar pohon",
+        "B": "Mencegah pohon mati akibat kekurangan air (penguapan berlebih)",
+        "C": "Menandakan bahwa pohon tersebut sedang mengalami sakit",
+        "D": "Agar sinar matahari bisa mengenai batang pohon secara langsung"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Cicak melakukan autotomi atau memutuskan ekornya. Apa yang terjadi jika cicak tersebut gagal melakukan autotomi saat diserang kucing?",
+      "pilihan": {
+        "A": "Cicak akan tumbuh ekor baru yang lebih kuat seketika",
+        "B": "Peluang cicak untuk tertangkap dan dimangsa akan semakin besar",
+        "C": "Kucing akan merasa kasihan dan meninggalkan cicak tersebut",
+        "D": "Cicak akan berubah warna menjadi sama dengan lingkungan"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Simbiosis mutualisme terjadi antara lebah dan bunga. Jika populasi lebah di suatu taman hilang, dampak jangka panjang bagi tumbuhan berbunga tersebut adalah...",
+      "pilihan": {
+        "A": "Tumbuhan akan berbunga lebih banyak setiap hari",
+        "B": "Proses penyerbukan terganggu sehingga tumbuhan sulit menghasilkan biji",
+        "C": "Tumbuhan akan belajar melakukan penyerbukan sendiri tanpa bantuan",
+        "D": "Akar tumbuhan akan tumbuh lebih dalam untuk mencari lebah"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Daur hidup nyamuk dimulai dari Telur - Jentik - Pupa - Nyamuk Dewasa. Upaya pelestarian lingkungan yang paling tepat untuk memutus rantai ini agar tidak terjadi penyakit demam berdarah adalah...",
+      "pilihan": {
+        "A": "Membiarkan air tergenang agar jentik nyamuk bisa berenang",
+        "B": "Menutup tempat penampungan air dan mengurasnya secara rutin",
+        "C": "Memelihara banyak nyamuk dewasa di dalam rumah",
+        "D": "Membeli banyak pupa nyamuk untuk dijadikan mainan"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Mengapa klasifikasi makhluk hidup sangat penting bagi para ilmuwan di seluruh dunia?",
+      "pilihan": {
+        "A": "Agar setiap ilmuwan memiliki nama hewan kesukaan masing-masing",
+        "B": "Untuk memudahkan dalam mengenali, mempelajari, dan membedakan makhluk hidup",
+        "C": "Supaya jumlah hewan di bumi tidak bertambah terlalu banyak",
+        "D": "Agar hewan-hewan liar takut saat bertemu dengan manusia"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Tanaman kantong semar sering ditemukan di tanah yang kekurangan nitrogen. Cara tanaman ini beradaptasi untuk memenuhi kebutuhan nitrogennya adalah...",
+      "pilihan": {
+        "A": "Menyerap nitrogen langsung dari udara melalui daunnya",
+        "B": "Menangkap dan mencerna serangga yang masuk ke kantongnya",
+        "C": "Mengembangkan akar yang sangat panjang ke dalam tanah",
+        "D": "Meminta bantuan lebah untuk membawakan makanan"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Penyu merupakan hewan yang terancam punah. Strategi konservasi (pelestarian) yang paling efektif untuk melindungi penyu adalah...",
+      "pilihan": {
+        "A": "Mengambil telur penyu untuk dijadikan bahan hiasan rumah",
+        "B": "Melindungi pantai tempat penyu bertelur dari gangguan manusia",
+        "C": "Memindahkan semua penyu ke kolam renang yang sempit",
+        "D": "Memberi makan penyu dengan makanan sisa manusia di pantai"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Dalam sistem 5 Kingdom, makhluk hidup yang paling sederhana, tidak memiliki membran inti, dan bersel satu dikelompokkan ke dalam...",
+      "pilihan": {
+        "A": "Protista",
+        "B": "Monera",
+        "C": "Fungi",
+        "D": "Animalia"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Lumut dan paku-pakuan sering ditemukan di tempat lembap. Persamaan cara berkembang biak kedua jenis tumbuhan ini adalah dengan menggunakan...",
+      "pilihan": {
+        "A": "Biji",
+        "B": "Spora",
+        "C": "Tunas",
+        "D": "Akar tinggal"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Kaki burung elang sangat kuat dan memiliki kuku yang tajam. Bentuk kaki ini berkaitan erat dengan fungsinya sebagai...",
+      "pilihan": {
+        "A": "Alat untuk memanjat pohon yang sangat tinggi",
+        "B": "Alat untuk mencengkeram dan merobek mangsa",
+        "C": "Alat untuk membantu burung elang berenang di sungai",
+        "D": "Alat untuk mengacak-acak tanah saat mencari cacing"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Rayap dewasa sering memakan kembali kulitnya yang terkelupas atau memakan kotoran temannya. Analisis tujuan perilaku unik ini adalah untuk...",
+      "pilihan": {
+        "A": "Menghemat cadangan makanan di dalam sarang",
+        "B": "Mendapatkan kembali bakteri pengurai kayu (selulosa) dalam tubuhnya",
+        "C": "Membersihkan sarang agar tidak terlihat kotor oleh musuh",
+        "D": "Mempercepat pertumbuhan sayap agar bisa terbang menjadi laron"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Beberapa hewan melakukan hibernasi (tidur panjang) saat musim dingin. Mengapa hal ini termasuk bentuk adaptasi untuk kelangsungan hidup?",
+      "pilihan": {
+        "A": "Agar hewan tersebut tidak kedinginan saat mencari makan",
+        "B": "Menghemat energi karena makanan sangat sulit ditemukan saat musim dingin",
+        "C": "Supaya tubuh hewan tersebut bertambah besar saat bangun nanti",
+        "D": "Untuk menghindari predator yang juga sedang mencari makan"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Makhluk hidup dalam Kingdom Plantae dibedakan dari Kingdom Animalia karena Plantae memiliki kemampuan autotrof, yang artinya...",
+      "pilihan": {
+        "A": "Dapat bergerak dari satu tempat ke tempat lain",
+        "B": "Dapat membuat makanan sendiri melalui proses fotosintesis",
+        "C": "Memerlukan bantuan makhluk lain untuk mendapatkan energi",
+        "D": "Dapat bernapas menggunakan paru-paru dan insang"
+      },
+      "kunci_jawaban": "B"
+    }
+  ]
+}

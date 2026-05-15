@@ -1,0 +1,107 @@
+{
+  "nama_paket": "Metode Ilmiah",
+  "mata_pelajaran": "IPA",
+  "bagian_materi": "Metode Ilmiah",
+  "soal": [
+    {
+      "pertanyaan": "Langkah awal dalam metode ilmiah setelah mengamati suatu fenomena adalah...",
+      "pilihan": { "A": "Eksperimen", "B": "Rumusan Masalah", "C": "Kesimpulan", "D": "Analisis Data" },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Indra manusia yang paling sering digunakan untuk melakukan pengamatan kualitatif adalah...",
+      "pilihan": { "A": "Mata", "B": "Telinga", "C": "Lidah", "D": "Kulit" },
+      "kunci_jawaban": "A"
+    },
+    {
+      "pertanyaan": "Jawaban sementara terhadap masalah yang masih harus dibuktikan kebenarannya disebut...",
+      "pilihan": { "A": "Variabel", "B": "Fakta", "C": "Hipotesis", "D": "Hukum" },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Berikut ini yang merupakan contoh pengamatan kuantitatif adalah...",
+      "pilihan": { "A": "Bunga itu berwarna merah", "B": "Batang pohon itu kasar", "C": "Tinggi tanaman 15 cm", "D": "Rasa buah itu manis" },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Sikap ilmiah yang harus dimiliki seorang peneliti agar datanya akurat adalah...",
+      "pilihan": { "A": "Egois", "B": "Subjektif", "C": "Jujur dan Objektif", "D": "Tergesa-gesa" },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Alat yang digunakan untuk mengamati benda-benda renik (sangat kecil) agar terlihat jelas adalah...",
+      "pilihan": { "A": "Teleskop", "B": "Mikroskop", "C": "Periskop", "D": "Kacamata" },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Dalam percobaan, faktor yang dibuat tetap dan tidak berubah disebut variabel...",
+      "pilihan": { "A": "Bebas", "B": "Terikat", "C": "Kontrol", "D": "Manipulasi" },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Tahapan akhir dari alur berpikir ilmiah adalah...",
+      "pilihan": { "A": "Observasi", "B": "Kesimpulan", "C": "Percobaan", "D": "Wawancara" },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Ketika mengamati pelangi, pertanyaan ilmiah yang muncul berdasarkan rasa ingin tahu adalah...",
+      "pilihan": { "A": "Bagus ya warnanya?", "B": "Kapan hujan berhenti?", "C": "Bagaimana pelangi terbentuk?", "D": "Siapa yang menggambarnya?" },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Data yang diperoleh dari hasil pengamatan biasanya dicatat dalam bentuk...",
+      "pilihan": { "A": "Tabel atau Grafik", "B": "Puisi", "C": "Lagu", "D": "Cerita Dongeng" },
+      "kunci_jawaban": "A"
+    },
+    {
+      "pertanyaan": "Jika hasil eksperimen tidak sesuai dengan hipotesis, maka yang harus dilakukan adalah...",
+      "pilihan": { "A": "Mengubah data", "B": "Mengulangi eksperimen", "C": "Berhenti meneliti", "D": "Menyalahkan alat" },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Urutan metode ilmiah yang benar adalah...",
+      "pilihan": { "A": "Masalah-Hipotesis-Eksperimen-Kesimpulan", "B": "Eksperimen-Masalah-Hipotesis", "C": "Kesimpulan-Eksperimen-Masalah", "D": "Hipotesis-Masalah-Kesimpulan" },
+      "kunci_jawaban": "A"
+    },
+    {
+      "pertanyaan": "Pengamatan yang dilakukan menggunakan alat ukur disebut pengamatan...",
+      "pilihan": { "A": "Kualitatif", "B": "Kuantitatif", "C": "Subjektif", "D": "Khayalan" },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Informasi faktual adalah informasi yang berdasarkan...",
+      "pilihan": { "A": "Mimpi", "B": "Kenyataan/Fakta", "C": "Pendapat Orang", "D": "Rumor" },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Tujuan dari melakukan eksperimen adalah untuk...",
+      "pilihan": { "A": "Bermain-main", "B": "Menguji Hipotesis", "C": "Mencari teman", "D": "Menghabiskan waktu" },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Alat ukur massa yang standar digunakan di laboratorium sekolah adalah...",
+      "pilihan": { "A": "Mistar", "B": "Termometer", "C": "Neraca/Timbangan", "D": "Gelas Ukur" },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Saat melakukan percobaan, kita harus mencatat data dengan teliti agar tidak terjadi...",
+      "pilihan": { "A": "Keberhasilan", "B": "Kesalahan/Galat", "C": "Kesenangan", "D": "Kepintaran" },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Membandingkan hasil eksperimen dengan teori yang ada disebut proses...",
+      "pilihan": { "A": "Prediksi", "B": "Identifikasi", "C": "Interpretasi/Analisis", "D": "Komunikasi" },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Seorang siswa ingin tahu 'Apakah tanaman butuh cahaya?'. Tindakan ilmiahnya adalah...",
+      "pilihan": { "A": "Langsung menyimpulkan", "B": "Melakukan percobaan", "C": "Tanya dukun", "D": "Mengabaikannya" },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Laporan hasil penelitian ilmiah biasanya disampaikan melalui...",
+      "pilihan": { "A": "Presentasi atau Karya Tulis", "B": "Status Media Sosial", "C": "Surat Rahasia", "D": "Obrolan Santai" },
+      "kunci_jawaban": "A"
+    }
+  ]
+}

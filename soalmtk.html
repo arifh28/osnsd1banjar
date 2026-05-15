@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soal Matematika - OSN</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    
+    <style>
+        :root { --navy-blue: #384596; --light-blue: #87CEEB; }
+        body { 
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background: linear-gradient(135deg, var(--navy-blue) 0%, var(--light-blue) 100%);
+            background-attachment: fixed; position: relative; overflow-x: hidden;
+            color: white; min-height: 100vh; padding-bottom: 50px;
+        }
+        body::before {
+            content: ""; position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+            background-image: url('logo_sekolah.png'); background-repeat: no-repeat;
+            background-position: left 5% center; background-size: 45%; opacity: 0.05;
+            filter: grayscale(100%) brightness(150%) contrast(120%); z-index: -1; pointer-events: none;
+        }
+        .text-shadow { text-shadow: 2px 2px 8px rgba(0,0,0,0.3); }
+
+        .settings-btn { position: absolute; top: 20px; right: 30px; font-size: 2rem; color: rgba(255, 255, 255, 0.8); transition: 0.3s; z-index: 100; }
+        .settings-btn:hover { color: white; transform: rotate(90deg); }
+        
+        .header-soal { text-align: center; margin-top: 50px; margin-bottom: 40px; }
+        .header-soal h1 { font-size: 4rem; font-weight: 900; color: #ef4444; /* Merah untuk MTK */ }
+
+        .card-content {
+            background: rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px);
+            border: 2px solid rgba(255, 255, 255, 0.2); border-radius: 20px;
+            padding: 40px; max-width: 700px; margin: 0 auto; box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+        }
+        
+        .form-select-custom {
+            background-color: rgba(255,255,255,0.9); border-radius: 15px; padding: 15px;
+            font-size: 1.2rem; font-weight: bold; color: #1e293b;
+        }
+
+        .card-materi {
+            background: rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px);
+            border: 2px solid rgba(255, 255, 255, 0.2); border-radius: 20px;
+            padding: 30px 20px; transition: 0.3s; cursor: pointer;
+            color: white; text-align: center; text-decoration: none; display: block;
+        }
+        .card-materi:hover {
+            background: rgba(255, 255, 255, 0.2); transform: translateY(-10px);
+            border-color: #ef4444; box-shadow: 0 15px 30px rgba(0,0,0,0.3); color: white;
+        }
+        .card-materi i { font-size: 3.5rem; margin-bottom: 15px; color: #ef4444; }
+
+        .card-materi.completed {
+            border-color: #22c55e !important;
+            background: rgba(34, 197, 94, 0.15) !important;
+            cursor: not-allowed; opacity: 0.9;
+        }
+        .card-materi.completed:hover { transform: none !important; box-shadow: none !important; }
+    </style>
+</head>
+<body>
+    
+    <a href="settingspeserta.html" class="settings-btn" title="Pengaturan & Logout Sesi"><i class="fas fa-cog"></i></a>
+
+    <div class="header-soal">
+        <h1 class="text-shadow"><i class="fas fa-calculator me-3"></i>SOAL MATEMATIKA</h1>
+        <p class="fs-4 text-light opacity-75">Simulasi Olimpiade Sains Nasional</p>
+    </div>
+
+    <div class="container">
+        <div id="login-peserta-area" class="card-content">
+            <h3 class="fw-bold mb-4 text-center">Pilih Nama Anda:</h3>
+            <select id="pesertaSelect" class="form-select form-select-custom mb-4">
+                <option value="">-- Silakan Pilih Nama --</option>
+                <option value="Salsabila Azzahra Cendikia Putri">Salsabila Azzahra Cendikia Putri</option>
+                <option value="Neng Rifa Nurmala">Neng Rifa Nurmala</option>
+                <option value="Nathanael Hotmartua Pangaribuan">Nathanael Hotmartua Pangaribuan</option>
+                <option value="Darel Tristan Pratama">Darel Tristan Pratama</option>
+                <option value="Amabel Maila Hana">Amabel Maila Hana</option>
+            </select>
+            <button class="btn btn-danger btn-lg w-100 fw-bold rounded-pill shadow" onclick="masukPeserta()">
+                MASUK <i class="fas fa-arrow-right ms-2"></i>
+            </button>
+        </div>
+
+        <div id="soal-area" style="display: none;">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold text-danger text-shadow" id="welcome-text">Menyinkronkan data...</h2>
+                <p class="fs-5 opacity-75" id="welcome-subtext">Mohon tunggu sebentar.</p>
+            </div>
+            
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-3 col-md-4">
+                    <a href="mtk/bilangan.html" class="card-materi" id="card-Bilangan" onclick="mulaiUjian('Bilangan')">
+                        <i class="fas fa-sort-numeric-up"></i>
+                        <h6 class="text-uppercase text-danger fw-bold mb-1">Bagian 1</h6>
+                        <h4 class="fw-bold mb-0">Bilangan</h4>
+                    </a>
+                </div>
+                
+                <div class="col-lg-3 col-md-4">
+                    <a href="mtk/aritmatika.html" class="card-materi" id="card-Aritmatika" onclick="mulaiUjian('Aritmatika')">
+                        <i class="fas fa-square-root-alt"></i>
+                        <h6 class="text-uppercase text-danger fw-bold mb-1">Bagian 2</h6>
+                        <h4 class="fw-bold mb-0">Aritmatika</h4>
+                    </a>
+                </div>
+                
+                <div class="col-lg-3 col-md-4">
+                    <a href="mtk/geometri.html" class="card-materi" id="card-Geometri" onclick="mulaiUjian('Geometri')">
+                        <i class="fas fa-shapes"></i>
+                        <h6 class="text-uppercase text-danger fw-bold mb-1">Bagian 3</h6>
+                        <h4 class="fw-bold mb-0">Geometri</h4>
+                    </a>
+                </div>
+                
+                <div class="col-lg-3 col-md-4">
+                    <a href="mtk/statistika.html" class="card-materi" id="card-Statistika" onclick="mulaiUjian('Statistika')">
+                        <i class="fas fa-chart-bar"></i>
+                        <h6 class="text-uppercase text-danger fw-bold mb-1">Bagian 4</h6>
+                        <h4 class="fw-bold mb-0">Statistika</h4>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4">
+                    <a href="mtk/kombinatorik.html" class="card-materi" id="card-Kombinatorik" onclick="mulaiUjian('Kombinatorik')">
+                        <i class="fas fa-project-diagram"></i>
+                        <h6 class="text-uppercase text-danger fw-bold mb-1">Bagian 5</h6>
+                        <h4 class="fw-bold mb-0">Kombinatorik</h4>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const SUPABASE_URL = 'https://aqaukssuqevvvnvomarn.supabase.co';
+        const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFxYXVrc3N1cWV2dnZudm9tYXJuIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzg4NTEyMjAsImV4cCI6MjA5NDQyNzIyMH0.LVWVC-iO_gCz54ARtTicKKfHiNBc6vej_Dnasj98H1E';
+        const supabaseClient = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+
+        async function syncSupabase(namaPeserta) {
+            await supabaseClient.from('peserta_login').upsert({ nama: namaPeserta, last_visit: new Date() }, { onConflict: 'nama' });
+
+            const { data: histori, error } = await supabaseClient
+                .from('peserta_ujian')
+                .select('bagian_materi, skor')
+                .eq('nama_peserta', namaPeserta)
+                .eq('mata_pelajaran', 'Matematika');
+
+            document.getElementById('welcome-text').innerText = `Halo, ${namaPeserta}!`;
+            document.getElementById('welcome-subtext').innerText = `Silakan pilih bagian materi Matematika yang ingin dikerjakan.`;
+
+            if (histori && histori.length > 0) {
+                histori.forEach(item => {
+                    let cardId = `card-${item.bagian_materi.replace(/\\s+/g, '')}`; 
+                    let cardElement = document.getElementById(cardId);
+                    
+                    if (cardElement) {
+                        cardElement.classList.add('completed');
+                        cardElement.innerHTML = `
+                            <i class="fas fa-check-circle text-success mb-2" style="font-size: 3rem;"></i>
+                            <h6 class="text-uppercase text-success fw-bold mb-1">SUDAH DIKERJAKAN</h6>
+                            <h4 class="fw-bold mb-2 text-decoration-line-through">${item.bagian_materi}</h4>
+                            <span class="badge bg-success fs-6 py-2 px-3 rounded-pill mt-2">Skor: ${item.skor}</span>
+                        `;
+                        cardElement.onclick = function(e) {
+                            e.preventDefault();
+                            Swal.fire({ icon: 'info', title: 'Sudah Dikerjakan!', text: `Anda sudah mendapatkan skor ${item.skor} untuk bagian ini.` });
+                        };
+                    }
+                });
+            }
+        }
+
+        function cekSesi() {
+            const nama = localStorage.getItem('namaPeserta');
+            if (nama) {
+                document.getElementById('login-peserta-area').style.display = 'none';
+                document.getElementById('soal-area').style.display = 'block';
+                syncSupabase(nama);
+            }
+        }
+
+        function masukPeserta() {
+            const select = document.getElementById('pesertaSelect');
+            if (select.value === "") {
+                Swal.fire('Oops!', 'Silakan pilih nama Anda terlebih dahulu.', 'warning');
+                return;
+            }
+            localStorage.setItem('namaPeserta', select.value);
+            Swal.fire({ title: 'Berhasil!', text: `Selamat datang, ${select.value}.`, icon: 'success', timer: 1500, showConfirmButton: false }).then(() => { cekSesi(); });
+        }
+
+        function mulaiUjian(materi) {
+            Swal.fire({
+                title: `Mulai Ujian ${materi}?`,
+                text: "Waktu akan berjalan setelah Anda menekan tombol mulai.",
+                icon: 'question',
+                showCancelButton: true,
+                confirmButtonColor: '#ef4444',
+                confirmButtonText: 'Ya, Mulai!',
+                cancelButtonText: 'Batal'
+            }).then((result) => {
+                if(result.isConfirmed) {
+                    Swal.fire('Sistem akan mengarahkan ke ujian.'); // Akan diarahkan oleh href di link HTML
+                }
+            });
+        }
+        cekSesi();
+    </script>
+</body>
+</html>

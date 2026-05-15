@@ -8,6 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     
     <style>
         /* --- BACKGROUND STYLING --- */
@@ -44,31 +45,68 @@
 
         .text-shadow { text-shadow: 2px 2px 8px rgba(0,0,0,0.3); }
 
-        /* --- HERO SECTION (HEADER 90%) --- */
+        /* --- SETTINGS ICON --- */
+        .settings-btn {
+            position: absolute;
+            top: 20px;
+            right: 30px;
+            font-size: 2rem;
+            color: rgba(255, 255, 255, 0.8);
+            transition: 0.3s;
+            z-index: 100;
+        }
+        .settings-btn:hover {
+            color: white;
+            transform: rotate(90deg);
+        }
+
+        /* --- HERO SECTION --- */
         .hero-section {
             width: 90%;
             max-width: 1400px;
-            margin: 40px auto 60px auto;
-            
+            margin: 40px auto 30px auto;
+            background-color: #1e293b; 
+            border-radius: 30px;
+            box-shadow: 0 25px 50px rgba(0,0,0,0.5);
             padding: 3rem;
             position: relative;
-
+            border-bottom: 8px solid #f59e0b; 
         }
 
         .hero-img {
             max-height: 380px;
             width: 100%;
             object-fit: contain;
-            filter: drop-shadow(15px 15px 25px rgba(0,0,0,0.6)); /* Efek 3D pada maskot */
+            filter: drop-shadow(15px 15px 25px rgba(0,0,0,0.6)); 
         }
 
         .hero-title {
             font-weight: 900;
-            font-size: clamp(2.5rem, 5vw, 4.5rem); /* Ukuran teks responsif */
+            font-size: clamp(2.5rem, 5vw, 4.5rem); 
             line-height: 1.1;
         }
 
-        /* --- CARD STYLING --- */
+        /* --- ROLE CARD STYLING --- */
+        .card-role {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border: 2px solid rgba(255, 255, 255, 0.2);
+            border-radius: 30px;
+            padding: 30px 20px;
+            transition: 0.3s;
+            cursor: pointer;
+            color: white;
+            text-align: center;
+        }
+        .card-role:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: translateY(-10px);
+            border-color: #facc15;
+            box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+        }
+        .card-role i { font-size: 4rem; margin-bottom: 15px; color: #facc15; }
+
+        /* --- CARD GAME STYLING --- */
         .card-game { 
             background: #1e293b; border: none; border-radius: 20px; transition: 0.3s; cursor: pointer;
             overflow: hidden; text-decoration: none; color: white;
@@ -81,7 +119,6 @@
         }
         .icon-box { height: 140px; display: flex; align-items: center; justify-content: center; font-size: 4rem; }
         
-        /* Gradiasi Warna Card */
         .bg-ipa { background: linear-gradient(45deg, #10b981, #3b82f6); }
         .bg-ips { background: linear-gradient(45deg, #f59e0b, #ef4444); }
         .bg-mtk { background: linear-gradient(45deg, #8b5cf6, #ec4899); }
@@ -99,123 +136,144 @@
 </head>
 <body>
     
-    <!-- HEADER HERO SECTION (90% Lebar Layar) -->
+    <a href="settings.html" class="settings-btn" title="Pengaturan & Reset Sesi">
+        <i class="fas fa-cog"></i>
+    </a>
+
     <header class="hero-section">
         <div class="row align-items-center">
-            
-            <!-- Kolom Kiri: Hero Image (Guru) -->
             <div class="col-lg-5 text-center mb-4 mb-lg-0">
                 <img src="guru.png" alt="Maskot Guru" class="hero-img" onerror="this.src='https://cdn-icons-png.flaticon.com/512/3204/3204121.png'">
             </div>
-            
-            <!-- Kolom Kanan: Logo Pelengkap & Teks -->
             <div class="col-lg-7 text-center text-lg-start ps-lg-4">
                 <img src="logo_sekolah.png" alt="Logo Sekolah" width="80" class="mb-4" style="filter: drop-shadow(2px 4px 6px rgba(0,0,0,0.4));">
-                
                 <h1 class="hero-title text-warning text-shadow mb-3">PORTAL GAME <br> EDUKASI OSN</h1>
                 <h2 class="h3 fw-bold text-light mb-4">SDN 1 BANJAR</h2>
-                
                 <p class="fs-5 text-light opacity-75 mb-0" style="max-width: 600px;">
-                    Siapkan dirimu! Pilih mode permainan di bawah ini dan uji kecepatan serta ketepatanmu dalam simulasi interaktif.
+                    Siapkan dirimu! Pilih peranmu untuk memulai petualangan edukatif yang seru.
                 </p>
             </div>
-            
         </div>
     </header>
 
-    <!-- KONTEN UTAMA (Area Card) -->
     <div class="container">
         
-        <!-- KATEGORI 1: TARIK TAMBANG -->
-        <h2 class="section-title text-shadow"><i class="fas fa-hand-rock me-3 text-warning"></i>MODE TARIK TAMBANG</h2>
-        <div class="row g-4 justify-content-center mb-5 pb-3">
-            <!-- IPA -->
-            <div class="col-lg-3 col-md-4 col-sm-6">
-                <a href="tartamipa.html" class="card card-game h-100">
-                    <div class="icon-box bg-ipa"><i class="fas fa-flask"></i></div>
-                    <div class="card-body text-center py-4">
-                        <h4 class="fw-bold mb-1">IPA</h4>
-                        <span class="text-light opacity-75">Sains & Alam</span>
-                    </div>
-                </a>
-            </div>
-            <!-- IPS -->
-            <div class="col-lg-3 col-md-4 col-sm-6">
-                <a href="tartamips.html" class="card card-game h-100">
-                    <div class="icon-box bg-ips"><i class="fas fa-globe-asia"></i></div>
-                    <div class="card-body text-center py-4">
-                        <h4 class="fw-bold mb-1">IPS</h4>
-                        <span class="text-light opacity-75">Sosial & Sejarah</span>
-                    </div>
-                </a>
-            </div>
-            <!-- MATEMATIKA -->
-            <div class="col-lg-3 col-md-4 col-sm-6">
-                <a href="https://script.google.com/macros/s/AKfycbzquKCL4g5CpL6J_Hy4m2cGibHebo2aL27gmh1fn74FsfSMVxpyYUK1TLOcP-Suu2hjLw/exec" target="_blank" class="card card-game h-100">
-                    <div class="icon-box bg-mtk"><i class="fas fa-calculator"></i></div>
-                    <div class="card-body text-center py-4">
-                        <h4 class="fw-bold mb-1">MATEMATIKA</h4>
-                        <span class="text-light opacity-75">Logika & Angka</span>
-                    </div>
-                </a>
-            </div>
-            <!-- VERSUS -->
-            <div class="col-lg-3 col-md-4 col-sm-6">
-                <a href="tartamvs.html" class="card card-game h-100">
-                    <div class="icon-box bg-vs"><i class="fas fa-bolt"></i></div>
-                    <div class="card-body text-center py-4">
-                        <h4 class="fw-bold mb-1">IPA vs IPS</h4>
-                        <span class="text-light opacity-75">Duel Jurusan</span>
-                    </div>
-                </a>
-            </div>
-        </div>
+        <div id="dynamic-role-area" class="mb-5"></div>
 
-        <!-- KATEGORI 2: BALAPAN -->
-        <h2 class="section-title text-shadow"><i class="fas fa-flag-checkered me-3 text-warning"></i>MODE BALAPAN LCC</h2>
-        <div class="row g-4 justify-content-center">
-            <!-- BALAPAN IPA -->
-            <div class="col-lg-3 col-md-4 col-sm-6">
-                <a href="balapanipa.html" class="card card-game h-100">
-                    <div class="icon-box bg-ipa"><i class="fas fa-car-side"></i></div>
-                    <div class="card-body text-center py-4">
-                        <h4 class="fw-bold mb-1">BALAPAN IPA</h4>
-                        <span class="text-light opacity-75">Sprint Sains</span>
-                    </div>
-                </a>
+        <div id="game-modes-section" style="display: none;">
+            <h2 class="section-title text-shadow"><i class="fas fa-hand-rock me-3 text-warning"></i>MODE TARIK TAMBANG</h2>
+            <div class="row g-4 justify-content-center mb-5 pb-3">
+                <div class="col-lg-3 col-md-4 col-sm-6"><a href="tartamipa.html" class="card card-game h-100"><div class="icon-box bg-ipa"><i class="fas fa-flask"></i></div><div class="card-body text-center py-4"><h4 class="fw-bold mb-1">IPA</h4><span class="text-light opacity-75">Sains & Alam</span></div></a></div>
+                <div class="col-lg-3 col-md-4 col-sm-6"><a href="tartamips.html" class="card card-game h-100"><div class="icon-box bg-ips"><i class="fas fa-globe-asia"></i></div><div class="card-body text-center py-4"><h4 class="fw-bold mb-1">IPS</h4><span class="text-light opacity-75">Sosial & Sejarah</span></div></a></div>
+                <div class="col-lg-3 col-md-4 col-sm-6"><a href="https://script.google.com/macros/s/AKfycbzquKCL4g5CpL6J_Hy4m2cGibHebo2aL27gmh1fn74FsfSMVxpyYUK1TLOcP-Suu2hjLw/exec" target="_blank" class="card card-game h-100"><div class="icon-box bg-mtk"><i class="fas fa-calculator"></i></div><div class="card-body text-center py-4"><h4 class="fw-bold mb-1">MATEMATIKA</h4><span class="text-light opacity-75">Logika & Angka</span></div></a></div>
+                <div class="col-lg-3 col-md-4 col-sm-6"><a href="tartamvs.html" class="card card-game h-100"><div class="icon-box bg-vs"><i class="fas fa-bolt"></i></div><div class="card-body text-center py-4"><h4 class="fw-bold mb-1">IPA vs IPS</h4><span class="text-light opacity-75">Duel Jurusan</span></div></a></div>
             </div>
-            <!-- BALAPAN IPS -->
-            <div class="col-lg-3 col-md-4 col-sm-6">
-                <a href="balapanips.html" class="card card-game h-100">
-                    <div class="icon-box bg-ips"><i class="fas fa-motorcycle"></i></div>
-                    <div class="card-body text-center py-4">
-                        <h4 class="fw-bold mb-1">BALAPAN IPS</h4>
-                        <span class="text-light opacity-75">Sprint Sosial</span>
-                    </div>
-                </a>
-            </div>
-            <!-- BALAPAN VERSUS -->
-            <div class="col-lg-3 col-md-4 col-sm-6">
-                <a href="balapan.html" class="card card-game h-100">
-                    <div class="icon-box bg-vs"><i class="fas fa-users"></i></div>
-                    <div class="card-body text-center py-4">
-                        <h4 class="fw-bold mb-1">BALAPAN DUEL</h4>
-                        <span class="text-light opacity-75">IPA vs IPS</span>
-                    </div>
-                </a>
-            </div>
-            <!-- LAINNYA -->
-            <div class="col-lg-3 col-md-4 col-sm-6">
-                <div class="card card-game h-100 opacity-50">
-                    <div class="icon-box bg-others"><i class="fas fa-lock"></i></div>
-                    <div class="card-body text-center py-4">
-                        <h4 class="fw-bold mb-1">SEGERA HADIR</h4>
-                        <span class="text-light opacity-75">Mode Tambahan</span>
-                    </div>
-                </div>
+
+            <h2 class="section-title text-shadow"><i class="fas fa-flag-checkered me-3 text-warning"></i>MODE BALAPAN LCC</h2>
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-3 col-md-4 col-sm-6"><a href="balapanipa.html" class="card card-game h-100"><div class="icon-box bg-ipa"><i class="fas fa-car-side"></i></div><div class="card-body text-center py-4"><h4 class="fw-bold mb-1">BALAPAN IPA</h4><span class="text-light opacity-75">Sprint Sains</span></div></a></div>
+                <div class="col-lg-3 col-md-4 col-sm-6"><a href="balapanips.html" class="card card-game h-100"><div class="icon-box bg-ips"><i class="fas fa-motorcycle"></i></div><div class="card-body text-center py-4"><h4 class="fw-bold mb-1">BALAPAN IPS</h4><span class="text-light opacity-75">Sprint Sosial</span></div></a></div>
+                <div class="col-lg-3 col-md-4 col-sm-6"><a href="balapan.html" class="card card-game h-100"><div class="icon-box bg-vs"><i class="fas fa-users"></i></div><div class="card-body text-center py-4"><h4 class="fw-bold mb-1">BALAPAN DUEL</h4><span class="text-light opacity-75">IPA vs IPS</span></div></a></div>
+                <div class="col-lg-3 col-md-4 col-sm-6"><div class="card card-game h-100 opacity-50"><div class="icon-box bg-others"><i class="fas fa-lock"></i></div><div class="card-body text-center py-4"><h4 class="fw-bold mb-1">SEGERA HADIR</h4><span class="text-light opacity-75">Mode Tambahan</span></div></div></div>
             </div>
         </div>
 
     </div>
+
+    <script>
+        const roleArea = document.getElementById('dynamic-role-area');
+        const gameSection = document.getElementById('game-modes-section');
+
+        function renderUI() {
+            const role = localStorage.getItem('userRole');
+            const pembimbingName = localStorage.getItem('pembimbingName');
+            
+            gameSection.style.display = 'none'; // Sembunyikan game secara default
+            let htmlContent = '';
+
+            if (!role) {
+                // STATE 1: BELUM PILIH PERAN
+                htmlContent = `
+                    <div class="text-center mb-4"><h3 class="fw-bold text-shadow">Siapakah Anda?</h3></div>
+                    <div class="row g-4 justify-content-center">
+                        <div class="col-md-5">
+                            <div class="card-role" onclick="setRole('pembimbing')">
+                                <i class="fas fa-chalkboard-teacher"></i>
+                                <h3 class="fw-bold">Saya Pembimbing</h3>
+                                <p class="mb-0 opacity-75">Akses panel kontrol permainan OSN</p>
+                            </div>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="card-role" onclick="setRole('peserta')">
+                                <i class="fas fa-user-graduate"></i>
+                                <h3 class="fw-bold">Saya Peserta</h3>
+                                <p class="mb-0 opacity-75">Mulai kerjakan simulasi soal OSN</p>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            } else if (role === 'pembimbing') {
+                if (!pembimbingName) {
+                    // STATE 2: PILIH PROFIL PEMBIMBING
+                    htmlContent = `
+                        <div class="text-center mb-4">
+                            <h3 class="fw-bold text-shadow">Pilih Profil Pembimbing</h3>
+                            <button class="btn btn-sm btn-outline-light mt-2" onclick="resetRole()"><i class="fas fa-arrow-left"></i> Kembali</button>
+                        </div>
+                        <div class="row g-4 justify-content-center">
+                            <div class="col-md-4"><div class="card-role" onclick="setPembimbing('Wida')"><i class="fas fa-user-tie"></i><h3 class="fw-bold">Bu Wida</h3></div></div>
+                            <div class="col-md-4"><div class="card-role" onclick="setPembimbing('Rini')"><i class="fas fa-user-tie"></i><h3 class="fw-bold">Bu Rini</h3></div></div>
+                            <div class="col-md-4"><div class="card-role" onclick="setPembimbing('Lina')"><i class="fas fa-user-tie"></i><h3 class="fw-bold">Bu Lina</h3></div></div>
+                        </div>
+                    `;
+                } else {
+                    // STATE 3: PEMBIMBING TERPILIH (TAMPILKAN GAME)
+                    htmlContent = `
+                        <div class="alert bg-success text-white border-0 shadow-lg d-flex justify-content-between align-items-center rounded-pill px-4 py-3 mb-5">
+                            <h4 class="mb-0 fw-bold"><i class="fas fa-check-circle me-2"></i> Selamat datang, Bu ${pembimbingName}!</h4>
+                            <button class="btn btn-light btn-sm fw-bold rounded-pill" onclick="resetPembimbing()">Ganti Profil</button>
+                        </div>
+                    `;
+                    gameSection.style.display = 'block';
+                }
+            } else if (role === 'peserta') {
+                // STATE 4: PESERTA (PILIH MAPEL)
+                htmlContent = `
+                    <div class="text-center mb-4">
+                        <h3 class="fw-bold text-shadow">Pilih Mata Pelajaran Anda</h3>
+                        <button class="btn btn-sm btn-outline-light mt-2" onclick="resetRole()"><i class="fas fa-arrow-left"></i> Ganti Peran</button>
+                    </div>
+                    <div class="row g-4 justify-content-center">
+                        <div class="col-md-4">
+                            <a href="soalipa.html" class="text-decoration-none">
+                                <div class="card-role border-success"><i class="fas fa-flask text-success"></i><h3 class="fw-bold">IPA</h3></div>
+                            </a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="soalips.html" class="text-decoration-none">
+                                <div class="card-role border-warning"><i class="fas fa-globe-asia text-warning"></i><h3 class="fw-bold">IPS</h3></div>
+                            </a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="soalmtk.html" class="text-decoration-none">
+                                <div class="card-role border-danger"><i class="fas fa-calculator text-danger"></i><h3 class="fw-bold">MATEMATIKA</h3></div>
+                            </a>
+                        </div>
+                    </div>
+                `;
+            }
+            
+            roleArea.innerHTML = htmlContent;
+        }
+
+        // Fungsi Mutasi LocalStorage
+        function setRole(role) { localStorage.setItem('userRole', role); renderUI(); }
+        function setPembimbing(name) { localStorage.setItem('pembimbingName', name); renderUI(); }
+        function resetRole() { localStorage.removeItem('userRole'); localStorage.removeItem('pembimbingName'); renderUI(); }
+        function resetPembimbing() { localStorage.removeItem('pembimbingName'); renderUI(); }
+
+        // Jalankan saat halaman pertama kali dimuat
+        renderUI();
+    </script>
 </body>
 </html>

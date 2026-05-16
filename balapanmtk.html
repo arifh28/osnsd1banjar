@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balapan Hitung Cepat - Matematika OSN</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    
+    <style>
+        :root { --navy-blue: #0f172a; --race-orange: #f59e0b; }
+        body { 
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: var(--navy-blue);
+            color: white; min-height: 100vh;
+            display: flex; align-items: center; justify-content: center;
+        }
+
+        .game-container {
+            width: 95%; max-width: 800px;
+            background: rgba(255, 255, 255, 0.05); backdrop-filter: blur(10px);
+            border-radius: 30px; border: 2px solid rgba(255,255,255,0.1);
+            padding: 30px; box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+            text-align: center;
+        }
+
+        /* --- UI RACE PROGRESS (ATAS) --- */
+        .race-header { margin-bottom: 40px; position: relative; padding-top: 20px; }
+        
+        .race-track {
+            height: 25px; background: rgba(255,255,255,0.1);
+            border-radius: 50px; overflow: hidden; position: relative;
+            border: 2px solid rgba(255,255,255,0.2);
+        }
+        .progress-bar-player {
+            height: 100%; background: linear-gradient(90deg, #f59e0b, #fbbf24);
+            width: 0%; transition: width 0.4s ease-out; border-radius: 50px;
+        }
+        .trophy-icon {
+            position: absolute; right: 10px; top: 50%; transform: translateY(-50%);
+            color: #facc15; font-size: 1.5rem; text-shadow: 0 0 10px rgba(250,204,21,0.5);
+        }
+
+        /* --- AREA SOAL MATEMATIKA (TENGAH) --- */
+        .math-problem {
+            font-size: 5rem; font-weight: 900; color: white;
+            margin-bottom: 40px; text-shadow: 0 4px 10px rgba(0,0,0,0.3);
+            font-family: 'Courier New', Courier, monospace; /* Font monospace agar rapi */
+        }
+
+        /* --- TOMBOL JAWABAN LINGKARAN (BAWAH) - Grid 2x2 --- */
+        .options-grid {
+            display: grid; grid-template-columns: 1fr 1fr;
+            gap: 25px; max-width: 500px; margin: 0 auto;
+        }
+
+        .btn-math {
+            width: 120px; height: 120px; /* Lingkaran Sempurna */
+            border-radius: 50%; border: 4px solid rgba(255,255,255,0.3);
+            background: #1e293b; color: white;
+            font-size: 2.5rem; font-weight: 800;
+            display: flex; align-items: center; justify-content: center;
+            margin: 0 auto; transition: all 0.2s ease;
+            cursor: pointer; box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+        }
+
+        .btn-math:hover {
+            transform: translateY(-5px) scale(1.05);
+            border-color: var(--race-orange); background: #334155;
+        }
+
+        /* State Warna */
+        .correct { background: #16a34a !important; border-color: #4ade80 !important; box-shadow: 0 0 30px rgba(34, 197, 94, 0.8) !important; }
+        .wrong { background: #dc2626 !important; border-color: #ef4444 !important; opacity: 0.7; }
+        .locked { pointer-events: none; }
+
+    </style>
+</head>
+<body>
+
+    <div class="game-container">
+        <div class="race-header">
+            <div class="d-flex justify-content-between text-warning fw-bold mb-1 px-2">
+                <span>START</span>
+                <span id="score-text">Skor: 0/10</span>
+            </div>
+            <div class="race-track">
+                <div class="progress-bar-player" id="player-bar"></div>
+                <i class="fas fa-trophy trophy-icon"></i>
+            </div>
+        </div>
+
+        <div class="math-problem" id="problem-text">32 + 37 = ?</div>
+
+        <div class="options-grid" id="options-area">
+            </div>
+    </div>
+
+    <script>
+        // Logika & State (Mirip balapanipa.html)
+        let currentScore = 0;
+        const targetScore = 10; // 10 jawaban benar untuk menang
+        let currentCorrectAnswer = 0;
+        let isLocked = false;
+        const namaPeserta = localStorage.getItem('namaPeserta') || 'Peserta Anonim';
+
+        // FUNGSI GENERATE SOAL ACAK (Level OSN SD)
+        function generateMathProblem() {
+            // Level 1-2: Tambah/Kurang 2 digit. Level 3+: Kali/Bagi sederhana.
+            const level = Math.floor(currentScore / 3) + 1;
+            let a, b, op, ans;
+
+            if (level <= 2) {
+                a = Math.floor(Math.random() * 50) + 10;
+                b = Math.floor(Math.random() * 50) + 10;
+                op = Math.random() > 0.5 ? '+' : '-';
+                if (op === '-' && a < b) [a, b] = [b, a]; // Pastikan tidak negatif
+                ans = op === '+' ? a + b : a - b;
+            } else {
+                a = Math.floor(Math.random() * 12) + 2;
+                b = Math.floor(Math.random() * 12) + 2;
+                op = '×';
+                ans = a * b;
+            }
+
+            currentCorrectAnswer = ans;
+            document.getElementById('problem-text').innerText = `${a} ${op} ${b} = ?`;
+            
+            // Buat Pilihan Jawaban (1 benar, 3 salah yang mengecoh)
+            let choices = [ans];
+            while (choices.length < 4) {
+                // Buat pengecoh dekat dengan jawaban asli (+- 1, +- 10, +- 2)
+                let off = Math.random() > 0.5 ? 1 : 10;
+                if(Math.random() > 0.7) off = 2; // Kadang selisih 2
+
+                let wrong = Math.random() > 0.5 ? ans + off : ans - off;
+                if (wrong > 0 && !choices.includes(wrong)) {
+                    choices.push(wrong);
+                }
+            }
+            // Acak urutan
+            return choices.sort(() => 0.5 - Math.random());
+        }
+
+        // RENDER SOAL KE UI
+        function renderQuestion() {
+            isLocked = false;
+            const choices = generateMathProblem();
+            const area = document.getElementById('options-area');
+            area.innerHTML = '';
+
+            choices.forEach(val => {
+                const btn = document.createElement('div');
+                btn.className = 'btn-math';
+                btn.innerText = val;
+                btn.onclick = () => checkAnswer(val, btn);
+                area.appendChild(btn);
+            });
+        }
+
+        // CEK JAWABAN & UPDATE BALAPAN
+        function checkAnswer(selected, btnElement) {
+            if (isLocked) return;
+            isLocked = true;
+
+            // Kunci semua tombol
+            const allBtns = document.querySelectorAll('.btn-math');
+            allBtns.forEach(b => b.classList.add('locked'));
+
+            if (selected === currentCorrectAnswer) {
+                // BENAR -> Maju
+                btnElement.classList.add('correct');
+                currentScore++;
+                updateRaceUI();
+                
+                // Cek Menang
+                if (currentScore >= targetScore) {
+                    setTimeout(endGame, 800);
+                    return;
+                }
+            } else {
+                // SALAH -> Merah, Tunjukkan yang benar
+                btnElement.classList.add('wrong');
+                allBtns.forEach(b => {
+                    if (parseInt(b.innerText) === currentCorrectAnswer) {
+                        b.classList.add('correct');
+                    }
+                });
+            }
+
+            // Lanjut ke soal berikutnya setelah delay
+            setTimeout(renderQuestion, 1200);
+        }
+
+        function updateRaceUI() {
+            const perc = (currentScore / targetScore) * 100;
+            document.getElementById('player-bar').style.width = `${perc}%`;
+            document.getElementById('score-text').innerText = `Skor: ${currentScore}/${targetScore}`;
+        }
+
+        function endGame() {
+            Swal.fire({
+                title: 'SELAMAT! KAU MENANG!',
+                text: `Hebat, ${namaPeserta}! Kau menyelesaikan balapan hitung cepat dengan sempurna.`,
+                icon: 'success',
+                confirmButtonText: 'Kembali ke Menu',
+                confirmButtonColor: '#f59e0b',
+                allowOutsideClick: false
+            }).then(() => {
+                // Optional: Simpan skor ke Supabase di sini jika perlu
+                window.location.href = 'index.html';
+            });
+        }
+
+        // MULAI
+        renderQuestion();
+        
+        // --- SISTEM ANTI-CHEAT (Dikutip dari metodeilmiah.html) ---
+        let isUjianSelesai = false;
+        document.addEventListener("visibilitychange", () => {
+            if (document.hidden && !isUjianSelesai && currentScore > 0) {
+                Swal.fire({
+                    title: 'Peringatan!',
+                    text: 'Fokus! Jangan berpindah tab saat balapan!',
+                    icon: 'warning'
+                });
+            }
+        });
+
+    </script>
+</body>
+</html>

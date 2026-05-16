@@ -289,7 +289,7 @@
             document.getElementById('btn-selanjutnya').classList.add('d-none');
             const q = bankSoal[currentIdx];
             document.getElementById('progress').innerText = `SOAL ${currentIdx + 1} / ${bankSoal.length}`;
-            document.getElementById('question').innerText = q.pertanyaan;
+            document.getElementById('question').innerHTML = q.pertanyaan;
             
             const optArea = document.getElementById('options');
             optArea.innerHTML = '';

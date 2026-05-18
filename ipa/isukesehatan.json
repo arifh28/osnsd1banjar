@@ -1,0 +1,207 @@
+{
+  "nama_paket": "Isu Kesehatan dan Teknologi",
+  "mata_pelajaran": "IPA",
+  "bagian_materi": "Isu Kesehatan dan Teknologi",
+  "soal": [
+    {
+      "pertanyaan": "Ibu membuat adonan donat dan mencampurkan ragi (Saccharomyces cerevisiae) ke dalamnya. Setelah ditutup kain basah selama 1 jam, adonan membesar dua kali lipat. Peristiwa bioteknologi ini terjadi karena ragi...",
+      "pilihan": {
+        "A": "Menyerap air dari kain basah sehingga adonan membengkak",
+        "B": "Menghasilkan gas karbon dioksida dari proses fermentasi gula",
+        "C": "Menghasilkan panas yang membuat tepung memuai",
+        "D": "Berkembang biak menjadi ribuan sel yang memakan tepung"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Terjadi tumpahan minyak mentah yang sangat luas di lautan akibat kapal tanker bocor. Para ilmuwan menyemprotkan cairan berisi bakteri khusus ke laut tersebut (Bioremediasi). Tujuan penggunaan bakteri ini adalah...",
+      "pilihan": {
+        "A": "Untuk mengendapkan minyak agar tenggelam ke dasar laut",
+        "B": "Bakteri tersebut akan memakan dan menguraikan minyak menjadi zat yang tidak berbahaya",
+        "C": "Membunuh ikan-ikan yang sudah terlanjur keracunan minyak",
+        "D": "Menghasilkan oksigen agar ikan di bawah tumpahan minyak bisa bernapas"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Kasus Demam Berdarah Dengue (DBD) meningkat di musim hujan. Pemerintah menyarankan program 3M Plus dibandingkan hanya melakukan pengasapan (fogging). Keunggulan ekologis 3M Plus dibandingkan fogging adalah...",
+      "pilihan": {
+        "A": "Fogging memutus rantai hidup nyamuk sejak fase telur, sedangkan 3M Plus membunuh nyamuk dewasa",
+        "B": "3M Plus mencegah nyamuk berkembang biak sejak fase jentik tanpa menggunakan bahan kimia beracun",
+        "C": "Fogging membuat lingkungan lebih harum, sedangkan 3M Plus membuat lingkungan kotor",
+        "D": "3M Plus bisa dilakukan sekali setahun, sedangkan fogging harus setiap hari"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Di sebuah peternakan sapi, kotoran sapi dikumpulkan di dalam sebuah tabung kedap udara di bawah tanah. Beberapa minggu kemudian, peternak tersebut bisa menyalakan kompor gas dari tabung tersebut. Teknologi ini disebut Biogas. Gas yang dihasilkan dan bisa terbakar tersebut adalah...",
+      "pilihan": {
+        "A": "Oksigen",
+        "B": "Karbon Dioksida",
+        "C": "Metana",
+        "D": "Nitrogen"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Teknologi 'Kultur Jaringan' memungkinkan ilmuwan mengambil selembar daun anggrek langka dan menumbuhkannya menjadi ribuan tanaman anggrek baru di laboratorium. Keuntungan utama teknologi ini bagi pelestarian lingkungan adalah...",
+      "pilihan": {
+        "A": "Menghasilkan anggrek berbahan plastik yang tahan lama",
+        "B": "Bisa memperbanyak tanaman langka dalam waktu singkat dengan sifat yang persis sama",
+        "C": "Membuat tanaman anggrek tidak lagi membutuhkan air untuk hidup",
+        "D": "Mengubah tanaman anggrek menjadi tanaman pemakan serangga"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Pak Tani membuat lubang-lubang silinder ke dalam tanah di halaman rumahnya dan mengisinya dengan sampah daun kering (Biopori). Saat musim hujan tiba, halaman rumah Pak Tani tidak lagi kebanjiran karena...",
+      "pilihan": {
+        "A": "Daun kering menyerap seluruh air hujan seperti spons raksasa",
+        "B": "Lubang biopori meningkatkan daya resap air ke dalam tanah",
+        "C": "Air hujan mengalir ke rumah tetangga",
+        "D": "Biopori memompa air kembali ke atas awan"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Mikroplastik adalah potongan plastik sangat kecil yang mencemari laut dan termakan oleh ikan. Jika manusia sering mengonsumsi ikan laut yang mengandung mikroplastik, dampak kesehatan yang paling mungkin terjadi di masa depan adalah...",
+      "pilihan": {
+        "A": "Manusia akan menjadi kebal terhadap penyakit perut",
+        "B": "Plastik akan menumpuk di tubuh dan memicu peradangan serta kerusakan sel",
+        "C": "Tubuh manusia akan menjadi lebih kuat karena plastik itu keras",
+        "D": "Sistem pencernaan manusia akan bisa mencerna bungkus plastik"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Ilmuwan berhasil menyisipkan gen penghasil vitamin A ke dalam tanaman padi, sehingga menghasilkan 'Golden Rice' (Padi Emas). Ini adalah contoh bioteknologi modern (rekayasa genetika) yang bertujuan untuk...",
+      "pilihan": {
+        "A": "Membuat padi tahan terhadap kekeringan",
+        "B": "Mengurangi kasus kebutaan akibat kekurangan vitamin A pada anak-anak",
+        "C": "Mewarnai nasi agar terlihat lebih mewah saat dimakan",
+        "D": "Membunuh hama wereng yang mencoba memakan batang padi"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Penggunaan AC dan kulkas model lama sering menggunakan gas CFC (Freon). Kebiasaan ini dilarang keras oleh ahli lingkungan dunia karena gas CFC apabila lepas ke udara dapat menyebabkan...",
+      "pilihan": {
+        "A": "Suhu bumi menjadi terlalu dingin seperti zaman es",
+        "B": "Berlubangnya lapisan ozon sehingga radiasi UV matahari yang berbahaya masuk ke bumi",
+        "C": "Terjadinya hujan asam yang melelehkan atap seng rumah",
+        "D": "Oksigen di udara berubah menjadi gas beracun"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Susu sapi segar mudah basi. Namun, dengan menambahkan bakteri <i>Lactobacillus bulgaricus</i>, susu tersebut berubah menjadi Yoghurt yang asam dan tahan lama. Peran bakteri tersebut adalah...",
+      "pilihan": {
+        "A": "Membekukan air di dalam susu menjadi es",
+        "B": "Mengubah protein susu menjadi racun bagi kuman",
+        "C": "Mengubah gula susu (laktosa) menjadi asam laktat yang mengawetkan",
+        "D": "Memakan seluruh bakteri jahat menggunakan giginya"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Saat banjir besar melanda pemukiman, warga sering terserang penyakit Diare dan Leptospirosis (penyakit kencing tikus). Alasan utama banjir memicu penyakit ini adalah...",
+      "pilihan": {
+        "A": "Air banjir terlalu dingin sehingga perut menjadi kembung",
+        "B": "Banjir meluapkan air selokan dan kotoran tikus yang mengandung bakteri penyebab penyakit",
+        "C": "Ikan lele pembawa virus ikut berenang masuk ke rumah warga",
+        "D": "Nyamuk pembawa diare bertelur di genangan banjir"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Beberapa warga membuat penyaring air sederhana menggunakan ijuk, pasir, kerikil, dan arang. Fungsi arang dalam alat penyaring air tersebut adalah...",
+      "pilihan": {
+        "A": "Memberi warna hitam pada air agar terlihat bersih",
+        "B": "Menyerap bau tidak sedap dan zat-zat kimia beracun dari dalam air",
+        "C": "Membunuh kuman dan bakteri besar menggunakan panas arang",
+        "D": "Menambah rasa manis pada air yang disaring"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Sebuah pabrik tekstil menanam banyak tanaman eceng gondok di kolam pembuangan limbah sisa pewarna bajunya. Berdasarkan ilmu sains lingkungan (Fitoremediasi), fungsi eceng gondok tersebut adalah...",
+      "pilihan": {
+        "A": "Untuk dijual kembali sebagai bahan kerajinan tas",
+        "B": "Sebagai makanan untuk ikan yang hidup di kolam limbah",
+        "C": "Menyerap zat pewarna dan logam berat beracun dari limbah sebelum dibuang ke sungai",
+        "D": "Untuk menutupi bau menyengat dari pabrik agar tidak dicium warga"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Banyak petani sekarang beralih dari pupuk kimia (Urea) ke Pupuk Hayati (Biofertilizer) yang berisi campuran bakteri baik. Dampak positif jangka panjang dari penggunaan pupuk hayati bagi lingkungan adalah...",
+      "pilihan": {
+        "A": "Tanah menjadi cepat kering sehingga mudah dicangkul",
+        "B": "Menjaga kesuburan tanah secara alami dan tidak mencemari air sungai di dekat sawah",
+        "C": "Membuat tanaman tumbuh menjadi raksasa dalam semalam",
+        "D": "Membunuh seluruh cacing tanah yang mengganggu"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Panel surya (Solar Cell) adalah teknologi ramah lingkungan yang dipasang di atap rumah. Berbeda dengan Pembangkit Listrik Tenaga Uap (PLTU) yang membakar batu bara, panel surya sangat ramah lingkungan karena...",
+      "pilihan": {
+        "A": "Hanya menyerap panas bumi dari dalam tanah",
+        "B": "Tidak menghasilkan gas buang karbon dioksida yang menyebabkan pemanasan global",
+        "C": "Bisa menyerap asap pabrik di sekitar rumah",
+        "D": "Bisa digunakan untuk berteduh saat hujan turun"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Penyakit Minamata di Jepang pada masa lalu menyebabkan kelumpuhan saraf pada warganya yang sering makan ikan laut. Setelah diteliti, ternyata air laut di sana tercemar limbah pabrik. Zat kimia berbahaya penyebab penyakit ini adalah...",
+      "pilihan": {
+        "A": "Logam berat merkuri (raksa)",
+        "B": "Kelebihan garam yodium",
+        "C": "Kalsium tinggi",
+        "D": "Vitamin C dari laut"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "pertanyaan": "Seseorang membeli makanan yang mengandung bahan pengawet boraks dan pewarna tekstil (Rhodamin B). Jika makanan ini terus-menerus dikonsumsi, organ tubuh manakah yang paling cepat mengalami kerusakan karena bertugas menyaring racun?",
+      "pilihan": {
+        "A": "Jantung dan Paru-paru",
+        "B": "Hati (Liver) dan Ginjal",
+        "C": "Otak dan Mata",
+        "D": "Lambung dan Usus Buntu"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Salah satu upaya teknologi pelestarian lingkungan adalah melakukan daur ulang (Recycle). Proses yang merupakan contoh kegiatan recycle yang benar adalah...",
+      "pilihan": {
+        "A": "Menggunakan botol sirup kaca menjadi vas bunga",
+        "B": "Membawa tas belanja dari kain saat ke pasar",
+        "C": "Meleburkan sampah plastik kemasan untuk dicetak menjadi ember atau kursi plastik",
+        "D": "Memberikan baju bekas yang masih layak pakai kepada anak panti asuhan"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Bioteknologi konvensional (tradisional) sudah digunakan masyarakat sejak ratusan tahun lalu tanpa menggunakan alat lab canggih. Contoh produk bioteknologi konvensional asli Indonesia adalah...",
+      "pilihan": {
+        "A": "Vaksin Covid-19",
+        "B": "Tomat tanpa biji",
+        "C": "Padi anti hama",
+        "D": "Tempe, Tapai, dan Kecap"
+      },
+      "kunci_jawaban": "D"
+    },
+    {
+      "pertanyaan": "Polusi suara (kebisingan) yang tinggi dari mesin jet atau pabrik dapat memengaruhi kesehatan manusia secara serius. Selain menyebabkan ketulian sementara, polusi suara secara medis juga terbukti memicu...",
+      "pilihan": {
+        "A": "Rambut cepat beruban",
+        "B": "Peningkatan stres dan tekanan darah tinggi (hipertensi)",
+        "C": "Rabun jauh pada mata",
+        "D": "Pertumbuhan tulang yang terhambat"
+      },
+      "kunci_jawaban": "B"
+    }
+  ]
+}

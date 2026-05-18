@@ -1,0 +1,207 @@
+{
+  "nama_paket": "Listrik dan Magnet",
+  "mata_pelajaran": "IPA",
+  "bagian_materi": "Listrik dan Magnet",
+  "soal": [
+    {
+      "pertanyaan": "Budi menggosokkan penggaris plastik ke rambutnya yang kering berulang kali, lalu mendekatkannya ke potongan kertas kecil. Kertas tersebut tertarik dan menempel pada penggaris. Namun, setelah beberapa saat, kertas-kertas itu jatuh kembali dengan sendirinya. Mengapa kertas bisa jatuh kembali?",
+      "pilihan": {
+        "A": "Karena gaya gravitasi bumi tiba-tiba menjadi lebih kuat daripada gaya listrik",
+        "B": "Karena muatan listrik statis pada penggaris telah berpindah dan menjadi netral kembali akibat kontak dengan udara atau kertas",
+        "C": "Karena kertas menyerap kelembapan dari udara sehingga massanya bertambah",
+        "D": "Karena penggaris plastik mengubah energi statis menjadi energi panas"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Andi merangkai tiga buah bola lampu (A, B, dan C) secara paralel ke sebuah baterai. Jika tiba-tiba lampu B putus (rusak), apa yang akan terjadi pada lampu A dan C?",
+      "pilihan": {
+        "A": "Lampu A dan C ikut padam karena arus listrik terputus di tengah jalan",
+        "B": "Lampu A dan C tetap menyala, tetapi cahayanya menjadi lebih redup",
+        "C": "Lampu A dan C tetap menyala dengan terang yang sama seperti sebelumnya",
+        "D": "Lampu A akan menyala lebih terang, sedangkan lampu C akan padam"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Sebuah kompas diletakkan tepat di atas seutas kawat tembaga lurus. Ketika kawat tersebut dialiri arus listrik searah (DC), jarum kompas tiba-tiba menyimpang dari arah utara-selatan. Peristiwa ini, yang pertama kali diamati oleh Oersted, membuktikan bahwa...",
+      "pilihan": {
+        "A": "Jarum kompas rusak jika terkena panas dari kawat yang beraliran listrik",
+        "B": "Arus listrik yang mengalir pada kawat dapat menghasilkan medan magnet di sekitarnya",
+        "C": "Kawat tembaga memiliki sifat magnet permanen sejak awal",
+        "D": "Bumi kehilangan medan magnetnya saat ada arus listrik di dekatnya"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Dalam sebuah eksperimen pembuatan elektromagnet, Siti melilitkan kawat pada paku besi sebanyak 20 lilitan, sedangkan Dina melilitkan kawat pada paku yang sama sebanyak 50 lilitan. Jika mereka menggunakan baterai dengan tegangan yang sama, perbedaan apa yang akan terlihat?",
+      "pilihan": {
+        "A": "Paku Siti akan menarik lebih banyak klip kertas karena lilitannya tidak berdesakan",
+        "B": "Paku Dina akan menarik klip kertas lebih banyak karena jumlah lilitan yang lebih banyak menghasilkan medan magnet yang lebih kuat",
+        "C": "Keduanya akan menarik jumlah klip kertas yang sama karena baterainya sama",
+        "D": "Paku Dina akan menjadi magnet permanen, sedangkan paku Siti hanya sementara"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Pembangkit Listrik Tenaga Air (PLTA) memanfaatkan aliran sungai yang dibendung. Urutan perubahan energi yang benar dari air waduk hingga menjadi listrik di rumah kita adalah...",
+      "pilihan": {
+        "A": "Energi Kinetik Air -> Energi Potensial Waduk -> Energi Mekanik Turbin -> Energi Listrik Generator",
+        "B": "Energi Potensial Air Waduk -> Energi Kinetik Aliran Air -> Energi Mekanik Turbin -> Energi Listrik Generator",
+        "C": "Energi Mekanik Turbin -> Energi Kinetik Air -> Energi Potensial Generator -> Energi Listrik",
+        "D": "Energi Panas Matahari -> Energi Kinetik Air -> Energi Listrik Generator -> Energi Mekanik Turbin"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Sebuah magnet batang dipotong tepat di tengah-tengahnya menjadi dua bagian. Apa yang terjadi pada kutub-kutub magnet dari kedua potongan tersebut?",
+      "pilihan": {
+        "A": "Satu potongan hanya memiliki Kutub Utara, dan potongan lainnya hanya memiliki Kutub Selatan",
+        "B": "Kedua potongan kehilangan sifat kemagnetannya sama sekali",
+        "C": "Setiap potongan membentuk magnet baru yang lengkap, masing-masing memiliki Kutub Utara dan Kutub Selatan",
+        "D": "Kutub Utara dan Selatan akan berbalik arah pada kedua potongan tersebut"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Pekerja bangunan sering menggunakan alat berat dengan 'piringan besi bundar' yang dihubungkan ke listrik untuk memindahkan rongsokan mobil bekas. Alat ini menggunakan konsep elektromagnet. Apa keuntungan utama menggunakan elektromagnet dibandingkan magnet permanen raksasa untuk tugas ini?",
+      "pilihan": {
+        "A": "Elektromagnet lebih murah harganya dibandingkan membuat magnet permanen",
+        "B": "Elektromagnet dapat dihidupkan dan dimatikan (ditarik dan dilepas) hanya dengan memutus arus listrik",
+        "C": "Elektromagnet tidak berkarat meski terkena hujan",
+        "D": "Magnet permanen akan menarik mobil beserta pekerjanya sekaligus"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Banyak rumah di Indonesia memasang MCB (Miniature Circuit Breaker) atau sekring di meteran listrik depan rumah. Secara prinsip kerja kelistrikan, fungsi utama alat ini adalah...",
+      "pilihan": {
+        "A": "Menaikkan tegangan listrik dari PLN agar lampu lebih terang",
+        "B": "Menurunkan tagihan listrik dengan menahan arus yang masuk",
+        "C": "Memutus aliran listrik secara otomatis jika terjadi korsleting (hubungan arus pendek) atau kelebihan beban agar tidak terjadi kebakaran",
+        "D": "Menyimpan cadangan energi saat lampu mati (mati lampu)"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Burung merpati pos pada zaman dahulu bisa terbang ratusan kilometer dan kembali ke sarangnya tanpa tersesat, meskipun tidak memiliki kompas buatan manusia. Rahasia navigasi burung ini berkaitan dengan...",
+      "pilihan": {
+        "A": "Burung mengingat bentuk awan di siang hari",
+        "B": "Burung memiliki partikel magnetik di kepalanya yang merespons medan magnet bumi",
+        "C": "Burung mengandalkan penciumannya yang tajam terhadap bau sarang",
+        "D": "Burung selalu mengikuti arah tiupan angin yang konstan"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Sebuah rangkaian seri terdiri dari 4 lampu kecil yang identik dan dihubungkan ke baterai 9 Volt. Jika baterai yang sama (9 Volt) digunakan untuk menyalakan 4 lampu identik tersebut namun dirangkai secara paralel, perbedaan mendasar apa yang akan diamati?",
+      "pilihan": {
+        "A": "Lampu pada rangkaian seri akan menyala lebih terang daripada rangkaian paralel",
+        "B": "Lampu pada rangkaian paralel akan menyala lebih terang, tetapi baterai akan lebih cepat habis",
+        "C": "Lampu pada kedua rangkaian akan menyala dengan tingkat terang yang sama persis",
+        "D": "Baterai pada rangkaian seri akan lebih cepat panas dan meledak"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Dinamo sepeda akan menyalakan lampu saat roda berputar. Di dalam dinamo terdapat magnet dan kumparan kawat. Proses perubahan yang mendasari prinsip kerja dinamo (Induksi Elektromagnetik) adalah...",
+      "pilihan": {
+        "A": "Perubahan medan magnet di sekitar kumparan akan menghasilkan gaya gerak listrik (tegangan listrik)",
+        "B": "Aliran listrik dari ban sepeda mengalir ke kumparan menjadi cahaya",
+        "C": "Gesekan ban menghasilkan listrik statis yang disimpan dalam magnet",
+        "D": "Kumparan kawat memanas dan menyala akibat gesekan rotasi"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "pertanyaan": "Perhatikan alat-alat elektronik berikut: 1) Seterika, 2) Kipas Angin, 3) Magic Com (Penanak Nasi), 4) Blender. Kelompok alat yang memiliki prinsip kerja mengubah energi listrik menjadi energi kinetik (gerak) ditunjukkan oleh nomor...",
+      "pilihan": {
+        "A": "1 dan 3",
+        "B": "2 dan 4",
+        "C": "1 dan 4",
+        "D": "2 dan 3"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Kutub Utara magnet jarum sebuah kompas yang kita pegang sebenarnya selalu menunjuk ke arah Kutub Utara Geografis Bumi. Berdasarkan prinsip gaya tarik-menarik magnet, hal ini membuktikan bahwa...",
+      "pilihan": {
+        "A": "Di Kutub Utara Bumi (Arktik) terdapat Kutub Utara Magnet Bumi yang sangat besar",
+        "B": "Di Kutub Utara Bumi (Arktik) sebenarnya terdapat Kutub Selatan Magnet Bumi",
+        "C": "Bumi tidak memiliki sifat kemagnetan, hanya kompas yang bergerak sendiri",
+        "D": "Gaya gravitasi menarik ujung kompas ke atas"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Seseorang sedang memperbaiki instalasi listrik rumah dan secara tidak sengaja memegang kabel telanjang bermuatan (kabel fasa/api). Jika orang tersebut memakai sepatu bot karet tebal dan kakinya tidak menyentuh dinding atau lantai lembap, kemungkinan yang akan terjadi adalah...",
+      "pilihan": {
+        "A": "Orang tersebut akan tersengat listrik dengan parah karena tubuh manusia adalah konduktor",
+        "B": "Orang tersebut kemungkinan tidak tersengat listrik karena karet adalah isolator dan tidak ada jalur aliran arus ke tanah (grounding)",
+        "C": "Kabel tersebut akan langsung meledak akibat energi tubuh manusia",
+        "D": "Sepatu karetnya akan meleleh karena menyerap energi panas dari listrik"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Gaya gesek dan gaya magnet memiliki sifat yang berbeda dalam cara kerjanya. Perbedaan utama antara keduanya adalah...",
+      "pilihan": {
+        "A": "Gaya gesek bisa terjadi tanpa bersentuhan (non-kontak), sedangkan gaya magnet harus menempel (kontak langsung)",
+        "B": "Gaya gesek adalah gaya sentuh (kontak langsung), sedangkan gaya magnet dapat bekerja dari jarak tertentu tanpa bersentuhan (non-kontak)",
+        "C": "Keduanya hanya bisa bekerja di dalam ruang hampa udara",
+        "D": "Gaya gesek menarik benda, gaya magnet mendorong benda"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Generator di Pembangkit Listrik Tenaga Angin (PLTB) tidak selalu berputar dengan kecepatan tetap karena angin sering berubah-ubah. Untuk menyetabilkan arus listrik sebelum dialirkan ke rumah warga, komponen tambahan yang krusial diperlukan adalah...",
+      "pilihan": {
+        "A": "Kipas raksasa tambahan untuk meniup baling-baling saat angin pelan",
+        "B": "Baterai (Aki/Baterai Bank) penyimpan daya dan Inverter (Pengubah Arus)",
+        "C": "Tali rem mekanik untuk memperlambat putaran generator",
+        "D": "Magnet batang untuk menahan baling-baling agar tidak terlepas"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Plastik pelindung kabel (isolator) sering kali dibuat berwarna-warni (merah, biru, hitam, hijau kuning). Selain memperindah tampilan, fungsi teknis utama dari pewarnaan ini dalam instalasi listrik adalah...",
+      "pilihan": {
+        "A": "Menurunkan suhu kabel agar tidak mudah panas",
+        "B": "Sebagai kode/standar internasional untuk membedakan jalur kabel fasa (api), netral, dan grounding (arde)",
+        "C": "Melindungi tembaga di dalamnya dari gigitan serangga",
+        "D": "Agar harga jual kabel bervariasi di pasaran"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Jika kamu mendekatkan dua buah magnet batang pada kutub yang sama (Utara dan Utara), kamu akan merasakan adanya tolakan. Gaya tak kasat mata yang berada di sekeliling magnet dan menyebabkan tolakan ini disebut...",
+      "pilihan": {
+        "A": "Garis Gaya Magnet yang membentuk Medan Magnet",
+        "B": "Aura Listrik Statis",
+        "C": "Gelombang Elektromagnetik Radio",
+        "D": "Gravitasi Magnetik"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "pertanyaan": "Hewan Sidat Listrik (Electric Eel) mampu menghasilkan tegangan listrik hingga 600 Volt untuk melumpuhkan mangsanya di sungai Amazon. Mengapa Sidat Listrik tersebut tidak tersengat oleh listriknya sendiri di dalam air?",
+      "pilihan": {
+        "A": "Karena air tawar Amazon tidak bisa menghantarkan listrik",
+        "B": "Tubuhnya tidak memiliki jantung dan organ dalam seperti ikan lain",
+        "C": "Jaringan saraf dan organ vitalnya dilindungi oleh lapisan lemak tebal yang berfungsi sebagai isolator listrik",
+        "D": "Baterai di dalam tubuhnya memiliki kutub negatif yang menetralkan kejutan"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Sebuah eksperimen sederhana dilakukan dengan membuat baterai dari perasan jeruk nipis, koin tembaga, dan paku seng, lalu disambungkan ke lampu LED kecil. Lampu LED tersebut dapat menyala karena...",
+      "pilihan": {
+        "A": "Gula dalam jeruk nipis menghasilkan energi kinetik",
+        "B": "Koin tembaga dan paku seng bereaksi dengan asam jeruk nipis sehingga menghasilkan aliran elektron (arus listrik kimia)",
+        "C": "Asam jeruk nipis menyerap listrik dari udara sekitar",
+        "D": "Tembaga dan seng bertabrakan menghasilkan percikan api kecil"
+      },
+      "kunci_jawaban": "B"
+    }
+  ]
+}

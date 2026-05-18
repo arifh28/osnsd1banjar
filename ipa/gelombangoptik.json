@@ -1,0 +1,207 @@
+{
+  "nama_paket": "Gelombang dan Optik",
+  "mata_pelajaran": "IPA",
+  "bagian_materi": "Gelombang dan Optik",
+  "soal": [
+    {
+      "pertanyaan": "Saat terjadi badai petir, kita selalu melihat kilatan cahaya petir terlebih dahulu, baru beberapa detik kemudian terdengar suara guruh menggelegar. Fenomena ini membuktikan bahwa...",
+      "pilihan": {
+        "A": "Cahaya petir terbentuk lebih dulu di awan daripada suaranya",
+        "B": "Mata manusia merespons rangsangan lebih cepat daripada telinga",
+        "C": "Kecepatan rambat gelombang cahaya jauh lebih besar daripada kecepatan rambat gelombang bunyi",
+        "D": "Suara guruh tertahan oleh awan mendung yang tebal"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Sebuah kapal nelayan memancarkan gelombang bunyi (sonar) ke dasar laut untuk mengukur kedalaman. Jika kecepatan rambat bunyi di dalam air laut adalah 1.500 m/s dan bunyi pantul terdengar kembali setelah 4 detik, berapakah kedalaman laut tersebut?",
+      "pilihan": {
+        "A": "1.500 meter",
+        "B": "3.000 meter",
+        "C": "6.000 meter",
+        "D": "12.000 meter"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Dua orang astronot sedang berjalan-jalan di permukaan bulan. Meskipun mereka berteriak sekuat tenaga dari jarak dekat, mereka tidak bisa saling mendengar secara langsung dan harus menggunakan radio komunikasi. Hal ini terjadi karena...",
+      "pilihan": {
+        "A": "Helm astronot terlalu tebal sehingga kedap suara",
+        "B": "Gelombang bunyi adalah gelombang mekanik yang membutuhkan medium (udara) untuk merambat, sedangkan bulan hampa udara",
+        "C": "Gravitasi bulan terlalu lemah untuk menarik gelombang bunyi",
+        "D": "Suhu di bulan terlalu dingin sehingga suara membeku"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Saat kamu menaiki mobil dan mendengar sirine ambulans yang mendekat ke arahmu, suara sirine tersebut terdengar makin tinggi (melengking). Namun saat ambulans itu melewatimu dan menjauh, suaranya terdengar makin rendah. Efek fisika ini disebut...",
+      "pilihan": {
+        "A": "Efek Rumah Kaca",
+        "B": "Efek Resonansi",
+        "C": "Efek Doppler",
+        "D": "Efek Gema Bunyi"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Budi mencoba menombak ikan yang berenang di air sungai yang jernih. Agar tombaknya tepat mengenai ikan, Budi harus mengarahkan tombaknya sedikit lebih ke bawah dari bayangan ikan yang ia lihat. Mengapa demikian?",
+      "pilihan": {
+        "A": "Karena air sungai mengalir dan membelokkan arah tombak",
+        "B": "Karena ikan selalu berenang ke dasar sungai saat kaget",
+        "C": "Karena cahaya dari ikan ke mata Budi mengalami pembelokan (pembiasan) saat melewati batas air dan udara, sehingga ikan tampak lebih dangkal dari aslinya",
+        "D": "Karena cahaya memantul sempurna di permukaan air"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Dinding bioskop dan studio musik selalu dilapisi dengan bahan yang empuk dan berpori seperti karpet, busa, atau karet. Tujuan utama dari pelapisan dinding ini berdasarkan sifat gelombang bunyi adalah...",
+      "pilihan": {
+        "A": "Memperindah ruangan agar nyaman",
+        "B": "Menyerap energi gelombang bunyi untuk mencegah terjadinya gaung (pantulan bunyi yang mengganggu suara asli)",
+        "C": "Meningkatkan suhu ruangan agar penonton tidak kedinginan",
+        "D": "Memantulkan suara agar terdengar lebih keras di seluruh sudut ruangan"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Sebuah apel berwarna merah diletakkan di dalam ruangan gelap gulita, lalu disorot hanya dengan lampu senter berwarna hijau murni. Warna apakah apel tersebut akan terlihat oleh mata kita?",
+      "pilihan": {
+        "A": "Merah",
+        "B": "Hijau",
+        "C": "Kuning",
+        "D": "Hitam (Gelap)"
+      },
+      "kunci_jawaban": "D"
+    },
+    {
+      "pertanyaan": "Cermin yang digunakan sebagai kaca spion pada mobil atau motor adalah cermin cembung, bukan cermin datar. Keuntungan utama menggunakan cermin cembung pada kendaraan adalah...",
+      "pilihan": {
+        "A": "Menghasilkan bayangan yang diperbesar sehingga kendaraan di belakang terlihat sangat jelas",
+        "B": "Menghasilkan bayangan nyata yang tertangkap di luar cermin",
+        "C": "Sifat bayangannya selalu maya, tegak, dan diperkecil, sehingga memberikan area jarak pandang (field of view) yang jauh lebih luas",
+        "D": "Mencegah pantulan sinar matahari agar tidak menyilaukan mata supir"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Seorang kakek sedang membaca koran. Namun ia harus menjauhkan koran tersebut dari matanya agar tulisannya tidak terlihat kabur. Kelainan mata yang dialami kakek dan kacamata yang dapat membantunya adalah...",
+      "pilihan": {
+        "A": "Miopi (Rabun Jauh), dibantu kacamata lensa cekung (-)",
+        "B": "Hipermetropi (Rabun Dekat), dibantu kacamata lensa cembung (+)",
+        "C": "Silinder (Astigmatisme), dibantu kacamata lensa silindris",
+        "D": "Katarak, dibantu kacamata hitam"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Kamera memiliki komponen diafragma yang bisa membuka dan menutup untuk mengatur jumlah cahaya yang masuk mengenai sensor/film. Pada mata manusia, bagian yang memiliki fungsi persis seperti diafragma kamera adalah...",
+      "pilihan": {
+        "A": "Retina",
+        "B": "Lensa Mata",
+        "C": "Iris dan Pupil",
+        "D": "Saraf Optik"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Saat berkendara di jalan aspal yang lurus pada siang hari yang sangat terik, terkadang kita melihat seolah-olah ada genangan air di depan kita, padahal jalanan kering. Fenomena fatamorgana ini terjadi akibat proses optik yaitu...",
+      "pilihan": {
+        "A": "Pembiasan dan pemantulan sempurna cahaya matahari oleh lapisan udara panas di dekat aspal",
+        "B": "Penguapan air dari dalam tanah aspal",
+        "C": "Ilusi dari keringat yang mengalir di kornea mata kita",
+        "D": "Pemantulan bayangan awan putih oleh aspal hitam"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "pertanyaan": "Andi memegang sebuah gitar dan memetik salah satu senarnya. Agar nada yang dihasilkan oleh senar gitar tersebut terdengar lebih tinggi (melengking), hal mekanis apa yang harus dilakukan Andi?",
+      "pilihan": {
+        "A": "Mengendurkan putaran senar",
+        "B": "Menarik senar dengan tenaga yang lebih keras agar amplitudonya besar",
+        "C": "Mengganti senar dengan senar yang lebih tebal/besar",
+        "D": "Memutar baut senar agar semakin tegang (kencang) atau menekan senar pada fret yang lebih pendek"
+      },
+      "kunci_jawaban": "D"
+    },
+    {
+      "pertanyaan": "Gerhana Matahari Total terjadi ketika bayangan bulan jatuh menutupi permukaan bumi. Hanya daerah di bumi yang terkena bayangan inti (paling gelap) yang akan mengalami gerhana total. Bayangan inti tersebut dinamakan...",
+      "pilihan": {
+        "A": "Penumbra",
+        "B": "Umbra",
+        "C": "Korona",
+        "D": "Foton"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Cahaya putih matahari yang melewati sebuah kaca prisma segitiga atau tetesan air hujan akan terpecah menjadi tujuh warna pelangi (merah hingga ungu). Peristiwa terurainya cahaya putih menjadi warna-warni penyusunnya disebut...",
+      "pilihan": {
+        "A": "Interferensi",
+        "B": "Difraksi",
+        "C": "Dispersi",
+        "D": "Polarisasi"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Sebuah gelas anggur kaca yang sangat tipis dapat retak dan hancur berantakan ketika seorang penyanyi seriosa bernyanyi dengan nada yang sangat tinggi di dekatnya, tanpa menyentuh gelas itu. Peristiwa ini terjadi karena adanya gejala gelombang yang disebut...",
+      "pilihan": {
+        "A": "Interferensi",
+        "B": "Resonansi (Frekuensi suara penyanyi menyamai frekuensi alami kaca sehingga kaca ikut bergetar hebat)",
+        "C": "Pemantulan Bunyi (Gema)",
+        "D": "Pembiasan Bunyi"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Dalam gelombang transversal pada seutas tali, satu gelombang penuh terdiri atas satu bukit dan satu lembah. Jika pada gelombang bunyi yang merambat di udara (gelombang longitudinal), satu gelombang penuh terdiri atas...",
+      "pilihan": {
+        "A": "Satu perut dan satu simpul",
+        "B": "Satu bukit dan satu lembah udara",
+        "C": "Satu rapatan dan satu renggangan partikel udara",
+        "D": "Satu puncak amplitudo dan satu garis ekuilibrium"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Kapal selam dilengkapi dengan sebuah alat optik berupa pipa panjang berlensa yang bisa dinaikkan ke atas permukaan laut untuk mengintai musuh tanpa harus kapal selamnya muncul. Alat optik ini dinamakan...",
+      "pilihan": {
+        "A": "Mikroskop",
+        "B": "Periskop",
+        "C": "Teleskop",
+        "D": "Stetoskop"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Bunga meletakkan sebuah pulpen di depan sebuah Cermin Datar. Pernyataan yang TIDAK TEPAT mengenai sifat bayangan pulpen yang terbentuk pada cermin datar adalah...",
+      "pilihan": {
+        "A": "Bayangan bersifat maya (tidak bisa ditangkap layar)",
+        "B": "Jarak pulpen ke cermin sama dengan jarak bayangan ke cermin",
+        "C": "Ukuran bayangan lebih besar dari ukuran aslinya (Diperbesar)",
+        "D": "Bayangan tegak namun posisinya tertukar antara kiri dan kanan"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Untuk mengamati sel tumbuhan, peneliti menggunakan mikroskop cahaya. Peneliti tersebut memotong tipis daun tumbuhan lalu meletakkannya di atas kaca preparat. Tujuan dari irisan yang sangat tipis ini secara optik adalah...",
+      "pilihan": {
+        "A": "Agar daunnya tidak membusuk saat diteliti",
+        "B": "Agar kuman dan bakteri dari daun mati",
+        "C": "Agar cahaya dari cermin di bawah mikroskop dapat menembus objek dan masuk ke lensa objektif",
+        "D": "Agar muat dimasukkan ke dalam kotak lensa"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Pada siang hari, kita sering menggunakan kaca pembesar (Lup) untuk memfokuskan sinar matahari ke setitik area di atas kertas kering hingga kertas tersebut terbakar. Lensa yang digunakan pada kaca pembesar ini haruslah jenis lensa...",
+      "pilihan": {
+        "A": "Lensa Cekung, karena sifatnya menyebarkan cahaya (Divergen)",
+        "B": "Lensa Cembung, karena sifatnya mengumpulkan cahaya (Konvergen)",
+        "C": "Lensa Datar, karena meneruskan cahaya tanpa mengubahnya",
+        "D": "Lensa Silindris, karena sifatnya meluruskan cahaya"
+      },
+      "kunci_jawaban": "B"
+    }
+  ]
+}

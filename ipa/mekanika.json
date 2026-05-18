@@ -1,0 +1,207 @@
+{
+  "nama_paket": "Mekanika",
+  "mata_pelajaran": "IPA",
+  "bagian_materi": "Mekanika",
+  "soal": [
+    {
+      "pertanyaan": "Andi dan Budi berdiri terpisah sejauh 100 meter. Mereka berlari saling berhadapan pada saat yang bersamaan. Andi berlari dengan kecepatan 3 m/s, sedangkan Budi berlari lebih cepat dengan kecepatan 2 m/s. Setelah berapa detik mereka akan saling berpapasan?",
+      "pilihan": {
+        "A": "10 detik",
+        "B": "20 detik",
+        "C": "25 detik",
+        "D": "50 detik"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Sebuah buah kelapa bermassa 2 kg masih menggantung di pohonnya pada ketinggian 5 meter dari permukaan tanah. Jika percepatan gravitasi bumi adalah 10 m/s2, berapakah Energi Potensial yang dimiliki buah kelapa tersebut sebelum jatuh? (Petunjuk: Energi Potensial = massa x gravitasi x tinggi)",
+      "pilihan": {
+        "A": "10 Joule",
+        "B": "50 Joule",
+        "C": "100 Joule",
+        "D": "200 Joule"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Pak Tani menggunakan linggis panjang untuk mengungkit batu besar seberat 400 Newton. Jarak dari batu ke titik tumpu (lengan beban) adalah 0,5 meter. Jika Pak Tani menekan linggis pada jarak 2 meter dari titik tumpu (lengan kuasa), berapa gaya dorong yang harus dikeluarkan Pak Tani? (Petunjuk: Gaya x Lengan Kuasa = Beban x Lengan Beban)",
+      "pilihan": {
+        "A": "50 Newton",
+        "B": "100 Newton",
+        "C": "200 Newton",
+        "D": "800 Newton"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Sebuah balok kayu berbentuk kubus memiliki berat 60 Newton. Balok tersebut diletakkan di atas lantai. Jika luas permukaan dasar balok yang menyentuh lantai adalah 2 meter persegi, berapakah tekanan yang diberikan balok terhadap lantai? (Petunjuk: Tekanan = Gaya / Luas Permukaan)",
+      "pilihan": {
+        "A": "30 Pascal",
+        "B": "60 Pascal",
+        "C": "120 Pascal",
+        "D": "150 Pascal"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "pertanyaan": "Doni mendorong lemari ke arah kanan dengan gaya 50 Newton. Di saat yang sama, adiknya mendorong lemari tersebut ke arah kiri dengan gaya 30 Newton. Berapakah resultan (total) gaya yang bekerja pada lemari dan ke mana arah geraknya?",
+      "pilihan": {
+        "A": "80 Newton ke kanan",
+        "B": "80 Newton ke kiri",
+        "C": "20 Newton ke kiri",
+        "D": "20 Newton ke kanan"
+      },
+      "kunci_jawaban": "D"
+    },
+    {
+      "pertanyaan": "Ketika kita sedang naik mobil yang melaju kencang, lalu tiba-tiba supir menginjak rem mendadak, tubuh kita akan terdorong ke depan. Peristiwa mekanika ini terjadi karena...",
+      "pilihan": {
+        "A": "Tubuh kita ditarik oleh gaya gravitasi kaca depan",
+        "B": "Tubuh kita memiliki sifat kelembaman (inersia) yang cenderung mempertahankan gerak awalnya",
+        "C": "Gaya dorong mesin berpindah dari ban ke tubuh penumpang",
+        "D": "Rem mobil menghasilkan gaya magnet yang menarik manusia"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Mengapa dinding bendungan air selalu dibangun jauh lebih tebal dan lebar di bagian paling bawahnya dibandingkan bagian atasnya?",
+      "pilihan": {
+        "A": "Agar ikan-ikan besar tidak bisa menabrak dasar bendungan",
+        "B": "Untuk menghemat bahan bangunan semen di bagian atas",
+        "C": "Karena tekanan zat cair semakin ke dalam (ke bawah) akan semakin besar",
+        "D": "Agar dasar bendungan bisa menyerap air lebih banyak"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Sehelai bulu burung dan sebuah bola besi dijatuhkan bersamaan dari ketinggian yang sama di dalam sebuah tabung hampa udara (tanpa ada udara sama sekali). Apa yang akan terjadi?",
+      "pilihan": {
+        "A": "Bola besi jatuh lebih dulu karena massanya lebih berat",
+        "B": "Bulu burung melayang-layang dan tidak pernah menyentuh dasar",
+        "C": "Keduanya akan jatuh dan menyentuh dasar tabung pada saat yang bersamaan",
+        "D": "Bola besi tertinggal karena gaya gravitasinya terbalik"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Saat kamu mendayung perahu karet ke arah belakang (mendorong air ke belakang), perahu justru bergerak maju ke depan. Konsep fisika apa yang menjelaskan fenomena ini?",
+      "pilihan": {
+        "A": "Hukum Aksi-Reaksi (Setiap ada gaya aksi, akan ada gaya reaksi yang sama besar namun berlawanan arah)",
+        "B": "Hukum Archimedes tentang gaya apung air",
+        "C": "Gaya gesek statis antara dayung dan air",
+        "D": "Energi kinetik dayung berubah menjadi energi panas"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "pertanyaan": "Jika kamu membandingkan sepatu hak tinggi (stiletto) milik ibu dengan sepatu boots datar milik ayah, manakah yang akan meninggalkan jejak paling dalam jika dipakai berjalan di atas tanah lumpur yang sama?",
+      "pilihan": {
+        "A": "Sepatu boots, karena sepatu ayah biasanya lebih besar",
+        "B": "Keduanya sama dalamnya karena sama-sama sepatu",
+        "C": "Sepatu hak tinggi, karena luas permukaan bawahnya sangat kecil sehingga menghasilkan tekanan yang sangat besar",
+        "D": "Sepatu boots, karena gaya geseknya lebih besar menahan lumpur"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Kereta Maglev (Magnetic Levitation) bisa melaju sangat cepat melebihi kereta biasa dan nyaris tanpa suara. Rahasia utama kereta ini secara mekanika adalah...",
+      "pilihan": {
+        "A": "Memiliki roda jet yang bisa berputar di udara",
+        "B": "Kereta diangkat oleh gaya tolak-menolak magnet sehingga tidak menyentuh rel, menghilangkan gaya gesek",
+        "C": "Menggunakan bahan bakar pesawat luar angkasa yang ringan",
+        "D": "Relnya terbuat dari es yang sangat licin"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Pemain akrobat yang berjalan di atas seutas tali sering terlihat membawa tongkat yang sangat panjang. Secara ilmu fisika mekanika, fungsi tongkat ini adalah untuk...",
+      "pilihan": {
+        "A": "Sebagai senjata untuk mengusir burung yang mengganggu",
+        "B": "Menambah beban agar tali tidak mudah putus",
+        "C": "Menyeimbangkan titik berat tubuh (center of gravity) agar tidak mudah terjatuh",
+        "D": "Alat bantu untuk melompat di akhir pertunjukan"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Air terjun yang mengalir deras dari tebing tinggi menabrak bebatuan di bawahnya. Pada peristiwa jatuhnya air terjun, terjadi perubahan energi utama yaitu dari...",
+      "pilihan": {
+        "A": "Energi kinetik menjadi energi potensial",
+        "B": "Energi potensial (karena ketinggian) berubah menjadi energi kinetik (gerak jatuh)",
+        "C": "Energi kimia menjadi energi mekanik",
+        "D": "Energi panas menjadi energi gerak"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Sebuah kapal pesiar yang terbuat dari ribuan ton besi baja dapat mengapung dengan tenang di atas air laut, padahal sebatang paku besi kecil akan langsung tenggelam jika dilempar ke laut. Kapal bisa mengapung karena...",
+      "pilihan": {
+        "A": "Besi baja laut berbeda dengan besi pada paku",
+        "B": "Kapal memiliki rongga udara yang sangat luas di dalamnya, sehingga massa jenis total kapal menjadi lebih kecil dari massa jenis air",
+        "C": "Laut mendorong kapal menggunakan gelombang ke atas",
+        "D": "Kapal memiliki mesin yang terus menyala untuk menahannya dari bawah"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Permukaan ban mobil dan sandal gunung sengaja dibuat beralur kasar (berbunga). Tujuan desain mekanika ini adalah...",
+      "pilihan": {
+        "A": "Meningkatkan gaya gesek agar tidak mudah tergelincir di jalan licin",
+        "B": "Memperkecil gaya gesek agar bisa melaju sangat cepat",
+        "C": "Memperindah tampilan agar disukai anak-anak",
+        "D": "Membuat ban menjadi lebih ringan saat diputar"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "pertanyaan": "Ketika kita menarik anak panah menggunakan busurnya ke belakang lalu menahannya sejenak, energi apa yang tersimpan pada tali busur yang meregang tersebut?",
+      "pilihan": {
+        "A": "Energi Kinetik Panah",
+        "B": "Energi Potensial Pegas (Elastisitas)",
+        "C": "Energi Gravitasi",
+        "D": "Energi Termal (Panas)"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Sebuah truk bermuatan penuh dan sebuah sepeda melaju di jalan tol dengan kecepatan yang sama persis (misal 50 km/jam). Jika keduanya harus mengerem mendadak, manakah yang butuh jarak lebih jauh untuk bisa berhenti total?",
+      "pilihan": {
+        "A": "Sepeda, karena bannya lebih tipis",
+        "B": "Truk, karena massanya jauh lebih besar sehingga memiliki momentum dan inersia yang sangat besar untuk dihentikan",
+        "C": "Keduanya akan berhenti pada jarak yang sama karena kecepatannya sama",
+        "D": "Truk akan berhenti seketika karena remnya lebih banyak"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Mengapa pesawat luar angkasa yang sudah keluar dari orbit dan berada di ruang angkasa hampa udara tidak perlu terus-menerus menyalakan mesinnya untuk melaju ke bulan?",
+      "pilihan": {
+        "A": "Karena bulan menarik pesawat tersebut menggunakan gaya magnet buatan",
+        "B": "Karena di ruang hampa tidak ada gesekan udara, benda yang bergerak akan terus bergerak dengan kecepatan tetap (Hukum Newton I)",
+        "C": "Karena pesawat luar angkasa dikendalikan menggunakan angin matahari",
+        "D": "Karena mesin akan terbakar jika dinyalakan di ruang hampa udara"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Pemain sepatu roda es (ice skating) akan menarik kedua tangannya rapat ke dadanya saat ia ingin berputar (spin) dengan sangat cepat, dan merentangkan tangannya saat ingin memperlambat putaran. Konsep fisika yang digunakan adalah...",
+      "pilihan": {
+        "A": "Kekekalan Momentum Sudut",
+        "B": "Gaya Apung Udara",
+        "C": "Gaya Gesek Statis",
+        "D": "Hukum Aksi Reaksi Kaki"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "pertanyaan": "Sebuah parasut dirancang sangat lebar menyerupai payung raksasa. Tujuan mekanika dari rancangan ini saat digunakan untuk terjun payung adalah...",
+      "pilihan": {
+        "A": "Menangkap oksigen agar penerjun bisa bernapas",
+        "B": "Memperbesar hambatan udara (gaya gesek udara) ke arah atas sehingga memperlambat gerak jatuh penerjun",
+        "C": "Mempercepat gaya gravitasi menarik penerjun ke bawah",
+        "D": "Sebagai hiasan agar penerjun terlihat dari jauh"
+      },
+      "kunci_jawaban": "B"
+    }
+  ]
+}

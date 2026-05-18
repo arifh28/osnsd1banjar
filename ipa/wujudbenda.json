@@ -1,0 +1,207 @@
+{
+  "nama_paket": "Wujud Benda",
+  "mata_pelajaran": "IPA",
+  "bagian_materi": "Wujud Benda",
+  "soal": [
+    {
+      "pertanyaan": "Ibu membelikan adik balon gas yang bisa terbang di taman hiburan. Namun, keesokan paginya saat udara sangat dingin, balon tersebut terlihat agak kempes dan mengkerut, padahal tidak ada lubang bocor sama sekali. Hal ini terjadi karena...",
+      "pilihan": {
+        "A": "Gas di dalam balon membeku menjadi benda padat",
+        "B": "Partikel gas di dalam balon menyusut karena suhu dingin sehingga volume gas mengecil",
+        "C": "Balon menyerap air dari udara yang dingin",
+        "D": "Gas di dalam balon berubah wujud menjadi air"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Perhiasan emas 24 karat sangat lunak sehingga mudah berubah bentuk, oleh karena itu perajin emas sering mencampurnya dengan tembaga atau perak menjadi emas 18 karat agar lebih keras. Berdasarkan penggolongan materi, emas 24 karat dan emas 18 karat berturut-turut termasuk...",
+      "pilihan": {
+        "A": "Zat tunggal (unsur) dan zat campuran homogen",
+        "B": "Zat campuran dan zat tunggal (senyawa)",
+        "C": "Keduanya adalah zat tunggal",
+        "D": "Keduanya adalah zat campuran heterogen"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "pertanyaan": "Saat kamu meneteskan cairan spiritus (alkohol) ke punggung tanganmu, tanganmu akan terasa sangat dingin. Secara sains, mengapa sensasi dingin ini terjadi?",
+      "pilihan": {
+        "A": "Alkohol membekukan pori-pori kulit",
+        "B": "Alkohol menguap menjadi gas dengan cara menyerap energi panas (kalor) dari kulit tanganmu",
+        "C": "Suhu asli alkohol memang selalu lebih dingin daripada es",
+        "D": "Alkohol bereaksi dengan darah di bawah kulit"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Sebuah botol kaca tebal diisi air sampai penuh, lalu ditutup rapat dan dimasukkan ke dalam freezer kulkas. Keesokan harinya botol kaca tersebut pecah. Hal ini membuktikan salah satu keunikan (anomali) sifat air, yaitu...",
+      "pilihan": {
+        "A": "Air membeku menjadi es yang sangat keras seperti palu",
+        "B": "Air menyusut saat mendingin sehingga menarik kaca dari dalam",
+        "C": "Volume air memuai (bertambah besar) ketika membeku menjadi es",
+        "D": "Suhu dingin membuat kaca menjadi lentur dan sobek"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Pak Rio membuat dua gelas minuman. Gelas A berisi air dicampur sirup jeruk, Gelas B berisi air dicampur kopi bubuk hitam. Setelah diaduk dan didiamkan 10 menit, bubuk kopi di Gelas B mengendap di bawah, sedangkan Gelas A tidak ada endapan sama sekali. Kesimpulan yang benar adalah...",
+      "pilihan": {
+        "A": "Gelas A adalah larutan (campuran homogen), Gelas B adalah campuran heterogen (suspensi)",
+        "B": "Keduanya adalah campuran homogen karena sama-sama benda cair",
+        "C": "Sirup jeruk adalah zat tunggal, sedangkan kopi adalah zat campuran",
+        "D": "Kopi memiliki suhu yang lebih berat daripada sirup"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "pertanyaan": "Ketika hujan deras, suhu di dalam mobil yang AC-nya dimatikan menjadi lebih hangat daripada suhu di luar mobil. Akibatnya, kaca mobil bagian dalam menjadi buram karena tertutup bintik-bintik air (berembun). Dari mana asalnya bintik air tersebut?",
+      "pilihan": {
+        "A": "Air hujan di luar merembes tembus melewati pori-pori kaca",
+        "B": "Uap air dari napas penumpang di dalam mobil melepaskan kalor dan mengembun saat menyentuh kaca yang dingin",
+        "C": "AC mobil yang rusak mengeluarkan air ke arah kaca",
+        "D": "Kaca mobil menghasilkan air secara alami saat cuaca gelap"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Untuk memisahkan campuran air dan garam laut agar mendapatkan kristal garam murni, petani garam memanfaatkan panas matahari. Proses perubahan wujud yang terjadi pada pemisahan campuran ini adalah...",
+      "pilihan": {
+        "A": "Mengkristal",
+        "B": "Menyublim",
+        "C": "Menguap",
+        "D": "Membeku"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Setrika listrik otomatis bisa mati sendiri jika terlalu panas, lalu menyala lagi jika sudah agak dingin. Di dalamnya terdapat alat pengatur suhu (Termostat) yang terbuat dari Bimetal (dua logam berbeda yang dilekatkan). Prinsip kerja bimetal ini berdasarkan konsep...",
+      "pilihan": {
+        "A": "Logam yang berbeda memiliki koefisien muai (tingkat pertambahan panjang) yang berbeda saat dipanaskan",
+        "B": "Dua logam bisa menghasilkan listrik jika digabungkan",
+        "C": "Logam akan meleleh menjadi cairan jika bersentuhan",
+        "D": "Logam memuai jika didinginkan dan menyusut jika dipanaskan"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "pertanyaan": "Kapur barus (kamper) diletakkan di dalam lemari pakaian untuk mengusir serangga. Beberapa minggu kemudian kapur barus tersebut hilang tanpa meninggalkan bekas basah. Proses ini terjadi karena...",
+      "pilihan": {
+        "A": "Kapur barus dimakan oleh serangga",
+        "B": "Kapur barus mencair lalu menguap ke udara",
+        "C": "Kapur barus menyublim, yaitu berubah langsung dari padat menjadi gas",
+        "D": "Kapur barus meresap ke dalam serat kayu lemari"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Andi tidak sengaja mencampurkan serbuk besi halus dengan pasir di laboratorium. Cara paling cerdik dan cepat secara fisika untuk memisahkan campuran tersebut adalah...",
+      "pilihan": {
+        "A": "Menyaring campuran tersebut menggunakan kertas saring kopi",
+        "B": "Memasukkannya ke dalam air agar pasirnya larut",
+        "C": "Mendekatkan magnet kuat ke campuran tersebut agar serbuk besi tertarik",
+        "D": "Memanaskan campuran tersebut sampai besinya menguap"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Di negara 4 musim, salju terbentuk di awan ketika uap air (gas) yang sangat dingin di langit langsung berubah menjadi kristal es (padat) tanpa menjadi hujan air terlebih dahulu. Peristiwa perubahan wujud ini disebut...",
+      "pilihan": {
+        "A": "Menyublim",
+        "B": "Mengkristal (Deposisi)",
+        "C": "Mengembun",
+        "D": "Membeku"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Rel kereta api selalu dipasang dengan menyisakan sedikit celah (jarak) di antara sambungan relnya. Alasan fisika di balik pemasangan celah ini adalah...",
+      "pilihan": {
+        "A": "Agar kereta api memiliki pijakan yang mencengkeram saat mengerem",
+        "B": "Memberi ruang muai bagi batang baja rel pada siang hari yang panas agar rel tidak melengkung",
+        "C": "Menghemat jumlah baja yang digunakan oleh pemerintah",
+        "D": "Mencegah aliran listrik mengalir di sepanjang rel"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Zat tunggal dibagi menjadi dua, yaitu Unsur dan Senyawa. Air murni (H2O) dan Garam dapur (NaCl) termasuk ke dalam Senyawa karena...",
+      "pilihan": {
+        "A": "Bisa dipisahkan menjadi zat lain menggunakan saringan biasa",
+        "B": "Tersusun dari dua atau lebih jenis unsur berbeda yang bersatu melalui reaksi kimia",
+        "C": "Bentuknya selalu berupa benda padat dan cairan jernih",
+        "D": "Hanya terbentuk secara alami di lautan"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Gas Helium sering digunakan untuk mengisi balon udara terbang, padahal ada gas Hidrogen yang lebih ringan dari Helium. Alasan keamanan mengapa Helium lebih dipilih adalah karena sifat gas Helium...",
+      "pilihan": {
+        "A": "Tidak mudah terbakar dan tidak reaktif, sedangkan Hidrogen sangat mudah meledak",
+        "B": "Lebih wangi baunya dibandingkan Hidrogen",
+        "C": "Berubah menjadi air jika berada di langit yang tinggi",
+        "D": "Mudah ditemukan di sembarang tempat"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "pertanyaan": "Sebuah balon ditiup lalu diikat, kemudian ditekan menggunakan kedua tangan hingga bentuknya pipih. Hal ini membuktikan sifat benda gas, yaitu...",
+      "pilihan": {
+        "A": "Bentuk dan volumenya selalu tetap",
+        "B": "Dapat disentuh dan digenggam dengan mudah",
+        "C": "Bentuknya berubah-ubah sesuai wadah namun volumenya tidak bisa ditekan",
+        "D": "Menempati ruang dan mudah dimampatkan (dikompresi/ditekan)"
+      },
+      "kunci_jawaban": "D"
+    },
+    {
+      "pertanyaan": "Es balok bersuhu -10°C dipanaskan terus menerus menggunakan api besar hingga seluruhnya berubah menjadi uap air bersuhu 110°C. Saat tepat berada di suhu 0°C (proses mencair sepenuhnya), apa yang terjadi pada suhu es tersebut?",
+      "pilihan": {
+        "A": "Suhunya terus naik secara cepat tanpa berhenti",
+        "B": "Suhunya turun sebentar lalu naik kembali",
+        "C": "Suhunya tetap (konstan) di 0°C selama proses peleburan berlangsung karena kalor digunakan untuk mengubah wujud",
+        "D": "Es akan langsung berubah menjadi uap tanpa menjadi air"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Susu cair yang kita minum sehari-hari terlihat seperti cairan yang menyatu sempurna. Namun jika dilihat di bawah mikroskop, terlihat butiran lemak kecil yang melayang di dalam air susu. Dalam penggolongan campuran, susu termasuk jenis...",
+      "pilihan": {
+        "A": "Larutan murni",
+        "B": "Koloid (campuran yang tampak homogen tapi partikelnya tidak menyatu sempurna)",
+        "C": "Suspensi murni yang mengendap seketika",
+        "D": "Zat tunggal senyawa"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Gelas kaca tebal tiba-tiba retak saat dituangi air mendidih. Secara sains fisika (pemuaian benda padat), keretakan ini terjadi karena...",
+      "pilihan": {
+        "A": "Kaca menyerap kalor dan menguap sebagian",
+        "B": "Bagian dalam gelas memuai sangat cepat secara mendadak, sedangkan bagian luar belum memuai",
+        "C": "Air panas lebih berat dari kaca",
+        "D": "Bagian luar gelas mengerut akibat kaget oleh suhu panas"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Sebuah telur ayam mentah akan tenggelam jika dimasukkan ke dalam gelas berisi air keran. Namun, ketika ke dalam gelas itu dilarutkan banyak garam dapur, perlahan-lahan telur tersebut melayang lalu mengapung di permukaan. Mengapa demikian?",
+      "pilihan": {
+        "A": "Garam menghasilkan gas yang mendorong telur ke atas",
+        "B": "Garam mengikis cangkang telur sehingga beratnya berkurang",
+        "C": "Larutan garam membuat massa jenis cairan menjadi lebih besar daripada massa jenis telur",
+        "D": "Suhu air berubah drastis setelah diberi garam"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Ban sepeda motor yang dipompa terlalu keras dan ditinggalkan di tempat parkir tanpa peneduh di siang hari yang terik bisa tiba-tiba meletus dengan sendirinya. Peristiwa ini berkaitan erat dengan sifat...",
+      "pilihan": {
+        "A": "Penyusutan karet ban akibat kepanasan",
+        "B": "Pemuaian gas di dalam ban akibat kalor matahari sehingga menekan ban melebihi batas tahannya",
+        "C": "Reaksi kimia antara karet ban dengan aspal yang panas",
+        "D": "Gas di dalam ban menyublim menjadi benda padat"
+      },
+      "kunci_jawaban": "B"
+    }
+  ]
+}

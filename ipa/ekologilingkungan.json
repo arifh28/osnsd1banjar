@@ -1,0 +1,207 @@
+{
+  "nama_paket": "Ekologi dan Lingkungan",
+  "mata_pelajaran": "IPA",
+  "bagian_materi": "Lingkungan",
+  "soal": [
+    {
+      "pertanyaan": "Sebuah danau yang dekat dengan lahan pertanian tiba-tiba dipenuhi oleh eceng gondok yang tumbuh sangat subur hingga menutupi seluruh permukaan air. Beberapa hari kemudian, banyak ikan di danau tersebut mati. Penyebab utama kematian ikan-ikan tersebut adalah...",
+      "pilihan": {
+        "A": "Ikan keracunan daun eceng gondok yang jatuh ke air",
+        "B": "Eceng gondok menghalangi sinar matahari sehingga tumbuhan air di dasar danau tidak bisa berfotosintesis dan oksigen dalam air habis",
+        "C": "Eceng gondok menyerap seluruh air danau sehingga ikan kekeringan",
+        "D": "Suhu air danau menjadi sangat dingin karena tertutup bayangan eceng gondok"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Perhatikan rantai makanan berikut: Rumput -> Belalang -> Katak -> Ular -> Elang. Jika para petani menyemprotkan pestisida pembasmi serangga secara berlebihan, dampak jangka panjang yang paling mungkin terjadi pada ekosistem tersebut adalah...",
+      "pilihan": {
+        "A": "Populasi katak akan meningkat drastis karena tidak ada belalang yang mengganggu",
+        "B": "Populasi elang akan meningkat karena ular lebih mudah ditangkap",
+        "C": "Populasi katak menurun drastis, menyebabkan populasi ular juga ikut kelaparan dan menyusut",
+        "D": "Rumput akan mati karena pestisida meracuni akarnya secara langsung"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Sampah plastik di lautan seiring waktu akan hancur menjadi kepingan sangat kecil yang disebut mikroplastik. Dalam sebuah rantai makanan di laut (Plankton -> Ikan Kecil -> Ikan Tuna -> Hiu), hewan manakah yang di dalam tubuhnya akan terkumpul mikroplastik paling banyak?",
+      "pilihan": {
+        "A": "Plankton, karena ukurannya paling kecil dan langsung memakan plastik",
+        "B": "Ikan kecil, karena mereka memakan plankton dalam jumlah banyak setiap hari",
+        "C": "Ikan Tuna, karena dagingnya paling banyak mengandung lemak penyerap plastik",
+        "D": "Hiu, karena hiu berada di puncak rantai makanan dan memakan banyak ikan tuna yang sudah mengandung mikroplastik (Biomagnifikasi)"
+      },
+      "kunci_jawaban": "D"
+    },
+    {
+      "pertanyaan": "Sebuah hutan lindung ditebang hingga gundul untuk dijadikan lahan perumahan. Pada saat musim hujan tiba, daerah di bawah perumahan tersebut sering mengalami banjir bandang. Hal ini membuktikan bahwa pohon di hutan memiliki peran penting dalam siklus air, yaitu...",
+      "pilihan": {
+        "A": "Menahan awan hujan agar tidak turun di daerah perumahan",
+        "B": "Menyerap dan menahan air hujan ke dalam tanah (infiltrasi) agar tidak langsung mengalir deras ke bawah",
+        "C": "Menyerap seluruh air hujan menggunakan daunnya yang lebat",
+        "D": "Menghasilkan oksigen yang membuat air hujan menguap kembali dengan cepat"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Pemerintah membuat program Konservasi Ex-Situ untuk melestarikan Harimau Sumatera. Alasan utama pemerintah memilih metode Ex-Situ (seperti membawa harimau ke kebun binatang atau taman safari) dibandingkan In-Situ (dibiarkan di hutan aslinya) pada kasus tertentu adalah...",
+      "pilihan": {
+        "A": "Karena harimau lebih suka makan makanan yang diberikan oleh manusia",
+        "B": "Habitat asli harimau di hutan sudah terlalu rusak atau tidak aman dari pemburu liar",
+        "C": "Agar masyarakat mudah menonton harimau setiap akhir pekan",
+        "D": "Harimau Sumatera tidak bisa berkembang biak jika berada di dalam hutan"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Beberapa jenis tumbuhan kantong semar dan anggrek dilindungi oleh negara dan tidak boleh dibawa pulang jika ditemukan di hutan. Tumbuhan ini termasuk langka karena...",
+      "pilihan": {
+        "A": "Hanya bisa tumbuh di daerah bersalju dan sangat dingin",
+        "B": "Biji mereka sangat berat sehingga tidak bisa terbang tertiup angin",
+        "C": "Masa pertumbuhannya lama dan habitat khususnya banyak yang rusak atau beralih fungsi",
+        "D": "Semua serangga di hutan sudah habis dimakan oleh hewan lain"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Bakteri pengurai dan jamur (Dekomposer) memiliki peran sangat penting di alam. Jika tiba-tiba seluruh dekomposer di bumi menghilang, bencana ekologi apa yang paling cepat terjadi?",
+      "pilihan": {
+        "A": "Bumi akan dipenuhi oleh tumpukan bangkai dan sampah organik yang tidak bisa hancur",
+        "B": "Semua hewan karnivora akan langsung mati kelaparan",
+        "C": "Tumbuhan akan tumbuh sangat cepat karena tidak ada jamur yang menempel",
+        "D": "Udara akan menjadi sangat bersih dan kaya akan oksigen"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "pertanyaan": "Burung jalak sering hinggap di punggung kerbau untuk memakan kutu. Interaksi ini disebut simbiosis mutualisme. Namun, jika jumlah kutu di punggung kerbau habis, burung jalak mulai mematuk luka di kulit kerbau untuk meminum darahnya. Perubahan interaksi ini menjadi...",
+      "pilihan": {
+        "A": "Simbiosis Komensalisme, karena jalak untung dan kerbau tidak peduli",
+        "B": "Simbiosis Parasitisme, karena jalak diuntungkan mendapat makanan dan kerbau dirugikan karena lukanya membesar",
+        "C": "Simbiosis Amensalisme, karena jalak numpang lewat dan kerbau dirugikan",
+        "D": "Kompetisi, karena jalak dan kerbau memperebutkan rumput"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Penggunaan pupuk buatan dan bahan bakar fosil menghasilkan gas rumah kaca yang berlebihan seperti Karbon Dioksida (CO2). Dampak langsung dari peningkatan gas ini terhadap lingkungan global adalah...",
+      "pilihan": {
+        "A": "Suhu bumi meningkat (Pemanasan Global) yang memicu mencairnya es di kutub",
+        "B": "Munculnya lubang pada lapisan ozon yang membuat kulit terbakar",
+        "C": "Air laut menjadi lebih jernih karena banyak CO2 yang terserap",
+        "D": "Tumbuhan akan mati karena terlalu banyak memproses fotosintesis"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "pertanyaan": "Katak beracun panah (Poison dart frog) memiliki warna kulit yang sangat mencolok seperti merah terang atau biru neon. Di alam liar, warna mencolok ini berfungsi sebagai...",
+      "pilihan": {
+        "A": "Cara untuk bersembunyi di balik bunga yang berwarna-warni",
+        "B": "Menarik perhatian mangsa agar mendekat dan mudah ditangkap",
+        "C": "Peringatan bagi predator bahwa tubuhnya sangat beracun dan tidak boleh dimakan (Aposematik)",
+        "D": "Menyerap panas matahari lebih banyak di pagi hari"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Petani di daerah pegunungan sering menanam sayuran dengan membuat terasering (sengkedan) pada lahan yang miring. Tujuan utama dari teknik lingkungan ini adalah...",
+      "pilihan": {
+        "A": "Memperindah pemandangan agar banyak turis yang datang",
+        "B": "Memperlambat aliran air hujan sehingga mencegah tanah longsor dan erosi (pengikisan hara tanah)",
+        "C": "Agar tanaman lebih dekat dengan matahari",
+        "D": "Memudahkan petani memanen sayuran sambil duduk"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Keong mas adalah hewan asli Amerika Selatan, namun tidak sengaja masuk ke area persawahan di Indonesia. Dalam waktu singkat, keong mas menjadi hama perusak padi yang tidak terkendali. Hal ini terjadi karena...",
+      "pilihan": {
+        "A": "Padi di Indonesia lebih enak daripada padi di Amerika",
+        "B": "Keong mas merupakan spesies invasif yang tidak memiliki predator alami di Indonesia",
+        "C": "Tanah sawah di Indonesia mengandung pupuk yang membuat keong mas tumbuh raksasa",
+        "D": "Keong mas diajari oleh tikus sawah cara memakan padi"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Dalam piramida makanan, jumlah populasi rumput (produsen) harus jauh lebih banyak daripada populasi singa (konsumen puncak). Mengapa hal ini bisa terjadi?",
+      "pilihan": {
+        "A": "Karena singa memiliki ukuran tubuh yang lebih besar daripada rumput",
+        "B": "Karena banyak energi yang terbuang menjadi panas pada setiap perpindahan tingkat makan (hanya sekitar 10% energi yang ditransfer)",
+        "C": "Karena rumput lebih cepat berkembang biak dibandingkan hewan apapun",
+        "D": "Karena singa sering berkelahi satu sama lain sehingga jumlahnya sedikit"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Di kota besar, sering terjadi hujan asam akibat asap pabrik dan kendaraan bermotor (gas sulfur dioksida). Dampak buruk hujan asam bagi lingkungan adalah...",
+      "pilihan": {
+        "A": "Meningkatkan kesuburan tanah karena asam membunuh kuman",
+        "B": "Merusak daun tumbuhan, membunuh ikan di danau, dan merusak bangunan bersejarah",
+        "C": "Membuat udara kota menjadi lebih segar dan sejuk",
+        "D": "Menambah kandungan air bersih di dalam sumur warga"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Tumbuhan bakau (mangrove) hidup di daerah pertemuan air tawar dan air laut. Salah satu ciri khas bakau adalah memiliki akar napas yang mencuat ke atas lumpur. Fungsi akar ini adalah...",
+      "pilihan": {
+        "A": "Mengambil oksigen dari udara karena lumpur di bawahnya sangat miskin oksigen",
+        "B": "Menangkap ikan kecil yang berenang di sela-sela akar",
+        "C": "Mengeluarkan air tawar berlebih dari dalam tubuh pohon",
+        "D": "Menakuti kepiting bakau agar tidak memakan batangnya"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "pertanyaan": "Nelayan yang peduli pada pelestarian laut menggunakan jaring dengan lubang (mata jaring) yang besar saat menangkap ikan. Alasan ekologis dari tindakan ini adalah...",
+      "pilihan": {
+        "A": "Agar jaring tidak terlalu berat saat ditarik ke atas kapal",
+        "B": "Agar harga ikan yang ditangkap menjadi lebih mahal di pasar",
+        "C": "Memberi kesempatan ikan-ikan kecil lolos sehingga mereka bisa tumbuh besar dan berkembang biak",
+        "D": "Untuk menghemat biaya pembelian benang jaring"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Tanaman polong-polongan (seperti kacang tanah) sering ditanam bergantian dengan jagung oleh petani yang pintar. Akar kacang tanah memiliki bintil-bintil yang berisi bakteri Rhizobium. Keuntungan ekologis dari bakteri ini adalah...",
+      "pilihan": {
+        "A": "Membunuh hama tikus yang mencoba memakan akar kacang",
+        "B": "Mengikat gas nitrogen langsung dari udara bebas dan mengubahnya menjadi pupuk alami penyubur tanah",
+        "C": "Menyerap air tanah lebih kuat daripada akar biasa",
+        "D": "Membuat rasa kacang menjadi lebih manis saat direbus"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Terumbu karang di berbagai lautan dunia saat ini banyak yang berubah menjadi putih pucat (Coral Bleaching) dan akhirnya mati. Penyebab utama fenomena ini secara global adalah...",
+      "pilihan": {
+        "A": "Banyak penyelam yang mematahkan karang untuk hiasan akuarium",
+        "B": "Kenaikan suhu air laut yang membuat alga penyedia makanan pergi meninggalkan tubuh karang",
+        "C": "Ikan-ikan besar terlalu banyak memakan terumbu karang",
+        "D": "Banyaknya garam dapur yang dibuang sembarangan ke laut"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Lumut kerak (Lichenes) yang tumbuh di kulit pohon sering digunakan oleh ilmuwan sebagai 'Bioindikator' kualitas udara. Jika di sebuah kota hampir tidak ditemukan lumut kerak di pohon-pohonnya, hal ini menandakan bahwa...",
+      "pilihan": {
+        "A": "Pohon-pohon di kota tersebut rajin dibersihkan oleh petugas taman",
+        "B": "Udara di kota tersebut sangat tercemar oleh polusi pabrik dan asap kendaraan",
+        "C": "Udaranya sangat bersih dan sehat untuk dihirup",
+        "D": "Pohon di kota tersebut tidak memiliki kulit kayu yang kuat"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Pemerintah melarang pembakaran hutan untuk membuka lahan perkebunan sawit. Asap pembakaran selain mengganggu pernapasan, juga menyebabkan kerusakan ekosistem karena...",
+      "pilihan": {
+        "A": "Api akan mengubah mineral tanah menjadi kaca",
+        "B": "Asap akan menghalangi hujan selamanya di daerah tersebut",
+        "C": "Membunuh seluruh plasma nutfah (keanekaragaman genetik hewan dan tumbuhan asli) yang belum tentu bisa dipulihkan",
+        "D": "Menyebabkan sawit tumbuh terlalu cepat dan menguras air tanah"
+      },
+      "kunci_jawaban": "C"
+    }
+  ]
+}

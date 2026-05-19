@@ -1,0 +1,207 @@
+{
+  "nama_paket": "Suhu dan Kalor",
+  "mata_pelajaran": "IPA",
+  "bagian_materi": "Suhu dan Kalor",
+  "soal": [
+    {
+      "pertanyaan": "Ibu memanaskan 2 kg air untuk membuat kopi. Suhu air naik dari 20°C menjadi 70°C. Jika kalor jenis air adalah 4.200 J/kg°C, berapakah jumlah kalor yang diserap oleh air tersebut? (Petunjuk: Gunakan rumus $Q = m \\cdot c \\cdot \\Delta T$)",
+      "pilihan": {
+        "A": "84.000 Joule",
+        "B": "210.000 Joule",
+        "C": "420.000 Joule",
+        "D": "588.000 Joule"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Andi mencelupkan termometer Celcius ke dalam secangkir teh panas, dan termometer menunjukkan angka 60°C. Jika teh tersebut diukur menggunakan termometer Reamur dan Fahrenheit, angka yang ditunjukkan berturut-turut adalah...",
+      "pilihan": {
+        "A": "48°R dan 140°F",
+        "B": "48°R dan 108°F",
+        "C": "75°R dan 140°F",
+        "D": "36°R dan 100°F"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "pertanyaan": "Sebongkah es bermassa 500 gram (0,5 kg) bersuhu 0°C dibiarkan di atas meja hingga seluruhnya mencair menjadi air bersuhu 0°C. Jika kalor lebur es adalah 336.000 J/kg, berapakah energi kalor yang dibutuhkan untuk meleburkan es tersebut? (Petunjuk: $Q = m \\cdot L$)",
+      "pilihan": {
+        "A": "16.800 Joule",
+        "B": "168.000 Joule",
+        "C": "336.000 Joule",
+        "D": "672.000 Joule"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Dalam sebuah termos, Budi mencampurkan 200 gram air bersuhu 80°C dengan 300 gram air bersuhu 30°C. Berapakah suhu akhir campuran air tersebut ketika mencapai keseimbangan termal? (Asas Black: Kalor Lepas = Kalor Terima)",
+      "pilihan": {
+        "A": "40°C",
+        "B": "50°C",
+        "C": "55°C",
+        "D": "60°C"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Sebatang logam panjangnya tepat 100 cm pada suhu 20°C. Logam tersebut dipanaskan hingga suhunya menjadi 70°C. Jika koefisien muai panjang logam adalah 0,00002 /°C, berapakah panjang akhir logam tersebut setelah memuai?",
+      "pilihan": {
+        "A": "100,01 cm",
+        "B": "100,1 cm",
+        "C": "100,2 cm",
+        "D": "101 cm"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Zat cair pengisi termometer klinis biasanya menggunakan raksa atau alkohol, dan BUKAN air keran biasa. Alasan utama air tidak pernah digunakan sebagai pengisi termometer adalah...",
+      "pilihan": {
+        "A": "Air terlalu mudah mendidih di suhu ruangan",
+        "B": "Air membasahi dinding kaca dan memiliki anomali (pemuaian yang tidak teratur) pada suhu 0°C - 4°C",
+        "C": "Air tidak bisa menyerap kalor dari benda panas",
+        "D": "Air memiliki warna yang terlalu gelap sehingga sulit dibaca"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Ketika kita menjemur pakaian hitam dan pakaian putih yang basah di bawah terik matahari, pakaian hitam akan jauh lebih cepat kering. Konsep fisika yang menjelaskan hal ini adalah...",
+      "pilihan": {
+        "A": "Warna hitam adalah konduktor panas yang lebih baik dari warna putih",
+        "B": "Warna hitam memancarkan energi dingin ke udara",
+        "C": "Benda berwarna gelap merupakan penyerap dan pemancar radiasi kalor yang paling baik dibandingkan warna terang",
+        "D": "Kain hitam biasanya memiliki pori-pori yang lebih besar"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Pada siang hari, pasir di pantai terasa sangat panas menyengat kaki, sedangkan air laut di sebelahnya masih terasa sejuk. Hal ini terjadi karena...",
+      "pilihan": {
+        "A": "Pasir pantai memiliki kalor jenis yang lebih kecil daripada air, sehingga pasir lebih cepat panas dan cepat dingin",
+        "B": "Matahari lebih banyak menyinari daratan daripada lautan",
+        "C": "Air laut memantulkan seluruh panas matahari ke udara",
+        "D": "Pasir memproduksi panas sendiri dari gesekan bebatuan"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "pertanyaan": "Tukang kabel listrik PLN selalu memasang kabel di tiang jalan raya dengan agak kendur (menjuntai), tidak ditarik tegang secara lurus. Tujuan pemasangan ini adalah...",
+      "pilihan": {
+        "A": "Menghemat biaya karena kabel yang kendur harganya lebih murah",
+        "B": "Mencegah kabel putus saat menyusut pada malam hari yang dingin",
+        "C": "Memudahkan burung untuk hinggap di siang hari",
+        "D": "Agar arus listrik bisa mengalir dengan lebih cepat"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Sistem pendingin ruangan (AC) selalu dipasang menempel tinggi di dekat langit-langit atap, bukan di dekat lantai. Secara prinsip perpindahan kalor, hal ini bertujuan agar...",
+      "pilihan": {
+        "A": "Memudahkan mesin AC menyerap panas langsung dari genteng atap",
+        "B": "Udara dingin yang memiliki massa jenis lebih besar akan turun ke bawah, mendorong udara panas naik ke atas untuk didinginkan (Konveksi)",
+        "C": "Radiasi dingin dari AC tidak langsung mengenai kepala manusia",
+        "D": "Aliran listrik ke AC menjadi lebih stabil"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Bimetal adalah alat yang terdiri dari dua keping logam berbeda yang disatukan. Jika bimetal dipanaskan, bimetal tersebut akan melengkung. Arah lengkungan bimetal selalu menuju ke...",
+      "pilihan": {
+        "A": "Logam yang harganya lebih mahal",
+        "B": "Logam yang lebih tebal dan berat",
+        "C": "Logam yang memiliki koefisien muai panjang lebih besar",
+        "D": "Logam yang memiliki koefisien muai panjang lebih kecil"
+      },
+      "kunci_jawaban": "D"
+    },
+    {
+      "pertanyaan": "Saat tubuh kita berkeringat setelah berolahraga, lama kelamaan tubuh akan terasa lebih sejuk. Mekanisme pendinginan alami tubuh ini memanfaatkan prinsip perpindahan kalor, yaitu...",
+      "pilihan": {
+        "A": "Keringat membeku dan memberikan energi dingin ke kulit",
+        "B": "Keringat menguap menjadi gas dengan cara menyerap kalor (panas) dari permukaan kulit tubuh",
+        "C": "Keringat menghalangi sinar matahari mengenai kulit",
+        "D": "Air keringat menekan pori-pori agar tertutup rapat"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Bagian dalam tabung termos air panas dilapisi dengan kaca mengkilap seperti cermin perak. Fungsi dari lapisan cermin perak ini adalah...",
+      "pilihan": {
+        "A": "Mencegah perpindahan kalor secara radiasi (pancaran) dengan memantulkannya kembali ke dalam",
+        "B": "Menambah panas air melalui pantulan cahaya lampu luar",
+        "C": "Membuat air tampak lebih jernih saat dituang",
+        "D": "Menahan konduksi panas agar tidak merambat ke plastik luar"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "pertanyaan": "Jika kamu mengaduk segelas kopi panas menggunakan sendok logam dan sendok plastik secara bersamaan, sendok logam akan terasa lebih cepat panas di tanganmu. Hal ini membuktikan bahwa logam adalah...",
+      "pilihan": {
+        "A": "Isolator yang baik",
+        "B": "Konduktor yang baik",
+        "C": "Zat cair yang menguap",
+        "D": "Radiator panas alami"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Angin darat terjadi pada malam hari dan sering dimanfaatkan oleh nelayan tradisional untuk berlayar mencari ikan. Proses terjadinya angin darat disebabkan oleh...",
+      "pilihan": {
+        "A": "Suhu daratan lebih cepat dingin daripada lautan, sehingga udara di atas laut naik dan digantikan oleh udara dari darat (Konveksi)",
+        "B": "Daratan menyimpan panas lebih lama sehingga meniupkan angin ke laut",
+        "C": "Gelombang laut mendorong angin ke arah daratan",
+        "D": "Bulan memantulkan cahaya yang membuat angin laut mundur ke darat"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "pertanyaan": "Pada ketinggian di puncak gunung (seperti Gunung Everest), tekanan udara sangat rendah. Jika kita memasak air di sana, apa yang akan terjadi dengan titik didih air tersebut?",
+      "pilihan": {
+        "A": "Air tidak akan pernah bisa mendidih",
+        "B": "Air akan mendidih tepat pada suhu 100°C",
+        "C": "Air akan mendidih pada suhu kurang dari 100°C",
+        "D": "Air akan mendidih pada suhu lebih dari 100°C"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Pembuatan es krim tradisional dilakukan dengan memutar adonan di dalam tong yang dikelilingi es batu. Agar es batu tersebut lebih cepat mendinginkan adonan, para pembuat es krim menaburkan banyak garam kasar ke atas es batu. Fungsi garam tersebut adalah...",
+      "pilihan": {
+        "A": "Meningkatkan suhu es agar tangan tidak terlalu dingin",
+        "B": "Menurunkan titik beku air sehingga suhu campuran es menjadi jauh di bawah 0°C",
+        "C": "Memberikan rasa asin dan gurih pada es krim yang dibuat",
+        "D": "Mencegah es batu cepat mencair saat terkena udara panas"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Energi panas matahari bisa sampai ke bumi untuk menghangatkan makhluk hidup, meskipun jaraknya jutaan kilometer dan harus melewati ruang angkasa yang hampa udara. Perpindahan kalor yang tidak memerlukan medium zat perantara ini disebut...",
+      "pilihan": {
+        "A": "Konduksi",
+        "B": "Konveksi",
+        "C": "Radiasi",
+        "D": "Evaporasi"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Saat ibu merebus air di panci, aliran air di dalamnya berputar. Air yang panas bergerak ke atas, lalu air yang masih dingin turun ke bawah. Siklus berputar ini merupakan contoh dari perpindahan panas secara...",
+      "pilihan": {
+        "A": "Konduksi",
+        "B": "Konveksi",
+        "C": "Radiasi",
+        "D": "Sublimasi"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Tukang kayu selalu merendam velg roda pedati (berbahan besi) di dalam api besar sebelum dipasangkan ke rangka roda kayunya. Setelah terpasang, velg disiram air dingin. Penerapan prinsip kalor ini bertujuan untuk...",
+      "pilihan": {
+        "A": "Besi memuai saat dipanaskan sehingga mudah dipasang, lalu menyusut kencang mengikat kayu saat didinginkan",
+        "B": "Membakar kuman di kayu agar roda pedati tidak cepat lapuk",
+        "C": "Besi akan mencair dan menempel sebagai lem pada kayu",
+        "D": "Membuat roda pedati menjadi lebih ringan saat ditarik kuda"
+      },
+      "kunci_jawaban": "A"
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "nama_paket": "Atom dan Muatan Listrik",
+  "mata_pelajaran": "IPA",
+  "bagian_materi": "Atom",
+  "soal": [
+    {
+      "pertanyaan": "Segala sesuatu di alam semesta, mulai dari tubuh kita hingga bintang di langit, tersusun dari partikel terkecil yang tidak bisa dibagi lagi dengan reaksi kimia biasa. Partikel terkecil ini disebut...",
+      "pilihan": {
+        "A": "Sel",
+        "B": "Molekul",
+        "C": "Atom",
+        "D": "Bakteri"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Sebuah atom digambarkan seperti tata surya kita. Di pusatnya terdapat Inti Atom (Nukleus) yang sangat padat. Partikel apa saja yang menyusun Inti Atom tersebut?",
+      "pilihan": {
+        "A": "Proton (positif) dan Elektron (negatif)",
+        "B": "Hanya Proton (positif)",
+        "C": "Proton (positif) dan Neutron (netral)",
+        "D": "Elektron (negatif) dan Neutron (netral)"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Saat Budi menggosokkan balon karet ke rambutnya, rambut Budi perlahan berdiri tertarik oleh balon. Dalam ilmu fisika atom, peristiwa listrik statis ini terjadi karena adanya perpindahan partikel...",
+      "pilihan": {
+        "A": "Proton dari rambut pindah ke balon",
+        "B": "Elektron dari rambut pindah ke balon",
+        "C": "Neutron dari balon pindah ke rambut",
+        "D": "Inti atom rambut menempel pada balon"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Mengapa dalam fenomena listrik statis (seperti menggosok penggaris plastik), hanya partikel Elektron yang bisa berpindah-pindah, sedangkan Proton tidak?",
+      "pilihan": {
+        "A": "Karena ukuran Elektron jauh lebih besar daripada Proton",
+        "B": "Karena Elektron berada di bagian terluar atom dan bebas bergerak, sedangkan Proton terikat sangat kuat di dalam Inti Atom",
+        "C": "Karena Proton memiliki muatan netral yang menolak benda lain",
+        "D": "Karena Elektron adalah satu-satunya partikel yang memiliki energi panas"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Sebuah atom pada dasarnya bersifat netral (tidak nyetrum). Kondisi apa yang membuat sebuah atom menjadi netral?",
+      "pilihan": {
+        "A": "Jumlah Proton dan Jumlah Elektron di dalam atom tersebut sama banyak",
+        "B": "Atom tersebut tidak memiliki Elektron sama sekali",
+        "C": "Inti atomnya dipenuhi oleh partikel Neutron",
+        "D": "Atom tersebut hanya memiliki satu jenis muatan"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "pertanyaan": "Jika sebuah atom secara tidak sengaja kehilangan beberapa elektron terluarnya akibat gesekan, maka atom tersebut tidak lagi netral. Atom tersebut akan berubah menjadi...",
+      "pilihan": {
+        "A": "Ion bermuatan negatif (Anion)",
+        "B": "Ion bermuatan positif (Kation)",
+        "C": "Isotop netral",
+        "D": "Molekul air"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Kabel listrik selalu terbuat dari tembaga yang dibungkus oleh karet atau plastik. Tembaga dipilih karena ia adalah konduktor yang baik. Di tingkat atom, apa yang membuat logam seperti tembaga bisa menghantarkan listrik?",
+      "pilihan": {
+        "A": "Karena inti atom tembaga berputar sangat cepat",
+        "B": "Karena tembaga memiliki elektron-elektron yang bebas bergerak dan mengalir (awan elektron)",
+        "C": "Karena tembaga menyerap oksigen dari udara untuk diubah menjadi listrik",
+        "D": "Karena proton dalam tembaga sangat ringan"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Dua buah balon yang sama-sama telah digosokkan ke kain wol akan saling tolak-menolak jika didekatkan. Hal ini terjadi karena...",
+      "pilihan": {
+        "A": "Kedua balon sama-sama kehilangan proton",
+        "B": "Kedua balon memiliki massa yang terlalu ringan",
+        "C": "Kedua balon memiliki muatan listrik yang sejenis (sama-sama negatif akibat menerima elektron dari wol)",
+        "D": "Kain wol menghasilkan medan magnet buatan"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Petir yang menyambar dari awan ke bumi adalah contoh fenomena pelepasan muatan listrik (discharge) terbesar di alam. Petir terjadi untuk menetralkan perbedaan drastis dari...",
+      "pilihan": {
+        "A": "Kumpulan Proton yang membeku di awan hujan",
+        "B": "Kumpulan Elektron berlebih di awan yang melompat mencari proton (muatan positif) di permukaan bumi",
+        "C": "Suhu panas bumi yang naik ke atmosfer awan",
+        "D": "Cahaya matahari yang terjebak di dalam awan"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Emas murni (Zat Tunggal/Unsur) jika dipotong menjadi serbuk yang paling halus sekalipun, sifatnya akan tetap sama seperti emas. Berbeda dengan Garam Dapur (Senyawa NaCl) yang terbentuk dari atom Natrium (logam meledak di air) dan Klorin (gas beracun). Apa kesimpulan dari pernyataan ini?",
+      "pilihan": {
+        "A": "Senyawa selalu beracun bagi manusia",
+        "B": "Zat tunggal mudah meledak jika dicampur",
+        "C": "Senyawa kimia memiliki sifat yang sama sekali baru dan berbeda dari sifat atom-atom unsur penyusun aslinya",
+        "D": "Emas bisa diubah menjadi garam jika ditambahkan klorin"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Udara yang kita hirup sehari-hari terdiri dari gas Oksigen, Nitrogen, Karbon Dioksida, dan gas lainnya yang bercampur namun TIDAK bereaksi membentuk zat baru. Oleh karena itu, udara digolongkan sebagai...",
+      "pilihan": {
+        "A": "Zat Tunggal Unsur",
+        "B": "Zat Tunggal Senyawa",
+        "C": "Campuran Homogen (Zat yang bercampur rata tanpa reaksi kimia)",
+        "D": "Zat Radioaktif murni"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Air (H2O) terbentuk dari dua atom Hidrogen dan satu atom Oksigen. Berdasarkan penggolongan materi kehidupan sehari-hari, air murni termasuk ke dalam kelompok...",
+      "pilihan": {
+        "A": "Zat Campuran Heterogen",
+        "B": "Zat Campuran Homogen",
+        "C": "Zat Tunggal Unsur",
+        "D": "Zat Tunggal Senyawa"
+      },
+      "kunci_jawaban": "D"
+    },
+    {
+      "pertanyaan": "Massa (berat) sebuah atom hampir 99,9% berpusat pada inti atomnya (Nukleus). Hal ini menandakan bahwa...",
+      "pilihan": {
+        "A": "Elektron memiliki massa yang sangat berat",
+        "B": "Proton dan Neutron memiliki massa yang jauh lebih berat dibandingkan Elektron yang sangat ringan",
+        "C": "Inti atom terbuat dari besi murni",
+        "D": "Sebagian besar ruang di dalam atom diisi oleh cairan padat"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Sebuah mobil tangki pembawa bahan bakar bensin selalu memiliki rantai besi kecil yang menjuntai di bagian belakang truk hingga menyentuh aspal jalan. Secara teori muatan listrik, tujuan rantai ini adalah...",
+      "pilihan": {
+        "A": "Untuk mengerem truk jika jalannya menurun tajam",
+        "B": "Mencegah agar ban truk tidak tergelincir",
+        "C": "Menyalurkan elektron (listrik statis) yang timbul akibat gesekan angin dengan badan truk, membuangnya ke tanah (grounding) agar tidak memicu percikan api",
+        "D": "Menghasilkan suara berisik agar kendaraan di belakangnya waspada"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Perubahan fisika dan perubahan kimia terjadi pada tingkat molekuler. Jika selembar kertas dibakar menjadi abu, mengapa ini disebut perubahan kimia?",
+      "pilihan": {
+        "A": "Karena warna kertas berubah menjadi hitam",
+        "B": "Karena ukuran abu lebih kecil dari kertas",
+        "C": "Karena suhu kertas menjadi panas",
+        "D": "Karena atom-atom pada kertas telah bereaksi dengan oksigen membentuk molekul zat yang benar-benar baru (seperti karbon dan gas CO2)"
+      },
+      "kunci_jawaban": "D"
+    },
+    {
+      "pertanyaan": "Bongkahan gula pasir dapat dilarutkan ke dalam air teh. Setelah diaduk, gula tidak terlihat lagi. Di tingkat mikroskopis, yang terjadi pada gula tersebut adalah...",
+      "pilihan": {
+        "A": "Atom gula hancur dan menghilang dari alam semesta",
+        "B": "Molekul-molekul gula terpisah satu sama lain dan menyebar merata di antara molekul air tanpa mengubah sifat kimianya",
+        "C": "Gula bereaksi membusukkan air teh",
+        "D": "Wujud gula menyublim menjadi gas di udara"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Besi yang dibiarkan di luar rumah lama-kelamaan akan berkarat. Karat besi (Fe2O3) ini terbentuk karena adanya ikatan kimia antara atom besi dengan...",
+      "pilihan": {
+        "A": "Atom karbon dari polusi kendaraan",
+        "B": "Atom Nitrogen dari pupuk tanaman",
+        "C": "Atom Oksigen dari udara dengan bantuan kelembapan air",
+        "D": "Atom Hidrogen murni dari sinar matahari"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Apa yang membedakan satu jenis unsur dengan unsur lainnya di alam semesta ini? (Misalnya, apa yang membedakan atom Emas dengan atom Besi?)",
+      "pilihan": {
+        "A": "Warna dari elektron yang mengelilinginya",
+        "B": "Jumlah Proton yang ada di dalam inti atomnya",
+        "C": "Kecepatan putaran inti atomnya",
+        "D": "Suhu atom tersebut saat disentuh"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Saat suhu dinaikkan menjadi sangat ekstrim hingga jutaan derajat Celcius (seperti di inti matahari), elektron-elektron akan terlepas dari inti atomnya. Wujud benda keempat di mana atom-atom berenang bebas bersama elektronnya ini dinamakan...",
+      "pilihan": {
+        "A": "Zat Padat",
+        "B": "Zat Gas",
+        "C": "Zat Koloid",
+        "D": "Plasma"
+      },
+      "kunci_jawaban": "D"
+    },
+    {
+      "pertanyaan": "Hukum Kekekalan Massa (Hukum Lavoisier) yang sangat penting dalam ilmu kimia menyatakan bahwa dalam wadah tertutup, massa zat sebelum reaksi sama dengan massa zat sesudah reaksi. Secara konsep atom, ini artinya...",
+      "pilihan": {
+        "A": "Atom bisa dihancurkan dan dibuat yang baru secara bebas",
+        "B": "Dalam sebuah reaksi kimia, tidak ada atom yang tercipta maupun musnah, atom-atom hanya mengatur ulang formasi ikatannya",
+        "C": "Berat benda akan bertambah jika dicampur air",
+        "D": "Zat padat selalu memiliki massa yang lebih berat daripada zat gas"
+      },
+      "kunci_jawaban": "B"
+    }
+  ]
+}

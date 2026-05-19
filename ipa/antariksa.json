@@ -1,0 +1,207 @@
+{
+  "nama_paket": "Bumi, Tata Surya, dan Antariksa",
+  "mata_pelajaran": "IPA",
+  "bagian_materi": "Antariksa",
+  "soal": [
+    {
+      "pertanyaan": "Bumi berotasi sejauh 360° dalam waktu 24 jam. Jika di Kota A (yang berada pada garis bujur 105° BT) menunjukkan pukul 07.00 WIB, pukul berapakah di Kota B yang terletak pada garis bujur 135° BT pada saat yang sama? (Petunjuk: Setiap selisih 15° bujur mengakibatkan selisih waktu 1 jam)",
+      "pilihan": {
+        "A": "Pukul 05.00",
+        "B": "Pukul 08.00",
+        "C": "Pukul 09.00",
+        "D": "Pukul 10.00"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Seorang astronot memiliki massa tubuh 60 kg di Bumi. Ia kemudian melakukan misi pendaratan di Bulan. Jika percepatan gravitasi Bumi adalah $10\\text{ m/s}^2$ dan gravitasi Bulan hanya $\\frac{1}{6}$ dari gravitasi Bumi, berapakah MASSA dan BERAT astronot tersebut saat berada di Bulan?",
+      "pilihan": {
+        "A": "Massa 10 kg dan Berat 100 Newton",
+        "B": "Massa 60 kg dan Berat 600 Newton",
+        "C": "Massa 60 kg dan Berat 100 Newton",
+        "D": "Massa 10 kg dan Berat 60 Newton"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Jarak rata-rata antara Bumi dan Matahari adalah 150 juta kilometer. Jika kecepatan rambat cahaya di ruang hampa adalah 300.000 km/detik, berapa lama waktu yang dibutuhkan cahaya Matahari untuk sampai ke permukaan Bumi? (Rumus: $Waktu = \\frac{Jarak}{Kecepatan}$)",
+      "pilihan": {
+        "A": "50 detik",
+        "B": "500 detik (8 menit 20 detik)",
+        "C": "5.000 detik",
+        "D": "150 detik"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Pada lapisan Troposfer (lapisan atmosfer terbawah tempat terjadinya cuaca), suhu udara akan turun rata-rata 0,6°C setiap kenaikan ketinggian 100 meter. Jika suhu di pantai (ketinggian 0 meter) adalah 30°C, berapakah perkiraan suhu di puncak gunung yang tingginya 3.000 meter di atas permukaan laut?",
+      "pilihan": {
+        "A": "18°C",
+        "B": "12°C",
+        "C": "0°C",
+        "D": "-12°C"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Bumi mengelilingi matahari (revolusi) dalam waktu 365,25 hari. Pecahan 0,25 hari ini dikumpulkan selama 4 tahun menjadi 1 hari ekstra yang ditambahkan pada bulan Februari (Tahun Kabisat). Berapakah total jumlah hari bumi berputar selama 4 tahun berturut-turut tersebut?",
+      "pilihan": {
+        "A": "1.460 hari",
+        "B": "1.461 hari",
+        "C": "1.464 hari",
+        "D": "1.465 hari"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Venus adalah planet kedua terdekat dari matahari setelah Merkurius. Namun, secara mengejutkan, suhu permukaan Venus jauh lebih panas daripada Merkurius. Alasan utama fenomena ini adalah...",
+      "pilihan": {
+        "A": "Venus memiliki gunung berapi yang menyala terus menerus",
+        "B": "Venus tidak memiliki bulan untuk mendinginkan permukaannya",
+        "C": "Atmosfer Venus sangat tebal dan penuh dengan gas karbon dioksida, menciptakan Efek Rumah Kaca yang ekstrim",
+        "D": "Venus berotasi dari timur ke barat (retrograde) sehingga menyerap panas lebih banyak"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Setiap malam kita bisa melihat fase bulan yang berubah-ubah (sabit, separuh, purnama). Namun, kita selalu melihat 'wajah' atau sisi permukaan Bulan yang sama dari Bumi. Bagian belakang Bulan tidak pernah terlihat. Hal ini terjadi karena...",
+      "pilihan": {
+        "A": "Bagian belakang bulan selalu gelap dan tidak tertembus cahaya matahari",
+        "B": "Waktu rotasi Bulan pada sumbunya sama persis dengan waktu revolusinya mengelilingi Bumi",
+        "C": "Bumi dan Bulan tidak berputar sama sekali",
+        "D": "Bulan terkunci oleh bayangan Matahari"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Gerhana matahari terjadi ketika posisi Matahari, Bulan, dan Bumi berada dalam satu garis lurus. Jika posisi ini terjadi setiap bulan pada fase bulan baru, mengapa kita tidak melihat gerhana matahari di setiap bulan baru?",
+      "pilihan": {
+        "A": "Karena orbit Bulan mengelilingi Bumi miring sekitar 5 derajat terhadap orbit Bumi mengelilingi Matahari, sehingga bayangannya sering kali meleset ke atas atau ke bawah Bumi",
+        "B": "Karena awan di atmosfer Bumi selalu menutupi gerhana tersebut",
+        "C": "Karena bulan bergerak terlalu cepat sehingga bayangannya tidak tertangkap Bumi",
+        "D": "Karena Matahari terlalu terang setiap bulan baru"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "pertanyaan": "Di negara-negara Eropa dan Amerika Utara (Belahan Bumi Utara), musim panas terjadi sekitar bulan Juni hingga Agustus. Penyebab utama terjadinya perubahan musim ini bukanlah karena jarak Bumi ke Matahari yang berubah-ubah, melainkan karena...",
+      "pilihan": {
+        "A": "Suhu inti bumi yang memanas pada pertengahan tahun",
+        "B": "Kemiringan sumbu putar Bumi sebesar 23,5 derajat, sehingga pada bulan Juni Belahan Bumi Utara lebih condong ke arah Matahari",
+        "C": "Adanya angin surya dari matahari yang berhembus lebih kencang",
+        "D": "Lapisan ozon menipis pada bulan Juni"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Inti Bumi (Core) memiliki suhu yang sangat ekstrim, mencapai lebih dari 5.000°C, setara dengan permukaan matahari. Meskipun suhunya mampu melelehkan segala macam logam, Inti Dalam Bumi justru berbentuk PADAT, bukan cair. Secara fisika, mengapa bisa padat?",
+      "pilihan": {
+        "A": "Karena tidak ada oksigen di pusat bumi untuk mencairkan besi",
+        "B": "Karena terbuat dari es kuno yang membatu",
+        "C": "Karena tekanan di pusat bumi sangat luar biasa besar sehingga atom-atom besi dan nikel dipaksa merapat menjadi padat",
+        "D": "Karena adanya gaya gravitasi bulan yang menarik inti bumi"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Lapisan atmosfer terdiri dari beberapa bagian (Troposfer, Stratosfer, Mesosfer, Termosfer, Eksosfer). Pada lapisan manakah pesawat jet komersial raksasa biasanya terbang untuk menghindari badai dan turbulensi cuaca yang buruk?",
+      "pilihan": {
+        "A": "Troposfer bagian bawah",
+        "B": "Batas antara Troposfer dan Stratosfer (Tropopause), di atas sistem cuaca",
+        "C": "Eksosfer, agar tidak ada gaya gravitasi",
+        "D": "Termosfer, agar suhunya hangat"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Saat melihat bintang di langit malam, kita melihat cahayanya berkelap-kelip. Namun, jika benda bercahaya itu adalah sebuah planet (seperti Jupiter atau Venus), cahayanya cenderung tidak berkelap-kelip melainkan bersinar konstan. Penjelasan optik untuk hal ini adalah...",
+      "pilihan": {
+        "A": "Bintang terbakar menghasilkan api, sedangkan planet tidak",
+        "B": "Bintang memancarkan cahayanya sendiri, sedangkan planet hanya memantulkan",
+        "C": "Bintang terlihat sebagai 'titik' kecil sehingga cahayanya mudah dibiaskan (diacak) oleh atmosfer bumi, sedangkan planet terlihat sebagai 'piringan' sehingga pembiasannya saling menutupi",
+        "D": "Planet memiliki perisai pelindung yang menstabilkan cahayanya"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Komet sering disebut sebagai 'bintang berekor'. Saat komet bergerak mengelilingi matahari, arah ekornya selalu aneh. Ciri khas arah ekor komet yang benar adalah...",
+      "pilihan": {
+        "A": "Selalu berada di belakang lintasan komet",
+        "B": "Selalu menunjuk ke arah Bumi",
+        "C": "Selalu menunjuk ke arah orbit planet terdekat",
+        "D": "Selalu menjauhi Matahari akibat dorongan angin surya dan tekanan radiasi"
+      },
+      "kunci_jawaban": "D"
+    },
+    {
+      "pertanyaan": "Sabuk Asteroid merupakan kumpulan jutaan batu angkasa yang memisahkan planet-planet dalam (berbatu) dengan planet-planet luar (raksasa gas). Sabuk Asteroid ini terletak di antara orbit planet...",
+      "pilihan": {
+        "A": "Bumi dan Mars",
+        "B": "Mars dan Jupiter",
+        "C": "Jupiter dan Saturnus",
+        "D": "Uranus dan Neptunus"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Peristiwa Pasang Surut Air Laut sangat dipengaruhi oleh gravitasi Bulan dan Matahari. 'Pasang Purnama' (Spring Tide) yang merupakan kondisi pasang paling tinggi dan surut paling rendah terjadi ketika...",
+      "pilihan": {
+        "A": "Bulan berada pada fase perempat awal (bulan separuh)",
+        "B": "Bumi, Bulan, dan Matahari berada dalam satu garis lurus (Fase Bulan Baru atau Purnama)",
+        "C": "Bumi berada di titik terjauh dari Matahari",
+        "D": "Bulan tertutup oleh awan tebal"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Batuan angkasa kecil sering masuk ke atmosfer bumi dan terbakar habis sebelum menyentuh tanah, menghasilkan kilatan cahaya yang kita sebut 'Bintang Jatuh'. Istilah astronomi yang tepat untuk bintang jatuh ini adalah...",
+      "pilihan": {
+        "A": "Meteoroid",
+        "B": "Meteor",
+        "C": "Meteorit",
+        "D": "Komet"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Galaksi Bima Sakti (Milky Way) memiliki bentuk spiral yang sangat besar. Di manakah posisi Tata Surya kita (Matahari dan planet-planetnya) berada di dalam galaksi tersebut?",
+      "pilihan": {
+        "A": "Tepat di pusat Galaksi yang bersinar terang",
+        "B": "Di dalam Lubang Hitam (Black Hole) di pinggir galaksi",
+        "C": "Di salah satu lengan spiral (Lengan Orion), jauh dari pusat galaksi",
+        "D": "Di luar galaksi, mengorbit Bima Sakti sebagai satelit"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Ketika kita berada di belahan bumi selatan (misalnya Australia) dan menatap langit malam, ada rasi bintang (konstelasi) yang sangat terkenal dan selalu menunjuk ke arah kutub selatan. Rasi bintang ini adalah...",
+      "pilihan": {
+        "A": "Ursa Major (Beruang Besar)",
+        "B": "Orion (Sang Pemburu)",
+        "C": "Crux (Salib Selatan / Pari)",
+        "D": "Scorpius (Kalajengking)"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Planet-planet raksasa gas (Jovian planets) seperti Jupiter dan Saturnus berputar pada porosnya (rotasi) dengan sangat cepat dibandingkan Bumi. Akibat utama dari rotasi yang super cepat pada struktur fisik planet gas tersebut adalah...",
+      "pilihan": {
+        "A": "Bentuk planet tidak bulat sempurna, melainkan sangat pipih di bagian kutub dan menggembung di bagian ekuator",
+        "B": "Cincinnya tersedot ke dalam inti planet",
+        "C": "Suhu di ekuator menjadi membeku seperti es",
+        "D": "Planet tersebut kehilangan atmosfernya karena terlempar ke angkasa"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "pertanyaan": "Pemanasan Global adalah isu lingkungan yang berhubungan erat dengan komposisi gas di atmosfer Bumi. Gas yang jumlahnya kurang dari 1% di atmosfer, tetapi paling bertanggung jawab memerangkap panas (Efek Rumah Kaca) karena aktivitas manusia adalah...",
+      "pilihan": {
+        "A": "Nitrogen",
+        "B": "Oksigen",
+        "C": "Karbon Dioksida ($CO_2$)",
+        "D": "Argon"
+      },
+      "kunci_jawaban": "C"
+    }
+  ]
+}

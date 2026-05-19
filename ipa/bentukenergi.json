@@ -1,0 +1,207 @@
+{
+  "nama_paket": "Bentuk Energi dan Perubahannya",
+  "mata_pelajaran": "IPA",
+  "bagian_materi": "Bentuk Energi",
+  "soal": [
+    {
+      "pertanyaan": "Sebuah buah kelapa bermassa 1,5 kg jatuh dari pohon setinggi 8 meter. Jika percepatan gravitasi bumi 10 m/s², berapakah energi kinetik kelapa tersebut tepat saat berada pada ketinggian 3 meter dari permukaan tanah? (Petunjuk: Gunakan Hukum Kekekalan Energi Mekanik)",
+      "pilihan": {
+        "A": "45 Joule",
+        "B": "75 Joule",
+        "C": "120 Joule",
+        "D": "165 Joule"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Andi memiliki mobil mainan bermassa 2 kg yang mula-mula melaju dengan kecepatan 4 m/s. Jika Andi mendorong mobil mainannya sehingga kecepatannya menjadi dua kali lipat (8 m/s), berapakah besar energi kinetiknya sekarang? (Rumus: $EK = \\frac{1}{2}mv^2$)",
+      "pilihan": {
+        "A": "16 Joule",
+        "B": "32 Joule",
+        "C": "64 Joule",
+        "D": "128 Joule"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Pak Rio menyalakan sebuah lampu LED berdaya 10 Watt selama 10 jam setiap hari untuk menerangi terasnya. Jika tarif dasar energi listrik dari PLN adalah Rp1.500 per 1 kWh, berapakah biaya energi listrik yang harus dibayar Pak Rio untuk lampu tersebut selama 1 bulan (30 hari)?",
+      "pilihan": {
+        "A": "Rp 1.500",
+        "B": "Rp 4.500",
+        "C": "Rp 45.000",
+        "D": "Rp 450.000"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Sebuah panel surya dirancang untuk menangkap energi radiasi matahari sebesar 5.000 Joule pada siang hari. Namun, karena hukum kekekalan energi dan hilangnya energi menjadi panas, panel surya ini hanya memiliki efisiensi 20%. Berapakah energi listrik aktual yang berhasil dihasilkan oleh panel surya tersebut?",
+      "pilihan": {
+        "A": "250 Joule",
+        "B": "500 Joule",
+        "C": "1.000 Joule",
+        "D": "2.500 Joule"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Sebuah pompa air yang digunakan di sawah membutuhkan energi listrik sebesar 12.000 Joule agar dapat menyedot air selama 1 menit (60 detik) penuh. Berapakah Daya Listrik (Power) yang dimiliki oleh pompa air tersebut? (Rumus: $P = \\frac{W}{t}$)",
+      "pilihan": {
+        "A": "20 Watt",
+        "B": "200 Watt",
+        "C": "720 Watt",
+        "D": "720.000 Watt"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Sebuah senter LED menggunakan baterai untuk menyala terang. Urutan perubahan bentuk energi yang paling tepat dari sumber hingga menghasilkan cahaya adalah...",
+      "pilihan": {
+        "A": "Energi Listrik -> Energi Kimia -> Energi Cahaya",
+        "B": "Energi Kimia -> Energi Listrik -> Energi Cahaya",
+        "C": "Energi Mekanik -> Energi Panas -> Energi Cahaya",
+        "D": "Energi Kimia -> Energi Panas -> Energi Cahaya"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Hukum Kekekalan Energi menyatakan bahwa energi tidak dapat diciptakan atau dimusnahkan. Saat kamu menyalakan kipas angin selama berjam-jam, bagian belakang motor kipas terasa sangat panas. Hal ini membuktikan bahwa...",
+      "pilihan": {
+        "A": "Kipas angin menghasilkan energi panas secara ajaib dari udara",
+        "B": "Sebagian energi listrik dihancurkan selamanya di dalam mesin",
+        "C": "Tidak ada perubahan energi yang 100% menjadi energi gerak, sebagian pasti berubah menjadi kalor (panas) akibat gesekan mesin",
+        "D": "Kipas angin menyerap panas ruangan untuk diubah menjadi gerak"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Pembangkit Listrik Tenaga Nuklir (PLTN) menghasilkan energi yang sangat besar dari bahan bakar uranium. Reaksi yang terjadi pada inti atom uranium yang dimanfaatkan di PLTN adalah...",
+      "pilihan": {
+        "A": "Reaksi pembakaran menggunakan tabung oksigen",
+        "B": "Reaksi fusi (penggabungan atom) seperti yang terjadi di matahari",
+        "C": "Reaksi pembusukan fosil radioaktif",
+        "D": "Reaksi fisi (pembelahan inti atom) yang melepaskan energi panas raksasa"
+      },
+      "kunci_jawaban": "D"
+    },
+    {
+      "pertanyaan": "Setiap pagi, seorang atlet lari selalu memakan pisang sebelum bertanding. Di dalam sel tubuhnya, makanan akan diproses melalui respirasi seluler. Peristiwa ini pada dasarnya adalah pengubahan...",
+      "pilihan": {
+        "A": "Energi Potensial menjadi Energi Kinetik",
+        "B": "Energi Kimia menjadi Energi Kinetik (Gerak) dan Energi Panas",
+        "C": "Energi Mekanik menjadi Energi Kimia",
+        "D": "Energi Panas menjadi Energi Listrik Otot"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Pembangkit Listrik Tenaga Panas Bumi (Geotermal) bekerja dengan cara memompakan air dingin jauh ke dalam perut bumi. Urutan konversi energi yang terjadi selanjutnya untuk menghasilkan listrik adalah...",
+      "pilihan": {
+        "A": "Energi Panas (Bumi) -> Energi Kinetik (Uap Air) -> Energi Mekanik (Turbin) -> Energi Listrik",
+        "B": "Energi Mekanik -> Energi Panas -> Energi Listrik",
+        "C": "Energi Nuklir -> Energi Panas -> Energi Listrik",
+        "D": "Energi Listrik -> Energi Panas -> Energi Mekanik"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "pertanyaan": "Banyak orang sekarang mengganti lampu pijar kuning dengan lampu LED putih. Alasan utamanya berdasarkan konsep konversi energi adalah...",
+      "pilihan": {
+        "A": "Lampu LED mengubah energi listrik menjadi cahaya dan lebih banyak panas",
+        "B": "Lampu LED jauh lebih efisien karena hampir seluruh energi listrik diubah menjadi energi cahaya, dengan sangat sedikit yang terbuang menjadi panas",
+        "C": "Lampu pijar membutuhkan gas bumi untuk menyala",
+        "D": "Lampu LED memproduksi energi listrik cadangan di dalamnya"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Pada Pembangkit Listrik Tenaga Pasang Surut (Tidal Energy), turbin di dasar laut berputar karena pergerakan aliran laut saat pasang dan surut. Energi utama di alam semesta yang menjadi pemicu bergeraknya air laut ini berasal dari...",
+      "pilihan": {
+        "A": "Energi panas inti bumi yang mendidihkan laut",
+        "B": "Energi tarik-menarik magnetik antara dua kutub bumi",
+        "C": "Energi gravitasi, khususnya daya tarik gravitasi antara Bulan, Matahari, dan Bumi",
+        "D": "Energi angin kencang di atas permukaan samudera"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Energi Mekanik adalah total dari Energi Potensial dan Energi Kinetik. Ketika sebuah roller coaster sedang meluncur terjun dari puncak tertingginya menuju ke bawah, maka secara fisika...",
+      "pilihan": {
+        "A": "Energi Potensialnya bertambah, Energi Kinetiknya berkurang",
+        "B": "Energi Potensialnya berkurang (ketinggian turun), Energi Kinetiknya bertambah (kecepatan naik)",
+        "C": "Kedua energi tersebut sama-sama bertambah dengan cepat",
+        "D": "Kedua energi tersebut tidak berubah sama sekali"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Beberapa jenis sepatu olahraga anak dapat menyalakan lampu kecil di bagian bawahnya saat diinjak tanpa menggunakan baterai sama sekali. Teknologi ini memanfaatkan material khusus (Piezoelektrik) yang mampu mengubah...",
+      "pilihan": {
+        "A": "Energi cahaya di jalanan menjadi energi listrik",
+        "B": "Energi panas dari telapak kaki menjadi energi listrik",
+        "C": "Energi mekanik (tekanan/injakan) langsung menjadi energi listrik",
+        "D": "Energi kimia karet sepatu menjadi energi listrik"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Bahan bakar fosil seperti batu bara, bensin, dan solar disebut sebagai sumber energi tak terbarukan (non-renewable). Selain jumlahnya yang bisa habis, alasan lingkungan yang paling mendesak umat manusia agar beralih ke energi terbarukan adalah...",
+      "pilihan": {
+        "A": "Proses pembakarannya menyerap habis persediaan oksigen bumi",
+        "B": "Bahan bakar fosil memancarkan radiasi saat tersentuh udara",
+        "C": "Pembakarannya menghasilkan gas emisi karbon penyebab efek rumah kaca dan pemanasan global",
+        "D": "Biaya untuk membakar fosil jauh lebih mahal dari menambangnya"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Panel surya (solar cell) banyak diletakkan di atap rumah karena sifatnya yang ramah lingkungan. Material semikonduktor di dalam panel surya bertugas untuk...",
+      "pilihan": {
+        "A": "Menyerap panas udara untuk direaksikan secara kimia",
+        "B": "Mengubah energi foton (partikel cahaya matahari) langsung menjadi energi listrik dengan melepaskan ikatan elektron",
+        "C": "Menyimpan sinar matahari untuk dipancarkan kembali malam harinya",
+        "D": "Mengumpulkan listrik dari petir di awan"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Salah satu sumber energi biomassa di desa adalah pembuatan Biogas dari kotoran ternak. Gas yang terbentuk ini dapat digunakan gratis untuk menyalakan kompor. Gas hasil pembusukan ini adalah bentuk energi kimia yang bernama...",
+      "pilihan": {
+        "A": "Gas Oksigen (O2)",
+        "B": "Gas Karbon Monoksida (CO)",
+        "C": "Gas Metana (CH4)",
+        "D": "Gas Belerang"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Dua telapak tangan yang digosok-gosokkan dengan cepat pada saat kamu kedinginan perlahan-lahan akan terasa sangat hangat. Dalam peristiwa ini, terjadi perubahan bentuk energi yaitu...",
+      "pilihan": {
+        "A": "Energi Kinetik (gerak) melawan gaya gesek diubah menjadi Energi Panas",
+        "B": "Energi Listrik Statis diubah menjadi Energi Panas",
+        "C": "Energi Kimia Otot menguap menjadi Energi Angin",
+        "D": "Energi Potensial tangan menekan udara menjadi kalor"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "pertanyaan": "Ketika karet ketapel ditarik mundur kuat-kuat namun batu belum dilepaskan dari pegangannya. Pada saat diam tertahan seperti ini, energi apa yang tersimpan secara maksimal pada karet ketapel tersebut?",
+      "pilihan": {
+        "A": "Energi Potensial Gravitasi",
+        "B": "Energi Kinetik Murni",
+        "C": "Energi Potensial Pegas (Elastisitas)",
+        "D": "Energi Kimia Gesekan"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Proses fotosintesis pada tumbuhan hijau yang sering kita amati di pagi hari adalah salah satu fenomena konversi energi paling penting di ekosistem bumi. Dalam proses ini, energi yang diubah adalah...",
+      "pilihan": {
+        "A": "Energi Cahaya matahari diubah menjadi Energi Kimia dalam bentuk glukosa/makanan",
+        "B": "Energi Panas matahari diubah menjadi Energi Mekanik di dalam sel daun",
+        "C": "Energi Air tanah diubah menjadi Energi Cahaya melalui klorofil",
+        "D": "Energi Kinetik angin diubah menjadi cadangan air daun"
+      },
+      "kunci_jawaban": "A"
+    }
+  ]
+}

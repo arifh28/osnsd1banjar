@@ -1,0 +1,407 @@
+{
+  "nama_paket": "Keragaman, Interaksi, dan Perubahan Sosial",
+  "mata_pelajaran": "IPS",
+  "bagian_materi": "Interaksi Sosial",
+  "soal": [
+    {
+      "pertanyaan": "Andi yang berasal dari Suku Bugis pindah ke sekolah baru di tanah Jawa. Awalnya ia kesulitan berbahasa Jawa, namun setelah setahun, logat Jawanya sangat fasih bahkan ia sering memadukan logat Bugis dan Jawa saat bercanda. Proses percampuran dua budaya tanpa menghilangkan ciri khas budaya aslinya disebut...",
+      "pilihan": {
+        "A": "Asimilasi",
+        "B": "Akulturasi",
+        "C": "Amalgamasi",
+        "D": "Akomodasi"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Sebuah desa nelayan menolak menggunakan perahu bermesin dan tetap menggunakan perahu layar tradisional karena alasan kepercayaan adat yang kuat. Sikap menolak modernisasi karena terlalu terikat pada kebiasaan lama ini dapat menghambat perubahan sosial. Sikap ini disebut...",
+      "pilihan": {
+        "A": "Progresif",
+        "B": "Vested Interest (Kepentingan Tertanam)",
+        "C": "Konservatif / Tradisionalisme",
+        "D": "Inovatif"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Syarat utama terjadinya sebuah interaksi sosial adalah adanya 'Kontak Sosial' dan 'Komunikasi'. Manakah dari kejadian berikut yang TIDAK memenuhi syarat interaksi sosial secara utuh?",
+      "pilihan": {
+        "A": "Dina membalas pesan WhatsApp dari teman sebangkunya",
+        "B": "Dua orang turis asing dari negara berbeda saling tersenyum di bandara meskipun tidak saling bicara",
+        "C": "Budi berteriak memanggil temannya dari seberang sungai, lalu temannya melambaikan tangan",
+        "D": "Pak Tono menonton pidato presiden secara langsung di televisi rumahnya"
+      },
+      "kunci_jawaban": "D"
+    },
+    {
+      "pertanyaan": "Nilai (Value) adalah sesuatu yang dianggap baik/buruk, sedangkan Norma (Norm) adalah aturan pengikatnya. Jika seorang siswa mencontek saat ujian, norma apakah yang paling kuat ia langgar sehingga mendapat sanksi dari sekolah?",
+      "pilihan": {
+        "A": "Norma Kesopanan (Folkways)",
+        "B": "Norma Kebiasaan (Habit)",
+        "C": "Norma Kesusilaan dan Norma Hukum Tertulis Sekolah",
+        "D": "Norma Agama"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Ibu memarahi Doni karena ia makan sambil berjalan dan menggunakan tangan kiri. Di lingkungan masyarakat, aturan tentang cara makan ini digolongkan ke dalam tingkat norma...",
+      "pilihan": {
+        "A": "Custom (Adat Istiadat)",
+        "B": "Mores (Tata Kelakuan)",
+        "C": "Usage (Cara)",
+        "D": "Law (Hukum)"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Perusahaan Ojek Online (Ojol) dan Ojek Pangkalan sering kali berselisih karena perebutan penumpang. Namun, di beberapa wilayah, pimpinan ojol dan ojek pangkalan duduk bersama dan menyepakati zona-zona batas penjemputan untuk mengakhiri konflik. Proses penyelesaian konflik sosial ini disebut...",
+      "pilihan": {
+        "A": "Mediasi",
+        "B": "Ajudikasi",
+        "C": "Kompromi (Akomodasi)",
+        "D": "Koersi (Paksaan)"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Dalam masyarakat perkotaan, status sosial seseorang lebih banyak ditentukan oleh pendidikan dan profesinya (Achieved Status), sedangkan di keraton atau masyarakat feodal, status lebih banyak ditentukan oleh keturunan (Ascribed Status). Dampak dari perbedaan cara pandang ini adalah...",
+      "pilihan": {
+        "A": "Masyarakat kota lebih sulit mengalami mobilitas sosial (naik/turun kasta)",
+        "B": "Masyarakat keraton memiliki mobilitas sosial yang sangat terbuka bebas",
+        "C": "Masyarakat kota memiliki peluang lebih besar untuk melakukan mobilitas sosial vertikal naik melalui kerja keras",
+        "D": "Masyarakat feodal tidak mengenal kelas sosial sama sekali"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Globalisasi membawa dampak positif seperti kemudahan informasi, tetapi juga dampak negatif. Salah satu contoh dampak negatif globalisasi di bidang sosial-budaya adalah 'Westernisasi'. Apa perbedaan utama Westernisasi dengan Modernisasi?",
+      "pilihan": {
+        "A": "Modernisasi adalah penggunaan teknologi, sedangkan Westernisasi adalah meniru gaya hidup barat secara membabi buta tanpa filter",
+        "B": "Westernisasi hanya terjadi di negara barat, Modernisasi terjadi di negara timur",
+        "C": "Keduanya sama-sama bertujuan menghancurkan budaya lokal",
+        "D": "Westernisasi berfokus pada ekonomi dagang, Modernisasi pada politik"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "pertanyaan": "Sebuah keluarga besar dari Suku Batak merantau ke Jakarta. Meskipun tinggal di kota metropolitan, mereka tetap rutin mengadakan kumpulan marga dan mempertahankan bahasa daerah mereka agar tidak hilang. Fungsi lembaga keluarga dalam kasus ini adalah sebagai agen...",
+      "pilihan": {
+        "A": "Sosialisasi kebudayaan dan pelestari identitas",
+        "B": "Pengendali ekonomi masyarakat",
+        "C": "Pengawasan hukum negara",
+        "D": "Penyebaran inovasi teknologi"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "pertanyaan": "Pertandingan sepak bola antar-sekolah memicu persaingan ketat untuk menjadi juara, namun kedua tim tetap bermain mengikuti aturan wasit dan bersalaman setelahnya. Bentuk proses interaksi sosial seperti ini disebut...",
+      "pilihan": {
+        "A": "Konflik / Pertentangan penuh",
+        "B": "Persaingan (Kompetisi) yang sehat",
+        "C": "Asimilasi kebudayaan olahraga",
+        "D": "Akomodasi paksaan"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Sering terjadi sekelompok remaja lebih membela kelompoknya sendiri mati-matian dan menganggap kelompok remaja dari desa lain adalah musuh yang lebih rendah derajatnya. Sikap memandang kelompok sendiri lebih unggul dari kelompok lain disebut...",
+      "pilihan": {
+        "A": "Chauvinisme / Etnosentrisme",
+        "B": "Nasionalisme",
+        "C": "Patriotisme",
+        "D": "Pluralisme"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "pertanyaan": "Pak Roni adalah seorang hakim di pengadilan, namun ia menangani kasus pencurian di mana terdakwanya adalah anak kandungnya sendiri. Pak Roni mengalami kebingungan antara bertindak adil sebagai hakim atau bertindak membela anaknya sebagai seorang ayah. Kondisi yang dialami Pak Roni disebut...",
+      "pilihan": {
+        "A": "Konflik Peran (Role Conflict)",
+        "B": "Kegagalan Status",
+        "C": "Kesenjangan Sosial",
+        "D": "Stratifikasi Sosial"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "pertanyaan": "Banyak remaja Indonesia saat ini sangat menyukai K-Pop, mulai dari gaya rambut, pakaian, hingga makanan Korea. Proses meniru gaya hidup idola ini dalam sosiologi disebut sebagai proses...",
+      "pilihan": {
+        "A": "Sugesti",
+        "B": "Simpati",
+        "C": "Imitasi dan Identifikasi",
+        "D": "Motivasi"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Dahulu masyarakat berkirim kabar menggunakan surat pos yang butuh waktu berhari-hari. Sekarang, masyarakat menggunakan surat elektronik (Email) atau aplikasi pesan singkat yang sampai dalam hitungan detik. Perubahan sosial ini digolongkan ke dalam...",
+      "pilihan": {
+        "A": "Perubahan Evolusi (lambat)",
+        "B": "Perubahan Revolusi (cepat)",
+        "C": "Perubahan yang Tidak Dikehendaki",
+        "D": "Perubahan Mundur (Regress)"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Di sebuah daerah, setiap warga yang akan membangun rumah pasti dibantu secara sukarela oleh para tetangganya hingga selesai (Gotong Royong). Fenomena ini menunjukkan adanya bentuk interaksi sosial Asosiatif berupa...",
+      "pilihan": {
+        "A": "Koersi",
+        "B": "Toleransi",
+        "C": "Kerja Sama (Cooperation)",
+        "D": "Kooptasi"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Pembangunan pabrik semen di suatu desa membuat warga desa yang awalnya bermatapencaharian sebagai petani beralih menjadi buruh pabrik. Akibatnya, hubungan kekerabatan yang dulunya erat perlahan memudar karena kesibukan bekerja. Faktor penyebab perubahan sosial tersebut berasal dari...",
+      "pilihan": {
+        "A": "Faktor Eksternal (bencana alam)",
+        "B": "Pengaruh kebudayaan negara lain",
+        "C": "Faktor Internal (Industrialisasi dan perubahan struktur ekonomi lokal)",
+        "D": "Konflik peperangan"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Setiap hari Senin, siswa-siswi SD belajar mata pelajaran Pendidikan Pancasila. Salah satu nilai utama yang ditanamkan adalah 'Bhinneka Tunggal Ika' (Berbeda-beda tapi tetap satu). Hal ini bertujuan untuk mencegah potensi...",
+      "pilihan": {
+        "A": "Kemajuan teknologi di pedesaan",
+        "B": "Disintegrasi (Perpecahan) sosial akibat keragaman Suku, Agama, dan Ras (SARA)",
+        "C": "Urbanisasi dari desa ke kota besar",
+        "D": "Pertumbuhan ekonomi pasar tradisional"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Perhatikan lembaga-lembaga sosial berikut: 1) Keluarga, 2) Sekolah, 3) Kepolisian, 4) Perusahaan. Lembaga manakah yang memiliki fungsi utama sebagai 'Agen Pengendalian Sosial' melalui aturan tertulis dan sanksi tegas?",
+      "pilihan": {
+        "A": "1 dan 2",
+        "B": "2 dan 4",
+        "C": "Hanya 3",
+        "D": "1 dan 3"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Masjid Menara Kudus adalah salah satu bangunan bersejarah peninggalan Sunan Kudus. Menaranya memiliki arsitektur menyerupai candi Hindu-Buddha. Fakta sejarah ini merupakan bukti kuat dari proses interaksi budaya yang bersifat...",
+      "pilihan": {
+        "A": "Asimilasi yang menghilangkan budaya Hindu",
+        "B": "Akulturasi budaya (Perpaduan arsitektur Islam dan Hindu tanpa menghilangkan ciri aslinya)",
+        "C": "Amalgamasi (Pernikahan campur)",
+        "D": "Dominasi budaya baru terhadap budaya lama"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Media sosial seperti Instagram dan TikTok memicu munculnya fenomena 'Pamer Kekayaan' (Flexing) di kalangan remaja. Pergeseran nilai ini membuat sebagian masyarakat menilai seseorang hanya dari barang mewah yang dimilikinya. Sikap masyarakat yang demikian disebut...",
+      "pilihan": {
+        "A": "Konsumerisme dan Materialisme",
+        "B": "Nasionalisme Ekonomi",
+        "C": "Hedonisme Mistik",
+        "D": "Demokrasi Budaya"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "pertanyaan": "Bapak Rahmat yang awalnya hanya seorang tukang parkir rajin menabung dan menyekolahkan anaknya hingga menjadi dokter bedah yang sukses. Proses perubahan status sosial dari keluarga Bapak Rahmat dinamakan...",
+      "pilihan": {
+        "A": "Mobilitas Sosial Horizontal",
+        "B": "Mobilitas Sosial Vertikal Naik (Antargenerasi)",
+        "C": "Mobilitas Sosial Vertikal Turun (Intragenerasi)",
+        "D": "Stagnasi Kelas Sosial"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Bangsa Indonesia menjalin kerjasama perdagangan dengan negara-negara ASEAN. Masuknya barang-barang produksi dari Thailand atau Vietnam ke pasar Indonesia disebut sebagai proses interaksi sosial-ekonomi tingkat...",
+      "pilihan": {
+        "A": "Regional (Kawasan)",
+        "B": "Lokal",
+        "C": "Bilateral Tertutup",
+        "D": "Nasional"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "pertanyaan": "Sering terjadi konflik kecil di kelas karena salah paham saat mengobrol via teks (chat) yang tidak memiliki intonasi nada bicara. Kegagalan memahami pesan atau maksud orang lain dalam interaksi sosial disebut sebagai...",
+      "pilihan": {
+        "A": "Miskomunikasi",
+        "B": "Sugesti Buta",
+        "C": "Akomodasi Semu",
+        "D": "Stereotip"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "pertanyaan": "Penemuan mesin uap di Inggris memicu Revolusi Industri yang mengubah seluruh tatanan sosial, ekonomi, dan transportasi dunia. Berdasarkan pengaruhnya, perubahan sosial ini digolongkan ke dalam...",
+      "pilihan": {
+        "A": "Perubahan yang pengaruhnya sangat kecil",
+        "B": "Perubahan struktural besar yang memengaruhi sendi-sendi kehidupan masyarakat",
+        "C": "Perubahan yang tidak disengaja oleh siapa pun",
+        "D": "Perubahan regress (kemunduran)"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Dina melihat temannya menangis karena kehilangan dompet. Dina ikut merasakan kesedihan yang mendalam hingga ia menangis dan membelikan makanan untuk temannya. Proses kejiwaan yang dialami Dina dalam sosiologi disebut...",
+      "pilihan": {
+        "A": "Simpati",
+        "B": "Empati (Merasakan dan mengambil tindakan nyata)",
+        "C": "Sugesti",
+        "D": "Imitasi"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Ciri utama dari Interaksi Sosial yang bersifat 'Disosiatif' adalah...",
+      "pilihan": {
+        "A": "Mengarah pada persatuan dan kesatuan masyarakat",
+        "B": "Mengarah pada perpecahan, pertentangan, atau konflik",
+        "C": "Mencari jalan tengah perdamaian",
+        "D": "Membentuk lembaga sosial baru"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Budaya mudik saat hari raya Idul Fitri menimbulkan perubahan sosial berupa kemacetan luar biasa dan perputaran uang miliaran rupiah dari kota ke desa. Lembaga sosial apakah yang paling dominan menggerakkan budaya mudik ini?",
+      "pilihan": {
+        "A": "Lembaga Ekonomi dan Hukum",
+        "B": "Lembaga Agama dan Keluarga",
+        "C": "Lembaga Pendidikan",
+        "D": "Lembaga Politik Negara"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Pak Kades selalu mengumpulkan perwakilan tokoh agama, tokoh adat, dan pemuda sebelum mengambil keputusan perbaikan desa (Musyawarah Mufakat). Proses sosial yang diterapkan Pak Kades mencerminkan penerapan nilai...",
+      "pilihan": {
+        "A": "Otokrasi Demagog",
+        "B": "Demokrasi Pancasila",
+        "C": "Monarki Mutlak",
+        "D": "Feodalisme Modern"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Adanya pandemik COVID-19 pada masa lalu 'memaksa' seluruh elemen pendidikan (guru dan siswa) berubah dari pembelajaran tatap muka menjadi menggunakan aplikasi Zoom/Google Meet. Perubahan sosial ini dipicu oleh faktor...",
+      "pilihan": {
+        "A": "Penemuan Teknologi Baru yang disengaja",
+        "B": "Faktor Lingkungan Fisik/Alam Eksternal (Bencana Wabah)",
+        "C": "Konflik peperangan global",
+        "D": "Pemberontakan pemuda"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Di sebuah daerah terjadi sengketa lahan antara perusahaan dan petani. Hakim Pengadilan Negeri mengeluarkan keputusan mengikat bahwa lahan tersebut adalah tanah adat milik petani. Keputusan penyelesaian sengketa melalui pengadilan ini disebut...",
+      "pilihan": {
+        "A": "Konsiliasi",
+        "B": "Ajudikasi (Penyelesaian di meja hijau pengadilan)",
+        "C": "Toleransi",
+        "D": "Stalemate"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Di Pulau Bali, banyak masyarakat mayoritas beragama Hindu menyediakan makanan buka puasa (takjil) bagi pendatang yang beragama Islam saat bulan Ramadan. Interaksi sosial budaya ini adalah wujud nyata dari...",
+      "pilihan": {
+        "A": "Intoleransi beragama",
+        "B": "Harmoni dan Toleransi antarumat beragama",
+        "C": "Usaha mengubah agama pendatang",
+        "D": "Persaingan ekonomi dagang makanan"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Peredaran tren pakaian 'Thrift' (pakaian bekas impor) merajalela di kalangan anak muda Indonesia, mengubah pola konsumsi mereka. Dari kacamata ekonomi dan sosial, tren ini dapat merugikan...",
+      "pilihan": {
+        "A": "Perusahaan kargo laut internasional",
+        "B": "Tumbuh kembang anak muda itu sendiri",
+        "C": "Industri garmen dan penjahit pakaian lokal UMKM",
+        "D": "Negara-negara maju penjual baju bekas"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Globalisasi tidak bisa dihindari, batas-batas antarnegara menjadi memudar (Borderles World). Sikap kritis yang paling tepat dilakukan pelajar SD untuk menghadapi kebudayaan asing yang masuk adalah...",
+      "pilihan": {
+        "A": "Menerima semuanya karena itu adalah lambang kemajuan zaman",
+        "B": "Menutup diri dan menolak belajar bahasa asing",
+        "C": "Bersikap selektif (menyaring) budaya yang masuk agar sesuai dengan nilai luhur kepribadian Pancasila",
+        "D": "Pindah ke negara asal budaya tersebut agar lebih gaul"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Dalam masyarakat majemuk (plural), stereotip (pelabelan) sering menjadi akar masalah. Contoh dari pemikiran stereotip yang salah adalah...",
+      "pilihan": {
+        "A": "Menganggap setiap daerah memiliki keunikannya sendiri",
+        "B": "Menganggap semua orang dari suku X pasti kasar dan pelit",
+        "C": "Mempelajari bahasa daerah lain untuk menambah wawasan",
+        "D": "Berteman tanpa memandang ras dan warna kulit"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Seorang anak petani menjadi sarjana pertama di desanya berkat beasiswa, dan kemudian ia mendirikan sekolah gratis bagi warga desa. Lembaga pendidikan dalam hal ini terbukti dapat berfungsi sebagai...",
+      "pilihan": {
+        "A": "Mesin penghancur kebudayaan asli",
+        "B": "Saluran mobilitas sosial vertikal (Sosial Elevator) yang mengangkat derajat (status sosial) seseorang",
+        "C": "Pemecah belah solidaritas warga desa",
+        "D": "Pembentuk kelas sosial yang kaku (Kasta)"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Interaksi sosial ada dua bentuk, Asosiatif dan Disosiatif. Berikut ini yang merupakan contoh proses sosial Disosiatif berupa 'Kontravensi' (sikap tidak suka/keraguan yang disembunyikan) adalah...",
+      "pilihan": {
+        "A": "Dua kelompok bertarung menggunakan senjata tajam di jalan raya",
+        "B": "Tim lari kelas V bertanding adu cepat secara sehat melawan kelas VI",
+        "C": "Budi diam-diam menghasut temannya untuk membenci ketua kelas yang baru",
+        "D": "Dua desa saling bantu memperbaiki jembatan rusak"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Di kota besar, masyarakatnya bersikap 'Patembayan' (Geselleschaft), yaitu hubungan sosial yang didasarkan pada kepentingan sesaat atau ekonomi. Sedangkan di desa, hubungannya bersifat 'Paguyuban' (Gemeinschaft). Ciri khas hubungan Paguyuban adalah...",
+      "pilihan": {
+        "A": "Ikatan batin yang sangat kuat, persaudaraan, dan kekerabatan yang tulus tanpa pamrih",
+        "B": "Hanya saling menyapa jika ada urusan jual-beli bisnis",
+        "C": "Tidak mengenal tetangga sebelah rumah karena dinding yang tinggi",
+        "D": "Aturan hukum ditegakkan sangat kaku dan dingin oleh polisi"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "pertanyaan": "Setiap perayaan 17 Agustus, warga kampung mengadakan lomba panjat pinang. Lomba ini tidak hanya tentang kemenangan, tetapi ada 'Nilai Kebersamaan' yang dipupuk. Peran dari tradisi tersebut dalam interaksi sosial adalah...",
+      "pilihan": {
+        "A": "Meningkatkan jurang kesenjangan si miskin dan si kaya",
+        "B": "Mempererat Integrasi Sosial (kohesi/kepaduan kelompok) di lingkungan warga",
+        "C": "Menciptakan konflik horizontal antar gang",
+        "D": "Membuktikan siapa yang terkuat dan paling berhak mengatur desa"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Akibat globalisasi, makanan cepat saji (fast food) dari luar negeri sangat mudah ditemukan di Indonesia. Namun secara bertahap hal ini memicu masalah perubahan kesehatan di masyarakat berupa...",
+      "pilihan": {
+        "A": "Meningkatnya penderita gizi buruk (kurang makan)",
+        "B": "Meningkatnya usia harapan hidup hingga 100 tahun",
+        "C": "Meningkatnya risiko obesitas (kegemukan) dan penyakit tidak menular akibat pola makan tinggi kalori",
+        "D": "Penyakit keturunan tidak bisa ditularkan lagi"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Banyak warga masyarakat melakukan protes (demonstrasi) damai menuntut perbaikan jalan rusak yang tak kunjung diaspal bertahun-tahun. Demonstrasi damai dalam masyarakat demokrasi dilihat sebagai bentuk interaksi...",
+      "pilihan": {
+        "A": "Pemberontakan radikal terhadap negara",
+        "B": "Akomodasi ekonomi",
+        "C": "Komunikasi penyampaian aspirasi (koreksi) dari rakyat agar terjadi perubahan kebijakan sosial oleh pemerintah",
+        "D": "Kriminalitas massal"
+      },
+      "kunci_jawaban": "C"
+    }
+  ]
+}

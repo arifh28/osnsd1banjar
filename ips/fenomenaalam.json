@@ -1,0 +1,407 @@
+{
+  "nama_paket": "Kenampakan Fenomena Alam dan Sosial",
+  "mata_pelajaran": "IPS",
+  "bagian_materi": "Fenomena Alam",
+  "soal": [
+    {
+      "pertanyaan": "Di dataran tinggi seperti Dieng, masyarakat memanfaatkan lahan miring untuk menanam sayuran dengan sistem terasering, sedangkan di dataran rendah Pantura lahan digunakan untuk menanam padi. Perbedaan pemanfaatan lahan ini membuktikan bahwa...",
+      "pilihan": {
+        "A": "Karakteristik fisik alam seperti suhu, ketinggian, dan bentuk muka bumi sangat memengaruhi aktivitas ekonomi dan jenis pertanian masyarakat",
+        "B": "Masyarakat dataran tinggi tidak membutuhkan padi sebagai makanan pokok mereka",
+        "C": "Dataran rendah Pantura tidak bisa dibuat sistem terasering karena tanahnya terlalu subur",
+        "D": "Pemerintah melarang penanaman padi di daerah yang memiliki ketinggian di atas 1.000 meter"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "pertanyaan": "Selat Malaka sejak zaman kuno menjadi jalur pelayaran perdagangan internasional yang sangat ramai antara Asia Barat, India, dan Asia Timur. Dampak positif posisi strategis kenampakan alam tersebut bagi kehidupan sosial budaya bangsa Indonesia adalah...",
+      "pilihan": {
+        "A": "Masyarakat Indonesia menjadi tertutup terhadap kebudayaan asing",
+        "B": "Terjadinya pembauran budaya, bahasa, dan agama akibat interaksi penduduk lokal dengan para pedagang asing",
+        "C": "Hilangnya bahasa asli daerah karena digantikan oleh bahasa para pedagang dunia",
+        "D": "Sektor pertanian Indonesia berubah seluruhnya menjadi sektor perdagangan industri maritim"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Sungai-sungai besar di Pulau Kalimantan seperti Sungai Kapuas digunakan warga sebagai sarana transportasi utama antarwilayah, sedangkan sungai di Pulau Jawa lebih banyak digunakan untuk irigasi pertanian. Perbedaan fungsi kenampakan alam sungai ini disebabkan karena...",
+      "pilihan": {
+        "A": "Sungai di Pulau Jawa tidak memiliki air yang cukup saat musim hujan tiba",
+        "B": "Kondisi geografis Kalimantan berupa hutan lebat dengan jalur darat yang terbatas, serta sungai yang lebar dan dalam, sehingga sangat mendukung transportasi air",
+        "C": "Masyarakat Pulau Jawa tidak memiliki keterampilan membuat perahu besar",
+        "D": "Pemerintah melarang perahu melintasi sungai-sungai yang ada di Pulau Jawa"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Indonesia berada di jalur pertemuan Pegunungan Sirkum Pasifik dan Sirkum Mediterania. Keuntungan geografis yang didapatkan Indonesia dari banyaknya rangkaian pegunungan vulkanik aktif tersebut adalah...",
+      "pilihan": {
+        "A": "Wilayah Indonesia menjadi bebas dari ancaman bencana gempa bumi",
+        "B": "Abu vulkanik hasil letusan gunung berapi membuat tanah di sekitarnya menjadi sangat subur untuk pertanian",
+        "C": "Suhu udara di seluruh wilayah Indonesia menjadi sangat dingin sepanjang tahun",
+        "D": "Sungai-sungai di Indonesia menjadi kering sehingga mempermudah penambangan emas"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Pantai Selatan Pulau Jawa berbatasan langsung dengan Samudra Hindia sehingga memiliki ombak yang besar dan tebing yang curam, sedangkan Pantai Utara Jawa memiliki ombak yang tenang dan cenderung landai. Berdasarkan analisis fisik tersebut, pemanfaatan kenampakan alam yang paling tepat adalah...",
+      "pilihan": {
+        "A": "Pantai Utara untuk pariwisata selancar air, Pantai Selatan untuk pelabuhan dagang utama",
+        "B": "Pantai Utara untuk pelabuhan dan tambak garam, Pantai Selatan untuk pariwisata pemandangan alam dan pelestarian",
+        "C": "Keduanya cocok digunakan untuk budidaya rumput laut skala besar karena ombaknya mirip",
+        "D": "Pantai Selatan dikeringkan seluruhnya untuk dijadikan lahan pertanian perkebunan jagung"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Danau Toba di Sumatra Utara merupakan danau vulko-tektonik terbesar di Indonesia. Analisis yang paling tepat mengenai proses pembentukan kenampakan alam danau tersebut adalah...",
+      "pilihan": {
+        "A": "Patahan bumi yang terisi oleh air hujan selama ribuan tahun",
+        "B": "Letusan gunung berapi purba yang sangat dahsyat menimbulkan runtuhnya puncak gunung dan membentuk kaldera luas yang terisi air",
+        "C": "Pencairan es raksasa pada zaman glasial yang menggenangi cekungan daratan",
+        "D": "Bendungan buatan manusia purba untuk membendung aliran sungai besar"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Indonesia hampir setiap hari mengalami gempa tektonik aktif, sedangkan negara tetangga seperti Singapura sangat jarang mengalami gempa bumi tersebut. Faktor geografis yang menyebabkan perbedaan fenomena alam ini adalah...",
+      "pilihan": {
+        "A": "Singapura memiliki banyak bangunan pencakar langit yang menahan getaran bumi",
+        "B": "Indonesia terletak tepat di atas pertemuan batas tiga lempeng tektonik aktif dunia, sedangkan Singapura berada di dalam lempeng yang stabil (jauh dari batas lempeng)",
+        "C": "Singapura memiliki iklim yang lebih stabil dan tidak terlalu panas dibanding Indonesia",
+        "D": "Indonesia memiliki luas wilayah laut yang jauh lebih besar sehingga daratannya mudah bergoyang"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Negara Filipina sering kali dihantam oleh badai tropis (topan) yang dahsyat setiap tahunnya, sementara wilayah Indonesia yang berada di garis ekuator sangat jarang dilewati oleh badai tropis tersebut. Fenomena alam ini terjadi karena...",
+      "pilihan": {
+        "A": "Filipina memiliki wilayah laut yang lebih sempit daripada Indonesia",
+        "B": "Adanya gaya Coriolis (efek rotasi bumi) yang bernilai nol di garis ekuator, sehingga badai tropis tidak dapat terbentuk di wilayah ekuator Indonesia",
+        "C": "Hutan hujan tropis di Indonesia mampu menyerap angin badai sebelum masuk daratan",
+        "D": "Suhu udara di Filipina jauh lebih dingin sehingga memicu perputaran angin kencang"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Gunung Mayon di Filipina dan Gunung Merapi di Indonesia sama-sama merupakan gunung berapi bertipe strato (kerucut) yang sangat aktif. Gejala alam merugikan yang paling sering dialami warga di sekitar kedua gunung tersebut saat erupsi adalah...",
+      "pilihan": {
+        "A": "Gempa bumi runtuhan berskala raksasa yang menenggelamkan pulau",
+        "B": "Bahaya semburan awan panas (piroklastik) dan aliran lahar dingin saat hujan deras",
+        "C": "Munculnya semburan gas helium yang membekukan tanaman warga",
+        "D": "Terjadinya tsunami setinggi puluhan meter di daratan lereng gunung"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Kebakaran hutan yang terjadi di Pulau Sumatra dan Kalimantan sering kali menimbulkan masalah kabut asap lintas batas (transboundary haze) yang mengganggu aktivitas penerbangan dan kesehatan di Malaysia dan Singapura. Fenomena sosial alam ini membuktikan bahwa...",
+      "pilihan": {
+        "A": "Malaysia dan Singapura tidak memiliki sistem penyaring udara yang canggih",
+        "B": "Gejala alam dan kerusakan lingkungan di suatu negara dapat berdampak luas secara internasional bagi negara-negara tetangganya",
+        "C": "Indonesia sengaja meniupkan asap ke arah negara tetangga menggunakan kipas raksasa",
+        "D": "Batas wilayah politik negara dapat menghentikan pergerakan arah angin yang membawa asap"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Bencana tsunami besar di Samudra Hindia tahun 2004 merusak pesisir Aceh (Indonesia), Phuket (Thailand), hingga Sri Lanka. Berdasarkan analisis geografis, mengapa bencana alam ini bisa menjangkau banyak negara sekaligus?",
+      "pilihan": {
+        "A": "Pusat gempa berada di daratan yang menghubungkan ketiga negara tersebut",
+        "B": "Pusat gempa tektonik berada di dasar laut samudra terbuka, sehingga gelombang tsunami merambat bebas ke segala arah menerjang pesisir yang menghadap samudra tersebut",
+        "C": "Ketiga negara tersebut memiliki ketinggian daratan yang berada di bawah permukaan laut",
+        "D": "Air laut samudra mengalir serentak karena ditarik oleh gaya gravitasi bulan"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Fenomena gejala alam El Nino yang terjadi di Samudra Pasifik sering kali memicu kekeringan panjang dan kegagalan panen berskala besar di wilayah Indonesia dan negara-negara Asia Tenggara lainnya. Hubungan sebab-akibat yang benar dari fenomena ini adalah...",
+      "pilihan": {
+        "A": "Suhu laut Pasifik mendingin sehingga air laut Indonesia habis mengalir ke Pasifik",
+        "B": "Suhu permukaan laut di Pasifik Barat mendingin menyebabkan penguapan air bergeser ke Pasifik Timur, akibatnya curah hujan di Indonesia menurun drastis",
+        "C": "El Nino membawa badai es yang membekukan awan hujan di atas langit Indonesia",
+        "D": "Masyarakat Indonesia terlalu banyak menggunakan air sumur saat El Nino"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Garis Wallace memisahkan jenis fauna Indonesia bagian Barat (Asiatis) dengan bagian Tengah (Peralihan), sedangkan Garis Weber memisahkan bagian Tengah dengan Timur (Australis). Arti penting pembagian wilayah fauna ini berdasarkan ilmu sejarah bumi adalah...",
+      "pilihan": {
+        "A": "Hewan di Indonesia Barat sengaja bermigrasi dari daratan Eropa",
+        "B": "Indonesia Barat dahulu menyatu dengan Paparan Sunda (Asia), Indonesia Timur menyatu dengan Paparan Sahul (Australia), sedangkan bagian Tengah terisolasi sejak lama",
+        "C": "Hewan di wilayah Tengah tidak bisa berenang menyeberangi danau kecil",
+        "D": "Pemerintah membuat pagar pembatas gaib agar hewan tidak saling bercampur"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Fauna tipe Peralihan seperti Anoa di Sulawesi dan Komodo di NTT disebut sebagai hewan endemik Indonesia. Mengapa hewan-hewan tersebut tidak ditemukan di wilayah dunia lainnya?",
+      "pilihan": {
+        "A": "Karena hewan tersebut tidak tahan hidup di luar wilayah tropis",
+        "B": "Wilayah Indonesia Tengah terisolasi oleh laut dalam sejak zaman purba, sehingga hewan di sana berevolusi secara khusus tanpa pengaruh dari benua Asia maupun Australia",
+        "C": "Manusia melarang keras pembawaan hewan tersebut keluar pulau sejak zaman dahulu",
+        "D": "Hewan tipe peralihan hanya memakan tumbuhan yang tumbuh di pulau Sulawesi"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Hutan hujan tropis di Pulau Kalimantan memiliki keragaman flora yang sangat luar biasa (Flora Malesiana), termasuk kantong semar dan berbagai jenis anggrek hutan. Faktor iklim utama yang mendukung suburnya keragaman flora tersebut adalah...",
+      "pilihan": {
+        "A": "Adanya musim dingin yang membunuh hama tanaman secara alami",
+        "B": "Mendapatkan curah hujan yang tinggi dan penyinaran matahari yang konstan sepanjang tahun",
+        "C": "Tanah hutan Kalimantan mengandung banyak pasir pantai yang gembur",
+        "D": "Suhu udara yang selalu berubah secara ekstrem setiap bulannya"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Penebangan hutan secara liar dan pembukaan lahan kelapa sawit skala besar di Sumatra telah menurunkan populasi Orangutan secara drastis hingga terancam punah. Dampak sosial ekonomi jangka panjang bagi masyarakat jika flora dan fauna hutan tersebut musnah adalah...",
+      "pilihan": {
+        "A": "Masyarakat akan kekurangan lahan untuk membangun perumahan mewah",
+        "B": "Kehilangan keseimbangan ekosistem (seperti munculnya hama baru), hilangnya potensi obat-obatan alami, serta punahnya daya tarik wisata alam",
+        "C": "Masyarakat beralih memelihara hewan peliharaan dari luar negeri yang lebih modern",
+        "D": "Suhu udara di sekitar perkebunan kelapa sawit akan menjadi lebih dingin"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Hutan bakau (mangrove) banyak tumbuh di wilayah pesisir pantai berlumpur Indonesia. Analisis hubungan antara keberadaan flora bakau tersebut dengan kelangsungan hidup fauna laut kecil di sekitarnya adalah...",
+      "pilihan": {
+        "A": "Bakau menghasilkan buah yang menjadi makanan utama ikan hiu",
+        "B": "Akar bakau yang lebat berfungsi sebagai tempat berlindung (nursery ground) bagi ikan kecil dan kepiting dari serangan predator dan ombak besar",
+        "C": "Bakau menyerap air garam sehingga air di pesisir menjadi tawar untuk berenang ikan",
+        "D": "Daun bakau yang jatuh menutupi permukaan air agar ikan tidak kepanasan"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Burung Cendrawasih dan Kanguru Pohon di Papua dimasukkan ke dalam kelompok Fauna tipe Australis. Mengapa karakteristik fauna tersebut sangat berbeda dengan fauna di Pulau Jawa (tipe Asiatis)?",
+      "pilihan": {
+        "A": "Papua memiliki iklim gurun yang mirip dengan benua Australia",
+        "B": "Secara historis geologis, pulau Papua pernah berada dalam satu daratan dengan benua Australia sehingga memiliki kesamaan jenis nenek moyang hewan",
+        "C": "Fauna di Pulau Jawa telah mengalami pencampuran genetik dengan hewan dari Afrika",
+        "D": "Burung Cendrawasih sering terbang bolak-balik dari Papua ke Australia setiap sore"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Sebuah peta lingkungan sekolah memiliki skala 1 : 1.000. Jika jarak antara ruang kelas dengan lapangan upacara pada peta adalah 5 cm, berapakah jarak yang sesungguhnya di lapangan?",
+      "pilihan": {
+        "A": "500 cm (5 meter)",
+        "B": "5.000 cm (50 meter)",
+        "C": "50.000 cm (500 meter)",
+        "D": "500.000 cm (5 kilometer)"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Saat membaca sebuah peta umum, kamu melihat ada wilayah yang diberi warna hijau tua, kuning, cokelat muda, hingga cokelat tua yang tebal. Informasi kenampakan alam yang ditunjukkan oleh warna cokelat tua yang tebal tersebut adalah...",
+      "pilihan": {
+        "A": "Wilayah dataran rendah yang subur untuk bertani padi",
+        "B": "Wilayah pegunungan tinggi atau perbukitan yang sangat terjal",
+        "C": "Wilayah perairan laut dangkal yang penuh terumbu karang",
+        "D": "Wilayah hutan bakau yang rawan dilanda bencana tsunami"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Perhatikan sebuah peta topografi (peta kontur). Kamu melihat garis-garis kontur di wilayah A digambarkan sangat rapat satu sama lain, sedangkan di wilayah B garis konturnya sangat renggang. Kesimpulan yang benar mengenai kondisi medan tersebut adalah...",
+      "pilihan": {
+        "A": "Wilayah A adalah danau mendalam, wilayah B adalah puncak gunung",
+        "B": "Wilayah A berbentuk lereng tebing yang sangat curam, sedangkan wilayah B berbentuk landai atau dataran",
+        "C": "Wilayah A memiliki suhu yang sangat panas, wilayah B sangat dingin",
+        "D": "Wilayah A rawan gempa, sedangkan wilayah B rawan bencana banjir"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Garis lintang (garis horizontal) yang digambar melingkari globe memiliki fungsi ilmiah yang sangat penting bagi geografi bumi, yaitu...",
+      "pilihan": {
+        "A": "Menentukan pembagian zona waktu di berbagai belahan negara",
+        "B": "Menentukan pembagian zona iklim matahari (tropis, subtropis, sedang, dingin) di bumi",
+        "C": "Mengukur kedalaman laut samudra secara tidak langsung",
+        "D": "Menghitung luas daratan sebuah pulau tanpa menggunakan skala"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Kota Pontianak terletak pada garis 0° (Garis Khatulistiwa/Ekuator), sedangkan Kota London terletak pada garis Bujur 0° (Greenwich Mean Time/GMT). Jika di Kota London menunjukkan pukul 00.00 tengah malam, mengapa di Kota Jakarta (105° BT) sudah menunjukkan pukul 07.00 pagi?",
+      "pilihan": {
+        "A": "Jakarta memiliki lampu kota yang dinyalakan lebih awal",
+        "B": "Bumi berotasi dari barat ke timur, sehingga wilayah bujur timur (seperti Jakarta) akan menghadap matahari dan mengalami waktu pagi lebih awal dibanding Greenwich",
+        "C": "Jakarta terletak dekat dengan kutub utara yang mempercepat waktu siang",
+        "D": "Pemerintah Indonesia menyetel jam dinding lebih cepat agar siswa rajin sekolah"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Untuk merencanakan perjalanan laut keliling dunia, seorang nakhoda kapal lebih memilih menggunakan Globe dibandingkan menggunakan Peta Datar biasa. Alasan kartografi yang mendasari pilihan ini adalah...",
+      "pilihan": {
+        "A": "Globe terbuat dari bahan plastik yang tidak mudah basah oleh air laut",
+        "B": "Globe meniru bentuk asli bumi yang bulat sehingga dapat menampilkan bentuk pulau, luas, dan jarak antarnegara tanpa ada distorsi (kesalahan gambar) akibat pendataran",
+        "C": "Globe memiliki kompas otomatis yang menunjuk arah mata angin",
+        "D": "Peta datar tidak menampilkan nama-nama samudra besar di dunia"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Secara astronomis, wilayah Indonesia terletak di antara 6° LU – 11° LS dan 95° BT – 141° BT. Pengaruh langsung dari letak lintang tersebut terhadap kondisi alamiah seluruh wilayah Indonesia adalah...",
+      "pilihan": {
+        "A": "Indonesia sering mengalami badai salju di akhir tahun",
+        "B": "Indonesia beriklim tropis dengan kelembapan tinggi, suhu hangat konstan, dan hanya memiliki dua musim",
+        "C": "Indonesia terbagi menjadi empat zona musim yang berbeda setiap tiga bulan",
+        "D": "Daratan Indonesia menjadi rawan terbelah akibat gaya gravitasi ekuator"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Indonesia terletak di antara dua samudra (Hindia dan Pasifik) dan dua benua (Asia dan Australia). Dampak negatif posisi geografis silang ini bagi keamanan wilayah kedaulatan Indonesia adalah...",
+      "pilihan": {
+        "A": "Sering terjadi tabrakan antara pulau-pulau besar",
+        "B": "Rawan terjadinya penyelundupan barang ilegal, masuknya kapal asing tanpa izin, dan pencurian ikan di perbatasan (illegal fishing)",
+        "C": "Suhu air laut menjadi terlalu panas untuk pertumbuhan ikan tradisional",
+        "D": "Indonesia tidak diperbolehkan memiliki hubungan diplomatik dengan benua Eropa"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Indonesia memiliki batas wilayah laut berupa Laut Teritorial (12 mil laut) dan Zona Ekonomi Eksklusif (ZEE) sejauh 200 mil laut dari garis pantai. Arti penting ZEE bagi perekonomian bangsa Indonesia adalah...",
+      "pilihan": {
+        "A": "Indonesia berhak melarang semua kapal asing lewat lintas damai di area tersebut",
+        "B": "Indonesia memiliki hak eksklusif untuk memanfaatkan, mengeksplorasi, dan mengelola seluruh kekayaan alam (seperti ikan dan minyak bumi) di dalam area tersebut",
+        "C": "Negara tetangga wajib membayar pajak tanah jika berlayar di ZEE",
+        "D": "Lautan ZEE akan diubah menjadi daratan perumahan baru"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Mengapa wilayah Indonesia yang membentang luas dari barat ke timur harus dibagi menjadi tiga zona waktu yang berbeda (WIB, WITA, WIT)?",
+      "pilihan": {
+        "A": "Agar masyarakat di daerah Timur tidak terlalu lelah bekerja",
+        "B": "Karena bentangan wilayah Indonesia dari 95° BT hingga 141° BT mencakup selisih 46 derajat bujur, di mana setiap 15 derajat bujur bumi berputar membutuhkan waktu 1 jam",
+        "C": "Sesuai keputusan kerajaan-kerajaan kuno di Indonesia zaman dahulu",
+        "D": "Suhu udara yang berbeda di setiap daerah memperlambat putaran jarum jam"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Indonesia memiliki batas darat langsung dengan tiga negara tetangga. Jika kamu berada di Pulau Kalimantan, Papua, dan Timor, negara tetangga yang berbatasan langsung berturut-turut adalah...",
+      "pilihan": {
+        "A": "Malaysia, Papua Nugini, dan Timor Leste",
+        "B": "Brunei Darussalam, Australia, dan Malaysia",
+        "C": "Singapura, Papua Nugini, dan Filipina",
+        "D": "Malaysia, Timor Leste, dan Papua Nugini"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "pertanyaan": "Dua pertiga luas wilayah Indonesia berbentuk lautan, sehingga Indonesia dijuluki sebagai Negara Maritim. Strategi pembangunan sosial-ekonomi yang paling cocok dikembangkan pemerintah sesuai kondisi tersebut adalah...",
+      "pilihan": {
+        "A": "Membangun rel kereta api cepat di atas seluruh permukaan laut",
+        "B": "Memperkuat industri perikanan kelautan, pelabuhan modern, transportasi laut, dan keamanan armada penjaga laut",
+        "C": "Melarang nelayan menangkap ikan agar populasi laut tidak habis",
+        "D": "Fokus pada pembuatan perkebunan teh skala raksasa di daratan pulau kecil"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Antara bulan Oktober hingga April, Angin Muson Barat berembus dari Benua Asia melewati Samudra Hindia menuju Benua Australia. Dampak langsung fenomena angin muson ini bagi petani di Indonesia adalah...",
+      "pilihan": {
+        "A": "Memulai musim kemarau panjang yang mengeringkan sumur sawah",
+        "B": "Membawa uap air yang sangat banyak sehingga menandai dimulainya musim hujan, waktu yang tepat bagi petani untuk mulai menanam padi",
+        "C": "Menyebabkan suhu udara turun hingga salju terbentuk di sawah",
+        "D": "Memicu angin puting beliung yang mematikan seluruh tanaman kelapa"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Sebaliknya, pada bulan April hingga Oktober bertiup Angin Muson Timur dari Benua Australia yang kering menuju Benua Asia. Aktivitas ekonomi masyarakat yang paling diuntungkan oleh cuaca musim ini adalah...",
+      "pilihan": {
+        "A": "Petani padi sawah basah karena membutuhkan banyak genangan air",
+        "B": "Petani garam dan nelayan, karena cuaca panas kering mempercepat kristalisasi garam dan laut cenderung aman dari badai besar",
+        "C": "Petani sayur kubis di lereng gunung yang tinggi",
+        "D": "Peternak ikan lele di kolam buatan rawa-rawa"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Para petani tradisional di Jawa menggunakan kalender 'Pranata Mangsa' (aturan musim) untuk menentukan waktu menanam dan memanen. Mengapa perubahan iklim global saat ini membuat kalender tradisional tersebut tidak lagi akurat?",
+      "pilihan": {
+        "A": "Karena generasi muda tidak lagi hafal nama-nama musim kuno",
+        "B": "Perubahan iklim menyebabkan pola cuaca menjadi tidak teratur, pergeseran awal musim hujan, dan kemarau ekstrem yang tidak sesuai prediksi kalender kuno",
+        "C": "Sinar matahari sekarang bersinar lebih redup akibat polusi udara pabrik",
+        "D": "Pemerintah telah mengganti kalender tradisional dengan kalender digital"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Suhu udara di daerah pegunungan (seperti Puncak Bogor) jauh lebih sejuk dibandingkan suhu udara di kota pantai (seperti Jakarta). Pengaruh perbedaan iklim ini terhadap perilaku sosial berpakaian warga adalah...",
+      "pilihan": {
+        "A": "Warga Jakarta terbiasa memakai jaket wol tebal saat beraktivitas di luar rumah",
+        "B": "Warga daerah pegunungan cenderung memakai pakaian tebal atau hangat, sedangkan warga pantai memakai pakaian tipis berpori yang menyerap keringat",
+        "C": "Keduanya memakai pakaian yang sama karena tren model baju selalu seragam",
+        "D": "Warga pegunungan jarang mencuci baju karena airnya terlalu dingin"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Curah hujan yang sangat ekstrim akibat perubahan iklim dapat memengaruhi sektor transportasi udara secara serius. Gejala cuaca buruk yang paling ditakuti oleh pilot saat penerbangan adalah...",
+      "pilihan": {
+        "A": "Kabut tipis di pagi hari yang menghalangi pemandangan bawah",
+        "B": "Awan badai Cumulonimbus yang menimbulkan turbulensi hebat, petir, dan penurunan jarak pandang drastis",
+        "C": "Tiupan angin sepoi-sepoi dari arah samudra Pasifik",
+        "D": "Suhu udara yang terlalu hangat di sekitar landasan pacu bandara"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Ketika kamu sedang belajar di dalam ruang kelas di lantai dua sekolah, tiba-tiba terjadi guncangan gempa bumi yang cukup kuat. Tindakan mitigasi (penyelamatan diri) pertama yang paling tepat dilakukan adalah...",
+      "pilihan": {
+        "A": "Langsung berlari berdesakan turun melewati tangga sekolah",
+        "B": "Segera berlindung di bawah meja kelas yang kokoh untuk melindungi kepala dari reruntuhan, sambil memegang kaki meja",
+        "C": "Berdiri di dekat jendela kaca besar untuk melihat pusat gempa",
+        "D": "Berteriak histeris menanti bantuan petugas pemadam kebakaran datang"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Masyarakat yang tinggal di lereng perbukitan miring rawan dilanda bencana tanah longsor saat musim hujan. Upaya mitigasi jangka panjang (pencegahan) yang paling efektif dilakukan oleh warga adalah...",
+      "pilihan": {
+        "A": "Membuat dinding pembatas dari anyaman bambu tipis di sepanjang bukit",
+        "B": "Melakukan reboisasi (penanaman kembali) pohon berakar dalam yang kuat mengikat tanah, serta membuat saluran drainase air yang teratur",
+        "C": "Mengeruk seluruh tanah bukit agar menjadi rata dengan dataran rendah",
+        "D": "Mengungsi selamanya ke kota besar setiap kali hujan gerimis turun"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Pemerintah memasang alat Tsunami Early Warning System (Sistem Peringatan Dini Tsunami) di sepanjang pantai rawan. Jika terjadi gempa besar di laut, alat ini mendeteksi air laut surut secara mendadak. Tindakan warga setelah mendengar sirine peringatan adalah...",
+      "pilihan": {
+        "A": "Datang ke pantai untuk menangkap ikan yang terdampar akibat air surut",
+        "B": "Segera berlari menjauhi pantai menuju ke tempat yang lebih tinggi (perbukitan atau gedung evakuasi tsunami) tanpa menunda waktu",
+        "C": "Masuk ke dalam rumah masing-masing dan mengunci pintu rapat-rapat",
+        "D": "Menunggu air laut pasang kembali baru mulai berkemas"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Bencana banjir yang merendam kawasan perkotaan padat penduduk sering kali bukan disebabkan oleh faktor alam semata, melainkan oleh faktor sosial kelalaian manusia, yaitu...",
+      "pilihan": {
+        "A": "Banyaknya mobil yang diparkir di garasi rumah warga",
+        "B": "Kebiasaan membuang sampah sembarangan ke selokan/sungai serta maraknya pembangunan gedung beton yang menutup daerah resapan air",
+        "C": "Warga kota terlalu sering mencuci kendaraan menggunakan air keran",
+        "D": "Pemerintah membuat saluran air yang terlalu lebar di pinggir jalan"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Hutan lindung di hulu sungai memiliki fungsi hidrologis sebagai daerah resapan air hujan. Jika hutan lindung tersebut ditebang habis untuk perkebunan, bencana alam ganda yang akan mengancam daerah hilir (bawah) saat berganti musim adalah...",
+      "pilihan": {
+        "A": "Gempa bumi di musim hujan dan kebakaran di musim kemarau",
+        "B": "Banjir bandang di musim hujan (karena air tidak meresap) dan kekeringan ekstrem di musim kemarau (karena cadangan air tanah habis)",
+        "C": "Tsunami air tawar di musim hujan dan badai pasir di musim kemarau",
+        "D": "Suhu udara mendingin di musim hujan dan memanas di musim kemarau"
+      },
+      "kunci_jawaban": "B"
+    }
+  ]
+}

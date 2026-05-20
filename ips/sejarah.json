@@ -1,0 +1,407 @@
+{
+  "nama_paket": "Perkembangan Sejarah Indonesia",
+  "mata_pelajaran": "IPS",
+  "bagian_materi": "Sejarah Indonesia",
+  "soal": [
+    {
+      "pertanyaan": "Teori masuknya Hindu-Buddha ke Nusantara yang menyebutkan bahwa penyebaran agama dilakukan oleh golongan terpelajar yang menguasai bahasa Sanskerta dan huruf Pallawa disebut teori...",
+      "pilihan": {
+        "A": "Waisya",
+        "B": "Ksatria",
+        "C": "Brahmana",
+        "D": "Arus Balik"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Kerajaan Majapahit mencapai puncak kejayaannya pada masa pemerintahan Hayam Wuruk dengan Gajah Mada sebagai Mahapatihnya. Sumpah Palapa yang diucapkan Gajah Mada bertujuan untuk...",
+      "pilihan": {
+        "A": "Menyatukan Nusantara di bawah kekuasaan Majapahit",
+        "B": "Membangun pelabuhan dagang terbesar di Jawa",
+        "C": "Menyebarkan agama Hindu ke seluruh dunia",
+        "D": "Membangun candi-candi megah"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "pertanyaan": "Masuknya Islam ke Indonesia melalui jalur perdagangan memiliki karakteristik damai. Mengapa ajaran Islam sangat mudah diterima oleh masyarakat pesisir Nusantara saat itu?",
+      "pilihan": {
+        "A": "Karena Islam mewajibkan pengikutnya untuk berperang",
+        "B": "Karena ajaran Islam tidak mengenal sistem kasta yang kaku dan mengutamakan kesetaraan derajat sesama manusia",
+        "C": "Karena Islam dibawa oleh pedagang yang membawa senjata perang",
+        "D": "Karena kerajaan Hindu-Buddha sudah runtuh sebelum Islam datang"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Faktor utama bangsa Eropa (Portugis, Spanyol, Belanda) melakukan penjelajahan samudra hingga sampai ke Nusantara pada abad ke-16 adalah...",
+      "pilihan": {
+        "A": "Ingin menyebarkan ilmu pengetahuan tentang astronomi",
+        "B": "Mencari daerah penghasil rempah-rempah langsung dari sumbernya untuk memutus rantai monopoli perdagangan",
+        "C": "Melarikan diri dari perang saudara di Eropa",
+        "D": "Membangun pemukiman bagi warga Eropa yang kelebihan penduduk"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Sistem Tanam Paksa (Cultuurstelsel) yang diterapkan oleh Gubernur Jenderal Van den Bosch membawa penderitaan luar biasa bagi rakyat pribumi, namun memberi keuntungan besar bagi Belanda. Apa dampak negatif paling dirasakan rakyat akibat sistem ini?",
+      "pilihan": {
+        "A": "Rakyat menjadi pandai menanam kopi",
+        "B": "Terjadinya kelaparan hebat, kemiskinan, dan penurunan kesehatan karena lahan padi dialihkan untuk tanaman ekspor",
+        "C": "Rakyat menjadi pedagang internasional",
+        "D": "Belanda membangun banyak sekolah gratis bagi rakyat"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Perlawanan Pangeran Diponegoro (1825-1830) dipicu oleh kekecewaan terhadap Belanda. Salah satu pemicu langsung yang menyulut kemarahan Pangeran Diponegoro adalah...",
+      "pilihan": {
+        "A": "Belanda melarang rakyat berdagang di pasar",
+        "B": "Belanda memasang patok jalan di atas tanah makam leluhur Pangeran Diponegoro tanpa izin",
+        "C": "Belanda menaikkan pajak tanah secara tiba-tiba",
+        "D": "Pangeran Diponegoro ingin menjadi raja di seluruh tanah Jawa"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Kebijakan Politik Etis (Balas Budi) yang diterapkan Belanda secara tidak sengaja justru menjadi bumerang bagi mereka. Mengapa demikian?",
+      "pilihan": {
+        "A": "Belanda menjadi bangkrut karena biaya pendidikan terlalu mahal",
+        "B": "Pendidikan yang diberikan justru melahirkan golongan terpelajar pribumi yang kemudian sadar akan hak kemerdekaan dan memimpin perlawanan",
+        "C": "Belanda kehilangan minat untuk menjajah Indonesia",
+        "D": "Rakyat pribumi menjadi terlalu pintar untuk bekerja di ladang"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Peristiwa Rengasdengklok terjadi karena adanya perbedaan pendapat antara golongan muda dan golongan tua. Apa inti dari perbedaan pendapat tersebut?",
+      "pilihan": {
+        "A": "Golongan muda ingin proklamasi dilakukan segera tanpa menunggu janji Jepang, sedangkan golongan tua lebih berhati-hati",
+        "B": "Golongan muda ingin menyerang Jepang dengan senjata",
+        "C": "Golongan tua ingin proklamasi dilakukan di Jepang",
+        "D": "Perdebatan mengenai lokasi proklamasi apakah di rumah Soekarno atau Hatta"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "pertanyaan": "Makna Proklamasi 17 Agustus 1945 bagi bangsa Indonesia adalah...",
+      "pilihan": {
+        "A": "Indonesia resmi menjadi bagian dari negara Jepang",
+        "B": "Puncak perjuangan bangsa untuk menyatakan diri sebagai negara yang merdeka, berdaulat, dan bebas dari penjajahan",
+        "C": "Indonesia mulai membayar hutang kepada sekutu",
+        "D": "Indonesia mengumumkan pembubaran seluruh organisasi masyarakat"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Setelah Proklamasi, Belanda kembali datang dengan membonceng Sekutu untuk menguasai Indonesia. Upaya mempertahankan kemerdekaan melalui jalur diplomasi ditunjukkan oleh peristiwa...",
+      "pilihan": {
+        "A": "Pertempuran 10 November di Surabaya",
+        "B": "Perjanjian Linggarjati dan Konferensi Meja Bundar (KMB)",
+        "C": "Bandung Lautan Api",
+        "D": "Serangan Umum 1 Maret"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Pembangunan budaya masyarakat Indonesia di masa sekarang banyak dipengaruhi oleh akulturasi masa Hindu-Buddha. Contoh nyata pengaruh ini yang masih lestari adalah...",
+      "pilihan": {
+        "A": "Penggunaan bahasa Sanskerta dalam istilah pemerintahan dan penamaan candi",
+        "B": "Adanya kebiasaan makan memakai sumpit",
+        "C": "Penggunaan kalender Masehi sebagai penanggalan utama",
+        "D": "Pembangunan gereja di setiap desa"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "pertanyaan": "Tokoh lokal seperti Sultan Ageng Tirtayasa dikenal sebagai sosok yang gigih melawan VOC di Banten. Motivasi utama perjuangan beliau adalah...",
+      "pilihan": {
+        "A": "Ingin menguasai perdagangan rempah internasional",
+        "B": "Mempertahankan kedaulatan Banten dan menolak keras monopoli dagang VOC",
+        "C": "Ingin membangun istana yang lebih megah dari keraton Yogyakarta",
+        "D": "Ingin bekerja sama dengan Portugis untuk mengusir Belanda"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Pada masa penjajahan Belanda, perlawanan rakyat sering kali gagal karena sifatnya yang masih kedaerahan. Apa makna penting dari Sumpah Pemuda 1928?",
+      "pilihan": {
+        "A": "Sebagai awal mula dibentuknya tentara nasional",
+        "B": "Menumbuhkan rasa persatuan dan kesatuan nasional (nasionalisme) di atas perbedaan suku dan daerah",
+        "C": "Menghapus semua bahasa daerah di Indonesia",
+        "D": "Perjanjian damai antara rakyat dan Belanda"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Peranan organisasi Budi Utomo (1908) sangat vital dalam sejarah. Mengapa Budi Utomo sering disebut sebagai pelopor 'Kebangkitan Nasional'?",
+      "pilihan": {
+        "A": "Karena Budi Utomo langsung mengangkat senjata melawan Belanda",
+        "B": "Karena menjadi organisasi modern pertama yang mengutamakan pendidikan dan persatuan untuk mencapai kemajuan bangsa",
+        "C": "Karena anggotanya adalah para raja-raja Jawa",
+        "D": "Karena Budi Utomo berhasil mengusir Belanda dalam setahun"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Dalam mempertahankan kedaulatan, Indonesia pernah mengalami Agresi Militer Belanda. Salah satu upaya internasional yang dilakukan Indonesia agar dunia mengakui kemerdekaannya adalah...",
+      "pilihan": {
+        "A": "Melakukan serangan fisik ke negara Belanda",
+        "B": "Membawa kasus agresi militer ke Dewan Keamanan PBB",
+        "C": "Memutuskan untuk mengisolasi diri dari pergaulan dunia",
+        "D": "Meminta bantuan negara tetangga untuk berperang"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Setelah merdeka, Indonesia menghadapi tantangan menjaga kesejahteraan. Upaya nyata pemerintah dalam mengembangkan kehidupan kebangsaan yang sejahtera pada masa awal kemerdekaan adalah...",
+      "pilihan": {
+        "A": "Mengganti semua mata uang menjadi dollar",
+        "B": "Menyelenggarakan pemilihan umum pertama tahun 1955 untuk membentuk pemerintahan yang demokratis",
+        "C": "Menjual semua pulau kepada investor asing",
+        "D": "Melarang masyarakat berdagang hasil bumi"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Sistem pemerintahan kolonial Belanda membagi masyarakat menjadi tiga golongan. Golongan yang berada di kasta paling bawah atau paling rendah kedudukannya adalah...",
+      "pilihan": {
+        "A": "Golongan Eropa",
+        "B": "Golongan Timur Asing (Tionghoa, Arab, India)",
+        "C": "Golongan Pribumi (Inlander)",
+        "D": "Golongan Pejabat Kerajaan"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Tokoh nasional seperti Ki Hajar Dewantara sangat berjasa dalam bidang pendidikan. Beliau mendirikan 'Taman Siswa' dengan tujuan...",
+      "pilihan": {
+        "A": "Menjadikan anak pribumi sebagai pegawai Belanda",
+        "B": "Memberikan pendidikan yang layak dan merdeka bagi rakyat pribumi untuk mencerdaskan kehidupan bangsa",
+        "C": "Membangun tempat latihan kemiliteran bagi pemuda",
+        "D": "Membuat tempat hiburan bagi bangsawan Jawa"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Apa perbedaan mendasar antara penjajahan Portugis dan penjajahan Belanda di Indonesia?",
+      "pilihan": {
+        "A": "Portugis hanya berdagang, Belanda hanya menjajah",
+        "B": "Portugis lebih menekankan pada penyebaran agama Katolik dan rempah-rempah, sedangkan Belanda lebih terstruktur dalam monopoli dagang (VOC) dan administrasi negara",
+        "C": "Belanda membangun istana di Nusantara, Portugis tidak",
+        "D": "Portugis menjajah lebih lama daripada Belanda"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Perlawanan rakyat Bali terhadap Belanda dikenal dengan nama 'Perang Puputan'. Apa arti dari kata 'Puputan' tersebut?",
+      "pilihan": {
+        "A": "Perang untuk mendapatkan emas",
+        "B": "Perang habis-habisan (sampai titik darah penghabisan) demi kehormatan",
+        "C": "Perang yang dilakukan secara sembunyi-sembunyi",
+        "D": "Perang untuk merebut wilayah dagang"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Penyebab utama jatuhnya kerajaan-kerajaan besar di Nusantara (seperti Mataram Islam atau Banten) biasanya disebabkan oleh...",
+      "pilihan": {
+        "A": "Kurangnya makanan",
+        "B": "Politik adu domba (Devide et Impera) oleh Belanda yang memanfaatkan perselisihan keluarga kerajaan",
+        "C": "Masyarakat menolak untuk membayar pajak",
+        "D": "Tsunami yang menghancurkan kerajaan"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Salah satu upaya mempertahankan kemerdekaan adalah dengan 'GNB' (Gerakan Non-Blok). Apa peran Indonesia dalam gerakan ini?",
+      "pilihan": {
+        "A": "Memihak blok Barat",
+        "B": "Tidak memihak blok Barat maupun Timur dalam Perang Dingin, serta menjaga perdamaian dunia",
+        "C": "Membuat blok kekuatan militer baru",
+        "D": "Meminta bantuan ekonomi dari kedua blok"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Tokoh nasional Cut Nyak Dien tetap gigih melawan Belanda di Aceh meskipun suaminya telah gugur. Hal ini membuktikan bahwa...",
+      "pilihan": {
+        "A": "Perlawanan di Aceh hanya dilakukan oleh laki-laki",
+        "B": "Semangat perjuangan kemerdekaan dimiliki oleh seluruh lapisan masyarakat tanpa memandang gender",
+        "C": "Cut Nyak Dien ingin memimpin kerajaan Aceh",
+        "D": "Belanda tidak berani menangkap wanita"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Apa dampak positif adanya jalur kereta api yang dibangun Belanda di Pulau Jawa pada masa kolonial bagi masyarakat pribumi saat itu?",
+      "pilihan": {
+        "A": "Menjadikan rakyat pribumi sebagai supir kereta",
+        "B": "Memperlancar arus distribusi barang dan manusia antarwilayah secara lebih cepat",
+        "C": "Membuat rakyat pribumi bisa pergi ke Belanda",
+        "D": "Meningkatkan harga tanah di sekitar rel"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Salah satu hasil budaya masa Islam yang masih kita lihat adalah arsitektur masjid dengan atap tumpang (seperti Masjid Agung Demak). Hal ini merupakan perpaduan budaya...",
+      "pilihan": {
+        "A": "Islam dan Barat",
+        "B": "Islam dan tradisi bangunan lokal Nusantara (Jawa)",
+        "C": "Islam dan Tiongkok",
+        "D": "Islam dan India"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Sumpah Pemuda mengandung poin 'Menjunjung bahasa persatuan, bahasa Indonesia'. Mengapa bahasa Indonesia dipilih sebagai bahasa persatuan?",
+      "pilihan": {
+        "A": "Karena bahasa Indonesia adalah bahasa yang paling mudah ditulis",
+        "B": "Karena bahasa Melayu (dasar bahasa Indonesia) sudah menjadi *lingua franca* (bahasa pergaulan) di Nusantara sejak lama",
+        "C": "Karena penjajah Belanda memerintahkan demikian",
+        "D": "Karena hanya bahasa Indonesia yang memiliki tata bahasa"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Dalam sejarah, VOC (Vereenigde Oost-Indische Compagnie) adalah kongsi dagang Belanda. Mengapa VOC akhirnya dibubarkan oleh pemerintah Belanda sendiri pada tahun 1799?",
+      "pilihan": {
+        "A": "Karena VOC menang perang",
+        "B": "Karena VOC mengalami kerugian besar akibat korupsi, utang yang menumpuk, dan manajemen yang buruk",
+        "C": "Karena rakyat Indonesia menolak berdagang",
+        "D": "Karena Belanda ingin memberikan kemerdekaan pada Indonesia"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Perjanjian Renville dianggap merugikan Indonesia karena wilayah kedaulatan semakin sempit. Apa reaksi rakyat Indonesia terhadap perjanjian yang sangat merugikan ini?",
+      "pilihan": {
+        "A": "Menerima dengan senang hati",
+        "B": "Terjadi aksi protes, ketidakpuasan politik, hingga memicu pergantian kabinet pemerintahan",
+        "C": "Melakukan pesta perayaan di Jakarta",
+        "D": "Meminta Belanda untuk menjajah kembali"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Makna kemerdekaan bagi bangsa Indonesia di bidang sosial adalah...",
+      "pilihan": {
+        "A": "Hanya untuk orang kaya",
+        "B": "Adanya penghapusan diskriminasi kelas dan kesempatan yang sama untuk maju bagi setiap warga negara",
+        "C": "Rakyat bebas berbuat apa saja tanpa aturan",
+        "D": "Indonesia menjadi negara yang menutup diri dari dunia"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Tokoh yang mengusulkan Pancasila sebagai dasar negara pada sidang BPUPKI adalah...",
+      "pilihan": {
+        "A": "Moh. Hatta",
+        "B": "Ir. Soekarno",
+        "C": "Mr. Soepomo",
+        "D": "Ahmad Soebardjo"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Salah satu upaya mempertahankan kemerdekaan adalah 'Konferensi Meja Bundar' (KMB). Hasil utama dari KMB bagi Indonesia adalah...",
+      "pilihan": {
+        "A": "Belanda tetap menjajah Indonesia",
+        "B": "Belanda secara resmi mengakui kedaulatan negara Indonesia",
+        "C": "Indonesia dibagi menjadi dua negara",
+        "D": "Indonesia membayar hutang ke Sekutu"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Peranan Radio Republik Indonesia (RRI) dalam menyebarkan berita proklamasi sangatlah vital. Mengapa penyebaran berita melalui radio sangat penting saat itu?",
+      "pilihan": {
+        "A": "Karena radio adalah alat musik terbaik",
+        "B": "Karena radio dapat menjangkau seluruh pelosok negeri dengan sangat cepat meskipun komunikasi lain diputus Jepang",
+        "C": "Karena rakyat Indonesia hanya punya radio",
+        "D": "Karena Jepang melarang koran"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Salah satu faktor penyebab penjajahan bangsa Indonesia adalah 'Gold, Glory, dan Gospel'. Apa arti dari Glory dalam konteks ini?",
+      "pilihan": {
+        "A": "Mencari kekayaan emas",
+        "B": "Mencari kejayaan atau keunggulan politik dan kekuasaan bagi bangsa penjajah",
+        "C": "Menyebarkan agama",
+        "D": "Membangun jembatan"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Apakah dampak langsung dari pemberlakuan sistem kerja rodi oleh Daendels di jalan Anyer-Panarukan?",
+      "pilihan": {
+        "A": "Rakyat menjadi makmur",
+        "B": "Banyaknya korban jiwa di kalangan rakyat pribumi akibat kerja paksa yang tidak manusiawi",
+        "C": "Jalan menjadi milik rakyat",
+        "D": "Rakyat bisa bepergian gratis"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Sikap yang paling benar dalam memaknai sejarah perjuangan pahlawan masa kini adalah...",
+      "pilihan": {
+        "A": "Mengenang hanya dengan berdiam diri",
+        "B": "Meneladani nilai-nilai semangat juang, kejujuran, dan persatuan dalam membangun bangsa",
+        "C": "Tidak peduli karena masa lalu sudah lewat",
+        "D": "Berdebat tentang siapa pahlawan paling hebat"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Setelah kemerdekaan, pemerintah Indonesia harus menghadapi pemberontakan internal (seperti DI/TII). Tujuan pemerintah menumpas pemberontakan tersebut adalah...",
+      "pilihan": {
+        "A": "Membuat rakyat takut",
+        "B": "Menjaga keutuhan Negara Kesatuan Republik Indonesia (NKRI) dan stabilitas nasional",
+        "C": "Menambah anggaran militer",
+        "D": "Mengurangi jumlah penduduk"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Apa kontribusi nyata tokoh wanita seperti R.A. Kartini bagi perkembangan sejarah Indonesia?",
+      "pilihan": {
+        "A": "Memimpin pasukan perang",
+        "B": "Memperjuangkan emansipasi (kesetaraan hak) perempuan dalam bidang pendidikan",
+        "C": "Menjual kain kebaya",
+        "D": "Membuka bengkel"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Konferensi Asia Afrika (KAA) di Bandung tahun 1955 memiliki peran penting bagi dunia. Peran Indonesia dalam KAA adalah...",
+      "pilihan": {
+        "A": "Menjadi negara penjajah baru",
+        "B": "Menjadi tuan rumah dan pelopor persatuan negara-negara Asia-Afrika melawan kolonialisme",
+        "C": "Meminta bantuan dana kepada negara Afrika",
+        "D": "Menjual senjata ke negara Asia"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Mengapa pengakuan kedaulatan dari negara lain (seperti Mesir dan India) sangat penting bagi Indonesia di awal kemerdekaan?",
+      "pilihan": {
+        "A": "Agar Indonesia bisa punya banyak teman",
+        "B": "Agar Indonesia diakui sebagai negara merdeka secara hukum internasional (de jure)",
+        "C": "Agar bisa berwisata ke Mesir",
+        "D": "Agar rakyat Indonesia tidak perlu bekerja"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Apa tugas utama dari BPUPKI (Badan Penyelidik Usaha Persiapan Kemerdekaan Indonesia)?",
+      "pilihan": {
+        "A": "Menyerang Jepang",
+        "B": "Mempelajari dan merumuskan dasar-dasar negara Indonesia yang akan merdeka",
+        "C": "Mengumpulkan pajak dari rakyat",
+        "D": "Mencari tempat tinggal bagi presiden"
+      },
+      "kunci_jawaban": "B"
+    }
+  ]
+}

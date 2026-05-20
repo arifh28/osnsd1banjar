@@ -1,0 +1,407 @@
+{
+  "nama_paket": "Kegiatan Ekonomi dan Ekonomi Global",
+  "mata_pelajaran": "IPS",
+  "bagian_materi": "Kegiatan Ekonomi",
+  "soal": [
+    {
+      "pertanyaan": "Sebuah negara memiliki kekayaan alam melimpah namun tidak memiliki teknologi untuk mengolahnya, sehingga hanya mengekspor bahan mentah. Apa dampak jangka panjang bagi ekonomi negara tersebut menurut teori ketergantungan?",
+      "pilihan": {
+        "A": "Negara akan cepat menjadi negara maju",
+        "B": "Negara akan selalu bergantung pada harga komoditas global yang fluktuatif dan sulit menyejahterakan rakyat secara maksimal",
+        "C": "Negara akan menjadi pusat teknologi dunia",
+        "D": "Nilai tukar mata uang negara tersebut akan selalu stabil"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Indonesia menerapkan kebijakan hilirisasi industri nikel, yaitu melarang ekspor bijih nikel mentah dan mewajibkan pengolahan di dalam negeri. Tujuan ekonomi strategis dari kebijakan ini adalah...",
+      "pilihan": {
+        "A": "Mengurangi polusi udara di lokasi tambang",
+        "B": "Meningkatkan nilai tambah produk, menciptakan lapangan kerja, dan memperkuat posisi tawar di pasar global",
+        "C": "Menghabiskan stok nikel agar tidak diambil negara lain",
+        "D": "Membuat harga nikel dunia menjadi murah"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Dalam era ekonomi digital, UMKM (Usaha Mikro, Kecil, dan Menengah) dapat memasarkan produknya hingga ke luar negeri melalui e-commerce. Peran utama pelaku ekonomi UMKM dalam menopang perekonomian nasional adalah...",
+      "pilihan": {
+        "A": "Penyerap tenaga kerja terbesar dan penggerak ekonomi kerakyatan",
+        "B": "Penentu harga pasar dunia",
+        "C": "Pemasok modal utama bagi pemerintah",
+        "D": "Penguasa ekspor barang tambang negara"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "pertanyaan": "Jika suatu negara mengalami inflasi yang sangat tinggi (harga barang naik terus menerus), fungsi uang sebagai alat tukar dan penyimpan nilai akan terganggu. Hal ini terjadi karena...",
+      "pilihan": {
+        "A": "Masyarakat terlalu rajin menabung",
+        "B": "Nilai daya beli uang menurun drastis sehingga uang yang sama tidak lagi bisa membeli barang yang sama",
+        "C": "Banyaknya barang impor yang masuk",
+        "D": "Pemerintah melarang masyarakat menggunakan uang"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Indonesia berperan aktif dalam MEA (Masyarakat Ekonomi ASEAN). Dampak positif yang paling diharapkan dari MEA bagi tenaga kerja terampil Indonesia adalah...",
+      "pilihan": {
+        "A": "Mendapatkan kemudahan bekerja di negara ASEAN lain dengan standar profesi yang diakui",
+        "B": "Tidak perlu lagi belajar bahasa asing",
+        "C": "Bisa bekerja tanpa harus memiliki keahlian",
+        "D": "Memperoleh gaji yang sama dengan negara maju tanpa bekerja"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "pertanyaan": "Nilai guna suatu barang dapat bertambah melalui proses produksi. Contoh peningkatan 'nilai guna bentuk' (form utility) yang tepat adalah...",
+      "pilihan": {
+        "A": "Petani menjual padi ke pengepul",
+        "B": "Pengrajin mengubah kayu mentah menjadi meja dan kursi yang indah",
+        "C": "Pedagang membawa es krim dari pabrik ke sekolah",
+        "D": "Orang menyimpan payung untuk digunakan saat hujan"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Dalam perdagangan internasional, jika nilai ekspor sebuah negara lebih kecil dari nilai impornya, maka negara tersebut akan mengalami...",
+      "pilihan": {
+        "A": "Surplus perdagangan",
+        "B": "Defisit neraca perdagangan",
+        "C": "Kestabilan ekonomi total",
+        "D": "Kenaikan nilai mata uang"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Pembangunan ekonomi berkelanjutan (sustainable development) menekankan bahwa ekonomi harus maju tanpa merusak lingkungan. Strategi yang paling tepat adalah...",
+      "pilihan": {
+        "A": "Mengeksploitasi hutan sampai habis untuk modal",
+        "B": "Menggunakan teknologi ramah lingkungan dan memperhatikan keseimbangan ekosistem dalam jangka panjang",
+        "C": "Mengutamakan pertumbuhan ekonomi instan tanpa peduli limbah",
+        "D": "Membangun pabrik di atas lahan cagar alam"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Bank Indonesia memiliki peran penting dalam menjaga stabilitas nilai mata uang Rupiah. Tindakan yang dilakukan BI jika Rupiah melemah terhadap Dollar AS adalah...",
+      "pilihan": {
+        "A": "Mencetak uang sebanyak-banyaknya untuk dibagikan",
+        "B": "Melakukan intervensi pasar uang atau mengatur suku bunga untuk menstabilkan nilai tukar",
+        "C": "Melarang masyarakat berbelanja barang luar negeri",
+        "D": "Menutup seluruh bank swasta di Indonesia"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Perusahaan BUMN (Badan Usaha Milik Negara) seperti Pertamina atau PLN memiliki misi ganda yaitu mencari keuntungan sekaligus melayani kepentingan publik. Perbedaan utama BUMN dengan BUMS (Swasta) adalah...",
+      "pilihan": {
+        "A": "BUMN tidak perlu membayar pajak",
+        "B": "Modal BUMN sebagian besar dimiliki oleh negara untuk hajat hidup orang banyak",
+        "C": "BUMS tidak boleh melakukan kegiatan ekspor",
+        "D": "BUMN selalu merugi setiap tahun"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Saat terjadi krisis ekonomi global, banyak perusahaan asing menarik modalnya dari Indonesia. Hal ini menunjukkan bahwa ekonomi Indonesia...",
+      "pilihan": {
+        "A": "Sangat mandiri dan tidak terpengaruh ekonomi dunia",
+        "B": "Sangat terintegrasi dalam ekonomi global sehingga rentan terhadap guncangan pasar modal internasional",
+        "C": "Hanya bergantung pada ekonomi negara tetangga",
+        "D": "Tidak memerlukan modal asing sama sekali"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Indonesia memiliki keunggulan komparatif di bidang ekonomi maritim karena posisinya sebagai negara kepulauan terbesar. Contoh kegiatan ekonomi maritim yang bernilai tinggi adalah...",
+      "pilihan": {
+        "A": "Perkebunan kopi di pegunungan",
+        "B": "Industri galangan kapal, pariwisata bahari, dan pengolahan hasil laut (fisheries)",
+        "C": "Pertambangan batu bara di pedalaman hutan",
+        "D": "Peternakan sapi di padang rumput"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Sistem ekonomi di Indonesia adalah 'Sistem Ekonomi Pancasila' atau ekonomi kekeluargaan. Makna demokrasi ekonomi dalam pasal 33 UUD 1945 adalah...",
+      "pilihan": {
+        "A": "Pemerintah mengatur seluruh harga barang",
+        "B": "Produksi dilakukan oleh semua untuk semua di bawah pimpinan anggota masyarakat, mengutamakan kemakmuran rakyat di atas keuntungan pribadi",
+        "C": "Pihak swasta berhak menguasai seluruh sumber daya alam",
+        "D": "Masyarakat hanya boleh menabung di bank pemerintah"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Jika suatu negara terlalu banyak bergantung pada impor barang konsumsi (seperti baju, mainan, makanan), dampaknya bagi industri lokal adalah...",
+      "pilihan": {
+        "A": "Industri lokal akan semakin maju karena mendapat saingan",
+        "B": "Industri lokal bisa kalah bersaing karena barang impor seringkali lebih murah, sehingga pabrik lokal bisa tutup",
+        "C": "Pemerintah akan mendapat keuntungan pajak yang sangat besar",
+        "D": "Masyarakat akan semakin rajin berhemat"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Tujuan dibentuknya organisasi ASEAN adalah untuk mempercepat pertumbuhan ekonomi dan stabilitas politik di Asia Tenggara. Manakah bentuk kerjasama ekonomi ASEAN yang nyata?",
+      "pilihan": {
+        "A": "Penyatuan seluruh mata uang ASEAN menjadi satu",
+        "B": "AFTA (Asean Free Trade Area) untuk menurunkan tarif pajak perdagangan antarnegara anggota",
+        "C": "Melarang negara luar membeli barang dari ASEAN",
+        "D": "Pembuatan militer gabungan untuk menyerang negara Eropa"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Apa yang dimaksud dengan 'Pasar Bebas' (Free Market)?",
+      "pilihan": {
+        "A": "Pasar yang barangnya gratis untuk semua orang",
+        "B": "Pasar yang aktivitas ekonominya didasarkan pada mekanisme penawaran dan permintaan tanpa campur tangan pemerintah yang berlebihan",
+        "C": "Pasar yang hanya buka saat hari libur nasional",
+        "D": "Pasar yang tidak memperbolehkan orang asing datang"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Sebuah barang disebut 'Langka' (Scarcity) dalam ilmu ekonomi bukan karena jumlahnya nol, melainkan karena...",
+      "pilihan": {
+        "A": "Barangnya jelek dan tidak laku",
+        "B": "Jumlah alat pemuas kebutuhan tidak mencukupi untuk memenuhi kebutuhan manusia yang tidak terbatas",
+        "C": "Barangnya sangat mahal sehingga tidak ada yang sanggup beli",
+        "D": "Barangnya hanya ada di museum"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Dalam arus melingkar kegiatan ekonomi (circular flow diagram), rumah tangga konsumen memberikan faktor produksi berupa tenaga kerja kepada perusahaan. Sebagai balas jasanya, perusahaan memberikan...",
+      "pilihan": {
+        "A": "Sewa tanah",
+        "B": "Upah atau gaji",
+        "C": "Dividen saham",
+        "D": "Pajak pembangunan"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Indonesia sebagai anggota WTO (World Trade Organization) harus mematuhi aturan perdagangan global. Dampak positif menjadi anggota organisasi ini adalah...",
+      "pilihan": {
+        "A": "Indonesia bisa menutup diri dari barang asing",
+        "B": "Adanya perlindungan hukum jika terjadi sengketa perdagangan dengan negara lain",
+        "C": "Indonesia bisa mencetak uang Dollar sendiri",
+        "D": "Negara lain wajib memberi uang gratis setiap tahun"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Mengapa dalam kondisi ekonomi global yang tidak stabil, investasi emas atau mata uang kuat (seperti Dollar) sering dianggap sebagai 'Safe Haven'?",
+      "pilihan": {
+        "A": "Karena harganya selalu turun tiap hari",
+        "B": "Karena nilai aset tersebut cenderung stabil dan aman saat pasar modal sedang kacau",
+        "C": "Karena bisa digunakan untuk bahan makanan sehari-hari",
+        "D": "Karena aset tersebut selalu bisa ditukar dengan barang apapun di pasar tradisional"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Bapak ekonomi Indonesia, Moh. Hatta, menekankan pentingnya Koperasi. Prinsip utama Koperasi yang membedakannya dengan perusahaan swasta murni adalah...",
+      "pilihan": {
+        "A": "Keuntungan sepenuhnya untuk pemilik modal terbesar",
+        "B": "Mengutamakan kesejahteraan anggota berdasarkan asas kekeluargaan (bukan sekadar mencari untung pribadi)",
+        "C": "Dilarang melakukan kegiatan usaha",
+        "D": "Hanya boleh didirikan oleh pemerintah pusat"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Inflasi yang terkendali (rendah) biasanya dianggap baik untuk pertumbuhan ekonomi. Namun, jika terjadi DEFLASI (penurunan harga terus menerus), dampaknya bagi perusahaan adalah...",
+      "pilihan": {
+        "A": "Perusahaan untung besar karena biaya bahan murah",
+        "B": "Perusahaan cenderung mengurangi produksi karena pendapatan turun, yang dapat memicu PHK massal",
+        "C": "Masyarakat akan berlomba-lomba membeli barang",
+        "D": "Pemerintah akan menurunkan pajak hingga nol"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Salah satu upaya pemerintah meningkatkan ekspor adalah dengan memperbaiki infrastruktur logistik (pelabuhan, jalan tol). Analisis hubungannya adalah...",
+      "pilihan": {
+        "A": "Mengurangi biaya pengiriman (logistik) sehingga barang ekspor Indonesia lebih murah dan bersaing di pasar dunia",
+        "B": "Agar truk bisa berjalan lebih cepat ke rumah warga",
+        "C": "Untuk memperindah pemandangan saat turis datang",
+        "D": "Agar pelabuhan tidak terlihat sepi"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "pertanyaan": "Indonesia sering mendapatkan pinjaman luar negeri untuk membiayai pembangunan. Hal yang harus diwaspadai agar tidak terjadi 'Debt Trap' (Jebakan Utang) adalah...",
+      "pilihan": {
+        "A": "Meminjam sebanyak-banyaknya untuk dibagi ke rakyat",
+        "B": "Memastikan utang digunakan untuk proyek produktif yang menghasilkan nilai ekonomi lebih besar dari beban bunganya",
+        "C": "Mencetak uang kertas baru untuk membayar utang",
+        "D": "Memutuskan hubungan diplomatik dengan negara pemberi utang"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Dalam perdagangan internasional, kurs (nilai tukar) valuta asing sangat penting. Jika nilai Rupiah melemah terhadap Dollar, barang impor akan menjadi...",
+      "pilihan": {
+        "A": "Lebih murah harganya",
+        "B": "Lebih mahal harganya bagi pembeli di Indonesia",
+        "C": "Tidak ada harganya sama sekali",
+        "D": "Lebih mudah didapatkan secara gratis"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Perusahaan 'Multinasional' memiliki kantor cabang di banyak negara. Dampak positif keberadaan perusahaan ini bagi negara berkembang adalah...",
+      "pilihan": {
+        "A": "Membawa teknologi baru dan membuka lapangan kerja",
+        "B": "Menghabiskan seluruh sumber daya alam negara tersebut",
+        "C": "Mematikan budaya lokal secara permanen",
+        "D": "Mengatur politik pemerintahan negara tersebut"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "pertanyaan": "Tujuan utama pemerintah melakukan stabilisasi harga barang pokok (sembako) saat hari raya adalah...",
+      "pilihan": {
+        "A": "Agar pedagang untung besar",
+        "B": "Menjaga daya beli masyarakat agar kebutuhan hidup tetap terjangkau saat permintaan melonjak",
+        "C": "Agar pemerintah bisa menjual barang milik sendiri",
+        "D": "Agar harga barang turun menjadi gratis"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Pemerintah Indonesia melakukan impor beras saat stok nasional menipis untuk menjaga stabilitas harga. Tindakan ini disebut kebijakan...",
+      "pilihan": {
+        "A": "Proteksi",
+        "B": "Stabilisasi harga melalui manajemen pasokan",
+        "C": "Ekspor besar-besaran",
+        "D": "Monopoli swasta"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Ekonomi Maritim dan Ekonomi Kelautan berbeda. Ekonomi Maritim lebih fokus pada...",
+      "pilihan": {
+        "A": "Kegiatan di atas kapal",
+        "B": "Pemanfaatan jalur laut untuk transportasi, perdagangan, dan industri galangan kapal",
+        "C": "Menambang pasir pantai untuk dijual",
+        "D": "Membuka kebun di tengah laut"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Untuk meningkatkan daya saing di pasar global, Indonesia fokus pada penguasaan teknologi. Apa hubungan penguasaan teknologi dengan kesejahteraan ekonomi?",
+      "pilihan": {
+        "A": "Teknologi membuat manusia menjadi malas",
+        "B": "Teknologi meningkatkan efisiensi produksi dan kualitas produk, sehingga nilai jual di pasar dunia lebih tinggi",
+        "C": "Teknologi tidak ada hubungannya dengan ekonomi",
+        "D": "Teknologi hanya untuk kesenangan pribadi"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Faktor penyebab perbedaan kegiatan ekonomi di berbagai wilayah Indonesia adalah...",
+      "pilihan": {
+        "A": "Perbedaan warna kulit penduduk",
+        "B": "Perbedaan kondisi geografis (sumber daya alam, iklim, relief tanah)",
+        "C": "Perbedaan jumlah hari dalam seminggu",
+        "D": "Perbedaan merk sepatu yang dipakai warga"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Apa itu 'Proteksionisme' dalam perdagangan internasional?",
+      "pilihan": {
+        "A": "Kebijakan negara untuk melindungi industri domestik dari persaingan impor (misal: bea masuk tinggi)",
+        "B": "Kebijakan untuk membebaskan semua pajak barang impor",
+        "C": "Kebijakan menjual barang ke luar negeri dengan harga murah",
+        "D": "Kebijakan untuk menghapus pabrik lokal"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "pertanyaan": "Peran Indonesia dalam ASEAN di bidang politik dan keamanan adalah...",
+      "pilihan": {
+        "A": "Membangun pabrik senjata untuk seluruh negara",
+        "B": "Menjadi penengah (mediator) dalam penyelesaian konflik antarnegara di kawasan ASEAN",
+        "C": "Mengirim tentara untuk menjajah negara tetangga",
+        "D": "Membuat hukum yang berlaku untuk seluruh dunia"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Globalisasi budaya seperti tren K-Pop atau film Hollywood dapat mengancam budaya lokal. Cara terbaik untuk menghadapinya adalah...",
+      "pilihan": {
+        "A": "Melarang semua internet",
+        "B": "Memperkuat literasi budaya dan mencintai produk/kesenian lokal",
+        "C": "Membakar semua film asing",
+        "D": "Berhenti berinteraksi dengan orang asing"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Dalam ekonomi, dikenal istilah 'Opportunity Cost' (Biaya Peluang). Jika kamu memilih menggunakan uang 10 ribu untuk beli buku daripada beli bakso, biaya peluangnya adalah...",
+      "pilihan": {
+        "A": "Bakso yang tidak bisa kamu nikmati",
+        "B": "Uang 10 ribu itu sendiri",
+        "C": "Buku yang kamu beli",
+        "D": "Rasa kenyang setelah makan"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "pertanyaan": "Apa manfaat bagi Indonesia dengan bergabung di G20 (kelompok 20 ekonomi terbesar)?",
+      "pilihan": {
+        "A": "Agar Indonesia bisa mendikte negara lain",
+        "B": "Mendapatkan posisi strategis dalam menentukan arah kebijakan ekonomi dunia dan menarik investasi",
+        "C": "Agar warga Indonesia bisa pindah ke luar negeri gratis",
+        "D": "Agar harga barang di Indonesia menjadi mahal"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Kegiatan ekonomi impor bahan baku (seperti kapas atau mesin) sebenarnya bermanfaat bagi industri dalam negeri, yaitu...",
+      "pilihan": {
+        "A": "Untuk menghabiskan devisa negara",
+        "B": "Bahan baku tersebut diolah menjadi barang jadi yang siap dijual dengan harga lebih mahal",
+        "C": "Agar barang lokal tidak laku",
+        "D": "Untuk memenuhi gudang agar penuh"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Mengapa investasi asing (FDI - Foreign Direct Investment) dianggap penting bagi pembangunan ekonomi Indonesia?",
+      "pilihan": {
+        "A": "Karena Indonesia tidak punya uang sama sekali",
+        "B": "Membawa modal, alih teknologi, dan membuka peluang kerja baru bagi penduduk lokal",
+        "C": "Agar orang asing bisa memiliki seluruh tanah kita",
+        "D": "Agar kita tidak perlu lagi bekerja"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Dalam ekonomi, peran rumah tangga pemerintah adalah sebagai regulator, produsen, dan konsumen. Contoh peran pemerintah sebagai 'Regulator' adalah...",
+      "pilihan": {
+        "A": "Membangun jembatan untuk kepentingan umum",
+        "B": "Membuat undang-undang perlindungan konsumen dan mengatur upah minimum",
+        "C": "Membeli kertas kantor untuk instansi",
+        "D": "Menjual hasil pertanian dari tanah negara"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Jika nilai Tukar Dollar terus naik, siapakah pelaku ekonomi yang paling diuntungkan?",
+      "pilihan": {
+        "A": "Importir barang",
+        "B": "Eksportir barang yang mendapatkan bayaran dalam Dollar",
+        "C": "Masyarakat yang sering liburan ke luar negeri",
+        "D": "Mahasiswa yang kuliah di luar negeri"
+      },
+      "kunci_jawaban": "B"
+    }
+  ]
+}

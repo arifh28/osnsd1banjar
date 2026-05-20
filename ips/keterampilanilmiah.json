@@ -1,0 +1,407 @@
+{
+  "nama_paket": "Keterampilan dan Metode Ilmiah (IPS)",
+  "mata_pelajaran": "IPS",
+  "bagian_materi": "Metode Ilmiah IPS",
+  "soal": [
+    {
+      "pertanyaan": "Budi melihat pasar di desanya selalu sepi pada hari Senin, tetapi sangat ramai pada hari Kamis. Budi ingin mencari tahu penyebabnya. Langkah metode ilmiah pertama yang paling tepat dilakukan Budi adalah...",
+      "pilihan": {
+        "A": "Langsung menyimpulkan bahwa hari Senin adalah hari sial",
+        "B": "Merumuskan masalah dengan bertanya: 'Mengapa pasar hanya ramai pada hari Kamis?'",
+        "C": "Menutup pasar pada hari Senin agar tidak rugi",
+        "D": "Membuat laporan penelitian kepada kepala desa"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Untuk mengetahui sejarah berdirinya SD Negeri 1 Banjar, Siti berencana mencari sumber informasi yang akurat. Sumber data primer (utama) yang paling tepat untuk diwawancarai oleh Siti adalah...",
+      "pilihan": {
+        "A": "Siswa kelas 1 yang baru masuk sekolah tahun ini",
+        "B": "Pedagang kantin yang berjualan di luar pagar sekolah",
+        "C": "Guru atau kepala sekolah yang paling lama mengabdi di sekolah tersebut",
+        "D": "Buku dongeng rakyat tentang Kota Banjar"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Dalam ilmu sosial, kita harus bisa membedakan antara 'Fakta' dan 'Opini'. Manakah dari pernyataan di bawah ini yang merupakan sebuah FAKTA?",
+      "pilihan": {
+        "A": "Tinggal di desa jauh lebih menyenangkan daripada di kota",
+        "B": "Indonesia memproklamasikan kemerdekaannya pada tanggal 17 Agustus 1945",
+        "C": "Masakan Padang adalah makanan paling lezat di Indonesia",
+        "D": "Semua anak yang suka bermain game online akan menjadi pemalas"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Doni membaca pesan di grup WhatsApp yang menyebutkan akan ada gempa bumi besar besok pagi di kotanya. Sebagai siswa yang memiliki sikap ilmiah, tindakan yang harus dilakukan Doni adalah...",
+      "pilihan": {
+        "A": "Meneruskan pesan tersebut ke semua teman agar mereka takut",
+        "B": "Percaya begitu saja karena yang mengirim adalah orang dewasa",
+        "C": "Mengabaikannya, lalu diam-diam mengungsi ke luar kota",
+        "D": "Memeriksa kebenaran informasi tersebut melalui situs resmi BMKG atau berita tepercaya"
+      },
+      "kunci_jawaban": "D"
+    },
+    {
+      "pertanyaan": "Seorang peneliti sosial ingin mengetahui jenis permainan tradisional apa saja yang masih sering dimainkan oleh anak-anak di sebuah desa. Cara pengumpulan data yang paling efektif dan akurat untuk penelitian ini adalah...",
+      "pilihan": {
+        "A": "Mencari data di internet tentang permainan tradisional seluruh dunia",
+        "B": "Melakukan observasi (pengamatan) langsung ke lapangan tempat anak-anak desa bermain",
+        "C": "Menulis surat kepada bupati setempat",
+        "D": "Membaca buku sejarah kerajaan kuno"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Ketika melakukan wawancara dengan tokoh masyarakat tentang adat istiadat setempat, sikap peneliti yang baik adalah...",
+      "pilihan": {
+        "A": "Menyela pembicaraan narasumber jika ceritanya terlalu panjang",
+        "B": "Mendengarkan dengan objektif, mencatat, dan menghargai pendapat narasumber meski berbeda dengan pemikiran peneliti",
+        "C": "Memaksa narasumber untuk menjawab sesuai dengan keinginan peneliti",
+        "D": "Merekam pembicaraan narasumber secara diam-diam tanpa meminta izin"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Data dalam penelitian IPS dapat berupa data kuantitatif (angka) dan kualitatif (deskripsi/penjelasan). Manakah di bawah ini yang merupakan contoh data kualitatif?",
+      "pilihan": {
+        "A": "Jumlah penduduk Desa Sukamaju adalah 1.500 jiwa",
+        "B": "Sebagian besar warga merasa sedih dan kehilangan karena balai desa terbakar",
+        "C": "Harga beras di pasar naik sebesar Rp2.000 per kilogram",
+        "D": "Terdapat 5 buah candi yang ditemukan di kompleks tersebut"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Rina dan teman-temannya menyebarkan angket (kuesioner) berisi 10 pertanyaan tertulis kepada 50 orang siswa untuk mengetahui uang saku rata-rata mereka. Metode penelitian yang digunakan Rina disebut...",
+      "pilihan": {
+        "A": "Eksperimen Laboratorium",
+        "B": "Kajian Pustaka",
+        "C": "Survei",
+        "D": "Wawancara Mendalam"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Dalam sejarah, untuk memastikan apakah sebuah dokumen kuno itu asli atau palsu, sejarawan melakukan proses pengujian keaslian sumber. Proses pengujian ini dalam metode ilmiah sejarah disebut...",
+      "pilihan": {
+        "A": "Hipotesis",
+        "B": "Kritik Sumber (Verifikasi)",
+        "C": "Eksperimen",
+        "D": "Kesimpulan"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Dito ingin meneliti mengapa banyak warga membuang sampah ke sungai. Ia mempunyai dugaan sementara: 'Warga membuang sampah ke sungai karena tidak tersedianya tempat pembuangan sampah umum (TPS) di desa tersebut'. Dugaan sementara Dito ini disebut...",
+      "pilihan": {
+        "A": "Hipotesis",
+        "B": "Analisis",
+        "C": "Data Primer",
+        "D": "Fakta Sosial"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "pertanyaan": "Seorang ilmuwan sosial ingin memahami kehidupan Suku Baduy Dalam. Ia memutuskan untuk tinggal, makan, dan hidup bersama mereka selama satu bulan. Teknik pengumpulan data ini dikenal dengan istilah...",
+      "pilihan": {
+        "A": "Observasi Partisipasi (Pengamatan Terlibat)",
+        "B": "Wawancara Jarak Jauh",
+        "C": "Eksperimen Sosial",
+        "D": "Studi Literatur"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "pertanyaan": "Diagram batang di mading sekolah menunjukkan angka pelanggaran tata tertib: Terlambat (20 siswa), Tidak bawa buku (5 siswa), Baju tidak rapi (10 siswa). Berdasarkan data tersebut, simpulan masalah sosial utama yang harus ditangani pihak sekolah adalah...",
+      "pilihan": {
+        "A": "Siswa sudah sangat rapi dalam berpakaian",
+        "B": "Tingkat kedisiplinan waktu (keterlambatan) adalah masalah terbesar siswa saat ini",
+        "C": "Buku pelajaran terlalu berat untuk dibawa",
+        "D": "Sekolah perlu menambah jam istirahat"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Sebuah penelitian menyimpulkan bahwa 'Semakin tinggi tingkat pendidikan masyarakat suatu daerah, semakin rendah tingkat penganggurannya'. Hubungan antara pendidikan dan pengangguran dalam kesimpulan tersebut adalah...",
+      "pilihan": {
+        "A": "Hubungan Sebab-Akibat (Kausalitas)",
+        "B": "Hubungan Sejarah",
+        "C": "Hubungan Keluarga",
+        "D": "Hubungan Imajinasi"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "pertanyaan": "Ketika terjadi konflik atau pertengkaran antara Desa A dan Desa B, seorang peneliti sosial yang baik tidak boleh memihak salah satu desa dalam laporannya. Prinsip ini dinamakan...",
+      "pilihan": {
+        "A": "Subjektivitas",
+        "B": "Objektivitas",
+        "C": "Imajinasi",
+        "D": "Manipulasi"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Andi menemukan sebuah koin kuno bergambar tokoh asing saat menggali tanah di belakang rumahnya. Koin kuno tersebut dalam penelitian sejarah diklasifikasikan sebagai...",
+      "pilihan": {
+        "A": "Sumber Tulisan",
+        "B": "Sumber Lisan",
+        "C": "Sumber Benda (Artefak)",
+        "D": "Sumber Mitos"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Daftar pertanyaan yang disiapkan sebelum melakukan wawancara (interview) sangat penting agar...",
+      "pilihan": {
+        "A": "Wawancara cepat selesai dalam 1 menit",
+        "B": "Narasumber merasa ketakutan",
+        "C": "Informasi yang digali terarah, fokus, dan tidak ada topik penting yang terlewat",
+        "D": "Peneliti bisa menjawab sendiri pertanyaannya"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Siti mengumpulkan foto-foto lama dari album keluarga untuk melihat bagaimana perubahan bentuk bangunan rumahnya dari tahun ke tahun. Teknik pengumpulan data yang dilakukan Siti adalah...",
+      "pilihan": {
+        "A": "Wawancara",
+        "B": "Eksperimen",
+        "C": "Studi Dokumentasi",
+        "D": "Angket"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Fenomena 'Anak-anak sekarang lebih suka bermain gawai (gadget) daripada bermain di lapangan' adalah sebuah fakta sosial. Rumusan masalah yang BUKAN merupakan pertanyaan ilmiah terkait fenomena tersebut adalah...",
+      "pilihan": {
+        "A": "Mengapa anak-anak lebih tertarik pada gawai dibandingkan permainan tradisional?",
+        "B": "Apa dampak bermain gawai terlalu lama terhadap interaksi sosial anak?",
+        "C": "Bagaimana cara membuang semua gawai ke laut agar anak-anak kembali bermain di lapangan?",
+        "D": "Berapa rata-rata waktu yang dihabiskan anak untuk bermain gawai dalam sehari?"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Dina menyalin seluruh isi blog di internet dan menempelkannya ke dalam tugas makalah IPS-nya tanpa mencantumkan nama penulis aslinya. Tindakan Dina melanggar etika ilmiah yang disebut...",
+      "pilihan": {
+        "A": "Hipotesis",
+        "B": "Plagiarisme (Penjiplakan)",
+        "C": "Verifikasi",
+        "D": "Objektivitas"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Peta adalah gambaran permukaan bumi pada bidang datar. Untuk membaca peta secara ilmiah dan mengetahui lokasi suatu tempat dengan pasti, komponen peta yang paling penting untuk dipahami adalah...",
+      "pilihan": {
+        "A": "Garis Tepi dan Warna Bingkai",
+        "B": "Garis Astronomis (Lintang dan Bujur)",
+        "C": "Nama Pembuat Peta",
+        "D": "Jenis Kertas Peta"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Anton meneliti dampak pembangunan pabrik gula terhadap petani lokal. Langkah terakhir yang harus dilakukan Anton setelah menarik kesimpulan adalah...",
+      "pilihan": {
+        "A": "Menyimpan datanya di bawah kasur",
+        "B": "Menyusun laporan penelitian untuk dikomunikasikan atau dipresentasikan kepada publik",
+        "C": "Membakar catatan observasinya",
+        "D": "Membuat pabrik tandingan"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Dalam sejarah, konsep 'Kronologi' sangat penting agar tidak terjadi kebingungan. Berpikir secara kronologis artinya...",
+      "pilihan": {
+        "A": "Menyusun urutan peristiwa sejarah berdasarkan urutan waktu kejadiannya secara runtut",
+        "B": "Menyusun peristiwa sejarah berdasarkan alfabet nama tokohnya",
+        "C": "Mengingat semua tahun kejadian di dunia tanpa terlewat",
+        "D": "Membalikkan cerita masa lalu menjadi masa depan"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "pertanyaan": "Pak Guru meminta siswa mengamati ciri khas lingkungan fisik tempat tinggal mereka (pegunungan, dataran rendah, atau pantai). Pengamatan ini merupakan dasar dari ilmu...",
+      "pilihan": {
+        "A": "Sosiologi",
+        "B": "Sejarah",
+        "C": "Geografi",
+        "D": "Ekonomi"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Wawancara terbagi menjadi wawancara terbuka dan tertutup. Jika peneliti bertanya: 'Apakah Bapak setuju dengan pembangunan jalan tol ini? (Setuju/Tidak Setuju)', maka ini disebut...",
+      "pilihan": {
+        "A": "Wawancara Bebas",
+        "B": "Wawancara Terbuka (Narasumber bebas bercerita)",
+        "C": "Wawancara Tertutup (Jawaban sudah dibatasi pilihan)",
+        "D": "Wawancara Kelompok"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Sinta mewawancarai 5 orang pedagang pasar. Dari 5 orang tersebut, 3 orang mengeluh harga sewa lapak mahal, 2 orang merasa harganya wajar. Data ini diolah Sinta menjadi laporan. Proses yang dilakukan Sinta dari mengumpulkan hingga mengolah informasi ini disebut...",
+      "pilihan": {
+        "A": "Eksperimen Fisiologi",
+        "B": "Metode Penelitian Kualitatif Dasar",
+        "C": "Uji Coba Laboratorium Kimia",
+        "D": "Studi Purbakala"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Sebuah teori sosial menyebutkan bahwa 'Urbanisasi terjadi karena kurangnya lapangan kerja di pedesaan'. Variabel (faktor) penyebab dalam teori tersebut adalah...",
+      "pilihan": {
+        "A": "Terjadinya Urbanisasi (Perpindahan ke kota)",
+        "B": "Kurangnya lapangan kerja di pedesaan",
+        "C": "Kepadatan penduduk di kota",
+        "D": "Banyaknya mall di pedesaan"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Terdapat berita bahwa seorang tokoh sejarah kemerdekaan lahir di kota X. Namun, setelah diteliti catatan akta kelahirannya oleh arsiparis, ternyata ia lahir di kota Y. Dalam metode sejarah, catatan akta kelahiran tersebut berfungsi sebagai...",
+      "pilihan": {
+        "A": "Dongeng pelipur lara",
+        "B": "Data sekunder yang tidak bisa dipercaya",
+        "C": "Bukti otentik (Fakta Keras) yang dapat membantah rumor atau mitos",
+        "D": "Cerita fiksi masa lalu"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Jika kamu ingin membuat angket untuk mengetahui makanan daerah favorit teman-teman sekelasmu, bentuk instrumen/alat yang paling praktis digunakan adalah...",
+      "pilihan": {
+        "A": "Membagikan kertas berisi kuesioner pilihan ganda kepada teman-teman",
+        "B": "Memanggil satu per satu teman ke ruang kepala sekolah",
+        "C": "Menelpon orang tua mereka pada malam hari",
+        "D": "Membawakan makanan daerah setiap hari untuk dites"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "pertanyaan": "Prinsip 5W+1H (What, Who, Where, When, Why, How) digunakan jurnalis dan peneliti untuk menggali fenomena secara lengkap. Pertanyaan 'How' (Bagaimana) digunakan untuk menggali...",
+      "pilihan": {
+        "A": "Lokasi kejadian suatu peristiwa",
+        "B": "Waktu pasti sebuah sejarah terjadi",
+        "C": "Proses, urutan, atau cara suatu peristiwa dapat terjadi",
+        "D": "Siapa saja tokoh yang terlibat dalam peristiwa tersebut"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Seorang peneliti IPS ditolak oleh warga desa saat mencoba masuk dan mengambil foto rumah adat karena dianggap tidak sopan. Pelajaran yang dapat diambil peneliti tersebut sebelum melakukan penelitian lapangan adalah...",
+      "pilihan": {
+        "A": "Harus membawa pengawal bersenjata",
+        "B": "Wajib meminta izin, menjaga kesopanan, dan mematuhi norma/etika setempat",
+        "C": "Gunakan drone (pesawat tanpa awak) secara diam-diam",
+        "D": "Ubah data agar seolah-olah sudah pernah masuk desa tersebut"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Terdapat perbedaan pendapat sejarah tentang asal-usul sebuah candi antara dua buku yang berbeda. Cara terbaik bagi seorang siswa yang kritis untuk menyikapinya adalah...",
+      "pilihan": {
+        "A": "Memilih buku yang sampulnya paling bagus",
+        "B": "Membakar kedua buku tersebut karena membingungkan",
+        "C": "Membandingkan bukti-bukti, sumber, dan referensi yang digunakan oleh kedua buku tersebut",
+        "D": "Menyalahkan guru IPS yang mengajarkannya"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Data sensus penduduk desa mencatat tahun 2020 ada 5.000 jiwa, tahun 2021 ada 5.200 jiwa, tahun 2022 ada 5.500 jiwa. Jika dibuat grafik garis, garisnya akan bergerak naik. Fakta sosial yang ditunjukkan grafik tersebut adalah...",
+      "pilihan": {
+        "A": "Penduduk desa mengalami penurunan",
+        "B": "Terjadi pertumbuhan (peningkatan) jumlah penduduk di desa tersebut dari tahun ke tahun",
+        "C": "Angka kematian lebih tinggi dari angka kelahiran",
+        "D": "Banyak warga desa yang pindah (migrasi) ke kota"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Sebuah penelitian dilakukan untuk melihat pengaruh pemberian diskon terhadap keramaian minimarket. Populasi penelitiannya adalah 'Seluruh pelanggan minimarket'. Jika peneliti hanya mewawancarai 20 pelanggan yang datang di hari Minggu, maka 20 pelanggan ini disebut...",
+      "pilihan": {
+        "A": "Subjek Rahasia",
+        "B": "Hipotesis",
+        "C": "Sampel Penelitian (Perwakilan dari Populasi)",
+        "D": "Kesimpulan"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Saat melakukan kunjungan studi wisata ke Museum Keraton, petugas memandu menceritakan silsilah raja-raja. Kegiatan mendengarkan dan mencatat penjelasan petugas museum ini termasuk teknik...",
+      "pilihan": {
+        "A": "Eksperimen Lapangan",
+        "B": "Wawancara dan Observasi Langsung",
+        "C": "Studi Pustaka",
+        "D": "Pembuatan Hipotesis Murni"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Pembangunan sebuah waduk raksasa berdampak pada tenggelamnya dua desa. Penduduk desa terpaksa dipindahkan (bedol desa). Kajian IPS tentang dampak pemindahan paksa ini terhadap mata pencaharian warga termasuk dalam bidang...",
+      "pilihan": {
+        "A": "Ilmu Fisika",
+        "B": "Sosiologi dan Ekonomi",
+        "C": "Astronomi",
+        "D": "Biologi Anatomi"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Untuk mencari tahu rute perdagangan rempah Nusantara pada masa penjajahan, seorang sejarawan mengumpulkan peta laut Belanda kuno (VOC). Peta laut kuno tersebut berkedudukan sebagai...",
+      "pilihan": {
+        "A": "Karya seni modern",
+        "B": "Barang selundupan",
+        "C": "Sumber Sejarah Primer (Visual/Dokumen)",
+        "D": "Rumor lokal"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "pertanyaan": "Jika kamu bertugas sebagai moderator (pemimpin) dalam Focus Group Discussion (FGD) atau diskusi kelompok kecil untuk membahas kebersihan kelas, tugas utamamu adalah...",
+      "pilihan": {
+        "A": "Berbicara sendiri tanpa henti selama 1 jam",
+        "B": "Mencatat semua pendapat, menengahi jika ada yang berdebat, dan memastikan semua teman mendapat giliran bicara",
+        "C": "Memarahi teman yang memiliki pendapat berbeda",
+        "D": "Menghukum peserta diskusi yang datang terlambat"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Penelitian IPS menyoroti fenomena gotong royong warga yang mulai pudar di kota-kota besar akibat sikap individualisme (mementingkan diri sendiri). Berdasarkan fenomena ini, judul penelitian yang paling relevan adalah...",
+      "pilihan": {
+        "A": "Dampak Letusan Gunung Berapi Terhadap Gotong Royong",
+        "B": "Pengaruh Sikap Individualisme Terhadap Menurunnya Tradisi Gotong Royong di Kawasan Perkotaan",
+        "C": "Sejarah Terciptanya Kota Besar di Indonesia",
+        "D": "Cara Membangun Rumah Secara Cepat di Kota"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "pertanyaan": "Sering kali peneliti menemukan hasil bahwa dugaannya (hipotesisnya) SALAH setelah data terkumpul. Sikap ilmiah terbaik dalam situasi ini adalah...",
+      "pilihan": {
+        "A": "Jujur melaporkan bahwa hipotesisnya tidak terbukti dan menjelaskan hasil sebenarnya berdasarkan data empiris",
+        "B": "Memanipulasi atau merubah data angket agar hipotesisnya seolah-olah menjadi benar",
+        "C": "Mengulangi penelitian dengan subjek palsu yang dibayar",
+        "D": "Menyalahkan orang-orang yang mengisi angket"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "pertanyaan": "Masyarakat di daerah pegunungan Dieng memiliki bentuk atap rumah yang rata-rata tertutup rapat dan tebal, sedangkan di pantai bentuk atapnya tinggi dan ventilasinya banyak. Pendekatan geografi yang menganalisis hal ini disebut pendekatan...",
+      "pilihan": {
+        "A": "Sejarah Kuno",
+        "B": "Keruangan/Ekologi (Hubungan manusia dengan adaptasi lingkungan fisiknya)",
+        "C": "Ekonomi Moneter",
+        "D": "Politik Global"
+      },
+      "kunci_jawaban": "B"
+    }
+  ]
+}

@@ -1,0 +1,337 @@
+{
+  "nama_paket": "Aritmatika",
+  "mata_pelajaran": "Matematika",
+  "bagian_materi": "Aritmatika",
+  "soal": [
+    {
+      "tipe": "soal_cerita",
+      "pertanyaan": "Budi berangkat dari Kota A ke Kota B mengendarai sepeda motor dengan kecepatan rata-rata 40 km/jam pada pukul 07.00. Setengah jam kemudian, Andi menyusul melalui jalan yang sama dengan kecepatan rata-rata 60 km/jam. Pada pukul berapakah Andi berhasil menyusul Budi?",
+      "pilihan": {
+        "A": "08.00",
+        "B": "08.30",
+        "C": "09.00",
+        "D": "09.30"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "tipe": "soal_cerita",
+      "pertanyaan": "Perbandingan uang saku Ani dan Budi adalah 3 : 5. Jika selisih uang saku mereka adalah Rp 40.000,00, berapakah jumlah total uang saku keduanya?",
+      "pilihan": {
+        "A": "Rp 120.000,00",
+        "B": "Rp 160.000,00",
+        "C": "Rp 200.000,00",
+        "D": "Rp 240.000,00"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "tipe": "soal_cerita",
+      "pertanyaan": "Pak Tono membeli sebuah kemeja seharga Rp 150.000,00. Kemeja tersebut kemudian dijual kembali dengan memberikan diskon 20% kepada pembelinya. Ternyata, Pak Tono masih mendapatkan keuntungan 20% dari harga belinya. Berapakah harga label (harga sebelum diskon) yang dipasang Pak Tono pada kemeja tersebut?",
+      "pilihan": {
+        "A": "Rp 225.000,00",
+        "B": "Rp 200.000,00",
+        "C": "Rp 180.000,00",
+        "D": "Rp 250.000,00"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "tipe": "soal_cerita",
+      "pertanyaan": "Sebuah proyek pembangunan jembatan dapat diselesaikan oleh 15 pekerja dalam waktu 40 hari. Setelah bekerja selama 10 hari, pekerjaan terpaksa dihentikan selama 5 hari karena hujan deras. Agar jembatan selesai tepat pada waktunya, berapa tambahan pekerja yang diperlukan?",
+      "pilihan": {
+        "A": "3 orang",
+        "B": "4 orang",
+        "C": "5 orang",
+        "D": "18 orang"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "tipe": "soal_cerita",
+      "pertanyaan": "Jarak kota P dan kota Q adalah 120 km. Pak Rio mengendarai mobil dari kota P pada pukul 06.15 dengan kecepatan rata-rata 50 km/jam. Di tengah perjalanan, ia beristirahat selama 15 menit. Pukul berapakah Pak Rio tiba di kota Q?",
+      "pilihan": {
+        "A": "08.15",
+        "B": "08.39",
+        "C": "08.54",
+        "D": "09.15"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "tipe": "soal_cerita",
+      "pertanyaan": "Seorang peternak memiliki persediaan pakan yang cukup untuk 40 ekor ayam selama 15 hari. Jika peternak tersebut menjual 10 ekor ayamnya, maka persediaan pakan tersebut akan habis dalam waktu...",
+      "pilihan": {
+        "A": "18 hari",
+        "B": "20 hari",
+        "C": "22 hari",
+        "D": "25 hari"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "tipe": "soal_cerita",
+      "pertanyaan": "Ali menabung di bank sebesar Rp 2.000.000,00 dengan bunga tunggal 12% per tahun. Setelah beberapa waktu, tabungan Ali menjadi Rp 2.160.000,00. Berapa lama Ali telah menabung di bank tersebut?",
+      "pilihan": {
+        "A": "6 bulan",
+        "B": "8 bulan",
+        "C": "9 bulan",
+        "D": "10 bulan"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "tipe": "soal_cerita",
+      "pertanyaan": "Dua orang tukang cat, Rudi dan Doni, bekerja bersama. Rudi dapat mengecat sebuah ruangan dalam waktu 12 jam, sedangkan Doni dapat menyelesaikannya dalam waktu 6 jam. Jika mereka mengecat ruangan tersebut bersama-sama, berapa lama waktu yang dibutuhkan?",
+      "pilihan": {
+        "A": "3 jam",
+        "B": "4 jam",
+        "C": "6 jam",
+        "D": "9 jam"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "tipe": "soal_cerita",
+      "pertanyaan": "Terdapat 10 liter minuman campuran air dan sirup dengan perbandingan 3 : 2. Ke dalam minuman tersebut ditambahkan lagi 2 liter air murni. Berapakah perbandingan air dan sirup pada minuman campuran yang baru?",
+      "pilihan": {
+        "A": "4 : 3",
+        "B": "2 : 1",
+        "C": "5 : 2",
+        "D": "3 : 1"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "tipe": "soal_cerita",
+      "pertanyaan": "Seorang pedagang membeli 5 karung beras dengan berat kotor (bruto) masing-masing 50 kg dan tara 2%. Jika harga beli beras Rp 10.000,00 per kg netto, berapakah uang yang harus dibayarkan pedagang tersebut seluruhnya?",
+      "pilihan": {
+        "A": "Rp 2.400.000,00",
+        "B": "Rp 2.450.000,00",
+        "C": "Rp 2.500.000,00",
+        "D": "Rp 2.550.000,00"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "tipe": "soal_gambar",
+      "pertanyaan": "Berdasarkan gambar keseimbangan timbangan di bawah ini, jika berat sebuah melon adalah 1.500 gram dan berat satu buah apel adalah 200 gram, berapakah berat satu buah semangka?<br><br><img src='../gambar/aritmatika/timbangan_buah.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px;'><br><i>[Prompt AI: A clean 2D vector flat illustration of a balance scale. On the left pan: 1 large green watermelon and 2 small red apples. On the right pan: 1 large yellow melon. White background, NO TEXT.]</i>",
+      "pilihan": {
+        "A": "900 gram",
+        "B": "1.100 gram",
+        "C": "1.300 gram",
+        "D": "1.500 gram"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "tipe": "soal_gambar",
+      "pertanyaan": "Perhatikan label diskon ganda pada baju berikut ini. Jika harga awal baju adalah Rp 200.000,00, berapakah harga akhir yang harus dibayarkan pembeli?<br><br><img src='../gambar/aritmatika/diskon_ganda.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px;'><br><i>[Prompt AI: A vector illustration of a red store price tag label. On the label, it says 'DISCOUNT 50% + 20%'. Clean flat design, white background.]</i>",
+      "pilihan": {
+        "A": "Rp 60.000,00",
+        "B": "Rp 80.000,00",
+        "C": "Rp 100.000,00",
+        "D": "Rp 140.000,00"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "tipe": "soal_gambar",
+      "pertanyaan": "Gelas ukur di bawah ini berkapasitas total 1 liter (1.000 ml). Berapa persentase volume air yang terisi di dalam gelas ukur tersebut?<br><br><img src='../gambar/aritmatika/gelas_ukur.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px;'><br><i>[Prompt AI: A 2D vector illustration of a glass measuring beaker. The water inside reaches exactly the 400 ml mark on the side scale. The top mark of the scale is 1000 ml. Clean white background.]</i>",
+      "pilihan": {
+        "A": "25%",
+        "B": "40%",
+        "C": "60%",
+        "D": "400%"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "tipe": "soal_gambar",
+      "pertanyaan": "Roda gigi A memiliki 12 gerigi dan roda gigi B memiliki 36 gerigi. Keduanya dihubungkan seperti pada gambar. Jika roda gigi B berputar sebanyak 5 kali putaran penuh, berapa kali roda gigi A berputar?<br><br><img src='../gambar/aritmatika/roda_gigi.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px;'><br><i>[Prompt AI: A vector illustration of two interlocking mechanical gears. The left gear is very small. The right gear is three times larger. Minimalist, flat color, white background, NO TEXT.]</i>",
+      "pilihan": {
+        "A": "10 kali",
+        "B": "15 kali",
+        "C": "20 kali",
+        "D": "30 kali"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "tipe": "soal_gambar",
+      "pertanyaan": "Sebuah peta wilayah memiliki keterangan skala seperti pada gambar. Jika jarak kota X dan Y pada peta tersebut adalah 4 cm, berapakah jarak sebenarnya kedua kota tersebut?<br><br><img src='../gambar/aritmatika/skala_peta.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px;'><br><i>[Prompt AI: A minimalist 2D illustration of a paper map with a small compass rose. At the bottom corner, there is a clear text box that says 'SKALA 1 : 500.000'. Clean white background.]</i>",
+      "pilihan": {
+        "A": "2 km",
+        "B": "20 km",
+        "C": "50 km",
+        "D": "200 km"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "tipe": "soal_gambar",
+      "pertanyaan": "Gambar jam dinding analog di bawah ini menunjukkan tepat pukul 03.30. Berapakah besar sudut terkecil yang dibentuk oleh kedua jarum jam tersebut?<br><br><img src='../gambar/aritmatika/jam_sudut.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px;'><br><i>[Prompt AI: A vector graphic of a classic analog wall clock. The short hour hand is exactly halfway between the 3 and the 4. The long minute hand is pointing exactly at the 6. Flat design, white background.]</i>",
+      "pilihan": {
+        "A": "60°",
+        "B": "75°",
+        "C": "90°",
+        "D": "105°"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "tipe": "soal_gambar",
+      "pertanyaan": "Perhatikan sebatang cokelat utuh berukuran 4x6 kotak berikut. Jika kamu memakan 6 kotak cokelat tersebut, berapakah persentase cokelat yang masih tersisa?<br><br><img src='../gambar/aritmatika/cokelat_batang.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px;'><br><i>[Prompt AI: A flat vector illustration of an unwrapped rectangular chocolate bar scored into a grid of 4 rows and 6 columns (24 squares total). White background, NO TEXT.]</i>",
+      "pilihan": {
+        "A": "25%",
+        "B": "60%",
+        "C": "75%",
+        "D": "80%"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "tipe": "soal_gambar",
+      "pertanyaan": "Gambar di bawah ini menunjukkan tumpukan uang koin. Setiap satu keping koin bernilai Rp 500,00. Terdapat 4 tumpukan, di mana setiap tumpukan berisi tepat 10 keping koin. Berapakah total nilai seluruh uang koin tersebut?<br><br><img src='../gambar/aritmatika/tumpukan_koin.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px;'><br><i>[Prompt AI: A clear vector illustration of 4 identical tall stacks of gold coins lined up next to each other. Each stack has exactly 10 coins. Clean white background, NO TEXT.]</i>",
+      "pilihan": {
+        "A": "Rp 10.000,00",
+        "B": "Rp 15.000,00",
+        "C": "Rp 20.000,00",
+        "D": "Rp 40.000,00"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "tipe": "soal_gambar",
+      "pertanyaan": "Speedometer sebuah mobil menunjukkan angka kecepatan konstan seperti pada gambar. Jika mobil tersebut melaju dengan kecepatan tersebut selama 45 menit, berapakah jarak yang telah ditempuh?<br><br><img src='../gambar/aritmatika/speedometer.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px;'><br><i>[Prompt AI: A flat 2D illustration of a car dashboard speedometer. The glowing needle is pointing exactly at the number 80. The unit says km/h. Clean background.]</i>",
+      "pilihan": {
+        "A": "45 km",
+        "B": "60 km",
+        "C": "80 km",
+        "D": "120 km"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "tipe": "soal_gambar",
+      "pertanyaan": "Perhatikan label informasi nilai gizi sebuah makanan kaleng berikut. Terdapat tulisan Berat Kotor (Bruto) 250 gram dan Berat Bersih (Netto) 240 gram. Berapakah persentase berat wadah (Tara) dari makanan tersebut?<br><br><img src='../gambar/aritmatika/kaleng_bruto.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px;'><br><i>[Prompt AI: A vector illustration of a tin can. On the front label, there is clear bold text that reads 'Bruto: 250g' and 'Netto: 240g'. Flat design, white background.]</i>",
+      "pilihan": {
+        "A": "4%",
+        "B": "5%",
+        "C": "10%",
+        "D": "96%"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "tipe": "cerita_gambar",
+      "pertanyaan": "Siti ingin membuat sirop. Resep di kemasan menunjukkan perbandingan ideal Gula : Air adalah 1 : 4. Jika Siti menggunakan teko yang berisi air penuh sesuai gambar, berapa gram/ml gula yang harus ia campurkan?<br><br><img src='../gambar/aritmatika/teko_air.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px;'><br><i>[Prompt AI: A vector illustration of a glass water pitcher filled with blue water. There is a volume label on the pitcher pointing to the water level that clearly says '2 Liters'. White background.]</i>",
+      "pilihan": {
+        "A": "250 ml",
+        "B": "400 ml",
+        "C": "500 ml",
+        "D": "800 ml"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "tipe": "cerita_gambar",
+      "pertanyaan": "Perhatikan struk belanja berikut. Pajak Restoran (PPN) adalah 10% dari total pembelian. Jika Ayah membayar ke kasir menggunakan selembar uang Rp 100.000,00 dan selembar uang Rp 50.000,00, berapakah uang kembalian yang diterima Ayah?<br><br><img src='../gambar/aritmatika/struk_belanja.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px;'><br><i>[Prompt AI: A vector illustration of a printed paper store receipt. The list shows food items and a subtotal line that says 'Subtotal: Rp 120.000'. Below it says 'Tax: 10%'. White background.]</i>",
+      "pilihan": {
+        "A": "Rp 18.000,00",
+        "B": "Rp 28.000,00",
+        "C": "Rp 30.000,00",
+        "D": "Rp 38.000,00"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "tipe": "cerita_gambar",
+      "pertanyaan": "Toren air berbentuk tabung digunakan untuk menampung air. Kapasitas penuh toren tersebut adalah 1.000 liter. Saat ini toren sudah berisi air sebanyak 400 liter. Jika sebuah pompa menyala mengisi toren tersebut dengan debit aliran 20 liter/menit, berapa lama waktu yang dibutuhkan hingga toren tersebut terisi penuh dan airnya luber?<br><br><img src='../gambar/aritmatika/toren_air.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px;'><br><i>[Prompt AI: A 2D vector graphic of a large orange water tank (toren). A pipe is pouring water into it from the top. Minimalist style, white background, NO TEXT.]</i>",
+      "pilihan": {
+        "A": "20 menit",
+        "B": "30 menit",
+        "C": "40 menit",
+        "D": "50 menit"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "tipe": "cerita_gambar",
+      "pertanyaan": "Sebuah jalan raya lurus menghubungkan Kota A dan Kota B. Pada peta dengan skala 1 : 1.000.000, jarak jalan tersebut tergambar sejauh 5 cm. Jika Dini mengendarai sepeda motor melintasi jalan sebenarnya dengan kecepatan 50 km/jam tanpa berhenti, berapa lama waktu yang ditempuhnya?<br><br><img src='../gambar/aritmatika/peta_jalan.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px;'><br><i>[Prompt AI: A simple vector illustration of a straight black asphalt road connecting two map pins labeled 'A' and 'B'. A ruler is placed next to the road showing a measurement of 5 cm. White background.]</i>",
+      "pilihan": {
+        "A": "30 menit",
+        "B": "1 jam",
+        "C": "2 jam",
+        "D": "2,5 jam"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "tipe": "cerita_gambar",
+      "pertanyaan": "Sebuah restoran cepat saji menjual Paket Hemat. Harga normal untuk sebuah Burger adalah Rp 25.000,00 dan harga sekotak Kentang Goreng adalah Rp 15.000,00. Jika kamu membeli Paket Hemat (Burger + Kentang) seperti gambar, kamu cukup membayar Rp 30.000,00. Berapakah persentase diskon yang kamu dapatkan dibandingkan membeli dengan harga normal terpisah?<br><br><img src='../gambar/aritmatika/paket_burger.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px;'><br><i>[Prompt AI: A vector illustration of a fast food combo meal showing one delicious hamburger and one red box of french fries next to each other. Flat design, clean white background, NO TEXT.]</i>",
+      "pilihan": {
+        "A": "15%",
+        "B": "20%",
+        "C": "25%",
+        "D": "30%"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "tipe": "teks_murni",
+      "pertanyaan": "Hasil penyelesaian dari operasi hitung campuran berikut: $ \\frac{3}{4} \\times 1,2 + 0,6 : \\frac{1}{2} $ adalah...",
+      "pilihan": {
+        "A": "1,5",
+        "B": "2,1",
+        "C": "2,4",
+        "D": "3,0"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "tipe": "teks_murni",
+      "pertanyaan": "Hasil dari operasi hitung persentase $ 30\\% \\times 150 - \\frac{1}{4} \\times 80 $ adalah...",
+      "pilihan": {
+        "A": "20",
+        "B": "25",
+        "C": "30",
+        "D": "35"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "tipe": "teks_murni",
+      "pertanyaan": "Diketahui $ x $ adalah $ 12,5\\% $ dari 400, dan nilai $ y $ adalah $ \\frac{2}{5} $ dari 150. Maka nilai dari $ y - x $ adalah...",
+      "pilihan": {
+        "A": "5",
+        "B": "10",
+        "C": "15",
+        "D": "20"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "tipe": "teks_murni",
+      "pertanyaan": "Perbandingan umur A dan B adalah 2 : 3, sedangkan perbandingan umur B dan C adalah 4 : 5. Jika jumlah umur mereka bertiga adalah 105 tahun, berapakah umur B?",
+      "pilihan": {
+        "A": "24 tahun",
+        "B": "30 tahun",
+        "C": "36 tahun",
+        "D": "45 tahun"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "tipe": "teks_murni",
+      "pertanyaan": "Perhatikan barisan aritmatika berikut: 5, 9, 13, 17, 21, ... <br>Berapakah angka yang menempati suku ke-15 pada barisan tersebut?",
+      "pilihan": {
+        "A": "56",
+        "B": "61",
+        "C": "65",
+        "D": "69"
+      },
+      "kunci_jawaban": "B"
+    }
+  ]
+}

@@ -115,7 +115,7 @@
     },
     {
       "tipe": "soal_gambar",
-      "pertanyaan": "Perhatikan gambar keseimbangan timbangan berikut ini. Jika 1 kotak bernilai $x$ dan 1 bola bernilai 2, berapakah nilai $x$ agar timbangan tetap seimbang?<br><br><img src='/gambar/bilangan/timbangan.png'>",
+      "pertanyaan": "Perhatikan gambar keseimbangan timbangan berikut ini. Jika 1 kotak bernilai $x$ dan 1 bola bernilai 2, berapakah nilai $x$ agar timbangan tetap seimbang?<br><br><img src='../mtk/gambar/bilangan/timbangan.png'>",
       "pilihan": {
         "A": "2",
         "B": "3",
@@ -126,7 +126,7 @@
     },
     {
       "tipe": "soal_gambar",
-      "pertanyaan": "Berapakah nilai pecahan yang mewakili daerah yang diarsir pada gambar berikut?<br><br><img src='/gambar/bilangan/pecahan.png'>",
+      "pertanyaan": "Berapakah nilai pecahan yang mewakili daerah yang diarsir pada gambar berikut?<br><br><img src='../mtk/gambar/bilangan/pecahan.png'>",
       "pilihan": {
         "A": "3/8",
         "B": "5/8",
@@ -137,7 +137,7 @@
     },
     {
       "tipe": "soal_gambar",
-      "pertanyaan": "Pola batang korek api dibentuk seperti gambar di bawah. Berapa banyak batang korek api yang dibutuhkan untuk membentuk pola ke-5?<br><br><img src='/gambar/bilangan/korek.png'>",
+      "pertanyaan": "Pola batang korek api dibentuk seperti gambar di bawah. Berapa banyak batang korek api yang dibutuhkan untuk membentuk pola ke-5?<br><br><img src='../mtk/gambar/bilangan/korek.png'>",
       "pilihan": {
         "A": "40",
         "B": "48",
@@ -148,7 +148,7 @@
     },
     {
       "tipe": "soal_gambar",
-      "pertanyaan": "Perhatikan panahan berikut. Sebuah anak panah menancap pada area warna biru tua. Jika skor di tengah adalah 100, warna merah 50, dan setiap cincin berkurang setengahnya secara berurutan keluar. Berapa skor anak panah tersebut?<br><br><img src='/gambar/bilangan/panah.png'>",
+      "pertanyaan": "Perhatikan panahan berikut. Sebuah anak panah menancap pada area warna biru tua. Jika skor di tengah adalah 100, warna merah 50, dan setiap cincin berkurang setengahnya secara berurutan keluar. Berapa skor anak panah tersebut?<br><br><img src='../mtk/gambar/bilangan/panah.png'>",
       "pilihan": {
         "A": "12.5",
         "B": "20",
@@ -159,7 +159,7 @@
     },
     {
       "tipe": "soal_gambar",
-      "pertanyaan": "Garis bilangan berikut menunjukkan posisi katak yang sedang melompat. Jika katak melompat 7 langkah ke kanan dari posisinya saat ini, di angka berapakah katak akan mendarat?<br><br><img src='/gambar/bilangan/kodok.png'>",
+      "pertanyaan": "Garis bilangan berikut menunjukkan posisi katak yang sedang melompat. Jika katak melompat 7 langkah ke kanan dari posisinya saat ini, di angka berapakah katak akan mendarat?<br><br><img src='../mtk/gambar/bilangan/kodok.png'>",
       "pilihan": {
         "A": "-10",
         "B": "4",
@@ -170,7 +170,7 @@
     },
     {
       "tipe": "soal_gambar",
-      "pertanyaan": "Termometer di bawah menunjukkan suhu sebuah ruangan. Jika pendingin ruangan dinyalakan sehingga suhu turun 12°C, berapakah suhunya sekarang?<br><br><img src='/gambar/bilangan/termometer.png'>",
+      "pertanyaan": "Termometer di bawah menunjukkan suhu sebuah ruangan. Jika pendingin ruangan dinyalakan sehingga suhu turun 12°C, berapakah suhunya sekarang?<br><br><img src='../mtk/gambar/bilangan/termometer.png'>",
       "pilihan": {
         "A": "10°C",
         "B": "13°C",
@@ -181,7 +181,7 @@
     },
     {
       "tipe": "soal_gambar",
-      "pertanyaan": "Roda gigi A memiliki 24 gigi dan roda gigi B memiliki 36 gigi. Keduanya saling berkaitan seperti pada gambar. Jika roda gigi A berputar penuh 3 kali, berapa kali roda gigi B berputar penuh?<br><br><img src='/gambar/bilangan/gerigi.png'>",
+      "pertanyaan": "Roda gigi A memiliki 24 gigi dan roda gigi B memiliki 36 gigi. Keduanya saling berkaitan seperti pada gambar. Jika roda gigi A berputar penuh 3 kali, berapa kali roda gigi B berputar penuh?<br><br><img src='../mtk/gambar/bilangan/gerigi.png'>",
       "pilihan": {
         "A": "2",
         "B": "3",
@@ -192,7 +192,7 @@
     },
     {
       "tipe": "soal_gambar",
-      "pertanyaan": "Kumpulan tumpukan koin berikut membentuk sebuah pola aritmatika. Berapa koin yang harus ada di tumpukan ke-6?<br><br><img src='/gambar/bilangan/koin.png'>",
+      "pertanyaan": "Kumpulan tumpukan koin berikut membentuk sebuah pola aritmatika. Berapa koin yang harus ada di tumpukan ke-6?<br><br><img src='../mtk/gambar/bilangan/koin.png'>",
       "pilihan": {
         "A": "19",
         "B": "23",
@@ -203,7 +203,7 @@
     },
     {
       "tipe": "soal_gambar",
-      "pertanyaan": "Pohon faktor di bawah ini menunjukkan faktorisasi prima dari angka 120. Angka berapakah yang tepat untuk mengisi kotak kosong berwarna merah?<br><br><img src='/gambar/bilangan/pohonfaktor.png'>",
+      "pertanyaan": "Pohon faktor di bawah ini menunjukkan faktorisasi prima dari angka 120. Angka berapakah yang tepat untuk mengisi kotak kosong berwarna merah?<br><br><img src='../mtk/gambar/bilangan/pohonfaktor.png'>",
       "pilihan": {
         "A": "10",
         "B": "12",
@@ -214,7 +214,7 @@
     },
     {
       "tipe": "soal_gambar",
-      "pertanyaan": "Berdasarkan diagram Venn kelipatan bilangan berikut, angka berapakah yang seharusnya berada di area perpotongan (irisan) tengah?<br><br><img src='/gambar/bilangan/diagramven.png'>",
+      "pertanyaan": "Berdasarkan diagram Venn kelipatan bilangan berikut, angka berapakah yang seharusnya berada di area perpotongan (irisan) tengah?<br><br><img src='../mtk/gambar/bilangan/diagramven.png'>",
       "pilihan": {
         "A": "2",
         "B": "10",
@@ -225,7 +225,7 @@
     },
     {
       "tipe": "cerita_gambar",
-      "pertanyaan": "Sebuah jalan raya dipasangi tiang lampu setiap 15 meter dan pohon peneduh setiap 25 meter. Jika pada pangkal jalan (titik 0) dipasang tiang lampu dan pohon peneduh secara berdampingan seperti pada gambar, pada meter ke berapakah keduanya akan berdampingan lagi untuk pertama kalinya?<br><br><img src='/gambar/bilangan/jalan.png'>",
+      "pertanyaan": "Sebuah jalan raya dipasangi tiang lampu setiap 15 meter dan pohon peneduh setiap 25 meter. Jika pada pangkal jalan (titik 0) dipasang tiang lampu dan pohon peneduh secara berdampingan seperti pada gambar, pada meter ke berapakah keduanya akan berdampingan lagi untuk pertama kalinya?<br><br><img src='../mtk/gambar/bilangan/jalan.png'>",
       "pilihan": {
         "A": "40 meter",
         "B": "50 meter",
@@ -236,7 +236,7 @@
     },
     {
       "tipe": "cerita_gambar",
-      "pertanyaan": "Tukang kebun ingin memasang ubin berbentuk persegi berukuran sama besar pada lantai taman berbentuk persegi panjang yang berukuran 48 dm x 36 dm seperti denah berikut. Berapa ukuran ubin persegi terbesar yang dapat menutupi lantai tersebut tanpa harus memotong ubin?<br><br><img src='/gambar/bilangan/kebun.png'>",
+      "pertanyaan": "Tukang kebun ingin memasang ubin berbentuk persegi berukuran sama besar pada lantai taman berbentuk persegi panjang yang berukuran 48 dm x 36 dm seperti denah berikut. Berapa ukuran ubin persegi terbesar yang dapat menutupi lantai tersebut tanpa harus memotong ubin?<br><br><img src='../mtk/gambar/bilangan/kebun.png'>",
       "pilihan": {
         "A": "6 dm x 6 dm",
         "B": "8 dm x 8 dm",
@@ -247,7 +247,7 @@
     },
     {
       "tipe": "cerita_gambar",
-      "pertanyaan": "Rina menata koleksi bukunya. Di rak pertama, ia meletakkan 3/8 dari total bukunya seperti terlihat di gambar. Jika banyak buku di rak pertama adalah 24 buah, berapakah total seluruh buku yang dimiliki Rina?<br><br><img src='/gambar/bilangan/lemari.png'>",
+      "pertanyaan": "Rina menata koleksi bukunya. Di rak pertama, ia meletakkan 3/8 dari total bukunya seperti terlihat di gambar. Jika banyak buku di rak pertama adalah 24 buah, berapakah total seluruh buku yang dimiliki Rina?<br><br><img src='../mtk/gambar/bilangan/lemari.png'>",
       "pilihan": {
         "A": "48",
         "B": "64",
@@ -258,7 +258,7 @@
     },
     {
       "tipe": "cerita_gambar",
-      "pertanyaan": "Toko kue 'Lezat' menampilkan resep kue bolu andalannya yang memerlukan 250 gram tepung terigu untuk membuat 1 loyang kue. Jika ibu ingin membuat 5 loyang kue dan ia sudah memiliki 1 kg tepung terigu di rumah seperti pada gambar, berapa gram lagi tepung terigu yang harus ia beli?<br><br><img src='/gambar/bilangan/dapur.png'>",
+      "pertanyaan": "Toko kue 'Lezat' menampilkan resep kue bolu andalannya yang memerlukan 250 gram tepung terigu untuk membuat 1 loyang kue. Jika ibu ingin membuat 5 loyang kue dan ia sudah memiliki 1 kg tepung terigu di rumah seperti pada gambar, berapa gram lagi tepung terigu yang harus ia beli?<br><br><img src='../mtk/gambar/bilangan/dapur.png'>",
       "pilihan": {
         "A": "150 gram",
         "B": "250 gram",
@@ -269,7 +269,7 @@
     },
     {
       "tipe": "cerita_gambar",
-      "pertanyaan": "Sebuah kereta wisata memiliki gerbong yang ditandai dengan nomor berpola tertentu. Gerbong pertama bernomor 2, gerbong kedua 5, ketiga 10, keempat 17. Berapakah nomor yang harus dicat pada badan gerbong keenam?<br><br><img src='/gambar/bilangan/kereta.png'>",
+      "pertanyaan": "Sebuah kereta wisata memiliki gerbong yang ditandai dengan nomor berpola tertentu. Gerbong pertama bernomor 2, gerbong kedua 5, ketiga 10, keempat 17. Berapakah nomor yang harus dicat pada badan gerbong keenam?<br><br><img src='../mtk/gambar/bilangan/kereta.png'>",
       "pilihan": {
         "A": "26",
         "B": "31",

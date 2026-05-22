@@ -1,0 +1,337 @@
+{
+  "nama_paket": "Statistika Data dan Pengukuran",
+  "mata_pelajaran": "Matematika",
+  "bagian_materi": "Statistika",
+  "soal": [
+    {
+      "tipe": "soal_cerita",
+      "pertanyaan": "Nilai rata-rata ulangan matematika dari 15 siswa adalah 75. Setelah nilai Budi dan Andi dimasukkan, rata-rata kelas tersebut naik menjadi 77. Jika nilai Budi adalah 95, berapakah nilai yang diperoleh Andi?",
+      "pilihan": {
+        "A": "85",
+        "B": "89",
+        "C": "92",
+        "D": "95"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "tipe": "soal_cerita",
+      "pertanyaan": "Nilai ulangan sekelompok siswa adalah: 7, 8, 8, 9, 7, 6, 10, 9, dan $x$. Jika median (nilai tengah) dari data tersebut adalah 8 dan rata-ratanya juga bernilai 8, berapakah nilai dari $x$?",
+      "pilihan": {
+        "A": "7",
+        "B": "8",
+        "C": "9",
+        "D": "10"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "tipe": "soal_cerita",
+      "pertanyaan": "Sebuah kolam renang memiliki volume 12.000 liter. Dua buah keran secara bersamaan mengisi kolam tersebut dengan debit masing-masing 15 liter/menit dan 25 liter/menit. Namun, bagian bawah kolam ternyata bocor dan membuang air dengan debit 10 liter/menit. Berapa lama waktu yang dibutuhkan hingga kolam tersebut terisi penuh?",
+      "pilihan": {
+        "A": "5 jam 20 menit",
+        "B": "6 jam 15 menit",
+        "C": "6 jam 40 menit",
+        "D": "8 jam"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "tipe": "soal_cerita",
+      "pertanyaan": "Andi mengendarai mobil dari Kota A ke Kota B dengan kecepatan rata-rata 40 km/jam. Saat kembali dari Kota B ke Kota A melewati rute yang sama persis, jalanan sepi sehingga ia melaju dengan kecepatan rata-rata 60 km/jam. Berapakah kecepatan rata-rata mobil Andi untuk seluruh perjalanan bolak-balik tersebut?",
+      "pilihan": {
+        "A": "48 km/jam",
+        "B": "50 km/jam",
+        "C": "52 km/jam",
+        "D": "100 km/jam"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "tipe": "soal_cerita",
+      "pertanyaan": "Dalam suatu kelas, 40% dari total siswanya adalah perempuan. Rata-rata nilai ujian siswa perempuan adalah 80, sedangkan rata-rata nilai ujian siswa laki-laki adalah 75. Berapakah rata-rata nilai ujian seluruh siswa di kelas tersebut?",
+      "pilihan": {
+        "A": "77",
+        "B": "77,5",
+        "C": "78",
+        "D": "78,5"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "tipe": "soal_cerita",
+      "pertanyaan": "Sebuah jam dinding analog mengalami kerusakan sehingga ia selalu terlambat (mundur) persis 3 menit setiap lewat 24 jam. Jika jam tersebut dicocokkan dengan waktu yang benar pada hari Senin pukul 06.00 pagi, waktu manakah yang akan ditunjukkan oleh jam rusak tersebut pada hari Kamis pukul 06.00 pagi di minggu yang sama?",
+      "pilihan": {
+        "A": "Pukul 05.51",
+        "B": "Pukul 05.57",
+        "C": "Pukul 06.09",
+        "D": "Pukul 06.12"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "tipe": "soal_cerita",
+      "pertanyaan": "Budi telah mengikuti 4 kali ujian IPA dengan nilai rata-rata 82. Masih ada 1 kali ujian lagi yang harus ia ikuti semester ini. Berapakah nilai minimal yang harus didapatkan Budi pada ujian ke-5 agar rata-rata seluruh nilai ujiannya menjadi 85?",
+      "pilihan": {
+        "A": "90",
+        "B": "95",
+        "C": "97",
+        "D": "100"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "tipe": "soal_cerita",
+      "pertanyaan": "Jarak antara Kota P dan Kota Q pada sebuah peta adalah 8 cm. Skala yang tertulis pada peta tersebut adalah 1 : 2.500.000. Jika ayah mengendarai sepeda motor dari Kota P ke Kota Q dengan kecepatan stabil 50 km/jam, berapakah waktu tempuh yang dibutuhkan ayah?",
+      "pilihan": {
+        "A": "2 jam",
+        "B": "3 jam",
+        "C": "4 jam",
+        "D": "5 jam"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "tipe": "soal_cerita",
+      "pertanyaan": "Sebuah truk logistik membawa muatan berupa 3 ton beras, 15 kuintal jagung, dan 500 kg kacang kedelai. Jika berat truk tersebut dalam keadaan kosong adalah 2.500 kg, berapakah berat total truk beserta seluruh muatannya jika ditimbang di jembatan timbang?",
+      "pilihan": {
+        "A": "6.000 kg",
+        "B": "7.000 kg",
+        "C": "7.500 kg",
+        "D": "8.000 kg"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "tipe": "soal_cerita",
+      "pertanyaan": "Diketahui umur dari 5 orang anak kandung memiliki rata-rata 12 tahun. Anak paling bungsu berusia 9 tahun, sedangkan yang tertua berusia 15 tahun. Jika data umur kelima anak tersebut hanya memiliki satu buah modus (nilai yang paling sering muncul) yaitu 11 tahun, berapakah usia dari anak yang berada tepat di tengah (median)?",
+      "pilihan": {
+        "A": "10 tahun",
+        "B": "11 tahun",
+        "C": "12 tahun",
+        "D": "14 tahun"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "tipe": "soal_gambar",
+      "pertanyaan": "Diagram batang berikut menampilkan hasil panen padi Desa Sukamaju selama 5 tahun berturut-turut. Pada tahun berapakah persentase penurunan hasil panen paling besar terjadi jika dibandingkan tahun sebelumnya?<br><br><img src='../mtk/gambar/statistika/diagram_panen.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px;'><br><i>[Prompt AI: A clean 2D vector flat bar chart. X-axis years: 2019, 2020, 2021, 2022, 2023. Y-axis values 0 to 70. Bars heights: 2019 is at 40, 2020 is at 30, 2021 is at 50, 2022 is at 45, 2023 is at 60. White background, simple text.]</i>",
+      "pilihan": {
+        "A": "2020",
+        "B": "2021",
+        "C": "2022",
+        "D": "2023"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "tipe": "soal_gambar",
+      "pertanyaan": "Diagram lingkaran berikut menunjukkan kegiatan ekstrakurikuler pilihan 200 orang siswa. Sudut pusat area 'Membaca' adalah $90^\\circ$, 'Olahraga' $135^\\circ$, dan 'Lainnya' $45^\\circ$. Berapa banyak siswa yang memilih ekstrakurikuler 'Kesenian'?<br><br><img src='../mtk/gambar/statistika/diagram_ekskul.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px;'><br><i>[Prompt AI: A flat 2D vector pie chart divided into 4 slices. Slice 1 (Membaca) is a 90-degree right angle. Slice 2 (Olahraga) is 135 degrees. Slice 3 (Lainnya) is 45 degrees. The remaining slice is labeled 'Kesenian' but the degree is hidden. White background.]</i>",
+      "pilihan": {
+        "A": "25 Siswa",
+        "B": "50 Siswa",
+        "C": "65 Siswa",
+        "D": "90 Siswa"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "tipe": "soal_gambar",
+      "pertanyaan": "Grafik garis di bawah ini mencatat fluktuasi suhu badan seorang pasien di rumah sakit dari pukul 06.00 hingga 12.00 siang. Berapakah selisih (jangkauan/range) antara suhu badan tertinggi dan suhu terendah pasien tersebut?<br><br><img src='../mtk/gambar/statistika/grafik_suhu.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px;'><br><i>[Prompt AI: A line graph tracking temperature. X-axis shows times from 06:00 to 12:00. Y-axis shows degrees from 36 to 41. Points on the line: 06:00(37), 07:00(38), 08:00(39), 09:00(39), 10:00(40), 11:00(38), 12:00(37). White background.]</i>",
+      "pilihan": {
+        "A": "2°C",
+        "B": "3°C",
+        "C": "4°C",
+        "D": "5°C"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "tipe": "soal_gambar",
+      "pertanyaan": "Piktogram berikut merepresentasikan jumlah panen jeruk di tiga desa. Simbol satu keranjang besar setara dengan 100 kg, dan satu keranjang kecil setara dengan 50 kg. Berapakah selisih hasil panen antara Desa A dan Desa C?<br><br><img src='../mtk/gambar/statistika/piktogram_jeruk.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px;'><br><i>[Prompt AI: A pictogram table. Row 'Desa A' has 3 large baskets and 1 small basket. Row 'Desa B' has 2 large baskets and 2 small baskets. Row 'Desa C' has 4 large baskets. Clean vector illustration, white background.]</i>",
+      "pilihan": {
+        "A": "50 kg",
+        "B": "100 kg",
+        "C": "150 kg",
+        "D": "350 kg"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "tipe": "soal_gambar",
+      "pertanyaan": "Timbangan Ohaus (lengan) berikut berada dalam kondisi seimbang. Di piringan kiri terdapat balok X dan sebuah anak timbangan 500 gram. Di piringan kanan terdapat anak timbangan 2 kg dan 100 gram. Berapakah massa balok X?<br><br><img src='../mtk/gambar/statistika/timbangan_ohaus.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px;'><br><i>[Prompt AI: A flat vector illustration of a balance scale in perfect equilibrium. Left pan: a mystery box labeled 'X' and a small weight marked '500g'. Right pan: a large weight marked '2kg' and a small weight marked '100g'. White background.]</i>",
+      "pilihan": {
+        "A": "1,4 kg",
+        "B": "1,6 kg",
+        "C": "2,1 kg",
+        "D": "2,6 kg"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "tipe": "soal_gambar",
+      "pertanyaan": "Perhatikan hasil pengukuran ketebalan pelat baja menggunakan alat ukur Jangka Sorong berikut. Angka yang tepat untuk hasil pengukuran tersebut adalah...<br><br><img src='../mtk/gambar/statistika/jangka_sorong.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px;'><br><i>[Prompt AI: A zoomed-in vector illustration of a Vernier caliper scale. The top main scale has the '0' of the bottom vernier scale resting exactly just after the 3.1 cm mark. The 4th notch on the bottom vernier scale perfectly aligns with a notch on the top scale. White background.]</i>",
+      "pilihan": {
+        "A": "3,10 cm",
+        "B": "3,14 cm",
+        "C": "3,40 cm",
+        "D": "3,41 cm"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "tipe": "soal_gambar",
+      "pertanyaan": "Diagram batang ganda berikut membandingkan rata-rata nilai matematika siswa laki-laki (biru) dan perempuan (merah) di empat kelas. Pada kelas manakah rata-rata nilai siswa perempuan justru lebih rendah daripada laki-laki?<br><br><img src='../mtk/gambar/statistika/diagram_ganda.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px;'><br><i>[Prompt AI: A flat vector grouped bar chart with X-axis showing Kelas A, B, C, D. For A, red bar is higher than blue. For B, red bar is higher than blue. For C, blue bar is significantly higher than red. For D, both bars are equal. Blue is Laki-laki, Red is Perempuan. White background.]</i>",
+      "pilihan": {
+        "A": "Kelas A",
+        "B": "Kelas B",
+        "C": "Kelas C",
+        "D": "Kelas D"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "tipe": "soal_gambar",
+      "pertanyaan": "Sebuah gelas ukur awalnya berisi air murni hingga menunjuk skala 150 ml. Setelah sebuah batu tak beraturan dimasukkan seluruhnya ke dasar gelas, permukaan air naik seperti pada gambar. Berapakah volume batu tersebut?<br><br><img src='../mtk/gambar/statistika/batu_volume.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px;'><br><i>[Prompt AI: A flat vector illustration of a graduated cylinder. A grey stone is completely submerged at the bottom in blue water. The water level is exactly hitting the 225 ml mark on the side scale. White background.]</i>",
+      "pilihan": {
+        "A": "75 ml",
+        "B": "150 ml",
+        "C": "225 ml",
+        "D": "375 ml"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "tipe": "soal_gambar",
+      "pertanyaan": "Berapakah besar sudut $\\angle PQR$ yang diukur menggunakan alat busur derajat pada gambar di bawah ini?<br><br><img src='../mtk/gambar/statistika/busur_derajat.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px;'><br><i>[Prompt AI: A 2D vector illustration of a transparent protractor measuring an angle. One ray of the angle passes through the 45-degree mark, and the other ray passes through the 135-degree mark on the same scale. The angle forms exactly 90 degrees in reality. White background.]</i>",
+      "pilihan": {
+        "A": "45°",
+        "B": "90°",
+        "C": "135°",
+        "D": "180°"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "tipe": "soal_gambar",
+      "pertanyaan": "Gambar jam dinding analog menunjukkan persis pukul 04.30. Berapakah besar sudut terkecil yang terbentuk antara jarum penunjuk jam dan jarum penunjuk menit?<br><br><img src='../mtk/gambar/statistika/jam_sudut_analog.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px;'><br><i>[Prompt AI: A flat vector graphic of a classic analog wall clock. The short hour hand is exactly halfway between the 4 and the 5. The long minute hand is pointing exactly at the 6. Clean white background.]</i>",
+      "pilihan": {
+        "A": "30°",
+        "B": "45°",
+        "C": "60°",
+        "D": "90°"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "tipe": "cerita_gambar",
+      "pertanyaan": "Budi mendata berat badan teman-teman sekelasnya dalam tabel berikut. Namun, data jumlah siswa untuk berat 40 kg tidak sengaja tertumpah noda tinta hitam tebal. Jika Budi ingat bahwa rata-rata berat seluruh siswa di tabel tersebut adalah persis 39 kg, berapakah jumlah siswa yang memiliki berat badan 40 kg yang tertutup tinta tersebut?<br><br><img src='../mtk/gambar/statistika/tabel_tinta.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px;'><br><i>[Prompt AI: A simple data table with two columns: 'Berat Badan' and 'Jumlah Siswa'. Row 1: 35 kg | 4. Row 2: 38 kg | 6. Row 3: 40 kg | [Covered by a large black ink splat]. Row 4: 42 kg | 5. Flat vector style, white background.]</i>",
+      "pilihan": {
+        "A": "5 Siswa",
+        "B": "6 Siswa",
+        "C": "7 Siswa",
+        "D": "8 Siswa"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "tipe": "cerita_gambar",
+      "pertanyaan": "Sebuah denah rumah digambar dengan skala 1 : 200. Ruang tamu pada denah tersebut tergambar seperti bidang persegi panjang bergaris biru pada gambar, dengan ukuran 3 cm x 4 cm. Berapakah luas ruang tamu yang sebenarnya di lapangan?<br><br><img src='../mtk/gambar/statistika/denah_skala.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px;'><br><i>[Prompt AI: A 2D flat architectural blueprint vector. Focus on one room outlined in blue, with clear dimension lines indicating it is 4 cm long and 3 cm wide on the paper. A small text 'Scale 1:200' is at the corner. White background.]</i>",
+      "pilihan": {
+        "A": "12 m²",
+        "B": "24 m²",
+        "C": "48 m²",
+        "D": "60 m²"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "tipe": "cerita_gambar",
+      "pertanyaan": "Diagram lingkaran berikut menunjukkan hasil rekapitulasi penjualan buah di Toko Makmur dengan total keseluruhan mencapai 400 kg. Jika bagian untuk penjualan buah Jeruk dan Anggur memiliki persentase yang sama besar, berapakah banyak penjualan buah Anggur dalam satuan kilogram?<br><br><img src='../mtk/gambar/statistika/diagram_buah.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px;'><br><i>[Prompt AI: A 2D flat pie chart diagram. The slices are labeled: Apel (25%), Mangga (30%), Pisang (20%), and two identical blank slices sharing the remaining space, labeled Jeruk and Anggur without percentage numbers. White background.]</i>",
+      "pilihan": {
+        "A": "25 kg",
+        "B": "40 kg",
+        "C": "50 kg",
+        "D": "100 kg"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "tipe": "cerita_gambar",
+      "pertanyaan": "Andi mengikuti rute jalan setapak seperti yang terlihat pada peta berskala 1 : 10.000. Dari titik A ia berjalan lurus ke arah timur ke titik B sejauh 5 cm di peta, lalu berbelok lurus $90^\\circ$ ke arah utara menuju titik C sejauh 12 cm. Berapakah jarak lurus terpendek sebenarnya dari titik A memotong langsung ke titik C?<br><br><img src='../mtk/gambar/statistika/rute_phytagoras.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px;'><br><i>[Prompt AI: A minimalist 2D vector map route. A solid black line goes right from A to B (labeled 5cm), then forms a 90-degree right angle going up from B to C (labeled 12cm). A dashed red line connects A directly to C. Scale 1:10.000 is written below. White background.]</i>",
+      "pilihan": {
+        "A": "1,3 km",
+        "B": "1,7 km",
+        "C": "13 km",
+        "D": "17 km"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "tipe": "cerita_gambar",
+      "pertanyaan": "Grafik berikut menampilkan data curah hujan sebuah kota selama 6 bulan pertama di awal tahun. Berdasarkan grafik, berapakah nilai rata-rata curah hujan bulanan di kota tersebut selama periode 6 bulan itu?<br><br><img src='../mtk/gambar/statistika/grafik_hujan.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px;'><br><i>[Prompt AI: A vector line chart tracking rainfall. X-axis shows months 1 through 6. Y-axis is in mm. Points are: M1(40), M2(50), M3(60), M4(40), M5(30), M6(20). Clean lines, white background.]</i>",
+      "pilihan": {
+        "A": "30 mm",
+        "B": "40 mm",
+        "C": "45 mm",
+        "D": "50 mm"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "tipe": "teks_murni",
+      "pertanyaan": "Rata-rata dari 3 buah bilangan acak adalah 15. Jika bilangan pertama ditambahkan dengan angka 2, bilangan kedua ditambahkan dengan angka 3, dan bilangan ketiga ditambahkan dengan angka 4, berapakah nilai rata-rata yang baru dari ketiga bilangan tersebut?",
+      "pilihan": {
+        "A": "15",
+        "B": "18",
+        "C": "24",
+        "D": "54"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "tipe": "teks_murni",
+      "pertanyaan": "Dalam sebuah rapot, nilai 10 mata pelajaran Toni adalah: 7, 8, $x$, 9, 6, 8, 9, 8, 10, dan $y$. Diketahui nilai Modus (nilai paling sering muncul) dari data tersebut adalah 8, dan Rata-rata dari seluruh nilai tersebut juga 8. Kombinasi manakah yang paling mungkin untuk nilai $x$ dan $y$ milik Toni?",
+      "pilihan": {
+        "A": "$x = 6$ dan $y = 9$",
+        "B": "$x = 8$ dan $y = 8$",
+        "C": "$x = 7$ dan $y = 8$",
+        "D": "$x = 5$ dan $y = 10$"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "tipe": "teks_murni",
+      "pertanyaan": "Mobil ayah melaju dengan kecepatan konstan 36 km/jam, sedangkan sepeda balap milik paman melaju kencang dengan kecepatan 15 meter/detik. Berapakah rasio (perbandingan) paling sederhana antara kecepatan mobil ayah berbanding kecepatan sepeda balap paman?",
+      "pilihan": {
+        "A": "2 : 3",
+        "B": "3 : 2",
+        "C": "12 : 5",
+        "D": "36 : 15"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "tipe": "teks_murni",
+      "pertanyaan": "Selisih waktu antara zona Waktu Indonesia Tengah (WITA) dan Waktu Indonesia Barat (WIB) adalah 1 jam lebih cepat (WITA lebih dahulu). Jika Pak Budi menerbangkan pesawat dari Jakarta (WIB) pada pukul 08.00 pagi dengan lama penerbangan tepat 1,5 jam menuju Denpasar (WITA). Pada pukul berapakah ia akan tiba di Denpasar menurut waktu lokal?",
+      "pilihan": {
+        "A": "Pukul 08.30 WITA",
+        "B": "Pukul 09.30 WITA",
+        "C": "Pukul 10.30 WITA",
+        "D": "Pukul 11.30 WITA"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "tipe": "teks_murni",
+      "pertanyaan": "Sebuah keran hidran mengalirkan air dengan sangat deras yang diukur sebesar $120\\text{ cm}^3/\\text{detik}$. Berapakah total volume air dalam satuan liter yang dialirkan oleh keran tersebut jika dibiarkan menyala terus-menerus selama setengah jam?",
+      "pilihan": {
+        "A": "3,6 liter",
+        "B": "21,6 liter",
+        "C": "216 liter",
+        "D": "3.600 liter"
+      },
+      "kunci_jawaban": "C"
+    }
+  ]
+}

@@ -1,0 +1,337 @@
+{
+  "nama_paket": "Kombinatorik dan Pola Bilangan",
+  "mata_pelajaran": "Matematika",
+  "bagian_materi": "Kombinatorik",
+  "soal": [
+    {
+      "tipe": "soal_cerita",
+      "pertanyaan": "Dalam sebuah rapat panitia kelas yang dihadiri oleh 8 orang siswa, mereka saling berjabat tangan satu sama lain tepat satu kali sebelum rapat dimulai. Berapa banyak total jabat tangan yang terjadi dalam ruangan tersebut?",
+      "pilihan": {
+        "A": "16",
+        "B": "28",
+        "C": "56",
+        "D": "64"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "tipe": "soal_cerita",
+      "pertanyaan": "Sebuah brankas memiliki kode PIN yang terdiri dari 3 angka berbeda. Jika angka yang tersedia hanya 1, 2, 3, 4, dan 5, ada berapa banyak kemungkinan susunan kode PIN yang dapat dibuat?",
+      "pilihan": {
+        "A": "15",
+        "B": "60",
+        "C": "120",
+        "D": "125"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "tipe": "soal_cerita",
+      "pertanyaan": "Andi memiliki 4 buku matematika, 3 buku IPA, dan 2 buku IPS. Ia ingin menyusun buku-buku tersebut di rak. Jika buku-buku dengan mata pelajaran yang sama harus selalu diletakkan berdampingan, berapa banyak cara Andi menyusun buku-buku tersebut?",
+      "pilihan": {
+        "A": "24",
+        "B": "288",
+        "C": "1.728",
+        "D": "362.880"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "tipe": "soal_cerita",
+      "pertanyaan": "Di dalam sebuah laci yang gelap, terdapat 10 kaos kaki hitam, 8 kaos kaki putih, dan 6 kaos kaki biru. Andi ingin mengambil kaos kaki secara acak tanpa melihat. Berapa jumlah minimal kaos kaki yang harus diambil Andi agar ia pasti mendapatkan setidaknya sepasang kaos kaki dengan warna yang sama?",
+      "pilihan": {
+        "A": "3",
+        "B": "4",
+        "C": "11",
+        "D": "19"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "tipe": "soal_cerita",
+      "pertanyaan": "Berapa banyak bilangan bulat positif dua angka yang jumlah kedua angkanya sama dengan 8? (Contoh: 26, karena 2 + 6 = 8)",
+      "pilihan": {
+        "A": "7",
+        "B": "8",
+        "C": "9",
+        "D": "10"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "tipe": "soal_cerita",
+      "pertanyaan": "Terdapat 5 orang finalis lomba cerdas cermat: A, B, C, D, dan E. Akan dipilih 3 orang untuk menjadi juara I, juara II, dan juara III. Jika A dipastikan selalu menjadi juara I, berapa banyak kemungkinan susunan juara yang bisa terjadi?",
+      "pilihan": {
+        "A": "10",
+        "B": "12",
+        "C": "16",
+        "D": "24"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "tipe": "soal_cerita",
+      "pertanyaan": "Dari kota P ke kota Q terdapat 4 jalur jalan berbeda, sedangkan dari kota Q ke kota R terdapat 3 jalur jalan berbeda. Berapa banyak pilihan rute yang dapat dilalui dari kota P menuju kota R lalu kembali lagi ke kota P tanpa melewati jalan yang sama dua kali?",
+      "pilihan": {
+        "A": "12",
+        "B": "24",
+        "C": "72",
+        "D": "144"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "tipe": "soal_cerita",
+      "pertanyaan": "Sebuah buku novel dinomori dari halaman 1 hingga 120. Berapa kalikah digit angka '5' dicetak pada buku tersebut?",
+      "pilihan": {
+        "A": "12",
+        "B": "20",
+        "C": "22",
+        "D": "24"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "tipe": "soal_cerita",
+      "pertanyaan": "Ada 5 koin nominal Rp 1.000,00 dan 4 koin nominal Rp 500,00. Berapa banyak cara kamu dapat membentuk nilai uang sebesar Rp 3.000,00 menggunakan koin-koin tersebut? (Koin dengan nominal sama dianggap identik)",
+      "pilihan": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "tipe": "soal_cerita",
+      "pertanyaan": "Pada sebuah turnamen catur setengah kompetisi (setiap peserta bertemu tepat satu kali dengan peserta lainnya), total pertandingan yang dimainkan adalah 45 pertandingan. Berapakah jumlah peserta dalam turnamen tersebut?",
+      "pilihan": {
+        "A": "9",
+        "B": "10",
+        "C": "11",
+        "D": "12"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "tipe": "soal_gambar",
+      "pertanyaan": "Perhatikan jaring-jaring jalan pada gambar di bawah ini. Seseorang ingin berjalan dari titik A ke titik B dengan syarat hanya boleh melangkah ke kanan atau ke atas. Berapa banyak rute terpendek berbeda yang bisa ia lalui?<br><br><img src='../gambar/kombinatorik/rute_grid.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px;'><br><i>[Prompt AI: A 2D flat vector illustration of a 3x2 grid of squares (3 columns, 2 rows) forming a street map. The bottom-left corner is marked with a green dot 'A' and the top-right corner is marked with a red dot 'B'. Clean lines, white background.]</i>",
+      "pilihan": {
+        "A": "5",
+        "B": "10",
+        "C": "15",
+        "D": "20"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "tipe": "soal_gambar",
+      "pertanyaan": "Ada berapakah total jumlah segitiga dengan berbagai ukuran yang dapat ditemukan pada bangun datar di bawah ini?<br><br><img src='../gambar/kombinatorik/hitung_segitiga.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px;'><br><i>[Prompt AI: A flat vector illustration of a large triangle. From its top vertex, three straight internal lines are drawn down to its base, dividing the large triangle into 4 smaller adjacent triangles. White background, NO TEXT.]</i>",
+      "pilihan": {
+        "A": "4",
+        "B": "8",
+        "C": "10",
+        "D": "12"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "tipe": "soal_gambar",
+      "pertanyaan": "Terdapat sebuah papan catur berukuran 3x3 kotak seperti gambar. Ada berapakah total persegi dari seluruh kemungkinan ukuran (1x1, 2x2, dan 3x3) pada papan tersebut?<br><br><img src='../gambar/kombinatorik/hitung_persegi.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px;'><br><i>[Prompt AI: A flat 2D vector illustration of a 3x3 checkered board grid. The squares alternate in light and dark colors. White background, NO TEXT.]</i>",
+      "pilihan": {
+        "A": "9",
+        "B": "13",
+        "C": "14",
+        "D": "16"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "tipe": "soal_gambar",
+      "pertanyaan": "Pada gambar terdapat 6 buah titik yang tersebar di sepanjang keliling lingkaran. Jika setiap titik harus dihubungkan dengan titik lainnya menggunakan garis lurus, berapa banyak garis (tali busur) maksimal yang dapat dibuat?<br><br><img src='../gambar/kombinatorik/titik_lingkaran.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px;'><br><i>[Prompt AI: A simple vector illustration of a perfect circle outline. Evenly spaced along the circle are 6 solid black dots. No lines connect them yet. White background, NO TEXT.]</i>",
+      "pilihan": {
+        "A": "12",
+        "B": "15",
+        "C": "30",
+        "D": "36"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "tipe": "soal_gambar",
+      "pertanyaan": "Sebuah papan panahan (dart) memiliki tiga area skor seperti pada gambar: 1 poin, 3 poin, dan 5 poin. Jika kamu melempar persis 3 anak panah dan semuanya mengenai papan sasaran, ada berapa banyak kemungkinan TOTAL SKOR BERBEDA yang bisa kamu peroleh?<br><br><img src='../gambar/kombinatorik/panahan_skor.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px;'><br><i>[Prompt AI: A flat vector illustration of an archery dartboard with 3 concentric rings. The center ring has the number 5, the middle ring has 3, and the outer ring has 1. Three darts are lying next to the board. White background.]</i>",
+      "pilihan": {
+        "A": "7",
+        "B": "9",
+        "C": "10",
+        "D": "27"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "tipe": "soal_gambar",
+      "pertanyaan": "Sebuah wilayah terbagi menjadi 4 area berdekatan seperti gambar peta buta di bawah ini. Jika kamu memiliki 3 warna krayon (Merah, Biru, Hijau), ada berapa cara mewarnai peta tersebut dengan syarat area yang saling bersebelahan/berbatasan tidak boleh berwarna sama?<br><br><img src='../gambar/kombinatorik/mewarnai_peta.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px;'><br><i>[Prompt AI: A blank map divided into 4 regions forming a simple geometric pattern: a central circle surrounded by 3 pie-like outer regions. All outer regions touch the center, and touch their neighbors. White background, black outlines, NO TEXT.]</i>",
+      "pilihan": {
+        "A": "6",
+        "B": "12",
+        "C": "18",
+        "D": "24"
+      },
+      "kunci_jawaban": "A"
+    },
+    {
+      "tipe": "soal_gambar",
+      "pertanyaan": "Pola susunan balok es di bawah ini terus berlanjut. Berapa banyak balok es yang dibutuhkan untuk menyusun bentuk pola ke-4?<br><br><img src='../gambar/kombinatorik/pola_balok.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px;'><br><i>[Prompt AI: A vector illustration showing three progressive stacks of ice blocks. Shape 1 is a single block. Shape 2 is a pyramid of 3 blocks (2 on bottom, 1 on top). Shape 3 is a pyramid of 6 blocks (3 on bottom, 2 in middle, 1 on top). Flat minimalist style, NO TEXT.]</i>",
+      "pilihan": {
+        "A": "8",
+        "B": "9",
+        "C": "10",
+        "D": "12"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "tipe": "soal_gambar",
+      "pertanyaan": "Gambar ini adalah jaring-jaring labirin pipa sederhana. Dari titik 'Start', air selalu mengalir ke bawah atau membelah ke cabang di bawahnya. Ada berapa banyak jalur berbeda agar setetes air bisa sampai di ember 'Finish'?<br><br><img src='../gambar/kombinatorik/jalur_pipa.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px;'><br><i>[Prompt AI: A vector diagram resembling a Galton board. 1 node at the top splits into 2 nodes, which split into 3 nodes, which converge back into 1 large bucket at the bottom. Lines show the downward flow. Clean lines, white background, NO TEXT.]</i>",
+      "pilihan": {
+        "A": "3",
+        "B": "4",
+        "C": "6",
+        "D": "8"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "tipe": "soal_gambar",
+      "pertanyaan": "Papan tombol angka (keypad) seperti gambar rusak, sehingga hanya tombol 1, 2, dan 3 yang bisa ditekan. Jika PIN terdiri dari 4 digit angka dan boleh berulang, berapa maksimal kombinasi percobaan PIN yang mungkin terjadi?<br><br><img src='../gambar/kombinatorik/keypad_rusak.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px;'><br><i>[Prompt AI: A flat vector illustration of a standard 3x4 digital keypad. Only the buttons 1, 2, and 3 are brightly lit in blue, while all other numbers (4 to 9 and 0) are broken, cracked, and greyed out. White background.]</i>",
+      "pilihan": {
+        "A": "12",
+        "B": "24",
+        "C": "64",
+        "D": "81"
+      },
+      "kunci_jawaban": "D"
+    },
+    {
+      "tipe": "soal_gambar",
+      "pertanyaan": "Perhatikan susunan warna cincin pada menara mainan ini. Ada 3 cincin identik biru dan 2 cincin identik merah yang akan dimasukkan ke tiang. Berapa banyak pola urutan warna dari bawah ke atas yang berbeda yang dapat dibuat?<br><br><img src='../gambar/kombinatorik/menara_cincin.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px;'><br><i>[Prompt AI: A vector illustration of a child's ring stacker toy. There is a wooden base with a central pole. Scattered next to it are 3 blue rings of the exact same size and 2 red rings of the exact same size. White background, NO TEXT.]</i>",
+      "pilihan": {
+        "A": "5",
+        "B": "10",
+        "C": "12",
+        "D": "120"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "tipe": "cerita_gambar",
+      "pertanyaan": "Lima orang pimpinan perusahaan sedang mengadakan rapat duduk mengelilingi meja bundar seperti pada gambar. Berapa banyak cara kelima pimpinan tersebut mengatur posisi tempat duduk mereka?<br><br><img src='../gambar/kombinatorik/meja_bundar.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px;'><br><i>[Prompt AI: A 2D flat top-down vector view of a round wooden table. Five empty office chairs are evenly spaced around the edge of the table. White background, NO TEXT.]</i>",
+      "pilihan": {
+        "A": "12",
+        "B": "24",
+        "C": "60",
+        "D": "120"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "tipe": "cerita_gambar",
+      "pertanyaan": "Ibu membelikan Rina 3 helai kaos (merah, kuning, hijau) dan 2 helai celana (hitam, putih) seperti diilustrasikan. Rina ingin memakai pasangan kaos dan celana yang berbeda setiap harinya. Berapa banyak hari maksimal Rina bisa tampil dengan kombinasi setelan yang berbeda?<br><br><img src='../gambar/kombinatorik/setelan_baju.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px;'><br><i>[Prompt AI: A flat vector illustration showing a wardrobe layout. On the top row, there are 3 t-shirts colored red, yellow, and green. On the bottom row, there are 2 pairs of shorts colored black and white. Clean flat design, white background.]</i>",
+      "pilihan": {
+        "A": "5",
+        "B": "6",
+        "C": "8",
+        "D": "9"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "tipe": "cerita_gambar",
+      "pertanyaan": "Seekor semut berjalan di atas rusuk-rusuk sebuah kubus kawat dari titik A (pojok kiri bawah) menuju titik B (pojok kanan atas silang) seperti gambar. Semut selalu merayap ke arah kanan, atas, atau belakang. Berapa banyak rute terpendek yang bisa dilalui semut tersebut?<br><br><img src='../gambar/kombinatorik/semut_kubus.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px;'><br><i>[Prompt AI: A 3D isometric vector wireframe of a cube. The bottom-front-left corner has a green dot labeled 'A'. The top-back-right corner has a red dot labeled 'B'. Minimalist style, white background.]</i>",
+      "pilihan": {
+        "A": "3",
+        "B": "6",
+        "C": "9",
+        "D": "12"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "tipe": "cerita_gambar",
+      "pertanyaan": "Dalam sebuah kotak kaca terdapat 3 bola merah dan 2 bola biru seperti pada gambar. Jika Andi menutup mata dan mengambil 2 bola sekaligus, berapa banyak kombinasi berbeda untuk mendapatkan tepat 1 bola merah dan 1 bola biru?<br><br><img src='../gambar/kombinatorik/bola_kotak.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px;'><br><i>[Prompt AI: A 2D flat vector illustration of a transparent glass square box. Inside the box, there are 3 solid red balls and 2 solid blue balls resting at the bottom. Clean lines, white background, NO TEXT.]</i>",
+      "pilihan": {
+        "A": "5",
+        "B": "6",
+        "C": "10",
+        "D": "12"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "tipe": "cerita_gambar",
+      "pertanyaan": "Terdapat sebuah lantai ruangan berukuran 2x3 meter persegi. Lantai tersebut akan ditutupi sepenuhnya menggunakan ubin berbentuk persegi panjang berukuran 1x2 meter (seperti gambar domino). Berapa banyak pola susunan ubin berbeda yang dapat dibentuk?<br><br><img src='../gambar/kombinatorik/ubin_domino.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px;'><br><i>[Prompt AI: A flat vector illustration showing an empty 2x3 rectangular grid outlined in black. Next to it is a single 1x2 rectangular tile (domino shape) colored in blue. White background, NO TEXT.]</i>",
+      "pilihan": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5"
+      },
+      "kunci_jawaban": "B"
+    },
+    {
+      "tipe": "teks_murni",
+      "pertanyaan": "Ada berapa banyak cara mengacak susunan huruf-huruf pada kata \"BOLA\" sehingga terbentuk kata baru (memiliki makna atau tidak)?",
+      "pilihan": {
+        "A": "12",
+        "B": "16",
+        "C": "24",
+        "D": "256"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "tipe": "teks_murni",
+      "pertanyaan": "Diketahui bilangan bulat positif 36. Berapa banyak faktor pembagi positif yang dimiliki oleh bilangan 36 tersebut?",
+      "pilihan": {
+        "A": "6",
+        "B": "8",
+        "C": "9",
+        "D": "12"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "tipe": "teks_murni",
+      "pertanyaan": "Ada berapakah total himpunan bagian (subset) yang dapat dibentuk dari sebuah himpunan $A = \\{p, q, r\\}$ ?",
+      "pilihan": {
+        "A": "3",
+        "B": "6",
+        "C": "8",
+        "D": "9"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "tipe": "teks_murni",
+      "pertanyaan": "Perhatikan pola deret bilangan segitiga berikut: 1, 3, 6, 10, 15, ...<br>Berapakah angka yang menempati suku ke-10 pada deret tersebut?",
+      "pilihan": {
+        "A": "45",
+        "B": "50",
+        "C": "55",
+        "D": "60"
+      },
+      "kunci_jawaban": "C"
+    },
+    {
+      "tipe": "teks_murni",
+      "pertanyaan": "Berapa banyak hasil perkalian dua bilangan cacah berbeda yang bernilai tepat 100? (Perkalian bolak-balik seperti $a \\times b$ dan $b \\times a$ dianggap satu cara yang sama).",
+      "pilihan": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "9"
+      },
+      "kunci_jawaban": "B"
+    }
+  ]
+}

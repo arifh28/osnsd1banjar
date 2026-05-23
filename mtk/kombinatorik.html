@@ -3,15 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Geometri - Soal Matematika OSN</title>
+    <title>Kombinatorik - Soal Matematika</title>
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700;900&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-    
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     
     <style>
         body {
@@ -48,7 +45,7 @@
 
         .progress-text { 
             font-weight: 900; 
-            color: #0ea5e9; /* Biru terang khas geometri ruang */
+            color: #ef4444; /* Warna merah identik matematika */
             font-size: 1.2rem; 
             letter-spacing: 1px;
             margin: 0;
@@ -97,7 +94,7 @@
         .btn-opt:hover {
             background: #334155;
             transform: translateY(-5px);
-            border-color: #0ea5e9;
+            border-color: #ef4444;
         }
 
         .btn-opt:active { transform: scale(0.95); }
@@ -120,21 +117,21 @@
         .locked { pointer-events: none; }
 
         .btn-next {
-            background: #0ea5e9;
+            background: #ef4444;
             color: white;
             border: none;
             padding: 15px 30px;
             font-size: 1.2rem;
             border-radius: 50px;
-            box-shadow: 0 5px 0 #0284c7;
+            box-shadow: 0 5px 0 #b91c1c;
             margin-top: 30px;
             transition: 0.2s;
         }
-        .btn-next:active { transform: translateY(5px); box-shadow: 0 0 0 #0284c7; }
+        .btn-next:active { transform: translateY(5px); box-shadow: 0 0 0 #b91c1c; }
 
         @media (max-width: 768px) {
             .options-grid { grid-template-columns: 1fr; } 
-            .question-text { font-size: 1.2rem; min-height: 80px;}
+            .question-text { font-size: 1.4rem; min-height: 80px;}
             .header-area { flex-direction: column; gap: 10px; }
         }
     </style>
@@ -161,7 +158,7 @@
             <h5 class="progress-text" id="progress">MEMUAT...</h5>
             <span class="warning-badge d-none" id="warning-count"><i class="fas fa-exclamation-triangle"></i> Peringatan: 0/3</span>
         </div>
-        <div class="question-text" id="question">Menyiapkan soal spasial untuk Anda...</div>
+        <div class="question-text" id="question">Menyiapkan soal untuk Anda...</div>
         <div class="options-grid" id="options"></div>
         <button id="btn-selanjutnya" class="btn-next w-100 fw-bold d-none" onclick="nextQuestion()">LANJUT KE SOAL BERIKUTNYA <i class="fas fa-arrow-right ms-2"></i></button>
     </div>
@@ -172,7 +169,7 @@
         const supabaseClient = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
         const namaPeserta = localStorage.getItem('namaPeserta');
-        const materiName = 'Geometri';
+        const materiName = 'Kombinatorik';
         const storageKey = `sesiUjian_${namaPeserta}_${materiName.replace(/\s+/g, '')}`;
         
         let bankSoal = [];
@@ -200,9 +197,9 @@
                 } else {
                     Swal.fire({
                         title: 'Peringatan Sistem!',
-                        text: `Tolong jangan berpindah aplikasi/tab! Peringatan ke-${cheatCount} dari maksimal 3 kali.`,
+                        text: `Tolong jangan berpindah aplikasi/tab! Peringatan ke-${cheatCount} dari maksimal 3 kali. Jika mencapai 3, ujian otomatis ditutup.`,
                         icon: 'warning',
-                        confirmButtonColor: '#0ea5e9'
+                        confirmButtonColor: '#ef4444'
                     });
                 }
             }
@@ -239,7 +236,7 @@
                 isUjianSelesai = true;
                 Swal.fire({
                     title: 'Akses Ditolak',
-                    text: 'Anda sudah menyelesaikan materi ini. Mintalah Bapak/Ibu pembimbing untuk me-reset.',
+                    text: 'Anda sudah menyelesaikan materi ini. Mintalah Bapak/Ibu pembimbing untuk me-reset jika ingin mencoba lagi.',
                     icon: 'error',
                     allowOutsideClick: false
                 }).then(() => {
@@ -270,7 +267,7 @@
 
         async function loadFreshQuiz() {
             try {
-                const res = await fetch('geometri.json');
+                const res = await fetch('kombinatorik.json');
                 if (!res.ok) throw new Error("Gagal mengambil file JSON");
                 
                 const data = await res.json();
@@ -294,6 +291,7 @@
             const q = bankSoal[currentIdx];
             document.getElementById('progress').innerText = `SOAL ${currentIdx + 1} / ${bankSoal.length}`;
             
+            // Penggunaan innerHTML untuk me-render Tag Gambar atau LaTeX jika diperlukan.
             document.getElementById('question').innerHTML = q.pertanyaan;
             
             const optArea = document.getElementById('options');
@@ -309,7 +307,6 @@
                 optArea.appendChild(btn);
             });
 
-            // Perintah untuk memproses ulang (render) kode LaTeX matematika yang baru disisipkan
             setTimeout(() => {
                 if(window.MathJax) {
                     MathJax.typesetPromise();
@@ -324,7 +321,7 @@
             if(choice === correctAnswer) {
                 btnElement.classList.add('correct');
                 document.getElementById('sound-benar').play().catch(()=>{});
-                // Skala bobot persis pembulatan otomatis untuk 30 soal menjadi 100
+                // Skor bobot khusus untuk 30 soal (30 * 3.33333333 = ~100)
                 score += 3.33333333; 
             } else {
                 btnElement.classList.add('wrong');
@@ -355,13 +352,13 @@
         async function finishQuiz() {
             isUjianSelesai = true; 
             document.getElementById('quiz-box').innerHTML = `
-                <i class="fas fa-spinner fa-spin fa-4x text-info mb-3"></i>
+                <i class="fas fa-spinner fa-spin fa-4x text-danger mb-3"></i>
                 <h2 class="fw-bold">Menyimpan Skor ke Database...</h2>
             `;
             
             localStorage.removeItem(storageKey);
             
-            // Pembulatan angka agar nilai di database bersih (misal 99.9999 -> 100)
+            // Membulatkan skor agar desimal rapi (Contoh: 99.99999 -> 100)
             let finalScore = Math.round(score);
 
             const { error } = await supabaseClient.from('peserta_ujian').insert([{
@@ -371,14 +368,14 @@
                 skor: finalScore
             }]);
 
-            let pesan = error ? "Koneksi terputus! Lapor ke admin." : "Nilai spasial Anda telah tercatat.";
+            let pesan = error ? "Koneksi terputus! Lapor ke admin." : "Nilai Anda telah tercatat di sistem.";
 
             Swal.fire({
                 title: 'Ujian Selesai!',
                 html: `<h1 class="display-1 fw-bold text-success my-3">${finalScore}</h1><p>${pesan}</p>`,
                 icon: error ? 'warning' : 'success',
                 confirmButtonText: 'Kembali ke Menu',
-                confirmButtonColor: '#0ea5e9',
+                confirmButtonColor: '#ef4444',
                 allowOutsideClick: false
             }).then(() => {
                 window.location.href = '../soalmtk.html'; 

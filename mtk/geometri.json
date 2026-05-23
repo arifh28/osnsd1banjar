@@ -5,7 +5,7 @@
   "soal": [
     {
       "tipe": "soal_gambar",
-      "pertanyaan": "Perhatikan persegi ABCD berikut dengan panjang sisi 14 cm. Di dalam persegi tersebut terdapat sebuah lingkaran yang menyinggung keempat sisi persegi. Berapakah luas daerah yang diarsir (di luar lingkaran namun di dalam persegi)? (Gunakan $\\pi = \\frac{22}{7}$)<br><br><img src='../mtk/gambar/geometri/persegi_lingkaran.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px;'><br><i>[Prompt AI: A clean 2D vector illustration of a perfect square. Inside the square is a perfect circle touching all four sides. The area inside the square but outside the circle is shaded in blue. White background, NO TEXT.]</i>",
+      "pertanyaan": "Perhatikan persegi ABCD berikut dengan panjang sisi 14 cm. Di dalam persegi tersebut terdapat sebuah lingkaran yang menyinggung keempat sisi persegi. Berapakah luas daerah yang diarsir (di luar lingkaran namun di dalam persegi)? (Gunakan $\\pi = \\frac{22}{7}$)<br><br><img src='../mtk/gambar/geometri/persegi_lingkaran.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px; width: 100%; object-fit: contain;'><br><i>[Prompt AI: A clean 2D vector illustration of a perfect square. Inside the square is a perfect circle touching all four sides. The area inside the square but outside the circle is shaded in blue. White background, NO TEXT.]</i>",
       "pilihan": {
         "A": "42 cm²",
         "B": "84 cm²",
@@ -16,7 +16,7 @@
     },
     {
       "tipe": "soal_gambar",
-      "pertanyaan": "Sebuah kertas berbentuk persegi panjang dilipat menurut garis diagonalnya seperti pada gambar. Jika besar sudut yang ditandai dengan $x$ adalah $35^\\circ$, berapakah besar sudut $y$?<br><br><img src='../mtk/gambar/geometri/kertas_lipat.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px;'><br><i>[Prompt AI: A 2D vector illustration of a rectangular piece of paper folded along its diagonal. One of the acute angles formed by the fold is highlighted in red. Clean flat design, white background, NO TEXT.]</i>",
+      "pertanyaan": "Sebuah kertas berbentuk persegi panjang dilipat menurut garis diagonalnya seperti pada gambar. Jika besar sudut yang ditandai dengan $x$ adalah $35^\\circ$, berapakah besar sudut $y$?<br><br><img src='../mtk/gambar/geometri/kertas_lipat.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px; width: 100%; object-fit: contain;'><br><i>[Prompt AI: A 2D vector illustration of a rectangular piece of paper folded along its diagonal. One of the acute angles formed by the fold is highlighted in red. Clean flat design, white background, NO TEXT.]</i>",
       "pilihan": {
         "A": "20°",
         "B": "35°",
@@ -27,7 +27,7 @@
     },
     {
       "tipe": "soal_gambar",
-      "pertanyaan": "Gambar berikut menunjukkan tumpukan kubus satuan berukuran sama. Jika seluruh permukaan luar tumpukan kubus ini dicat dengan warna merah, berapa banyak kubus satuan yang hanya memiliki tepat DUA sisi berwarna merah?<br><br><img src='../mtk/gambar/geometri/tumpukan_kubus.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px;'><br><i>[Prompt AI: A 3D isometric vector illustration of a solid 3x3x3 large cube made of smaller individual cubes, but with the exact center cube and the center cubes of each face missing. Flat colors, white background, NO TEXT.]</i>",
+      "pertanyaan": "Gambar berikut menunjukkan tumpukan kubus satuan berukuran sama. Jika seluruh permukaan luar tumpukan kubus ini dicat dengan warna merah, berapa banyak kubus satuan yang hanya memiliki tepat DUA sisi berwarna merah?<br><br><img src='../mtk/gambar/geometri/tumpukan_kubus.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px; width: 100%; object-fit: contain;'><br><i>[Prompt AI: A 3D isometric vector illustration of a solid 3x3x3 large cube made of smaller individual cubes, but with the exact center cube and the center cubes of each face missing. Flat colors, white background, NO TEXT.]</i>",
       "pilihan": {
         "A": "8",
         "B": "12",
@@ -38,7 +38,7 @@
     },
     {
       "tipe": "soal_gambar",
-      "pertanyaan": "Sebuah jaring-jaring kubus digambar seperti di bawah ini. Jika persegi nomor 3 menjadi alas kubus, persegi nomor berapakah yang akan menjadi tutup (atap) kubus?<br><br><img src='../mtk/gambar/geometri/jaring_kubus.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px;'><br><i>[Prompt AI: A flat 2D vector illustration of a standard cross-shaped cube net made of 6 squares. The squares are blank. White background, NO TEXT.]</i>",
+      "pertanyaan": "Sebuah jaring-jaring kubus digambar seperti di bawah ini. Jika persegi nomor 3 menjadi alas kubus, persegi nomor berapakah yang akan menjadi tutup (atap) kubus?<br><br><img src='../mtk/gambar/geometri/jaring_kubus.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px; width: 100%; object-fit: contain;'><br><i>[Prompt AI: A flat 2D vector illustration of a standard cross-shaped cube net made of 6 squares. The squares are blank. White background, NO TEXT.]</i>",
       "pilihan": {
         "A": "1",
         "B": "5",
@@ -49,7 +49,7 @@
     },
     {
       "tipe": "soal_gambar",
-      "pertanyaan": "Pada gambar jajar genjang di bawah, diketahui luas segitiga ABE adalah 15 cm² dan luas segitiga CDE adalah 25 cm². Berapakah luas total jajar genjang ABCD?<br><br><img src='../mtk/gambar/geometri/jajargenjang_segitiga.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px;'><br><i>[Prompt AI: A vector graphic of a parallelogram divided into 4 smaller triangles by two intersecting diagonal lines. Flat geometric style, white background, NO TEXT.]</i>",
+      "pertanyaan": "Pada gambar jajar genjang di bawah, diketahui luas segitiga ABE adalah 15 cm² dan luas segitiga CDE adalah 25 cm². Berapakah luas total jajar genjang ABCD?<br><br><img src='../mtk/gambar/geometri/jajargenjang_segitiga.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px; width: 100%; object-fit: contain;'><br><i>[Prompt AI: A vector graphic of a parallelogram divided into 4 smaller triangles by two intersecting diagonal lines. Flat geometric style, white background, NO TEXT.]</i>",
       "pilihan": {
         "A": "40 cm²",
         "B": "60 cm²",
@@ -60,7 +60,7 @@
     },
     {
       "tipe": "cerita_gambar",
-      "pertanyaan": "Sebuah akuarium berbentuk balok berukuran panjang 80 cm, lebar 40 cm, dan tinggi 50 cm. Akuarium tersebut dimiringkan sedikit seperti pada gambar sehingga air tepat mencapai bibir atas salah satu sudut dan sudut bawah yang berseberangan. Berapa liter volume air di dalam akuarium tersebut?<br><br><img src='../mtk/gambar/geometri/akuarium_miring.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px;'><br><i>[Prompt AI: A 2D cross-section vector illustration of a rectangular glass fish tank tilted on one of its bottom edges. The blue water inside forms a right triangle shape, touching the top corner and opposite bottom corner. White background, NO TEXT.]</i>",
+      "pertanyaan": "Sebuah akuarium berbentuk balok berukuran panjang 80 cm, lebar 40 cm, dan tinggi 50 cm. Akuarium tersebut dimiringkan sedikit seperti pada gambar sehingga air tepat mencapai bibir atas salah satu sudut dan sudut bawah yang berseberangan. Berapa liter volume air di dalam akuarium tersebut?<br><br><img src='../mtk/gambar/geometri/akuarium_miring.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px; width: 100%; object-fit: contain;'><br><i>[Prompt AI: A 2D cross-section vector illustration of a rectangular glass fish tank tilted on one of its bottom edges. The blue water inside forms a right triangle shape, touching the top corner and opposite bottom corner. White background, NO TEXT.]</i>",
       "pilihan": {
         "A": "80 liter",
         "B": "160 liter",
@@ -71,7 +71,7 @@
     },
     {
       "tipe": "soal_gambar",
-      "pertanyaan": "Perhatikan lintasan terpendek semut merayap pada permukaan balok dari titik sudut A ke titik sudut G seperti pada jaring-jaring gambar berikut. Jika balok berukuran 4x3x5 cm, berapakah kuadrat dari jarak terpendek ( $s^2$ ) tersebut?<br><br><img src='../mtk/gambar/geometri/balok_lintasan.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px;'><br><i>[Prompt AI: A 3D isometric vector illustration of a rectangular block (cuboid). A dashed red line traces a path across the outer surfaces from one bottom corner to the opposite top corner. White background, NO TEXT.]</i>",
+      "pertanyaan": "Perhatikan lintasan terpendek semut merayap pada permukaan balok dari titik sudut A ke titik sudut G seperti pada jaring-jaring gambar berikut. Jika balok berukuran 4x3x5 cm, berapakah kuadrat dari jarak terpendek ( $s^2$ ) tersebut?<br><br><img src='../mtk/gambar/geometri/balok_lintasan.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px; width: 100%; object-fit: contain;'><br><i>[Prompt AI: A 3D isometric vector illustration of a rectangular block (cuboid). A dashed red line traces a path across the outer surfaces from one bottom corner to the opposite top corner. White background, NO TEXT.]</i>",
       "pilihan": {
         "A": "50",
         "B": "64",
@@ -82,7 +82,7 @@
     },
     {
       "tipe": "soal_gambar",
-      "pertanyaan": "Terdapat dua buah lingkaran konsentris (berpusat sama). Tali busur lingkaran besar yang menyinggung lingkaran kecil memiliki panjang 20 cm. Berapakah luas daerah berbentuk cincin (anulus) yang diarsir biru di antara kedua lingkaran tersebut? (Gunakan $\\pi = 3,14$)<br><br><img src='../mtk/gambar/geometri/cincin_lingkaran.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px;'><br><i>[Prompt AI: A flat vector illustration of two concentric circles. The ring area between the inner and outer circle is colored blue. A straight black line segment is drawn as a chord of the outer circle, exactly touching the top edge of the inner circle. White background, NO TEXT.]</i>",
+      "pertanyaan": "Terdapat dua buah lingkaran konsentris (berpusat sama). Tali busur lingkaran besar yang menyinggung lingkaran kecil memiliki panjang 20 cm. Berapakah luas daerah berbentuk cincin (anulus) yang diarsir biru di antara kedua lingkaran tersebut? (Gunakan $\\pi = 3,14$)<br><br><img src='../mtk/gambar/geometri/cincin_lingkaran.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px; width: 100%; object-fit: contain;'><br><i>[Prompt AI: A flat vector illustration of two concentric circles. The ring area between the inner and outer circle is colored blue. A straight black line segment is drawn as a chord of the outer circle, exactly touching the top edge of the inner circle. White background, NO TEXT.]</i>",
       "pilihan": {
         "A": "157 cm²",
         "B": "314 cm²",
@@ -93,7 +93,7 @@
     },
     {
       "tipe": "soal_gambar",
-      "pertanyaan": "Gambar berikut adalah sebuah bangun datar segi enam beraturan. Berapakah besar salah satu sudut dalam segi enam beraturan tersebut?<br><br><img src='../mtk/gambar/geometri/segienam.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px;'><br><i>[Prompt AI: A simple clean vector illustration of a regular perfect hexagon with a yellow fill and black outline. White background, NO TEXT.]</i>",
+      "pertanyaan": "Gambar berikut adalah sebuah bangun datar segi enam beraturan. Berapakah besar salah satu sudut dalam segi enam beraturan tersebut?<br><br><img src='../mtk/gambar/geometri/segienam.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px; width: 100%; object-fit: contain;'><br><i>[Prompt AI: A simple clean vector illustration of a regular perfect hexagon with a yellow fill and black outline. White background, NO TEXT.]</i>",
       "pilihan": {
         "A": "90°",
         "B": "108°",
@@ -104,7 +104,7 @@
     },
     {
       "tipe": "soal_gambar",
-      "pertanyaan": "Diketahui dua buah garis sejajar dipotong oleh sebuah garis transversal seperti gambar. Jika sudut $\\angle 1 = (3x + 15)^\\circ$ dan sudut $\\angle 2 = (5x - 5)^\\circ$, berapakah nilai $x$ jika kedua sudut tersebut adalah sudut dalam berseberangan?<br><br><img src='../mtk/gambar/geometri/sudut_berseberangan.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px;'><br><i>[Prompt AI: A geometric vector illustration showing two parallel horizontal lines intersected by a single diagonal transversal line. Clean flat lines, white background, NO TEXT.]</i>",
+      "pertanyaan": "Diketahui dua buah garis sejajar dipotong oleh sebuah garis transversal seperti gambar. Jika sudut $\\angle 1 = (3x + 15)^\\circ$ dan sudut $\\angle 2 = (5x - 5)^\\circ$, berapakah nilai $x$ jika kedua sudut tersebut adalah sudut dalam berseberangan?<br><br><img src='../mtk/gambar/geometri/sudut_berseberangan.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px; width: 100%; object-fit: contain;'><br><i>[Prompt AI: A geometric vector illustration showing two parallel horizontal lines intersected by a single diagonal transversal line. Clean flat lines, white background, NO TEXT.]</i>",
       "pilihan": {
         "A": "10",
         "B": "15",
@@ -115,7 +115,7 @@
     },
     {
       "tipe": "cerita_gambar",
-      "pertanyaan": "Sebuah taman berbentuk lingkaran memiliki kolam air mancur berbentuk bujur sangkar di tengahnya. Panjang diagonal kolam tersebut persis sama dengan diameter taman yaitu 10 meter. Sisa lahan di taman tersebut ditanami rumput. Berapakah luas lahan yang ditanami rumput? (Gunakan $\\pi = 3,14$)<br><br><img src='../mtk/gambar/geometri/taman_kolam.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px;'><br><i>[Prompt AI: A top-down 2D vector view of a green circular park. In the exact center of the circle is a blue square pond. The four corners of the square exactly touch the edge of the circle. White background, NO TEXT.]</i>",
+      "pertanyaan": "Sebuah taman berbentuk lingkaran memiliki kolam air mancur berbentuk bujur sangkar di tengahnya. Panjang diagonal kolam tersebut persis sama dengan diameter taman yaitu 10 meter. Sisa lahan di taman tersebut ditanami rumput. Berapakah luas lahan yang ditanami rumput? (Gunakan $\\pi = 3,14$)<br><br><img src='../mtk/gambar/geometri/taman_kolam.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px; width: 100%; object-fit: contain;'><br><i>[Prompt AI: A top-down 2D vector view of a green circular park. In the exact center of the circle is a blue square pond. The four corners of the square exactly touch the edge of the circle. White background, NO TEXT.]</i>",
       "pilihan": {
         "A": "28,5 m²",
         "B": "50,0 m²",
@@ -126,7 +126,7 @@
     },
     {
       "tipe": "cerita_gambar",
-      "pertanyaan": "Andi memiliki selembar karton berukuran 30 cm x 30 cm. Ia memotong keempat sudut karton tersebut berbentuk persegi dengan sisi $x$ cm untuk membuat sebuah kotak tanpa tutup. Jika tinggi kotak yang terbentuk adalah 5 cm, berapakah volume kotak tersebut maksimal?<br><br><img src='../mtk/gambar/geometri/karton_kotak.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px;'><br><i>[Prompt AI: A flat vector illustration of a square cardboard. The four corners have small square cutouts outlined with dashed lines, ready to be folded into a box. White background, NO TEXT.]</i>",
+      "pertanyaan": "Andi memiliki selembar karton berukuran 30 cm x 30 cm. Ia memotong keempat sudut karton tersebut berbentuk persegi dengan sisi $x$ cm untuk membuat sebuah kotak tanpa tutup. Jika tinggi kotak yang terbentuk adalah 5 cm, berapakah volume kotak tersebut maksimal?<br><br><img src='../mtk/gambar/geometri/karton_kotak.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px; width: 100%; object-fit: contain;'><br><i>[Prompt AI: A flat vector illustration of a square cardboard. The four corners have small square cutouts outlined with dashed lines, ready to be folded into a box. White background, NO TEXT.]</i>",
       "pilihan": {
         "A": "1.000 cm³",
         "B": "2.000 cm³",
@@ -137,7 +137,7 @@
     },
     {
       "tipe": "soal_gambar",
-      "pertanyaan": "Perhatikan gambar koordinat Kartesius berikut. Jika titik A(-3, 2), B(2, 2), dan C(4, -3) dihubungkan membentuk bangun datar, berapakah luas bangun datar yang terbentuk jika titik D melengkapi bangun menjadi jajar genjang ABCD?<br><br><img src='../mtk/gambar/geometri/koordinat_kartesius.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px;'><br><i>[Prompt AI: A clean 2D vector illustration of a standard Cartesian coordinate grid (X and Y axes). Three geometric points are plotted on the grid, forming an incomplete shape. White background, NO TEXT.]</i>",
+      "pertanyaan": "Perhatikan gambar koordinat Kartesius berikut. Jika titik A(-3, 2), B(2, 2), dan C(4, -3) dihubungkan membentuk bangun datar, berapakah luas bangun datar yang terbentuk jika titik D melengkapi bangun menjadi jajar genjang ABCD?<br><br><img src='../mtk/gambar/geometri/koordinat_kartesius.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px; width: 100%; object-fit: contain;'><br><i>[Prompt AI: A clean 2D vector illustration of a standard Cartesian coordinate grid (X and Y axes). Three geometric points are plotted on the grid, forming an incomplete shape. White background, NO TEXT.]</i>",
       "pilihan": {
         "A": "15 satuan luas",
         "B": "20 satuan luas",
@@ -148,7 +148,7 @@
     },
     {
       "tipe": "soal_gambar",
-      "pertanyaan": "Berapa banyak sumbu simetri putar yang dimiliki oleh bangun datar bintang berujung 5 beraturan seperti gambar di bawah ini?<br><br><img src='../mtk/gambar/geometri/bintang_simetri.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px;'><br><i>[Prompt AI: A clean, flat vector illustration of a perfect 5-pointed star colored yellow. Clean white background, NO TEXT.]</i>",
+      "pertanyaan": "Berapa banyak sumbu simetri putar yang dimiliki oleh bangun datar bintang berujung 5 beraturan seperti gambar di bawah ini?<br><br><img src='../mtk/gambar/geometri/bintang_simetri.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px; width: 100%; object-fit: contain;'><br><i>[Prompt AI: A clean, flat vector illustration of a perfect 5-pointed star colored yellow. Clean white background, NO TEXT.]</i>",
       "pilihan": {
         "A": "1",
         "B": "5",
@@ -159,7 +159,7 @@
     },
     {
       "tipe": "soal_gambar",
-      "pertanyaan": "Perhatikan gambar roda yang menggelinding. Jari-jari roda adalah 21 cm. Jika roda menggelinding sebanyak 10 kali putaran penuh di atas jalan datar, berapakah jarak lurus yang ditempuh roda tersebut? ($\\pi = \\frac{22}{7}$)<br><br><img src='../mtk/gambar/geometri/roda_menggelinding.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px;'><br><i>[Prompt AI: A 2D vector illustration of a simple wheel resting on a straight horizontal ground line. A curved arrow indicates rolling motion. Clean white background, NO TEXT.]</i>",
+      "pertanyaan": "Perhatikan gambar roda yang menggelinding. Jari-jari roda adalah 21 cm. Jika roda menggelinding sebanyak 10 kali putaran penuh di atas jalan datar, berapakah jarak lurus yang ditempuh roda tersebut? ($\\pi = \\frac{22}{7}$)<br><br><img src='../mtk/gambar/geometri/roda_menggelinding.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px; width: 100%; object-fit: contain;'><br><i>[Prompt AI: A 2D vector illustration of a simple wheel resting on a straight horizontal ground line. A curved arrow indicates rolling motion. Clean white background, NO TEXT.]</i>",
       "pilihan": {
         "A": "6,6 meter",
         "B": "13,2 meter",
@@ -170,7 +170,7 @@
     },
     {
       "tipe": "soal_gambar",
-      "pertanyaan": "Bangun ruang gabungan di bawah ini terdiri dari balok dan limas segiempat yang menempel sempurna. Jika dimensi balok 10x10x8 cm dan tinggi limas adalah 12 cm, berapakah volume total bangun ruang gabungan tersebut?<br><br><img src='../mtk/gambar/geometri/balok_limas.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px;'><br><i>[Prompt AI: A 3D isometric vector illustration of a composite geometric solid: a square pyramid perfectly sitting on top of a rectangular cuboid (block). Flat design, shading for depth, white background, NO TEXT.]</i>",
+      "pertanyaan": "Bangun ruang gabungan di bawah ini terdiri dari balok dan limas segiempat yang menempel sempurna. Jika dimensi balok 10x10x8 cm dan tinggi limas adalah 12 cm, berapakah volume total bangun ruang gabungan tersebut?<br><br><img src='../mtk/gambar/geometri/balok_limas.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px; width: 100%; object-fit: contain;'><br><i>[Prompt AI: A 3D isometric vector illustration of a composite geometric solid: a square pyramid perfectly sitting on top of a rectangular cuboid (block). Flat design, shading for depth, white background, NO TEXT.]</i>",
       "pilihan": {
         "A": "1.200 cm³",
         "B": "1.400 cm³",
@@ -181,7 +181,7 @@
     },
     {
       "tipe": "cerita_gambar",
-      "pertanyaan": "Sebuah menara (A) memiliki bayangan sepanjang 15 meter pada tanah mendatar. Di saat yang sama, sebatang tongkat (B) setinggi 2 meter memiliki bayangan sepanjang 3 meter seperti ilustrasi di bawah. Berapakah tinggi menara tersebut? (Prinsip Kesebangunan Segitiga)<br><br><img src='../mtk/gambar/geometri/menara_bayangan.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px;'><br><i>[Prompt AI: A 2D flat vector illustration showing a tall tower on the left casting a grey shadow on the ground, and a short stick on the right also casting a shadow. Yellow sun rays indicate the light source angle. White background, NO TEXT.]</i>",
+      "pertanyaan": "Sebuah menara (A) memiliki bayangan sepanjang 15 meter pada tanah mendatar. Di saat yang sama, sebatang tongkat (B) setinggi 2 meter memiliki bayangan sepanjang 3 meter seperti ilustrasi di bawah. Berapakah tinggi menara tersebut? (Prinsip Kesebangunan Segitiga)<br><br><img src='../mtk/gambar/geometri/menara_bayangan.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px; width: 100%; object-fit: contain;'><br><i>[Prompt AI: A 2D flat vector illustration showing a tall tower on the left casting a grey shadow on the ground, and a short stick on the right also casting a shadow. Yellow sun rays indicate the light source angle. White background, NO TEXT.]</i>",
       "pilihan": {
         "A": "7,5 meter",
         "B": "10 meter",
@@ -192,7 +192,7 @@
     },
     {
       "tipe": "cerita_gambar",
-      "pertanyaan": "Sebuah pizza berbentuk lingkaran dibagi menjadi potongan-potongan juring yang persis sama besar. Rina memakan 3 potong yang setara dengan $135^\\circ$ sudut pusat pizza. Berapa banyak potongan pizza mula-mula sebelum dimakan?<br><br><img src='../mtk/gambar/geometri/pizza_juring.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px;'><br><i>[Prompt AI: A 2D vector top-down view of a pizza cut into equal slices. 3 slices are pulled slightly away from the rest of the pie. Flat design, white background, NO TEXT.]</i>",
+      "pertanyaan": "Sebuah pizza berbentuk lingkaran dibagi menjadi potongan-potongan juring yang persis sama besar. Rina memakan 3 potong yang setara dengan $135^\\circ$ sudut pusat pizza. Berapa banyak potongan pizza mula-mula sebelum dimakan?<br><br><img src='../mtk/gambar/geometri/pizza_juring.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px; width: 100%; object-fit: contain;'><br><i>[Prompt AI: A 2D vector top-down view of a pizza cut into equal slices. 3 slices are pulled slightly away from the rest of the pie. Flat design, white background, NO TEXT.]</i>",
       "pilihan": {
         "A": "6",
         "B": "8",
@@ -203,7 +203,7 @@
     },
     {
       "tipe": "soal_gambar",
-      "pertanyaan": "Sebuah wadah berbentuk kerucut terbalik berisi air tepat setengah dari ketinggian totalnya seperti gambar. Berapakah rasio (perbandingan) volume air terhadap volume wadah kerucut kosong?<br><br><img src='../mtk/gambar/geometri/kerucut_air.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px;'><br><i>[Prompt AI: A 2D vector cross-section of an inverted cone (pointing down). The bottom half of the cone is filled with blue liquid. Clean white background, NO TEXT.]</i>",
+      "pertanyaan": "Sebuah wadah berbentuk kerucut terbalik berisi air tepat setengah dari ketinggian totalnya seperti gambar. Berapakah rasio (perbandingan) volume air terhadap volume wadah kerucut kosong?<br><br><img src='../mtk/gambar/geometri/kerucut_air.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px; width: 100%; object-fit: contain;'><br><i>[Prompt AI: A 2D vector cross-section of an inverted cone (pointing down). The bottom half of the cone is filled with blue liquid. Clean white background, NO TEXT.]</i>",
       "pilihan": {
         "A": "1 : 2",
         "B": "1 : 4",
@@ -214,7 +214,7 @@
     },
     {
       "tipe": "soal_gambar",
-      "pertanyaan": "Pada gambar segitiga siku-siku ABC, diketahui panjang sisi siku-sikunya adalah 6 cm dan 8 cm. Berapakah jari-jari lingkaran dalam (lingkaran inscribed) yang menyinggung ketiga sisi segitiga tersebut?<br><br><img src='../mtk/gambar/geometri/segitiga_lingkaran_dalam.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px;'><br><i>[Prompt AI: A 2D vector illustration of a right-angled triangle. Inside the triangle is a perfect circle touching all three sides. White background, NO TEXT.]</i>",
+      "pertanyaan": "Pada gambar segitiga siku-siku ABC, diketahui panjang sisi siku-sikunya adalah 6 cm dan 8 cm. Berapakah jari-jari lingkaran dalam (lingkaran inscribed) yang menyinggung ketiga sisi segitiga tersebut?<br><br><img src='../mtk/gambar/geometri/segitiga_lingkaran_dalam.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px; width: 100%; object-fit: contain;'><br><i>[Prompt AI: A 2D vector illustration of a right-angled triangle. Inside the triangle is a perfect circle touching all three sides. White background, NO TEXT.]</i>",
       "pilihan": {
         "A": "1 cm",
         "B": "2 cm",

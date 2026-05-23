@@ -5,7 +5,7 @@
   "soal": [
     {
       "tipe": "soal_gambar",
-      "pertanyaan": "Perhatikan persegi ABCD berikut dengan panjang sisi 14 cm. Di dalam persegi tersebut terdapat sebuah lingkaran yang menyinggung keempat sisi persegi. Berapakah luas daerah yang diarsir (di luar lingkaran namun di dalam persegi)? (Gunakan $\\pi = \\frac{22}{7}$)<br><br><img src='../mtk/gambar/geometri/persegi_lingkaran.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px; width: 100%; object-fit: contain;'><br><i>[Prompt AI: A clean 2D vector illustration of a perfect square. Inside the square is a perfect circle touching all four sides. The area inside the square but outside the circle is shaded in blue. White background, NO TEXT.]</i>",
+      "pertanyaan": "Perhatikan persegi ABCD berikut dengan panjang sisi 14 cm. Di dalam persegi tersebut terdapat sebuah lingkaran yang menyinggung keempat sisi persegi. Berapakah luas daerah yang diarsir (di luar lingkaran namun di dalam persegi)? (Gunakan $\\pi = \\frac{22}{7}$)<br><br><img src='../mtk/gambar/geometri/persegi_lingkaran.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px; width: 100%; object-fit: contain;'><br>",
       "pilihan": {
         "A": "42 cm²",
         "B": "84 cm²",

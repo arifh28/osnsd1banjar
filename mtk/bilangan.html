@@ -135,6 +135,18 @@
             .header-area { flex-direction: column; gap: 10px; }
         }
     </style>
+    <script>
+        MathJax = {
+            tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']]
+            },
+            svg: {
+            fontCache: 'global'
+            }
+        };
+    </script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 <body>
 
@@ -294,6 +306,12 @@
                 btn.onclick = () => checkAnswer(key, q.kunci_jawaban, btn);
                 optArea.appendChild(btn);
             });
+
+            setTimeout(() => {
+                if(window.MathJax) {
+                    MathJax.typesetPromise();
+                }
+            }, 50);
         }
 
         function checkAnswer(choice, correctAnswer, btnElement) {

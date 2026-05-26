@@ -19,6 +19,37 @@
             background-color: #0f172a;
         }
 
+        /* --- TOMBOL FULLSCREEN --- */
+        .fullscreen-btn {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 10000;
+            background: rgba(255, 255, 255, 0.1);
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            color: white;
+            border-radius: 50%;
+            width: 55px;
+            height: 55px;
+            font-size: 1.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            backdrop-filter: blur(10px);
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+
+        .fullscreen-btn:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: scale(1.1);
+        }
+
+        .fullscreen-btn:active {
+            transform: scale(0.9);
+        }
+
         /* --- AREA BALAPAN (ATAS) --- */
         .track-area {
             height: 30vh;
@@ -165,11 +196,15 @@
         }
         @media screen and (orientation: portrait) {
             #portrait-warning { display: flex; }
-            .overlay, .track-area, .quiz-area { display: none !important; }
+            .overlay, .track-area, .quiz-area, .fullscreen-btn { display: none !important; }
         }
     </style>
 </head>
 <body>
+
+    <button class="fullscreen-btn" id="fs-btn" onclick="toggleFullScreen()" title="Layar Penuh">
+        <i class="fas fa-expand"></i>
+    </button>
 
     <div id="portrait-warning">
         <i class="fas fa-mobile-alt fa-5x mb-4" style="transform: rotate(90deg); color: #facc15;"></i>
@@ -177,7 +212,6 @@
         <p class="fs-4">Game ini hanya dapat dimainkan dalam mode Landscape (Mendatar) atau pada layar Interactive Flat Panel (IFP).</p>
     </div>
 
-    <!-- START SCREEN -->
     <div class="overlay" id="start-overlay">
         <h1 class="mb-3 fw-bold" style="font-size: 4rem;">BALAPAN: IPA vs IPS</h1>
         <p class="mb-5 fs-4 text-light text-center" id="status-text">Memuat bank soal dari server...</p>
@@ -185,13 +219,11 @@
         <a href="index.html" class="btn-giant btn-back text-decoration-none"><i class="fas fa-arrow-left me-2"></i> KEMBALI</a>
     </div>
 
-    <!-- WIN SCREEN -->
     <div class="overlay d-none" id="win-overlay">
         <h1 class="winner-text text-warning" id="win-title">TIM IPA MENANG!</h1>
         <button class="btn-giant btn-start" onclick="location.reload()"><i class="fas fa-redo me-2"></i> MAIN LAGI</button>
     </div>
 
-    <!-- TRACK AREA -->
     <div class="track-area">
         <div class="finish-line"></div>
         <div class="lane" id="lane-1">
@@ -204,16 +236,13 @@
         </div>
     </div>
 
-    <!-- QUIZ AREA -->
     <div class="quiz-area">
-        <!-- PLAYER 1 (IPA) -->
         <div class="player-col p1-zone" id="zone-1">
             <div class="score-badge bg-p1" id="score-1">TIM IPA: 0 / 20</div>
             <div class="question-box" id="q-text-1">Menyiapkan soal IPA...</div>
             <div class="options-container" id="opts-1"></div>
         </div>
 
-        <!-- PLAYER 2 (IPS) -->
         <div class="player-col p2-zone" id="zone-2">
             <div class="score-badge bg-p2" id="score-2">TIM IPS: 0 / 20</div>
             <div class="question-box" id="q-text-2">Menyiapkan soal IPS...</div>
@@ -222,6 +251,34 @@
     </div>
 
     <script>
+        // --- FUNGSI FULLSCREEN ---
+        function toggleFullScreen() {
+            if (!document.fullscreenElement) {
+                document.documentElement.requestFullscreen().catch(err => {
+                    console.log(`Error attempting to enable full-screen mode: ${err.message} (${err.name})`);
+                });
+            } else {
+                if (document.exitFullscreen) {
+                    document.exitFullscreen();
+                }
+            }
+        }
+
+        // Event listener untuk mengubah ikon fullscreen secara dinamis
+        document.addEventListener('fullscreenchange', () => {
+            const icon = document.querySelector('#fs-btn i');
+            if (document.fullscreenElement) {
+                icon.classList.remove('fa-expand');
+                icon.classList.add('fa-compress');
+                document.getElementById('fs-btn').title = "Keluar Layar Penuh";
+            } else {
+                icon.classList.remove('fa-compress');
+                icon.classList.add('fa-expand');
+                document.getElementById('fs-btn').title = "Layar Penuh";
+            }
+        });
+
+        // --- LOGIKA GAME ---
         const WIN_SCORE = 20; // Jumlah skor untuk memenangkan balapan
         let isGameOver = false;
 

@@ -18,6 +18,37 @@
             touch-action: manipulation; 
             user-select: none;
         }
+
+        /* TOMBOL FULLSCREEN */
+        .fullscreen-btn {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 10000;
+            background: rgba(255, 255, 255, 0.1);
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            color: white;
+            border-radius: 50%;
+            width: 55px;
+            height: 55px;
+            font-size: 1.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            backdrop-filter: blur(10px);
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+
+        .fullscreen-btn:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: scale(1.1);
+        }
+
+        .fullscreen-btn:active {
+            transform: scale(0.9);
+        }
         
         /* WARNING PORTRAIT */
         #portrait-warning { 
@@ -174,6 +205,10 @@
 </head>
 <body>
 
+    <button class="fullscreen-btn" id="fs-btn" onclick="toggleFullScreen()" title="Layar Penuh">
+        <i class="fas fa-expand"></i>
+    </button>
+
     <div id="portrait-warning">
         <i class="fas fa-mobile-alt fa-5x mb-4" style="transform: rotate(90deg); color: #facc15;"></i>
         <h1 class="fw-bold">PUTAR LAYAR ANDA!</h1>
@@ -230,7 +265,35 @@
     </div>
 
     <script>
-        // Data & State
+        // FUNGSI FULLSCREEN
+        function toggleFullScreen() {
+            if (!document.fullscreenElement) {
+                document.documentElement.requestFullscreen().catch(err => {
+                    console.log(`Error attempting to enable full-screen mode: ${err.message} (${err.name})`);
+                });
+            } else {
+                if (document.exitFullscreen) {
+                    document.exitFullscreen();
+                }
+            }
+        }
+
+        // Event listener untuk mengubah ikon fullscreen secara dinamis
+        document.addEventListener('fullscreenchange', () => {
+            const icon = document.querySelector('#fs-btn i');
+            if (document.fullscreenElement) {
+                icon.classList.remove('fa-expand');
+                icon.classList.add('fa-compress');
+                document.getElementById('fs-btn').title = "Keluar Layar Penuh";
+            } else {
+                icon.classList.remove('fa-compress');
+                icon.classList.add('fa-expand');
+                document.getElementById('fs-btn').title = "Layar Penuh";
+            }
+        });
+
+
+        // Data & State Game
         let bankSoalIPA = [];
         let bankSoalIPS = [];
         let antrianP2 = []; // Antrian untuk IPA (Kiri)
@@ -240,13 +303,11 @@
         const step = 10; // Daya tarik setiap jawaban benar
 
         // Fetch 2 Data JSON Sekaligus (IPA dan IPS)
-        // Pastikan path-nya sesuai dengan struktur folder kamu di Github (misal pakai folder 'json')
         Promise.all([
             fetch('./json/soal_ipa.json').then(res => res.json()),
             fetch('./json/soal_ips.json').then(res => res.json())
         ])
         .then(([dataIPA, dataIPS]) => {
-            // Jika berhasil memuat kedua file
             document.getElementById('judul-mapel').innerText = "IPA vs IPS";
             document.getElementById('btn-mulai').disabled = false;
             
@@ -264,9 +325,8 @@
             document.getElementById('screen-start').style.display = 'none';
             document.getElementById('screen-countdown').style.display = 'flex';
             
-            // Acak antrian soal untuk masing-masing tim
-            antrianP2 = [...bankSoalIPA].sort(() => Math.random() - 0.5); // IPA (Kiri)
-            antrianP1 = [...bankSoalIPS].sort(() => Math.random() - 0.5); // IPS (Kanan)
+            antrianP2 = [...bankSoalIPA].sort(() => Math.random() - 0.5); 
+            antrianP1 = [...bankSoalIPS].sort(() => Math.random() - 0.5); 
             
             let hitung = 3;
             const angkaEl = document.getElementById('countdown-number');
@@ -289,13 +349,12 @@
             document.getElementById('screen-countdown').style.display = 'none';
             document.getElementById('screen-game').style.display = 'flex';
             
-            renderSoalP1(); // Render Soal IPS
-            renderSoalP2(); // Render Soal IPA
+            renderSoalP1(); 
+            renderSoalP2(); 
         }
 
         // Render Soal P1 (KANAN - IPS)
         function renderSoalP1() {
-            // Isi ulang soal jika habis
             if (antrianP1.length === 0) antrianP1 = [...bankSoalIPS].sort(() => Math.random() - 0.5);
             const soal = antrianP1[0];
             
@@ -312,7 +371,6 @@
 
         // Render Soal P2 (KIRI - IPA)
         function renderSoalP2() {
-            // Isi ulang soal jika habis
             if (antrianP2.length === 0) antrianP2 = [...bankSoalIPA].sort(() => Math.random() - 0.5);
             const soal = antrianP2[0];
             
@@ -333,12 +391,12 @@
             tampilkanFeedback('p1', isCorrect);
 
             if(isCorrect) {
-                posisiBendera += step; // Tarik ke Kanan (IPS)
+                posisiBendera += step; 
                 updateBendera();
             }
             
-            antrianP1.shift(); // Hapus soal yang baru dijawab
-            setTimeout(renderSoalP1, 1000); // Tampilkan soal berikutnya
+            antrianP1.shift(); 
+            setTimeout(renderSoalP1, 1000); 
         }
 
         // Logika Menjawab P2 (KIRI - IPA)
@@ -347,12 +405,12 @@
             tampilkanFeedback('p2', isCorrect);
 
             if(isCorrect) {
-                posisiBendera -= step; // Tarik ke Kiri (IPA)
+                posisiBendera -= step; 
                 updateBendera();
             }
             
-            antrianP2.shift(); // Hapus soal yang baru dijawab
-            setTimeout(renderSoalP2, 1000); // Tampilkan soal berikutnya
+            antrianP2.shift(); 
+            setTimeout(renderSoalP2, 1000); 
         }
 
         function tampilkanFeedback(player, isCorrect) {
@@ -372,9 +430,9 @@
         function updateBendera() {
             document.getElementById('flag').style.left = `${posisiBendera}%`;
             
-            if (posisiBendera >= 90) { // P1 (Kanan - IPS) Menang
+            if (posisiBendera >= 90) { 
                 akhiriGame("TIM IPS MENANG!", "#3b82f6");
-            } else if (posisiBendera <= 10) { // P2 (Kiri - IPA) Menang
+            } else if (posisiBendera <= 10) { 
                 akhiriGame("TIM IPA MENANG!", "#ef4444");
             }
         }

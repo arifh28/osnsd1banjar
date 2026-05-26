@@ -193,7 +193,7 @@
     },
     {
       "tipe": "cerita_gambar",
-      "pertanyaan": "Sebuah pizza berbentuk lingkaran dibagi menjadi potongan-potongan juring yang persis sama besar. Rina memakan 3 potong yang setara dengan $135^\\circ$ sudut pusat pizza. Berapa banyak potongan pizza mula-mula sebelum dimakan?<br><br><img src='../mtk/gambar/geometri/pizza_juring.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px; width: 100%; object-fit: contain;'><br><i>[Prompt AI: A 2D vector top-down view of a pizza cut into equal slices. 3 slices are pulled slightly away from the rest of the pie. Flat design, white background, NO TEXT.]</i>",
+      "pertanyaan": "Sebuah pizza berbentuk lingkaran dibagi menjadi potongan-potongan juring yang persis sama besar. Rina memakan 3 potong yang setara dengan $135^\\circ$ sudut pusat pizza. Berapa banyak potongan pizza mula-mula sebelum dimakan?<br><br><img src='../mtk/gambar/geometri/pizza_juring.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px; width: 100%; object-fit: contain;'><br>",
       "pilihan": {
         "A": "6",
         "B": "8",
@@ -204,7 +204,7 @@
     },
     {
       "tipe": "soal_gambar",
-      "pertanyaan": "Sebuah wadah berbentuk kerucut terbalik berisi air tepat setengah dari ketinggian totalnya seperti gambar. Berapakah rasio (perbandingan) volume air terhadap volume wadah kerucut kosong?<br><br><img src='../mtk/gambar/geometri/kerucut_air.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px; width: 100%; object-fit: contain;'><br><i>[Prompt AI: A 2D vector cross-section of an inverted cone (pointing down). The bottom half of the cone is filled with blue liquid. Clean white background, NO TEXT.]</i>",
+      "pertanyaan": "Perhatikan gambar wadah kerucut terbalik berikut.<br><br><img src='../mtk/gambar/geometri/kerucut_air.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 320px; width: 100%; object-fit: contain;'><br><br>Permukaan air berada tepat di tengah tinggi kerucut. Perbandingan volume air terhadap volume seluruh wadah kerucut adalah ....",
       "pilihan": {
         "A": "1 : 2",
         "B": "1 : 4",
@@ -215,7 +215,7 @@
     },
     {
       "tipe": "soal_gambar",
-      "pertanyaan": "Pada gambar segitiga siku-siku ABC, diketahui panjang sisi siku-sikunya adalah 6 cm dan 8 cm. Berapakah jari-jari lingkaran dalam (lingkaran inscribed) yang menyinggung ketiga sisi segitiga tersebut?<br><br><img src='../mtk/gambar/geometri/segitiga_lingkaran_dalam.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px; width: 100%; object-fit: contain;'><br><i>[Prompt AI: A 2D vector illustration of a right-angled triangle. Inside the triangle is a perfect circle touching all three sides. White background, NO TEXT.]</i>",
+      "pertanyaan": "Pada gambar segitiga siku-siku ABC, diketahui panjang sisi siku-sikunya adalah 6 cm dan 8 cm. Berapakah jari-jari lingkaran dalam (lingkaran inscribed) yang menyinggung ketiga sisi segitiga tersebut?<br><br><img src='../mtk/gambar/geometri/segitiga_lingkaran_dalam.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px; width: 100%; object-fit: contain;'><br>",
       "pilihan": {
         "A": "1 cm",
         "B": "2 cm",

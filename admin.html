@@ -5,20 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Panel Admin - SDN 1 Banjar</title>
     
-    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     
-    <!-- DataTables CSS -->
     <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/dataTables.bootstrap5.min.css">
     <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.5.0/css/responsive.bootstrap5.min.css">
     
-    <!-- SweetAlert & Supabase -->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     
-    <!-- jQuery & DataTables JS -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
     <script src="https://cdn.datatables.net/1.13.6/js/dataTables.bootstrap5.min.js"></script>
@@ -46,7 +42,6 @@
 </head>
 <body>
 
-<!-- Mobile Navbar -->
 <div class="mobile-navbar">
     <div class="d-flex align-items-center gap-2">
         <img src="logo_sekolah.png" alt="Logo" onerror="this.src='https://ui-avatars.com/api/?name=SD&background=fff&color=384596&rounded=true'">
@@ -57,7 +52,6 @@
 
 <div class="container-fluid">
     <div class="row">
-        <!-- Desktop Sidebar -->
         <div class="col-md-2 sidebar d-none d-md-block">
             <div class="text-center mb-4">
                 <img src="logo_sekolah.png" width="60" class="mb-2" onerror="this.src='https://ui-avatars.com/api/?name=SD&background=fff&color=384596&rounded=true'">
@@ -70,7 +64,6 @@
             </nav>
         </div>
 
-        <!-- Main Content -->
         <div class="col-md-10 p-4 content-area">
             <header class="d-flex flex-column flex-md-row justify-content-between align-items-md-center mb-4 gap-3">
                 <h2 class="fw-bold text-navy mb-0">Monitoring Ujian OSN</h2>
@@ -79,27 +72,66 @@
                 </button>
             </header>
 
-            <!-- Stats -->
             <div class="row g-3 mb-4">
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-sm-6 col-xl-3">
                     <div class="card card-stat p-3 bg-white border-start border-primary border-5 h-100">
-                        <small class="text-secondary fw-bold">TOTAL NILAI MASUK</small>
-                        <h2 class="fw-bold mb-0 text-primary" id="stat-total"><i class="fas fa-spinner fa-spin"></i></h2>
+                        <small class="text-secondary fw-bold">TOTAL PROGRESS (SEMUA)</small>
+                        <h3 class="fw-bold my-1 text-primary" id="prog-all-text">0%</h3>
+                        <div class="progress my-2" style="height: 8px;">
+                            <div id="prog-all-bar" class="progress-bar bg-primary" role="progressbar" style="width: 0%"></div>
+                        </div>
+                        <small class="text-muted id-total-sub">0 / 115 Ujian</small>
                     </div>
                 </div>
-                <div class="col-12 col-md-6">
-                    <div class="card card-stat p-3 bg-white border-start border-success border-5 h-100">
-                        <small class="text-secondary fw-bold">PESERTA AKTIF (LOGIN)</small>
-                        <h2 class="fw-bold mb-0 text-success" id="stat-login"><i class="fas fa-spinner fa-spin"></i></h2>
+                <div class="col-12 col-sm-6 col-xl-3">
+                    <div class="card card-stat p-3 bg-white border-start border-danger border-5 h-100">
+                        <small class="text-secondary fw-bold">PROGRESS MATEMATIKA</small>
+                        <h3 class="fw-bold my-1 text-danger" id="prog-mtk-text">0%</h3>
+                        <div class="progress my-2" style="height: 8px;">
+                            <div id="prog-mtk-bar" class="progress-bar bg-danger" role="progressbar" style="width: 0%"></div>
+                        </div>
+                        <small class="text-muted id-mtk-sub">0 / 25 Ujian</small>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-xl-3">
+                    <div class="card card-stat p-3 bg-white border-start border-warning border-5 h-100">
+                        <small class="text-secondary fw-bold">PROGRESS IPS</small>
+                        <h3 class="fw-bold my-1 text-warning" id="prog-ips-text">0%</h3>
+                        <div class="progress my-2" style="height: 8px;">
+                            <div id="prog-ips-bar" class="progress-bar bg-warning" role="progressbar" style="width: 0%"></div>
+                        </div>
+                        <small class="text-muted id-ips-sub">0 / 25 Ujian</small>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-xl-3">
+                    <div class="card card-stat p-3 bg-white border-start border-info border-5 h-100">
+                        <small class="text-secondary fw-bold">PROGRESS IPA</small>
+                        <h3 class="fw-bold my-1 text-info" id="prog-ipa-text">0%</h3>
+                        <div class="progress my-2" style="height: 8px;">
+                            <div id="prog-ipa-bar" class="progress-bar bg-info" role="progressbar" style="width: 0%"></div>
+                        </div>
+                        <small class="text-muted id-ipa-sub">0 / 65 Ujian</small>
                     </div>
                 </div>
             </div>
 
-            <!-- Tabel Hasil Ujian -->
+            <div class="row g-3 mb-4">
+                <div class="col-12">
+                    <div class="card card-stat p-2 px-3 bg-white border-start border-success border-5">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <small class="text-secondary fw-bold">SLA/SISWA PERNAH LOGIN</small>
+                                <h4 class="fw-bold mb-0 text-success" id="stat-login">0</h4>
+                            </div>
+                            <i class="fas fa-user-check fa-2x text-success opacity-50"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div class="table-container mb-4">
                 <h5 class="fw-bold mb-3"><i class="fas fa-poll text-primary me-2"></i> Hasil Ujian Siswa</h5>
                 
-                <!-- Filters -->
                 <div class="row g-2 mb-3 bg-light p-3 rounded border">
                     <div class="col-12 col-md-6">
                         <label class="form-label fw-bold small text-secondary mb-1">Filter Mata Pelajaran</label>
@@ -114,7 +146,6 @@
                         <label class="form-label fw-bold small text-secondary mb-1">Filter Siswa</label>
                         <select id="filter-siswa" class="form-select form-select-sm shadow-none">
                             <option value="">Semua Siswa</option>
-                            <!-- Pilihan siswa diisi via JS -->
                         </select>
                     </div>
                 </div>
@@ -131,13 +162,10 @@
                             <th>Aksi</th>
                         </tr>
                     </thead>
-                    <tbody id="tbody-hasil">
-                        <!-- Data render via JS -->
-                    </tbody>
+                    <tbody id="tbody-hasil"></tbody>
                 </table>
             </div>
 
-            <!-- Tabel Monitoring Login -->
             <div class="table-container">
                 <h5 class="fw-bold mb-4"><i class="fas fa-users text-success me-2"></i> Monitoring Login Peserta</h5>
                 <table id="table-login" class="table table-hover table-striped align-middle dt-responsive nowrap" style="width:100%">
@@ -147,9 +175,7 @@
                             <th>Kunjungan Terakhir</th>
                         </tr>
                     </thead>
-                    <tbody id="tbody-login">
-                        <!-- Data render via JS -->
-                    </tbody>
+                    <tbody id="tbody-login"></tbody>
                 </table>
             </div>
         </div>
@@ -164,11 +190,10 @@
     let dtHasil;
     let dtLogin;
 
-    // Initialize DataTables
     $(document).ready(function() {
         dtHasil = $('#table-hasil').DataTable({
             responsive: true,
-            order: [[4, 'desc']], // Urutkan berdasarkan waktu selesai terbaru
+            order: [[4, 'desc']], 
             language: { url: '//cdn.datatables.net/plug-ins/1.13.6/i18n/id.json' },
             columnDefs: [
                 { responsivePriority: 1, targets: 0 },
@@ -179,34 +204,29 @@
 
         dtLogin = $('#table-login').DataTable({
             responsive: true,
-            order: [[1, 'desc']], // Urutkan berdasarkan kunjungan terbaru
+            order: [[1, 'desc']], 
             language: { url: '//cdn.datatables.net/plug-ins/1.13.6/i18n/id.json' }
         });
 
-        // Event listener Filter Mapel
         $('#filter-mapel').on('change', function () {
             dtHasil.column(1).search(this.value).draw();
         });
 
-        // Event listener Filter Siswa
         $('#filter-siswa').on('change', function () {
             dtHasil.column(0).search(this.value).draw();
         });
 
         fetchData();
-        // Auto Refresh tiap 30 detik
         setInterval(fetchData, 30000);
     });
 
     async function fetchData() {
-        // Ambil data Hasil Ujian
-        const { data: hasil, error: err1 } = await supabaseClient
+        const { data: hasil } = await supabaseClient
             .from('peserta_ujian')
             .select('*')
             .order('waktu_pengerjaan', { ascending: false });
 
-        // Ambil data Login
-        const { data: login, error: err2 } = await supabaseClient
+        const { data: login } = await supabaseClient
             .from('peserta_login')
             .select('*')
             .order('last_visit', { ascending: false });
@@ -216,9 +236,46 @@
     }
 
     function renderHasil(data) {
-        document.getElementById('stat-total').innerText = data.length;
+        // Filter ujian murni yang valid (bukan yang sedang di-reset) untuk kalkulasi progress
+        const validData = data.filter(item => !item.is_reset);
+
+        // Kalkulasi jumlah data masuk per mapel
+        const countMtk = validData.filter(item => item.mata_pelajaran === 'Matematika').length;
+        const countIps = validData.filter(item => item.mata_pelajaran === 'IPS').length;
+        const countIpa = validData.filter(item => item.mata_pelajaran === 'IPA').length;
+        const countAll = validData.length;
+
+        // Target (Denominators)
+        const targetMtk = 25; 
+        const targetIps = 25; 
+        const targetIpa = 65; 
+        const targetAll = 115; 
+
+        // Rumus Persentase dibulatkan (Max 100%)
+        const pctMtk = Math.min(Math.round((countMtk / targetMtk) * 100), 100);
+        const pctIps = Math.min(Math.round((countIps / targetIps) * 100), 100);
+        const pctIpa = Math.min(Math.round((countIpa / targetIpa) * 100), 100);
+        const pctAll = Math.min(Math.round((countAll / targetAll) * 100), 100);
+
+        // Render Persentase Teks
+        document.getElementById('prog-all-text').innerText = `${pctAll}%`;
+        document.getElementById('prog-mtk-text').innerText = `${pctMtk}%`;
+        document.getElementById('prog-ips-text').innerText = `${pctIps}%`;
+        document.getElementById('prog-ipa-text').innerText = `${pctIpa}%`;
+
+        // Render Progress Bar UI
+        document.getElementById('prog-all-bar').style.width = `${pctAll}%`;
+        document.getElementById('prog-mtk-bar').style.width = `${pctMtk}%`;
+        document.getElementById('prog-ips-bar').style.width = `${pctIps}%`;
+        document.getElementById('prog-ipa-bar').style.width = `${pctIpa}%`;
+
+        // Render Sub-label Keterangan Angka Realtime
+        document.querySelector('.id-total-sub').innerText = `${countAll} / ${targetAll} Ujian`;
+        document.querySelector('.id-mtk-sub').innerText = `${countMtk} / ${targetMtk} Ujian`;
+        document.querySelector('.id-ips-sub').innerText = `${countIps} / ${targetIps} Ujian`;
+        document.querySelector('.id-ipa-sub').innerText = `${countIpa} / ${targetIpa} Ujian`;
         
-        // Populate Filter Siswa
+        // Memperbarui Opsi Filter Dropdown Nama Siswa secara unik
         const uniqueSiswa = [...new Set(data.map(item => item.nama_peserta))].sort();
         const filterSiswa = document.getElementById('filter-siswa');
         const currentSiswaFilter = filterSiswa.value;
@@ -228,7 +285,7 @@
             filterSiswa.innerHTML += `<option value="${siswa}" ${selected}>${siswa}</option>`;
         });
 
-        // Clear and add rows to DataTable
+        // Masukkan Baris ke DataTables
         dtHasil.clear();
         data.forEach(item => {
             const date = new Date(item.waktu_pengerjaan).toLocaleString('id-ID');
@@ -246,14 +303,11 @@
                 actionBtn
             ]);
         });
-        
-        // Draw while keeping current paging & filtering
         dtHasil.draw(false); 
     }
 
     function renderLogin(data) {
         document.getElementById('stat-login').innerText = data.length;
-
         dtLogin.clear();
         data.forEach(item => {
             const date = new Date(item.last_visit).toLocaleString('id-ID');
@@ -262,7 +316,6 @@
                 `<span class="text-secondary"><i class="far fa-clock me-1"></i> ${date}</span>`
             ]);
         });
-        
         dtLogin.draw(false);
     }
 
@@ -272,7 +325,7 @@
             text: `Siswa "${nama}" akan diperbolehkan mengerjakan materi ini kembali.`,
             icon: 'question',
             showCancelButton: true,
-            confirmButtonColor: '#f59e0b',
+            confirmButtonColor: '#384596',
             cancelButtonColor: '#64748b',
             confirmButtonText: 'Ya, Reset',
             cancelButtonText: 'Batal'
@@ -285,16 +338,8 @@
                 .eq('id', id);
 
             if (!error) {
-                Swal.fire({
-                    title: 'Berhasil!', 
-                    text: 'Siswa sekarang bisa login dan mengerjakan ulang.', 
-                    icon: 'success',
-                    timer: 2000,
-                    showConfirmButton: false
-                });
+                Swal.fire({ title: 'Berhasil!', text: 'Siswa sekarang bisa mengerjakan ulang.', icon: 'success', timer: 1500, showConfirmButton: false });
                 fetchData();
-            } else {
-                Swal.fire('Error', 'Gagal melakukan reset.', 'error');
             }
         }
     }

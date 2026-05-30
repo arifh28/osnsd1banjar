@@ -115,7 +115,7 @@
     },
     {
       "tipe": "soal_gambar",
-      "pertanyaan": "Perhatikan jaring-jaring jalan pada gambar di bawah ini. Seseorang ingin berjalan dari titik A ke titik B dengan syarat hanya boleh melangkah ke kanan atau ke atas. Berapa banyak rute terpendek berbeda yang bisa ia lalui?<br><br><img src='../gambar/kombinatorik/rute_grid.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px;'><br><i>[Prompt AI: A 2D flat vector illustration of a 3x2 grid of squares (3 columns, 2 rows) forming a street map. The bottom-left corner is marked with a green dot 'A' and the top-right corner is marked with a red dot 'B'. Clean lines, white background.]</i>",
+      "pertanyaan": "Perhatikan jaring-jaring jalan pada gambar di bawah ini. Seseorang ingin berjalan dari titik A ke titik B dengan syarat hanya boleh melangkah ke kanan atau ke atas. Berapa banyak rute terpendek berbeda yang bisa ia lalui?<br><br><img src='../gambar/kombinatorik/rute_grid.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px;'><br>",
       "pilihan": {
         "A": "5",
         "B": "10",
@@ -126,7 +126,7 @@
     },
     {
       "tipe": "soal_gambar",
-      "pertanyaan": "Ada berapakah total jumlah segitiga dengan berbagai ukuran yang dapat ditemukan pada bangun datar di bawah ini?<br><br><img src='../gambar/kombinatorik/hitung_segitiga.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px;'><br><i>[Prompt AI: A flat vector illustration of a large triangle. From its top vertex, three straight internal lines are drawn down to its base, dividing the large triangle into 4 smaller adjacent triangles. White background, NO TEXT.]</i>",
+      "pertanyaan": "Ada berapakah total jumlah segitiga dengan berbagai ukuran yang dapat ditemukan pada bangun datar di bawah ini?<br><br><img src='../gambar/kombinatorik/hitung_segitiga.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px;'><br>",
       "pilihan": {
         "A": "4",
         "B": "8",

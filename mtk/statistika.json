@@ -115,7 +115,7 @@
     },
     {
       "tipe": "soal_gambar",
-      "pertanyaan": "Diagram batang berikut menampilkan hasil panen padi Desa Sukamaju selama 5 tahun berturut-turut. Pada tahun berapakah persentase penurunan hasil panen paling besar terjadi jika dibandingkan tahun sebelumnya?<br><br><img src='../mtk/gambar/statistika/diagram_panen.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px; width: 100%; object-fit: contain;'><br><i>[Prompt AI: A clean 2D vector flat bar chart. X-axis years: 2019, 2020, 2021, 2022, 2023. Y-axis values 0 to 70. Bars heights: 2019 is at 40, 2020 is at 30, 2021 is at 50, 2022 is at 45, 2023 is at 60. White background, simple text.]</i>",
+      "pertanyaan": "Diagram batang berikut menampilkan hasil panen padi Desa Sukamaju selama 5 tahun berturut-turut. Pada tahun berapakah persentase penurunan hasil panen paling besar terjadi jika dibandingkan tahun sebelumnya?<br><br><img src='../mtk/gambar/statistika/diagram_panen.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px; width: 100%; object-fit: contain;'><br>",
       "pilihan": {
         "A": "2020",
         "B": "2021",
@@ -126,7 +126,7 @@
     },
     {
       "tipe": "soal_gambar",
-      "pertanyaan": "Diagram lingkaran berikut menunjukkan kegiatan ekstrakurikuler pilihan 200 orang siswa. Sudut pusat area 'Membaca' adalah $90^\\circ$, 'Olahraga' $135^\\circ$, dan 'Lainnya' $45^\\circ$. Berapa banyak siswa yang memilih ekstrakurikuler 'Kesenian'?<br><br><img src='../mtk/gambar/statistika/diagram_ekskul.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px; width: 100%; object-fit: contain;'><br><i>[Prompt AI: A flat 2D vector pie chart divided into 4 slices. Slice 1 (Membaca) is a 90-degree right angle. Slice 2 (Olahraga) is 135 degrees. Slice 3 (Lainnya) is 45 degrees. The remaining slice is labeled 'Kesenian' but the degree is hidden. White background.]</i>",
+      "pertanyaan": "Diagram lingkaran berikut menunjukkan kegiatan ekstrakurikuler pilihan 200 orang siswa. Sudut pusat area 'Membaca' adalah $90^\\circ$, 'Olahraga' $135^\\circ$, dan 'Lainnya' $45^\\circ$. Berapa banyak siswa yang memilih ekstrakurikuler 'Kesenian'?<br><br><img src='../mtk/gambar/statistika/diagram_ekskul.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px; width: 100%; object-fit: contain;'><br>",
       "pilihan": {
         "A": "25 Siswa",
         "B": "50 Siswa",
@@ -137,7 +137,7 @@
     },
     {
       "tipe": "soal_gambar",
-      "pertanyaan": "Grafik garis di bawah ini mencatat fluktuasi suhu badan seorang pasien di rumah sakit dari pukul 06.00 hingga 12.00 siang. Berapakah selisih (jangkauan/range) antara suhu badan tertinggi dan suhu terendah pasien tersebut?<br><br><img src='../mtk/gambar/statistika/grafik_suhu.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px; width: 100%; object-fit: contain;'><br><i>[Prompt AI: A line graph tracking temperature. X-axis shows times from 06:00 to 12:00. Y-axis shows degrees from 36 to 41. Points on the line: 06:00(37), 07:00(38), 08:00(39), 09:00(39), 10:00(40), 11:00(38), 12:00(37). White background.]</i>",
+      "pertanyaan": "Grafik garis di bawah ini mencatat fluktuasi suhu badan seorang pasien di rumah sakit dari pukul 06.00 hingga 12.00 siang. Berapakah selisih (jangkauan/range) antara suhu badan tertinggi dan suhu terendah pasien tersebut?<br><br><img src='../mtk/gambar/statistika/grafik_suhu.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px; width: 100%; object-fit: contain;'><br>",
       "pilihan": {
         "A": "2°C",
         "B": "3°C",
@@ -148,7 +148,7 @@
     },
     {
       "tipe": "soal_gambar",
-      "pertanyaan": "Piktogram berikut merepresentasikan jumlah panen jeruk di tiga desa. Simbol satu keranjang besar setara dengan 100 kg, dan satu keranjang kecil setara dengan 50 kg. Berapakah selisih hasil panen antara Desa A dan Desa C?<br><br><img src='../mtk/gambar/statistika/piktogram_jeruk.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px; width: 100%; object-fit: contain;'><br><i>[Prompt AI: A pictogram table. Row 'Desa A' has 3 large baskets and 1 small basket. Row 'Desa B' has 2 large baskets and 2 small baskets. Row 'Desa C' has 4 large baskets. Clean vector illustration, white background.]</i>",
+      "pertanyaan": "Piktogram berikut merepresentasikan jumlah panen jeruk di tiga desa. Simbol satu keranjang besar setara dengan 100 kg, dan satu keranjang kecil setara dengan 50 kg. Berapakah selisih hasil panen antara Desa A dan Desa C?<br><br><img src='../mtk/gambar/statistika/piktogram_jeruk.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px; width: 100%; object-fit: contain;'><br>",
       "pilihan": {
         "A": "50 kg",
         "B": "100 kg",
@@ -159,7 +159,7 @@
     },
     {
       "tipe": "soal_gambar",
-      "pertanyaan": "Timbangan Ohaus (lengan) berikut berada dalam kondisi seimbang. Di piringan kiri terdapat balok X dan sebuah anak timbangan 500 gram. Di piringan kanan terdapat anak timbangan 2 kg dan 100 gram. Berapakah massa balok X?<br><br><img src='../mtk/gambar/statistika/timbangan_ohaus.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px; width: 100%; object-fit: contain;'><br><i>[Prompt AI: A flat vector illustration of a balance scale in perfect equilibrium. Left pan: a mystery box labeled 'X' and a small weight marked '500g'. Right pan: a large weight marked '2kg' and a small weight marked '100g'. White background.]</i>",
+      "pertanyaan": "Timbangan Ohaus (lengan) berikut berada dalam kondisi seimbang. Di piringan kiri terdapat balok X dan sebuah anak timbangan 500 gram. Di piringan kanan terdapat anak timbangan 2 kg dan 100 gram. Berapakah massa balok X?<br><br><img src='../mtk/gambar/statistika/timbangan_ohaus.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px; width: 100%; object-fit: contain;'><br>",
       "pilihan": {
         "A": "1,4 kg",
         "B": "1,6 kg",
@@ -170,7 +170,7 @@
     },
     {
       "tipe": "soal_gambar",
-      "pertanyaan": "Perhatikan hasil pengukuran ketebalan pelat baja menggunakan alat ukur Jangka Sorong berikut. Angka yang tepat untuk hasil pengukuran tersebut adalah...<br><br><img src='../mtk/gambar/statistika/jangka_sorong.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px; width: 100%; object-fit: contain;'><br><i>[Prompt AI: A zoomed-in vector illustration of a Vernier caliper scale. The top main scale has the '0' of the bottom vernier scale resting exactly just after the 3.1 cm mark. The 4th notch on the bottom vernier scale perfectly aligns with a notch on the top scale. White background.]</i>",
+      "pertanyaan": "Perhatikan hasil pengukuran ketebalan pelat baja menggunakan alat ukur Jangka Sorong berikut. Angka yang tepat untuk hasil pengukuran tersebut adalah...<br><br><img src='../mtk/gambar/statistika/jangka_sorong.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px; width: 100%; object-fit: contain;'><br><i>",
       "pilihan": {
         "A": "3,10 cm",
         "B": "3,14 cm",
@@ -181,7 +181,7 @@
     },
     {
       "tipe": "soal_gambar",
-      "pertanyaan": "Diagram batang ganda berikut membandingkan rata-rata nilai matematika siswa laki-laki (biru) dan perempuan (merah) di empat kelas. Pada kelas manakah rata-rata nilai siswa perempuan justru lebih rendah daripada laki-laki?<br><br><img src='../mtk/gambar/statistika/diagram_ganda.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px; width: 100%; object-fit: contain;'><br><i>[Prompt AI: A flat vector grouped bar chart with X-axis showing Kelas A, B, C, D. For A, red bar is higher than blue. For B, red bar is higher than blue. For C, blue bar is significantly higher than red. For D, both bars are equal. Blue is Laki-laki, Red is Perempuan. White background.]</i>",
+      "pertanyaan": "Diagram batang ganda berikut membandingkan rata-rata nilai matematika siswa laki-laki (biru) dan perempuan (merah) di empat kelas. Pada kelas manakah rata-rata nilai siswa perempuan justru lebih rendah daripada laki-laki?<br><br><img src='../mtk/gambar/statistika/diagram_ganda.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px; width: 100%; object-fit: contain;'><br>",
       "pilihan": {
         "A": "Kelas A",
         "B": "Kelas B",
@@ -192,7 +192,7 @@
     },
     {
       "tipe": "soal_gambar",
-      "pertanyaan": "Sebuah gelas ukur awalnya berisi air murni hingga menunjuk skala 150 ml. Setelah sebuah batu tak beraturan dimasukkan seluruhnya ke dasar gelas, permukaan air naik seperti pada gambar. Berapakah volume batu tersebut?<br><br><img src='../mtk/gambar/statistika/batu_volume.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px; width: 100%; object-fit: contain;'><br><i>[Prompt AI: A flat vector illustration of a graduated cylinder. A grey stone is completely submerged at the bottom in blue water. The water level is exactly hitting the 225 ml mark on the side scale. White background.]</i>",
+      "pertanyaan": "Sebuah gelas ukur awalnya berisi air murni hingga menunjuk skala 150 ml. Setelah sebuah batu tak beraturan dimasukkan seluruhnya ke dasar gelas, permukaan air naik seperti pada gambar. Berapakah volume batu tersebut?<br><br><img src='../mtk/gambar/statistika/batu_volume.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px; width: 100%; object-fit: contain;'><br>",
       "pilihan": {
         "A": "75 ml",
         "B": "150 ml",
@@ -203,7 +203,7 @@
     },
     {
       "tipe": "soal_gambar",
-      "pertanyaan": "Berapakah besar sudut $\\angle PQR$ yang diukur menggunakan alat busur derajat pada gambar di bawah ini?<br><br><img src='../mtk/gambar/statistika/busur_derajat.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px; width: 100%; object-fit: contain;'><br><i>[Prompt AI: A 2D vector illustration of a transparent protractor measuring an angle. One ray of the angle passes through the 45-degree mark, and the other ray passes through the 135-degree mark on the same scale. The angle forms exactly 90 degrees in reality. White background.]</i>",
+      "pertanyaan": "Berapakah besar sudut $\\angle PQR$ yang diukur menggunakan alat busur derajat pada gambar di bawah ini?<br><br><img src='../mtk/gambar/statistika/busur_derajat.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px; width: 100%; object-fit: contain;'><br>",
       "pilihan": {
         "A": "45°",
         "B": "90°",
@@ -214,7 +214,7 @@
     },
     {
       "tipe": "soal_gambar",
-      "pertanyaan": "Gambar jam dinding analog menunjukkan persis pukul 04.30. Berapakah besar sudut terkecil yang terbentuk antara jarum penunjuk jam dan jarum penunjuk menit?<br><br><img src='../mtk/gambar/statistika/jam_sudut_analog.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px; width: 100%; object-fit: contain;'><br><i>[Prompt AI: A flat vector graphic of a classic analog wall clock. The short hour hand is exactly halfway between the 4 and the 5. The long minute hand is pointing exactly at the 6. Clean white background.]</i>",
+      "pertanyaan": "Gambar jam dinding analog menunjukkan persis pukul 04.30. Berapakah besar sudut terkecil yang terbentuk antara jarum penunjuk jam dan jarum penunjuk menit?<br><br><img src='../mtk/gambar/statistika/jam_sudut_analog.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px; width: 100%; object-fit: contain;'><br>",
       "pilihan": {
         "A": "30°",
         "B": "45°",
@@ -225,7 +225,7 @@
     },
     {
       "tipe": "cerita_gambar",
-      "pertanyaan": "Budi mendata berat badan teman-teman sekelasnya dalam tabel berikut. Namun, data jumlah siswa untuk berat 40 kg tidak sengaja tertumpah noda tinta hitam tebal. Jika Budi ingat bahwa rata-rata berat seluruh siswa di tabel tersebut adalah persis 39 kg, berapakah jumlah siswa yang memiliki berat badan 40 kg yang tertutup tinta tersebut?<br><br><img src='../mtk/gambar/statistika/tabel_tinta.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px; width: 100%; object-fit: contain;'><br><i>[Prompt AI: A simple data table with two columns: 'Berat Badan' and 'Jumlah Siswa'. Row 1: 35 kg | 4. Row 2: 38 kg | 6. Row 3: 40 kg | [Covered by a large black ink splat]. Row 4: 42 kg | 5. Flat vector style, white background.]</i>",
+      "pertanyaan": "Budi mendata berat badan teman-teman sekelasnya dalam tabel berikut. Namun, data jumlah siswa untuk berat 40 kg tidak sengaja tertumpah noda tinta hitam tebal. Jika Budi ingat bahwa rata-rata berat seluruh siswa di tabel tersebut adalah persis 39 kg, berapakah jumlah siswa yang memiliki berat badan 40 kg yang tertutup tinta tersebut?<br><br><img src='../mtk/gambar/statistika/tabel_tinta.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px; width: 100%; object-fit: contain;'><br>",
       "pilihan": {
         "A": "5 Siswa",
         "B": "6 Siswa",
@@ -236,7 +236,7 @@
     },
     {
       "tipe": "cerita_gambar",
-      "pertanyaan": "Sebuah denah rumah digambar dengan skala 1 : 200. Ruang tamu pada denah tersebut tergambar seperti bidang persegi panjang bergaris biru pada gambar, dengan ukuran 3 cm x 4 cm. Berapakah luas ruang tamu yang sebenarnya di lapangan?<br><br><img src='../mtk/gambar/statistika/denah_skala.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px; width: 100%; object-fit: contain;'><br><i>[Prompt AI: A 2D flat architectural blueprint vector. Focus on one room outlined in blue, with clear dimension lines indicating it is 4 cm long and 3 cm wide on the paper. A small text 'Scale 1:200' is at the corner. White background.]</i>",
+      "pertanyaan": "Sebuah denah rumah digambar dengan skala 1 : 200. Ruang tamu pada denah tersebut tergambar seperti bidang persegi panjang bergaris biru pada gambar, dengan ukuran 3 cm x 4 cm. Berapakah luas ruang tamu yang sebenarnya di lapangan?<br><br><img src='../mtk/gambar/statistika/denah_skala.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px; width: 100%; object-fit: contain;'><br>",
       "pilihan": {
         "A": "12 m²",
         "B": "24 m²",
@@ -247,7 +247,7 @@
     },
     {
       "tipe": "cerita_gambar",
-      "pertanyaan": "Diagram lingkaran berikut menunjukkan hasil rekapitulasi penjualan buah di Toko Makmur dengan total keseluruhan mencapai 400 kg. Jika bagian untuk penjualan buah Jeruk dan Anggur memiliki persentase yang sama besar, berapakah banyak penjualan buah Anggur dalam satuan kilogram?<br><br><img src='../mtk/gambar/statistika/diagram_buah.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px; width: 100%; object-fit: contain;'><br><i>[Prompt AI: A 2D flat pie chart diagram. The slices are labeled: Apel (25%), Mangga (30%), Pisang (20%), and two identical blank slices sharing the remaining space, labeled Jeruk and Anggur without percentage numbers. White background.]</i>",
+      "pertanyaan": "Diagram lingkaran berikut menunjukkan hasil rekapitulasi penjualan buah di Toko Makmur dengan total keseluruhan mencapai 400 kg. Jika bagian untuk penjualan buah Jeruk dan Anggur memiliki persentase yang sama besar, berapakah banyak penjualan buah Anggur dalam satuan kilogram?<br><br><img src='../mtk/gambar/statistika/diagram_buah.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px; width: 100%; object-fit: contain;'><br>",
       "pilihan": {
         "A": "25 kg",
         "B": "40 kg",
@@ -258,7 +258,7 @@
     },
     {
       "tipe": "cerita_gambar",
-      "pertanyaan": "Andi mengikuti rute jalan setapak seperti yang terlihat pada peta berskala 1 : 10.000. Dari titik A ia berjalan lurus ke arah timur ke titik B sejauh 5 cm di peta, lalu berbelok lurus $90^\\circ$ ke arah utara menuju titik C sejauh 12 cm. Berapakah jarak lurus terpendek sebenarnya dari titik A memotong langsung ke titik C?<br><br><img src='../mtk/gambar/statistika/rute_phytagoras.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px; width: 100%; object-fit: contain;'><br><i>[Prompt AI: A minimalist 2D vector map route. A solid black line goes right from A to B (labeled 5cm), then forms a 90-degree right angle going up from B to C (labeled 12cm). A dashed red line connects A directly to C. Scale 1:10.000 is written below. White background.]</i>",
+      "pertanyaan": "Andi mengikuti rute jalan setapak seperti yang terlihat pada peta berskala 1 : 10.000. Dari titik A ia berjalan lurus ke arah timur ke titik B sejauh 5 cm di peta, lalu berbelok lurus $90^\\circ$ ke arah utara menuju titik C sejauh 12 cm. Berapakah jarak lurus terpendek sebenarnya dari titik A memotong langsung ke titik C?<br><br><img src='../mtk/gambar/statistika/rute_phytagoras.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px; width: 100%; object-fit: contain;'><br>",
       "pilihan": {
         "A": "1,3 km",
         "B": "1,7 km",
@@ -269,7 +269,7 @@
     },
     {
       "tipe": "cerita_gambar",
-      "pertanyaan": "Grafik berikut menampilkan data curah hujan sebuah kota selama 6 bulan pertama di awal tahun. Berdasarkan grafik, berapakah nilai rata-rata curah hujan bulanan di kota tersebut selama periode 6 bulan itu?<br><br><img src='../mtk/gambar/statistika/grafik_hujan.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px; width: 100%; object-fit: contain;'><br><i>[Prompt AI: A vector line chart tracking rainfall. X-axis shows months 1 through 6. Y-axis is in mm. Points are: M1(40), M2(50), M3(60), M4(40), M5(30), M6(20). Clean lines, white background.]</i>",
+      "pertanyaan": "Grafik berikut menampilkan data curah hujan sebuah kota selama 6 bulan pertama di awal tahun. Berdasarkan grafik, berapakah nilai rata-rata curah hujan bulanan di kota tersebut selama periode 6 bulan itu?<br><br><img src='../mtk/gambar/statistika/grafik_hujan.png' class='img-fluid rounded mt-3 mb-3' style='max-height: 250px; width: 100%; object-fit: contain;'><br>",
       "pilihan": {
         "A": "30 mm",
         "B": "40 mm",

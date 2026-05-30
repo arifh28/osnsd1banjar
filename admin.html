@@ -75,12 +75,12 @@
             <div class="row g-3 mb-4">
                 <div class="col-12 col-sm-6 col-xl-3">
                     <div class="card card-stat p-3 bg-white border-start border-primary border-5 h-100">
-                        <small class="text-secondary fw-bold">TOTAL PROGRESS (SEMUA)</small>
+                        <small class="text-secondary fw-bold">TOTAL PROGRESS (VALID)</small>
                         <h3 class="fw-bold my-1 text-primary" id="prog-all-text">0%</h3>
                         <div class="progress my-2" style="height: 8px;">
                             <div id="prog-all-bar" class="progress-bar bg-primary" role="progressbar" style="width: 0%"></div>
                         </div>
-                        <small class="text-muted id-total-sub">0 / 115 Ujian</small>
+                        <small class="text-muted fw-bold id-total-sub">0 / 115 Ujian</small>
                     </div>
                 </div>
                 <div class="col-12 col-sm-6 col-xl-3">
@@ -90,7 +90,7 @@
                         <div class="progress my-2" style="height: 8px;">
                             <div id="prog-mtk-bar" class="progress-bar bg-danger" role="progressbar" style="width: 0%"></div>
                         </div>
-                        <small class="text-muted id-mtk-sub">0 / 25 Ujian</small>
+                        <small class="text-muted fw-bold id-mtk-sub">0 / 25 Ujian</small>
                     </div>
                 </div>
                 <div class="col-12 col-sm-6 col-xl-3">
@@ -100,7 +100,7 @@
                         <div class="progress my-2" style="height: 8px;">
                             <div id="prog-ips-bar" class="progress-bar bg-warning" role="progressbar" style="width: 0%"></div>
                         </div>
-                        <small class="text-muted id-ips-sub">0 / 25 Ujian</small>
+                        <small class="text-muted fw-bold id-ips-sub">0 / 25 Ujian</small>
                     </div>
                 </div>
                 <div class="col-12 col-sm-6 col-xl-3">
@@ -110,7 +110,7 @@
                         <div class="progress my-2" style="height: 8px;">
                             <div id="prog-ipa-bar" class="progress-bar bg-info" role="progressbar" style="width: 0%"></div>
                         </div>
-                        <small class="text-muted id-ipa-sub">0 / 65 Ujian</small>
+                        <small class="text-muted fw-bold id-ipa-sub">0 / 65 Ujian</small>
                     </div>
                 </div>
             </div>
@@ -120,7 +120,7 @@
                     <div class="card card-stat p-2 px-3 bg-white border-start border-success border-5">
                         <div class="d-flex justify-content-between align-items-center">
                             <div>
-                                <small class="text-secondary fw-bold">SLA/SISWA PERNAH LOGIN</small>
+                                <small class="text-secondary fw-bold">SLA/SISWA AKTIF LOGIN</small>
                                 <h4 class="fw-bold mb-0 text-success" id="stat-login">0</h4>
                             </div>
                             <i class="fas fa-user-check fa-2x text-success opacity-50"></i>
@@ -236,46 +236,47 @@
     }
 
     function renderHasil(data) {
-        // Filter ujian murni yang valid (bukan yang sedang di-reset) untuk kalkulasi progress
-        const validData = data.filter(item => !item.is_reset);
+        // --- LOGIKA PROGRESS BAR (MENGABAIKAN YANG DI-RESET) ---
+        // Filter ujian murni yang VALID saja (is_reset tidak sama dengan true)
+        const validData = data.filter(item => item.is_reset !== true);
 
-        // Kalkulasi jumlah data masuk per mapel
+        // Kalkulasi jumlah data VALID per mapel
         const countMtk = validData.filter(item => item.mata_pelajaran === 'Matematika').length;
         const countIps = validData.filter(item => item.mata_pelajaran === 'IPS').length;
         const countIpa = validData.filter(item => item.mata_pelajaran === 'IPA').length;
         const countAll = validData.length;
 
-        // Target (Denominators)
+        // Target Total Materi berdasarkan Siswa
         const targetMtk = 25; 
         const targetIps = 25; 
         const targetIpa = 65; 
         const targetAll = 115; 
 
-        // Rumus Persentase dibulatkan (Max 100%)
+        // Rumus Persentase (Maksimal 100%)
         const pctMtk = Math.min(Math.round((countMtk / targetMtk) * 100), 100);
         const pctIps = Math.min(Math.round((countIps / targetIps) * 100), 100);
         const pctIpa = Math.min(Math.round((countIpa / targetIpa) * 100), 100);
         const pctAll = Math.min(Math.round((countAll / targetAll) * 100), 100);
 
-        // Render Persentase Teks
+        // Render Persentase Teks ke UI
         document.getElementById('prog-all-text').innerText = `${pctAll}%`;
         document.getElementById('prog-mtk-text').innerText = `${pctMtk}%`;
         document.getElementById('prog-ips-text').innerText = `${pctIps}%`;
         document.getElementById('prog-ipa-text').innerText = `${pctIpa}%`;
 
-        // Render Progress Bar UI
+        // Render Lebar Bar Progress ke UI
         document.getElementById('prog-all-bar').style.width = `${pctAll}%`;
         document.getElementById('prog-mtk-bar').style.width = `${pctMtk}%`;
         document.getElementById('prog-ips-bar').style.width = `${pctIps}%`;
         document.getElementById('prog-ipa-bar').style.width = `${pctIpa}%`;
 
-        // Render Sub-label Keterangan Angka Realtime
+        // Render Angka Keterangan ke UI (Cth: 12 / 25 Ujian)
         document.querySelector('.id-total-sub').innerText = `${countAll} / ${targetAll} Ujian`;
         document.querySelector('.id-mtk-sub').innerText = `${countMtk} / ${targetMtk} Ujian`;
         document.querySelector('.id-ips-sub').innerText = `${countIps} / ${targetIps} Ujian`;
         document.querySelector('.id-ipa-sub').innerText = `${countIpa} / ${targetIpa} Ujian`;
         
-        // Memperbarui Opsi Filter Dropdown Nama Siswa secara unik
+        // --- LOGIKA TABEL & FILTER (MENAMPILKAN SEMUA DATA TERMASUK YANG DI-RESET) ---
         const uniqueSiswa = [...new Set(data.map(item => item.nama_peserta))].sort();
         const filterSiswa = document.getElementById('filter-siswa');
         const currentSiswaFilter = filterSiswa.value;
@@ -285,7 +286,7 @@
             filterSiswa.innerHTML += `<option value="${siswa}" ${selected}>${siswa}</option>`;
         });
 
-        // Masukkan Baris ke DataTables
+        // Masukkan semua baris ke DataTables
         dtHasil.clear();
         data.forEach(item => {
             const date = new Date(item.waktu_pengerjaan).toLocaleString('id-ID');
@@ -325,7 +326,7 @@
             text: `Siswa "${nama}" akan diperbolehkan mengerjakan materi ini kembali.`,
             icon: 'question',
             showCancelButton: true,
-            confirmButtonColor: '#384596',
+            confirmButtonColor: '#f59e0b',
             cancelButtonColor: '#64748b',
             confirmButtonText: 'Ya, Reset',
             cancelButtonText: 'Batal'
